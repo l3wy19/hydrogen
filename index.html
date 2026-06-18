@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Zielony Wodór — Fundament Nowej Energii</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Inter:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <style>
-    /* ══ TOKENS ══ */
     :root {
-      --g0: #010804;
-      --g1: #020D07;
-      --g2: #061A10;
-      --g3: #0B2A18;
-      --g4: #041008;
-      --g5: #020A05;
       --em:  #059669;
       --em2: #10B981;
       --em3: #34D399;
       --cy:  #0891B2;
       --cy2: #06B6D4;
-      --gold: #FBBF24;
-      --text:  #E2F0E8;
-      --text2: #7AADA0;
-      --text3: #2D6654;
-      --r: 14px;
+      --gold:#FBBF24;
+      --text: #E2F0E8;
+      --text2:#7AADA0;
+      --text3:#2D6654;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -37,7 +29,7 @@
     }
 
     body {
-      background: var(--g1);
+      background: #010804;
       color: var(--text);
       font-family: 'Inter', sans-serif;
       height: 100%;
@@ -45,54 +37,110 @@
       -webkit-font-smoothing: antialiased;
     }
 
+    /* ══ SECTIONS ══ */
+    .section {
+      scroll-snap-align: start;
+      height: 100svh;
+      min-height: 580px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Water background fills every section */
+    .sec-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+
+    .sec-bg svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Content above water */
+    .sec-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+    }
+
+    /* Scroll-reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity .85s ease, transform .85s ease;
+    }
+    .reveal.d1 { transition-delay:.15s }
+    .reveal.d2 { transition-delay:.3s }
+    .reveal.d3 { transition-delay:.45s }
+    .reveal.d4 { transition-delay:.6s }
+    .section.vis .reveal { opacity:1; transform:none }
+
+    .sec-num {
+      font-family: 'Space Mono', monospace;
+      font-size: .7rem;
+      font-weight: 700;
+      color: var(--em);
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: .85rem;
+    }
+
+    h1,h2,h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      line-height: 1.12;
+      letter-spacing: -.025em;
+    }
+
     /* ══ FLOATING NAV ══ */
     .fnav {
       position: fixed;
       top: 1.25rem;
       right: 1.5rem;
-      z-index: 200;
+      z-index: 300;
     }
 
     .fnav-btn {
       display: flex;
       align-items: center;
       gap: .5rem;
-      background: rgba(6,26,16,.85);
-      border: 1px solid rgba(16,185,129,.25);
+      background: rgba(1,12,5,.8);
+      border: 1px solid rgba(16,185,129,.3);
       color: var(--em2);
       padding: .5rem 1rem;
       border-radius: 30px;
-      font-size: .75rem;
+      font-size: .72rem;
       font-family: 'Space Mono', monospace;
       font-weight: 700;
-      letter-spacing: .05em;
+      letter-spacing: .06em;
       cursor: pointer;
-      backdrop-filter: blur(12px);
+      backdrop-filter: blur(14px);
       transition: all .2s;
     }
-
-    .fnav-btn:hover { border-color: rgba(16,185,129,.6); color: var(--em3); }
-
-    .fnav-btn svg { width: 14px; height: 14px; transition: transform .2s; }
+    .fnav-btn:hover { border-color: rgba(16,185,129,.65); color: var(--em3); }
+    .fnav-btn svg { width:14px; height:14px; transition: transform .22s; }
     .fnav-btn.open svg { transform: rotate(45deg); }
 
     .fnav-menu {
       position: absolute;
       top: calc(100% + .5rem);
       right: 0;
-      background: rgba(6,26,16,.95);
+      background: rgba(1,14,7,.95);
       border: 1px solid rgba(16,185,129,.2);
-      border-radius: var(--r);
+      border-radius: 14px;
       padding: .5rem;
       min-width: 200px;
-      backdrop-filter: blur(16px);
+      backdrop-filter: blur(18px);
       display: none;
       flex-direction: column;
       gap: 2px;
     }
-
     .fnav-menu.open { display: flex; }
-
     .fnav-menu a {
       display: flex;
       align-items: center;
@@ -104,565 +152,210 @@
       border-radius: 8px;
       transition: all .15s;
     }
-
     .fnav-menu a:hover { background: rgba(16,185,129,.1); color: var(--text); }
-
-    .fnav-menu a svg { width: 14px; height: 14px; opacity: .7; flex-shrink: 0; }
-
-    .fnav-divider { height: 1px; background: rgba(16,185,129,.1); margin: .25rem .5rem; }
-
-    /* ══ SECTIONS ══ */
-    .section {
-      scroll-snap-align: start;
-      height: 100svh;
-      min-height: 600px;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-    }
-
-    .sec-num {
-      font-family: 'Space Mono', monospace;
-      font-size: .7rem;
-      font-weight: 700;
-      color: var(--em);
-      letter-spacing: .15em;
-      text-transform: uppercase;
-      margin-bottom: .75rem;
-      opacity: 0;
-      transform: translateY(12px);
-      transition: opacity .7s ease, transform .7s ease;
-    }
-
-    h1, h2, h3 {
-      font-family: 'Space Grotesk', sans-serif;
-      line-height: 1.15;
-      letter-spacing: -.02em;
-    }
-
-    /* ══ SCROLL REVEAL ══ */
-    .reveal {
-      opacity: 0;
-      transform: translateY(24px);
-      transition: opacity .8s ease, transform .8s ease;
-    }
-
-    .reveal.delay1 { transition-delay: .15s; }
-    .reveal.delay2 { transition-delay: .3s; }
-    .reveal.delay3 { transition-delay: .45s; }
-
-    .section.visible .reveal,
-    .section.visible .sec-num { opacity: 1; transform: none; }
-
-    /* ══════════════════════════════════════
-       SECTION 1 — HERO
-    ══════════════════════════════════════ */
-    #s1 { background: radial-gradient(ellipse 120% 80% at 50% 110%, #0d3020 0%, var(--g1) 65%); }
-
-    #particles {
-      position: absolute;
-      inset: 0;
-      pointer-events: none;
-      overflow: hidden;
-    }
-
-    .particle {
-      position: absolute;
-      border-radius: 50%;
-      animation: floatUp linear infinite;
-    }
-
-    @keyframes floatUp {
-      0%   { transform: translateY(0) translateX(0); opacity: 0; }
-      10%  { opacity: 1; }
-      90%  { opacity: .6; }
-      100% { transform: translateY(-110vh) translateX(var(--dx, 20px)); opacity: 0; }
-    }
-
-    .hero-inner {
-      position: relative;
-      z-index: 2;
-      text-align: center;
-      max-width: 780px;
-      padding: 2rem;
-    }
-
-    .hero-inner .sec-num { text-align: center; }
-
-    h1.hero-title {
-      font-size: clamp(3rem, 8vw, 6.5rem);
-      font-weight: 700;
-      color: var(--text);
-      margin-bottom: 1.5rem;
-      line-height: 1.05;
-    }
-
-    h1.hero-title span { color: var(--em2); }
-
-    .hero-sub {
-      font-size: clamp(.95rem, 2vw, 1.2rem);
-      color: var(--text2);
-      line-height: 1.75;
-      max-width: 560px;
-      margin: 0 auto 2.5rem;
-      font-style: italic;
-    }
-
-    .scroll-hint {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: .4rem;
-      color: var(--text3);
-      font-size: .7rem;
-      font-family: 'Space Mono', monospace;
-      letter-spacing: .1em;
-      animation: bounce 2s ease-in-out infinite;
-    }
-
-    .scroll-hint svg { width: 18px; height: 18px; color: var(--em); }
-
-    @keyframes bounce {
-      0%,100% { transform: translateY(0); }
-      50%      { transform: translateY(8px); }
-    }
-
-    /* Big watermark */
-    .h2-wm {
-      position: absolute;
-      right: -2%;
-      bottom: -8%;
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 28vw;
-      font-weight: 700;
-      color: rgba(5,150,105,.04);
-      pointer-events: none;
-      user-select: none;
-      line-height: 1;
-      letter-spacing: -.05em;
-    }
-
-    /* ══════════════════════════════════════
-       SECTION 2 — ATOM
-    ══════════════════════════════════════ */
-    #s2 {
-      background: linear-gradient(160deg, var(--g2) 0%, #041208 100%);
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 4rem;
-      padding: 4rem clamp(2rem, 8vw, 8rem);
-      align-items: center;
-    }
-
-    .atom-wrap {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .atom-svg { width: min(340px, 100%); height: auto; overflow: visible; }
-
-    .s2-text { max-width: 480px; }
-
-    .s2-text h2 {
-      font-size: clamp(1.75rem, 3.5vw, 2.6rem);
-      color: var(--text);
-      margin-bottom: 1.25rem;
-    }
-
-    .s2-text p {
-      font-size: 1rem;
-      color: var(--text2);
-      line-height: 1.8;
-      margin-bottom: 1.5rem;
-    }
-
-    .fact-chip {
-      display: inline-flex;
-      gap: 1.5rem;
-      background: rgba(5,150,105,.08);
-      border: 1px solid rgba(5,150,105,.2);
-      border-radius: 10px;
-      padding: .75rem 1.25rem;
-    }
-
-    .fact-item { text-align: center; }
-
-    .fact-val {
-      font-family: 'Space Mono', monospace;
-      font-size: 1.4rem;
-      font-weight: 700;
-      color: var(--cy2);
-      line-height: 1;
-      margin-bottom: .2rem;
-    }
-
-    .fact-lbl { font-size: .65rem; color: var(--text3); text-transform: uppercase; letter-spacing: .08em; }
-
-    /* Atom SVG elements */
-    .nucleus-glow {
-      filter: drop-shadow(0 0 12px rgba(8,145,178,.7)) drop-shadow(0 0 28px rgba(8,145,178,.35));
-    }
-
-    /* ══════════════════════════════════════
-       SECTION 3 — GREEN HYDROGEN
-    ══════════════════════════════════════ */
-    #s3 {
-      background: radial-gradient(ellipse 100% 90% at 50% 0%, #0d3020 0%, #05130A 70%);
-      flex-direction: column;
-      gap: 3rem;
-      padding: 3rem clamp(1.5rem, 6vw, 6rem);
-    }
-
-    .s3-inner { width: 100%; max-width: 900px; text-align: center; }
-
-    .s3-inner h2 {
-      font-size: clamp(1.75rem, 3.5vw, 2.8rem);
-      color: var(--text);
-      margin-bottom: 1rem;
-    }
-
-    .s3-inner > p {
-      font-size: 1rem;
-      color: var(--text2);
-      line-height: 1.8;
-      max-width: 600px;
-      margin: 0 auto 2.5rem;
-    }
-
-    /* Electrolysis diagram */
-    .elec-row {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1rem;
-      margin-bottom: 2.5rem;
-      flex-wrap: wrap;
-    }
-
-    .elec-node {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: .4rem;
-    }
-
-    .elec-mol {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      border: 2px solid rgba(16,185,129,.25);
-      background: rgba(16,185,129,.06);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Space Mono', monospace;
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: var(--cy2);
-      position: relative;
-    }
-
-    .elec-mol.highlight {
-      border-color: rgba(16,185,129,.6);
-      background: rgba(16,185,129,.12);
-      color: var(--em2);
-      box-shadow: 0 0 24px rgba(16,185,129,.2);
-    }
-
-    .elec-lbl { font-size: .65rem; color: var(--text3); text-transform: uppercase; letter-spacing: .07em; }
-
-    .elec-arrow {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: var(--text3);
-    }
-
-    .elec-arrow svg { width: 28px; height: 28px; color: var(--em); }
-
-    .elec-split {
-      display: flex;
-      flex-direction: column;
-      gap: .75rem;
-    }
-
-    /* Color spectrum */
-    .spectrum { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
-
-    .sbar {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: .4rem;
-      padding: .6rem .9rem;
-      border-radius: 10px;
-      border: 1px solid transparent;
-      transition: all .2s;
-      cursor: default;
-    }
-
-    .sbar:hover { transform: translateY(-2px); }
-
-    .sbar-dot {
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-    }
-
-    .sbar-name { font-size: .68rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
-
-    .sbar-desc { font-size: .6rem; color: var(--text3); max-width: 80px; text-align: center; line-height: 1.4; }
-
-    .sbar.green-h2 {
-      background: rgba(5,150,105,.1);
-      border-color: rgba(5,150,105,.4);
-      transform: scale(1.08);
-    }
-
-    .sbar.green-h2 .sbar-dot { box-shadow: 0 0 12px rgba(5,150,105,.5); }
-
-    /* ══════════════════════════════════════
-       SECTION 4 — APPLICATIONS
-    ══════════════════════════════════════ */
-    #s4 {
-      background: linear-gradient(180deg, #040E08 0%, #030B06 100%);
-      flex-direction: column;
-      padding: 3rem clamp(1.5rem, 6vw, 5rem);
-      gap: 2rem;
-    }
-
-    .s4-head { text-align: center; max-width: 680px; }
-
-    .s4-head h2 {
-      font-size: clamp(1.6rem, 3vw, 2.4rem);
-      color: var(--text);
-      margin-bottom: .85rem;
-    }
-
-    .s4-head p { font-size: .95rem; color: var(--text2); line-height: 1.7; }
-
-    /* River SVG */
-    .river-wrap {
-      width: 100%;
-      max-width: 600px;
-      height: 100px;
-    }
-
-    .river-path {
-      fill: none;
-      stroke: var(--em);
-      stroke-width: 2;
-      stroke-linecap: round;
-      filter: drop-shadow(0 0 4px rgba(16,185,129,.4));
-    }
-
-    .river-path.animated {
-      stroke-dasharray: 300;
-      stroke-dashoffset: 300;
-      transition: stroke-dashoffset 1.4s cubic-bezier(.4,0,.2,1);
-    }
-
-    .section.visible .river-path.animated { stroke-dashoffset: 0; }
-
-    /* App cards */
-    .app-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
-      width: 100%;
-      max-width: 820px;
-    }
-
-    .app-card {
-      background: rgba(6,26,16,.6);
-      border: 1px solid rgba(16,185,129,.12);
-      border-radius: var(--r);
-      padding: 1.4rem;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: .7rem;
-      transition: border-color .2s, transform .2s, box-shadow .2s;
-      cursor: default;
-    }
-
-    .app-card:hover {
-      border-color: rgba(16,185,129,.35);
-      transform: translateY(-3px);
-      box-shadow: 0 12px 32px rgba(0,0,0,.3);
-    }
-
-    .app-icon {
-      width: 48px;
-      height: 48px;
-      background: rgba(5,150,105,.1);
-      border: 1px solid rgba(5,150,105,.2);
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--em2);
-    }
-
-    .app-icon svg { width: 24px; height: 24px; }
-
-    .app-title {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: .9rem;
-      font-weight: 600;
-      color: var(--text);
-    }
-
-    .app-desc { font-size: .78rem; color: var(--text2); line-height: 1.6; }
-
-    .last-mile {
-      font-size: .82rem;
-      color: var(--text3);
-      font-style: italic;
-      text-align: center;
-      max-width: 500px;
-      line-height: 1.7;
-      border-left: 2px solid rgba(5,150,105,.3);
-      padding-left: 1rem;
-    }
-
-    /* ══════════════════════════════════════
-       SECTION 5 — CTA
-    ══════════════════════════════════════ */
-    #s5 {
-      background: radial-gradient(ellipse 80% 60% at 50% 100%, #0d2a18 0%, var(--g5) 60%);
-      flex-direction: column;
-      gap: 2rem;
-      padding: 3rem 2rem;
-    }
-
-    .s5-inner {
-      text-align: center;
-      max-width: 640px;
-      position: relative;
-      z-index: 2;
-    }
-
-    .s5-inner h2 {
-      font-size: clamp(2rem, 4.5vw, 3.5rem);
-      color: var(--text);
-      margin-bottom: 1rem;
-    }
-
-    .s5-inner p {
-      font-size: 1rem;
-      color: var(--text2);
-      line-height: 1.8;
-      margin-bottom: 2rem;
-    }
-
-    .cta-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: .6rem;
-      background: var(--em);
-      color: #fff;
-      text-decoration: none;
-      padding: .85rem 2rem;
-      border-radius: 40px;
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 1rem;
-      font-weight: 700;
-      letter-spacing: -.01em;
-      transition: background .2s, transform .2s, box-shadow .2s;
-      cursor: pointer;
-      box-shadow: 0 0 0 0 rgba(5,150,105,.4);
-    }
-
-    .cta-btn:hover {
-      background: var(--em2);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 32px rgba(5,150,105,.4);
-    }
-
-    .cta-btn svg { width: 18px; height: 18px; }
-
-    .cta-sub {
-      margin-top: 1.25rem;
-      font-size: .78rem;
-      color: var(--text3);
-    }
-
-    /* City skyline */
-    .city-wrap {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 160px;
-      pointer-events: none;
-    }
-
-    /* Progress dots */
-    .progress-dots {
+    .fnav-menu a svg { width:14px; height:14px; opacity:.7; flex-shrink:0; }
+    .fnav-divider { height:1px; background:rgba(16,185,129,.1); margin:.25rem .5rem; }
+
+    /* ══ PROGRESS DOTS ══ */
+    .pdots {
       position: fixed;
       right: 1.5rem;
       top: 50%;
       transform: translateY(-50%);
       display: flex;
       flex-direction: column;
-      gap: .6rem;
-      z-index: 150;
+      gap: .55rem;
+      z-index: 200;
     }
-
     .pdot {
-      width: 6px;
-      height: 6px;
+      width: 6px; height: 6px;
       border-radius: 50%;
       background: var(--text3);
-      transition: all .3s;
       cursor: pointer;
+      transition: all .3s;
     }
-
     .pdot.active {
       background: var(--em2);
-      height: 20px;
+      height: 18px;
       border-radius: 3px;
       box-shadow: 0 0 6px rgba(16,185,129,.5);
     }
 
+    /* ══ S1 ══ */
+    .s1-content {
+      text-align: center;
+      padding: 2rem;
+      margin-bottom: 35vh;
+    }
+    h1.title {
+      font-size: clamp(3rem, 8vw, 6rem);
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 1.25rem;
+    }
+    h1.title span { color: var(--em2); }
+    .hero-sub {
+      font-size: clamp(.95rem, 1.8vw, 1.15rem);
+      color: var(--text2);
+      line-height: 1.8;
+      font-style: italic;
+      max-width: 520px;
+      margin: 0 auto 2rem;
+    }
+    .scroll-hint {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .35rem;
+      color: var(--text3);
+      font-family: 'Space Mono', monospace;
+      font-size: .65rem;
+      letter-spacing: .1em;
+      animation: bounce 2.2s ease-in-out infinite;
+    }
+    .scroll-hint svg { width:16px; height:16px; color: var(--em); }
+    @keyframes bounce {
+      0%,100% { transform:translateY(0); }
+      50%      { transform:translateY(7px); }
+    }
+
+    /* ══ S2 ══ */
+    .s2-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+      padding: 2rem clamp(2rem,8vw,8rem);
+    }
+    .atom-wrap { display:flex; align-items:center; justify-content:center; }
+    .atom-svg  { width: min(300px,100%); overflow: visible; }
+    .s2-text h2 { font-size: clamp(1.7rem,3.2vw,2.5rem); color: var(--text); margin-bottom: 1.1rem; }
+    .s2-text p  { font-size:.97rem; color:var(--text2); line-height:1.8; margin-bottom:1.25rem; }
+    .fact-row {
+      display: flex; gap: 1.5rem;
+      background: rgba(5,150,105,.07);
+      border: 1px solid rgba(5,150,105,.18);
+      border-radius: 10px; padding: .75rem 1.2rem;
+    }
+    .fact-item { text-align:center; }
+    .fact-val  { font-family:'Space Mono',monospace; font-size:1.3rem; font-weight:700; color:var(--cy2); line-height:1; }
+    .fact-lbl  { font-size:.6rem; color:var(--text3); text-transform:uppercase; letter-spacing:.08em; margin-top:.2rem; }
+
+    /* ══ S3 ══ */
+    .s3-inner {
+      display: flex; flex-direction: column; align-items: center;
+      text-align: center; gap: 1.75rem;
+      padding: 2rem clamp(1.5rem,5vw,5rem);
+      padding-bottom: 30vh;
+    }
+    .s3-inner h2 { font-size:clamp(1.75rem,3.2vw,2.7rem); max-width:680px; }
+    .elec-row {
+      display: flex; align-items: center;
+      justify-content: center; gap: 1rem; flex-wrap: wrap;
+    }
+    .emol {
+      width:80px; height:80px; border-radius:50%;
+      border: 1.5px solid rgba(16,185,129,.25);
+      background: rgba(16,185,129,.06);
+      display: flex; align-items:center; justify-content:center;
+      font-family:'Space Mono',monospace; font-size:1rem; font-weight:700; color:var(--cy2);
+    }
+    .emol.hi { border-color:rgba(16,185,129,.6); background:rgba(16,185,129,.12); color:var(--em2); box-shadow:0 0 20px rgba(16,185,129,.2); }
+    .emol-lbl { font-size:.6rem; color:var(--text3); text-transform:uppercase; letter-spacing:.06em; margin-top:.35rem; }
+    .earrow { color:var(--em); display:flex; flex-direction:column; align-items:center; }
+    .earrow svg { width:26px; height:26px; }
+    .earrow span { font-size:.58rem; color:var(--text3); text-transform:uppercase; letter-spacing:.07em; }
+    .spectrum { display: flex; gap: .45rem; flex-wrap: wrap; justify-content: center; }
+    .sbar {
+      display:flex; flex-direction:column; align-items:center; gap:.35rem;
+      padding:.55rem .85rem; border-radius:10px; border:1px solid transparent;
+      transition: transform .2s; cursor:default;
+    }
+    .sbar:hover { transform:translateY(-2px); }
+    .sdot  { width:26px; height:26px; border-radius:50%; }
+    .sname { font-size:.65rem; font-weight:600; text-transform:uppercase; letter-spacing:.06em; }
+    .sdesc { font-size:.58rem; color:var(--text3); max-width:76px; text-align:center; line-height:1.4; }
+    .sbar.green { background:rgba(5,150,105,.1); border-color:rgba(5,150,105,.4); transform:scale(1.07); }
+    .sbar.green .sdot { box-shadow:0 0 12px rgba(5,150,105,.5); }
+
+    /* ══ S4 ══ */
+    .s4-inner {
+      display: flex; flex-direction: column; align-items: center;
+      width: 100%; height: 100%;
+      padding: 3rem clamp(1.5rem,5vw,5rem) 2rem;
+      justify-content: space-between;
+    }
+    .s4-head { text-align:center; max-width:600px; }
+    .s4-head h2 { font-size:clamp(1.5rem,2.8vw,2.3rem); color:var(--text); margin-bottom:.6rem; }
+    .s4-head p  { font-size:.93rem; color:var(--text2); line-height:1.7; }
+    .app-grid {
+      display: grid; grid-template-columns: repeat(3,1fr);
+      gap: 1rem; width: 100%; max-width: 820px;
+    }
+    .app-card {
+      background: rgba(1,16,8,.7);
+      border: 1px solid rgba(16,185,129,.12);
+      border-radius: 14px; padding: 1.25rem;
+      text-align: center; display:flex; flex-direction:column; align-items:center; gap:.6rem;
+      transition: border-color .2s, transform .2s, box-shadow .2s;
+    }
+    .app-card:hover { border-color:rgba(16,185,129,.35); transform:translateY(-3px); box-shadow:0 10px 28px rgba(0,0,0,.35); }
+    .aicon { width:44px; height:44px; background:rgba(5,150,105,.09); border:1px solid rgba(5,150,105,.2); border-radius:11px; display:flex; align-items:center; justify-content:center; color:var(--em2); }
+    .aicon svg { width:22px; height:22px; }
+    .atitle { font-family:'Space Grotesk',sans-serif; font-size:.88rem; font-weight:600; color:var(--text); }
+    .adesc  { font-size:.76rem; color:var(--text2); line-height:1.6; }
+
+    /* ══ S5 ══ */
+    .s5-inner {
+      display:flex; flex-direction:column; align-items:center;
+      text-align:center; gap:1.25rem; padding:2rem; margin-bottom:20vh;
+    }
+    #s5 h2 { font-size:clamp(2rem,4.5vw,3.4rem); }
+    #s5 p  { font-size:.97rem; color:var(--text2); line-height:1.8; max-width:540px; }
+    .cta-btn {
+      display:inline-flex; align-items:center; gap:.55rem;
+      background:var(--em); color:#fff; text-decoration:none;
+      padding:.8rem 1.9rem; border-radius:40px;
+      font-family:'Space Grotesk',sans-serif; font-size:1rem; font-weight:700;
+      transition: background .2s, transform .2s, box-shadow .2s;
+    }
+    .cta-btn:hover { background:var(--em2); transform:translateY(-2px); box-shadow:0 8px 28px rgba(5,150,105,.4); }
+    .cta-btn svg { width:17px; height:17px; }
+    .cta-sub { font-size:.75rem; color:var(--text3); }
+
     /* ══ RESPONSIVE ══ */
-    @media (max-width: 760px) {
+    @media (max-width:760px) {
       html { scroll-snap-type: none; }
-      .section { height: auto; min-height: 100svh; padding-top: 5rem; padding-bottom: 3rem; }
-      #s2 { grid-template-columns: 1fr; gap: 2rem; padding: 5rem 1.5rem 3rem; }
-      .atom-wrap { order: -1; }
-      .atom-svg { width: 200px; }
-      .app-grid { grid-template-columns: 1fr; }
-      .progress-dots { display: none; }
-      .h2-wm { font-size: 40vw; }
-      .spectrum { gap: .35rem; }
-      .sbar { padding: .45rem .65rem; }
+      .section { height:auto; min-height:100svh; }
+      .s2-grid { grid-template-columns:1fr; padding:5rem 1.5rem 3rem; }
+      .atom-wrap { order:-1; }
+      .atom-svg { width:180px; }
+      .app-grid { grid-template-columns:1fr; }
+      .pdots { display:none; }
+      .s4-inner { justify-content:flex-start; gap:1.5rem; }
+      .s1-content { margin-bottom:25vh; }
+      .s3-inner { padding-bottom:20vh; }
+      .s5-inner { margin-bottom:12vh; }
     }
 
     /* ══ REDUCED MOTION ══ */
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after {
-        animation-duration: .01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: .01ms !important;
+        animation-duration:.01ms !important;
+        animation-iteration-count:1 !important;
+        transition-duration:.01ms !important;
       }
-      .reveal, .sec-num { opacity: 1 !important; transform: none !important; }
-      .river-path.animated { stroke-dashoffset: 0 !important; }
+      .reveal { opacity:1 !important; transform:none !important; }
     }
   </style>
 </head>
 <body>
 
-<!-- ══ FLOATING NAV ══ -->
-<nav class="fnav" role="navigation" aria-label="Nawigacja">
+<!-- ══ NAV ══ -->
+<nav class="fnav" aria-label="Nawigacja">
   <button class="fnav-btn" id="nav-btn" aria-expanded="false" aria-haspopup="true">
     <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-      <path d="M2 2h12v2H2zm0 5h12v2H2zm0 5h12v2H2z" id="icon-menu"/>
+      <path d="M2 2h12v2H2zm0 5h12v2H2zm0 5h12v2H2z"/>
     </svg>
     MENU
   </button>
@@ -672,7 +365,7 @@
       Aktualności
     </a>
     <a href="dashboard.html?tab=lobbing" role="menuitem">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 3h18v13H3z"/><path d="M8 21h8M12 17v4"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
       Lobbing UE
     </a>
     <a href="dashboard.html?tab=career" role="menuitem">
@@ -688,404 +381,532 @@
 </nav>
 
 <!-- ══ PROGRESS DOTS ══ -->
-<div class="progress-dots" id="progress-dots" aria-hidden="true">
-  <div class="pdot active" data-target="s1" title="Hero"></div>
-  <div class="pdot" data-target="s2" title="Atom"></div>
-  <div class="pdot" data-target="s3" title="Zielony wodór"></div>
-  <div class="pdot" data-target="s4" title="Zastosowania"></div>
-  <div class="pdot" data-target="s5" title="CTA"></div>
+<div class="pdots" id="pdots" aria-hidden="true">
+  <div class="pdot active" data-t="s1"></div>
+  <div class="pdot" data-t="s2"></div>
+  <div class="pdot" data-t="s3"></div>
+  <div class="pdot" data-t="s4"></div>
+  <div class="pdot" data-t="s5"></div>
 </div>
 
-<!-- ══════════════════════════════════════
-     S1 — HERO
-══════════════════════════════════════ -->
-<section class="section visible" id="s1">
-  <div id="particles" aria-hidden="true"></div>
-  <div class="h2-wm" aria-hidden="true">H₂</div>
 
-  <div class="hero-inner">
-    <p class="sec-num" style="opacity:1;transform:none">01 / WPROWADZENIE</p>
-    <h1 class="hero-title reveal">Dlaczego <span>wodór?</span></h1>
-    <p class="hero-sub reveal delay1">
-      Dlaczego to właśnie o nim myślimy, gdy mówimy o przyszłości?<br>
-      Zjedź w dół i poznaj fundament nowej energii.
-    </p>
-    <div class="scroll-hint reveal delay2" aria-label="Przewiń w dół">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-        <path d="M12 5v14M5 12l7 7 7-7"/>
-      </svg>
-      PRZEWIŃ W DÓŁ
-    </div>
-  </div>
-</section>
-
-<!-- ══════════════════════════════════════
-     S2 — ATOM
-══════════════════════════════════════ -->
-<section class="section" id="s2">
-
-  <div class="atom-wrap" aria-hidden="true">
-    <svg class="atom-svg reveal" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-      <!-- Nucleus glow layers -->
-      <circle cx="150" cy="150" r="30" fill="rgba(8,145,178,.08)"/>
-      <circle cx="150" cy="150" r="20" fill="rgba(8,145,178,.15)"/>
-      <circle cx="150" cy="150" r="12" fill="#0891B2" class="nucleus-glow"/>
-      <circle cx="150" cy="150" r="6"  fill="#38BDF8"/>
-
-      <!-- Orbit 1 - main -->
-      <ellipse cx="150" cy="150" rx="110" ry="44"
-               stroke="rgba(16,185,129,.25)" stroke-width="1.2" fill="none"
-               transform="rotate(-30 150 150)"/>
-
-      <!-- Orbit 2 - secondary -->
-      <ellipse cx="150" cy="150" rx="110" ry="44"
-               stroke="rgba(6,182,212,.15)" stroke-width="1" fill="none"
-               transform="rotate(30 150 150)"/>
-
-      <!-- Orbit 3 - vertical -->
-      <ellipse cx="150" cy="150" rx="110" ry="44"
-               stroke="rgba(16,185,129,.12)" stroke-width=".8" fill="none"
-               transform="rotate(90 150 150)"/>
-
-      <!-- Electron orbit 1 -->
-      <circle r="7" fill="#10B981" filter="url(#eglow)">
-        <animateTransform attributeName="transform" type="rotate"
-          from="0 150 150" to="360 150 150"
-          dur="3s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="0" dur="3s"/>
-        <!-- Approximate position on ellipse at angle -->
-      </circle>
-      <!-- Simpler: orbiting dot using animateMotion -->
-      <circle r="6" fill="#10B981" opacity=".9">
-        <animateMotion dur="3s" repeatCount="indefinite">
-          <mpath href="#orbit1"/>
-        </animateMotion>
-      </circle>
-
-      <path id="orbit1" d="M 240 150 A 110 44 0 1 1 239.9 150"
-            fill="none" transform="rotate(-30 150 150)"/>
-
-      <!-- Energy dots -->
-      <circle r="3" fill="#FBBF24" opacity=".7">
-        <animateMotion dur="5s" repeatCount="indefinite" begin="1s">
-          <mpath href="#orbit2"/>
-        </animateMotion>
-      </circle>
-      <path id="orbit2" d="M 260 150 A 110 44 0 1 0 259.9 150"
-            fill="none" transform="rotate(30 150 150)"/>
-
-      <!-- Defs -->
+<!-- ════════════════════════════════════════════════════
+     S1 — OTWARTE MORZE
+     Tło: ciemny ocean z animowanymi falami, bąbelki H₂ w wodzie
+════════════════════════════════════════════════════ -->
+<section class="section vis" id="s1">
+  <div class="sec-bg" aria-hidden="true">
+    <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <filter id="eglow">
-          <feGaussianBlur stdDeviation="3" result="blur"/>
-          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-        </filter>
+        <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%"   stop-color="#010804"/>
+          <stop offset="55%"  stop-color="#021409"/>
+          <stop offset="100%" stop-color="#04200f"/>
+        </linearGradient>
+        <linearGradient id="sea1" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%"   stop-color="#042b15"/>
+          <stop offset="100%" stop-color="#010d07"/>
+        </linearGradient>
+        <radialGradient id="seaglow1" cx="50%" cy="100%" r="60%">
+          <stop offset="0%"  stop-color="rgba(5,150,105,.15)"/>
+          <stop offset="100%" stop-color="rgba(5,150,105,0)"/>
+        </radialGradient>
       </defs>
+      <rect width="100" height="100" fill="url(#sky1)"/>
+      <rect y="55" width="100" height="45" fill="url(#seaglow1)"/>
+      <rect y="58" width="100" height="42" fill="url(#sea1)"/>
+
+      <!-- Wave 3 — deep -->
+      <path opacity=".5" fill="#032b15">
+        <animate attributeName="d" dur="12s" repeatCount="indefinite"
+          values="M0,60 Q25,56 50,60 Q75,64 100,60 L100,100 L0,100Z;
+                  M0,60 Q25,64 50,60 Q75,56 100,60 L100,100 L0,100Z;
+                  M0,60 Q25,56 50,60 Q75,64 100,60 L100,100 L0,100Z"/>
+      </path>
+      <!-- Wave 2 -->
+      <path opacity=".7" fill="#042e17">
+        <animate attributeName="d" dur="8s" repeatCount="indefinite" begin="-2s"
+          values="M0,63 Q15,59 30,63 Q45,67 60,63 Q75,59 90,63 Q97,65 100,63 L100,100 L0,100Z;
+                  M0,63 Q15,67 30,63 Q45,59 60,63 Q75,67 90,63 Q97,61 100,63 L100,100 L0,100Z;
+                  M0,63 Q15,59 30,63 Q45,67 60,63 Q75,59 90,63 Q97,65 100,63 L100,100 L0,100Z"/>
+      </path>
+      <!-- Wave 1 — surface -->
+      <path fill="rgba(16,185,129,.1)">
+        <animate attributeName="d" dur="5.5s" repeatCount="indefinite" begin="-1s"
+          values="M0,66 Q12,62 24,66 Q36,70 48,66 Q60,62 72,66 Q84,70 100,66 L100,100 L0,100Z;
+                  M0,66 Q12,70 24,66 Q36,62 48,66 Q60,70 72,66 Q84,62 100,66 L100,100 L0,100Z;
+                  M0,66 Q12,62 24,66 Q36,70 48,66 Q60,62 72,66 Q84,70 100,66 L100,100 L0,100Z"/>
+      </path>
+
+      <!-- Bioluminescence dots deep in water -->
+      <g fill="rgba(16,185,129,.35)">
+        <circle cx="8"  cy="78" r=".6"><animate attributeName="opacity" values=".35;.7;.35" dur="3.2s" begin="0s"   repeatCount="indefinite"/></circle>
+        <circle cx="22" cy="85" r=".4"><animate attributeName="opacity" values=".35;.8;.35" dur="4s"   begin="1s"   repeatCount="indefinite"/></circle>
+        <circle cx="38" cy="80" r=".5"><animate attributeName="opacity" values=".3;.65;.3"  dur="2.8s" begin="0.5s" repeatCount="indefinite"/></circle>
+        <circle cx="52" cy="90" r=".7"><animate attributeName="opacity" values=".4;.75;.4"  dur="3.6s" begin="1.5s" repeatCount="indefinite"/></circle>
+        <circle cx="67" cy="76" r=".4"><animate attributeName="opacity" values=".3;.6;.3"   dur="5s"   begin="2s"   repeatCount="indefinite"/></circle>
+        <circle cx="80" cy="83" r=".6"><animate attributeName="opacity" values=".35;.7;.35" dur="3.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+        <circle cx="92" cy="87" r=".5"><animate attributeName="opacity" values=".3;.65;.3"  dur="4.2s" begin="2.5s" repeatCount="indefinite"/></circle>
+      </g>
+      <!-- Rising H₂ bubbles -->
+      <g fill="none" stroke="rgba(16,185,129,.2)" stroke-width=".3">
+        <circle r="1.2" cx="18" cy="75"><animate attributeName="cy" values="75;55" dur="6s"   begin="0s"   repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;0" dur="6s" begin="0s" repeatCount="indefinite"/></circle>
+        <circle r=".8"  cx="45" cy="80"><animate attributeName="cy" values="80;58" dur="7s"   begin="2s"   repeatCount="indefinite"/><animate attributeName="opacity" values="0;.6;0" dur="7s" begin="2s" repeatCount="indefinite"/></circle>
+        <circle r="1"   cx="70" cy="72"><animate attributeName="cy" values="72;52" dur="5.5s" begin="1s"   repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;0" dur="5.5s" begin="1s" repeatCount="indefinite"/></circle>
+        <circle r=".6"  cx="85" cy="78"><animate attributeName="cy" values="78;60" dur="8s"   begin="3s"   repeatCount="indefinite"/><animate attributeName="opacity" values="0;.4;0" dur="8s" begin="3s" repeatCount="indefinite"/></circle>
+      </g>
+      <!-- Stars -->
+      <g fill="rgba(255,255,255,.22)">
+        <circle cx="5"  cy="8"  r=".25"/><circle cx="15" cy="20" r=".2"/><circle cx="28" cy="12" r=".3"/>
+        <circle cx="40" cy="5"  r=".2"/> <circle cx="55" cy="15" r=".25"/><circle cx="68" cy="8"  r=".2"/>
+        <circle cx="78" cy="22" r=".3"/> <circle cx="90" cy="10" r=".2"/> <circle cx="10" cy="35" r=".15"/>
+        <circle cx="32" cy="28" r=".2"/> <circle cx="60" cy="32" r=".15"/><circle cx="82" cy="38" r=".2"/>
+      </g>
     </svg>
   </div>
 
-  <div class="s2-text">
-    <p class="sec-num">02 / PIERWIASTEK</p>
-    <h2 class="reveal">Najprostszy,<br>a zarazem <span style="color:var(--cy2)">potężny.</span></h2>
-    <p class="reveal delay1">
-      Wodór to pierwszy pierwiastek w układzie okresowym i najczęściej
-      występująca substancja we wszechświecie. Choć jest niezwykle lekki,
-      kryje w sobie ogromną dawkę energii.
-    </p>
-    <p class="reveal delay2">
-      Na Ziemi rzadko występuje sam — najczęściej ukrywa się w wodzie
-      i związkach organicznych, czekając, aż uwolnimy go z pomocą energii.
-    </p>
-    <div class="fact-chip reveal delay3" aria-label="Fakty o wodorze">
-      <div class="fact-item">
-        <div class="fact-val">1</div>
-        <div class="fact-lbl">Liczba atomowa</div>
-      </div>
-      <div class="fact-item">
-        <div class="fact-val">~75%</div>
-        <div class="fact-lbl">Materii we wszechświecie</div>
-      </div>
-      <div class="fact-item">
-        <div class="fact-val">120 MJ/kg</div>
-        <div class="fact-lbl">Gęstość energii</div>
+  <div class="sec-content">
+    <div class="s1-content">
+      <span class="sec-num reveal">01 / WPROWADZENIE</span>
+      <h1 class="title reveal d1">Dlaczego <span>wodór?</span></h1>
+      <p class="hero-sub reveal d2">Morze pełne H₂O — najprostszej i najczęstszej cząsteczki.<br>Co kryje się w tej zwykłej wodzie? Zjedź w dół.</p>
+      <div class="scroll-hint reveal d3" aria-label="Przewiń w dół">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        PRZEWIŃ
       </div>
     </div>
   </div>
 </section>
 
-<!-- ══════════════════════════════════════
-     S3 — KOLOR MA ZNACZENIE
-══════════════════════════════════════ -->
+
+<!-- ════════════════════════════════════════════════════
+     S2 — ATOM WYŁANIA SIĘ Z WODY
+     Tło: ocean spada do dolnych 20%, bąbelki unoszą się ku atomowi
+════════════════════════════════════════════════════ -->
+<section class="section" id="s2">
+  <div class="sec-bg" aria-hidden="true">
+    <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%"   stop-color="#010804"/>
+          <stop offset="70%"  stop-color="#021208"/>
+          <stop offset="100%" stop-color="#031a0c"/>
+        </linearGradient>
+        <linearGradient id="sea2" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%"   stop-color="#042b15"/>
+          <stop offset="100%" stop-color="#010d07"/>
+        </linearGradient>
+        <radialGradient id="atomrise" cx="50%" cy="75%" r="35%">
+          <stop offset="0%"  stop-color="rgba(8,145,178,.18)"/>
+          <stop offset="100%" stop-color="rgba(8,145,178,0)"/>
+        </radialGradient>
+      </defs>
+      <rect width="100" height="100" fill="url(#sky2)"/>
+      <rect y="75" width="100" height="25" fill="url(#sea2)"/>
+      <rect y="40" width="100" height="60" fill="url(#atomrise)"/>
+
+      <!-- Calm surface wave -->
+      <path fill="rgba(5,150,105,.09)">
+        <animate attributeName="d" dur="9s" repeatCount="indefinite"
+          values="M0,77 Q20,74 40,77 Q60,80 80,77 Q90,75 100,77 L100,100 L0,100Z;
+                  M0,77 Q20,80 40,77 Q60,74 80,77 Q90,79 100,77 L100,100 L0,100Z;
+                  M0,77 Q20,74 40,77 Q60,80 80,77 Q90,75 100,77 L100,100 L0,100Z"/>
+      </path>
+
+      <!-- H₂ bubbles rising toward atom -->
+      <g fill="none" stroke="rgba(8,145,178,.35)" stroke-width=".4">
+        <circle r=".9" cx="50" cy="76"><animate attributeName="cy" values="76;45" dur="4s"   repeatCount="indefinite"/><animate attributeName="opacity" values="0;.7;.5;0" dur="4s" repeatCount="indefinite"/></circle>
+        <circle r=".5" cx="47" cy="78"><animate attributeName="cy" values="78;50" dur="5s"   begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;0" dur="5s" begin="1s" repeatCount="indefinite"/></circle>
+        <circle r=".7" cx="53" cy="77"><animate attributeName="cy" values="77;48" dur="3.8s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.6;0" dur="3.8s" begin="2s" repeatCount="indefinite"/></circle>
+        <circle r=".4" cx="30" cy="80"><animate attributeName="cy" values="80;65" dur="6s"   begin=".5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.4;0" dur="6s" begin=".5s" repeatCount="indefinite"/></circle>
+        <circle r=".5" cx="70" cy="78"><animate attributeName="cy" values="78;63" dur="5.5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.4;0" dur="5.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+      </g>
+    </svg>
+  </div>
+
+  <div class="sec-content">
+    <div class="s2-grid">
+      <div class="atom-wrap">
+        <svg class="atom-svg reveal" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Model atomu wodoru">
+          <circle cx="150" cy="150" r="28" fill="rgba(8,145,178,.07)"/>
+          <circle cx="150" cy="150" r="18" fill="rgba(8,145,178,.14)"/>
+          <circle cx="150" cy="150" r="11" fill="#0891B2" filter="url(#ng)"/>
+          <circle cx="150" cy="150" r="5.5" fill="#38BDF8"/>
+          <ellipse cx="150" cy="150" rx="108" ry="42" stroke="rgba(16,185,129,.2)"  stroke-width="1.2" fill="none" transform="rotate(-30 150 150)"/>
+          <ellipse cx="150" cy="150" rx="108" ry="42" stroke="rgba(6,182,212,.13)"  stroke-width=".9"  fill="none" transform="rotate(30 150 150)"/>
+          <ellipse cx="150" cy="150" rx="108" ry="42" stroke="rgba(16,185,129,.1)"  stroke-width=".7"  fill="none" transform="rotate(90 150 150)"/>
+          <circle r="6" fill="#10B981" opacity=".9">
+            <animateMotion dur="3s" repeatCount="indefinite"><mpath href="#orb1"/></animateMotion>
+          </circle>
+          <circle r="3.5" fill="#FBBF24" opacity=".65">
+            <animateMotion dur="5.5s" repeatCount="indefinite" begin="1s"><mpath href="#orb2"/></animateMotion>
+          </circle>
+          <path id="orb1" d="M258 150 A108 42 0 1 1 257.9 150" fill="none" transform="rotate(-30 150 150)"/>
+          <path id="orb2" d="M258 150 A108 42 0 1 0 257.9 150" fill="none" transform="rotate(30 150 150)"/>
+          <defs>
+            <filter id="ng"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+        </svg>
+      </div>
+      <div class="s2-text">
+        <span class="sec-num reveal">02 / PIERWIASTEK</span>
+        <h2 class="reveal d1">Najprostszy,<br>a zarazem <span style="color:var(--cy2)">potężny.</span></h2>
+        <p class="reveal d2">Wodór to pierwszy pierwiastek w układzie okresowym. Unosi się w wodzie jak ukryty skarb — wystarczy go uwolnić.</p>
+        <p class="reveal d3">Na Ziemi sam nie istnieje długo — skrywa się w H₂O i związkach organicznych, czekając na energię, która go wyswobodzi.</p>
+        <div class="fact-row reveal d4">
+          <div class="fact-item"><div class="fact-val">1</div><div class="fact-lbl">Liczba atomowa</div></div>
+          <div class="fact-item"><div class="fact-val">~75%</div><div class="fact-lbl">Materii we wszechświecie</div></div>
+          <div class="fact-item"><div class="fact-val">120 MJ/kg</div><div class="fact-lbl">Gęstość energii</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════════════════
+     S3 — ELEKTROLIZA: WODA SIĘ ROZSZCZEPIA
+     Tło: ocean "błyska" — lewa strona zielona (H₂), prawa niebieska (O₂)
+════════════════════════════════════════════════════ -->
 <section class="section" id="s3">
-  <div class="s3-inner">
-    <p class="sec-num">03 / PRODUKCJA</p>
-    <h2 class="reveal">Czysta energia <span style="color:var(--em2)">bez kompromisów.</span></h2>
-    <p class="reveal delay1">
-      Zielony wodór produkujemy przy użyciu energii ze słońca lub wiatru,
-      dosłownie rozbijając wodę na tlen i wodór. Efekt? Przy jego
-      wykorzystaniu jedynym produktem ubocznym jest czysta woda.
-    </p>
+  <div class="sec-bg" aria-hidden="true">
+    <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%"  stop-color="#010904"/>
+          <stop offset="50%" stop-color="#031507"/>
+          <stop offset="100%" stop-color="#062010"/>
+        </linearGradient>
+        <linearGradient id="sea3" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%"   stop-color="#083320"/>
+          <stop offset="100%" stop-color="#010f08"/>
+        </linearGradient>
+        <linearGradient id="splitL" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%"  stop-color="rgba(5,150,105,.15)"/>
+          <stop offset="100%" stop-color="rgba(5,150,105,0)"/>
+        </linearGradient>
+        <linearGradient id="splitR" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%"  stop-color="rgba(8,145,178,0)"/>
+          <stop offset="100%" stop-color="rgba(8,145,178,.12)"/>
+        </linearGradient>
+        <radialGradient id="boltglow" cx="50%" cy="55%" r="18%">
+          <stop offset="0%"  stop-color="rgba(251,191,36,.18)"/>
+          <stop offset="100%" stop-color="rgba(251,191,36,0)"/>
+        </radialGradient>
+      </defs>
+      <rect width="100" height="100" fill="url(#sky3)"/>
+      <rect y="45" width="100" height="55" fill="url(#sea3)"/>
+      <rect y="0"  width="50"  height="100" fill="url(#splitL)"/>
+      <rect x="50" y="0" width="50" height="100" fill="url(#splitR)"/>
+      <rect width="100" height="100" fill="url(#boltglow)"/>
 
-    <!-- Electrolysis flow -->
-    <div class="elec-row reveal delay2" role="img" aria-label="Diagram elektrolizy: H₂O plus energia odnawialna daje H₂ i O₂">
-      <div class="elec-node">
-        <div class="elec-mol">H₂O</div>
-        <div class="elec-lbl">Woda</div>
-      </div>
-      <div class="elec-arrow">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
-        </svg>
-        <span style="font-size:.6rem;color:var(--text3);letter-spacing:.06em;text-transform:uppercase">OZE</span>
-      </div>
-      <div class="elec-node">
-        <div class="elec-mol highlight">H₂</div>
-        <div class="elec-lbl">Wodór</div>
-      </div>
-      <div style="color:var(--text3);font-size:1.2rem;align-self:center">+</div>
-      <div class="elec-node">
-        <div class="elec-mol">O₂</div>
-        <div class="elec-lbl">Tlen</div>
-      </div>
-    </div>
+      <!-- Dividing membrane -->
+      <line x1="50" y1="30" x2="50" y2="100" stroke="rgba(251,191,36,.07)" stroke-width=".3" stroke-dasharray="1.5,2"/>
 
-    <!-- Spectrum -->
-    <div class="spectrum reveal delay3" role="list" aria-label="Kolory wodoru">
-      <div class="sbar" role="listitem" style="border-color:rgba(130,130,130,.2)">
-        <div class="sbar-dot" style="background:#9CA3AF"></div>
-        <div class="sbar-name" style="color:#9CA3AF">Szary</div>
-        <div class="sbar-desc">SMR bez CCS</div>
-      </div>
-      <div class="sbar" role="listitem" style="border-color:rgba(59,130,246,.2)">
-        <div class="sbar-dot" style="background:#3B82F6"></div>
-        <div class="sbar-name" style="color:#3B82F6">Niebieski</div>
-        <div class="sbar-desc">SMR + wychwyt CO₂</div>
-      </div>
-      <div class="sbar green-h2" role="listitem" aria-current="true">
-        <div class="sbar-dot" style="background:#059669"></div>
-        <div class="sbar-name" style="color:#10B981">Zielony ✓</div>
-        <div class="sbar-desc">Elektroliza + OZE</div>
-      </div>
-      <div class="sbar" role="listitem" style="border-color:rgba(236,72,153,.2)">
-        <div class="sbar-dot" style="background:#EC4899"></div>
-        <div class="sbar-name" style="color:#EC4899">Różowy</div>
-        <div class="sbar-desc">Elektroliza + energia jądrowa</div>
-      </div>
-      <div class="sbar" role="listitem" style="border-color:rgba(6,182,212,.2)">
-        <div class="sbar-dot" style="background:#06B6D4"></div>
-        <div class="sbar-name" style="color:#06B6D4">Turkusowy</div>
-        <div class="sbar-desc">Piróliza metanu</div>
-      </div>
-    </div>
-  </div>
-</section>
+      <!-- Lightning bolt -->
+      <path d="M51,35 L48,50 L52,50 L49,65" fill="none" stroke="rgba(251,191,36,.6)" stroke-width=".8" stroke-linecap="round" stroke-linejoin="round">
+        <animate attributeName="opacity" values=".6;1;.4;.8;.6" dur="2.5s" repeatCount="indefinite"/>
+      </path>
 
-<!-- ══════════════════════════════════════
-     S4 — ZASTOSOWANIA
-══════════════════════════════════════ -->
-<section class="section" id="s4">
-  <div class="s4-head">
-    <p class="sec-num">04 / ZASTOSOWANIA</p>
-    <h2 class="reveal">Od wielkiego przemysłu<br><span style="color:var(--em2)">po codzienny transport.</span></h2>
-    <p class="reveal delay1">Wodór to narzędzie, które już teraz zmienia świat.</p>
-  </div>
+      <!-- Surface wave -->
+      <path fill="rgba(16,185,129,.09)">
+        <animate attributeName="d" dur="6s" repeatCount="indefinite"
+          values="M0,47 Q25,43 50,47 Q75,51 100,47 L100,100 L0,100Z;
+                  M0,47 Q25,51 50,47 Q75,43 100,47 L100,100 L0,100Z;
+                  M0,47 Q25,43 50,47 Q75,51 100,47 L100,100 L0,100Z"/>
+      </path>
 
-  <!-- River SVG -->
-  <div class="river-wrap reveal delay1" aria-hidden="true">
-    <svg viewBox="0 0 600 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
-      <!-- Main stem -->
-      <path id="r-stem" class="river-path animated" d="M 300 0 L 300 40"/>
-      <!-- Left branch -->
-      <path id="r-left" class="river-path animated" d="M 300 40 Q 200 55 120 90" style="transition-delay:.4s"/>
-      <!-- Center branch -->
-      <path id="r-center" class="river-path animated" d="M 300 40 L 300 90" style="transition-delay:.6s"/>
-      <!-- Right branch -->
-      <path id="r-right" class="river-path animated" d="M 300 40 Q 400 55 480 90" style="transition-delay:.8s"/>
-
-      <!-- Endpoint glows -->
-      <circle cx="120" cy="90" r="5" fill="var(--em)" opacity=".8"/>
-      <circle cx="300" cy="90" r="5" fill="var(--cy2)" opacity=".8"/>
-      <circle cx="480" cy="90" r="5" fill="var(--gold)" opacity=".8"/>
+      <!-- H₂ bubbles left side -->
+      <g fill="none" stroke="rgba(16,185,129,.4)" stroke-width=".4">
+        <circle r=".7"  cx="15" cy="90"><animate attributeName="cy" values="90;25" dur="5s"   begin="0s"   repeatCount="indefinite"/><animate attributeName="opacity" values="0;.6;.4;0" dur="5s" begin="0s" repeatCount="indefinite"/></circle>
+        <circle r=".5"  cx="22" cy="85"><animate attributeName="cy" values="85;30" dur="6s"   begin="1s"   repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;0" dur="6s" begin="1s" repeatCount="indefinite"/></circle>
+        <circle r=".9"  cx="30" cy="88"><animate attributeName="cy" values="88;20" dur="4.5s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.7;.4;0" dur="4.5s" begin="0.5s" repeatCount="indefinite"/></circle>
+        <circle r=".6"  cx="40" cy="82"><animate attributeName="cy" values="82;28" dur="5.5s" begin="2s"   repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;0" dur="5.5s" begin="2s" repeatCount="indefinite"/></circle>
+        <circle r=".45" cx="10" cy="78"><animate attributeName="cy" values="78;35" dur="7s"   begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.4;0" dur="7s" begin="1.5s" repeatCount="indefinite"/></circle>
+      </g>
+      <!-- O₂ bubbles right side -->
+      <g fill="none" stroke="rgba(8,145,178,.3)" stroke-width=".5">
+        <circle r="1.2" cx="70" cy="88"><animate attributeName="cy" values="88;22" dur="5.5s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;.3;0" dur="5.5s" begin="0.3s" repeatCount="indefinite"/></circle>
+        <circle r=".9"  cx="80" cy="82"><animate attributeName="cy" values="82;30" dur="6.5s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.45;0" dur="6.5s" begin="1.2s" repeatCount="indefinite"/></circle>
+        <circle r="1"   cx="90" cy="86"><animate attributeName="cy" values="86;25" dur="5s"   begin="2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;0" dur="5s" begin="2.5s" repeatCount="indefinite"/></circle>
+        <circle r=".7"  cx="62" cy="80"><animate attributeName="cy" values="80;35" dur="7s"   begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.4;0" dur="7s" begin="0.8s" repeatCount="indefinite"/></circle>
+      </g>
     </svg>
   </div>
 
-  <div class="app-grid">
-    <div class="app-card reveal">
-      <div class="app-icon" style="border-color:rgba(5,150,105,.3);background:rgba(5,150,105,.08)">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-          <rect x="2" y="7" width="20" height="14" rx="2"/>
-          <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
-          <path d="M12 12v3M9 15h6"/>
-        </svg>
+  <div class="sec-content">
+    <div class="s3-inner">
+      <span class="sec-num reveal">03 / PRODUKCJA</span>
+      <h2 class="reveal d1" style="color:var(--text)">Czysta energia <span style="color:var(--em2)">bez kompromisów.</span></h2>
+      <p class="reveal d2" style="font-size:.97rem;color:var(--text2);line-height:1.8;max-width:580px">Błysk prądu z wiatru lub słońca uderza w wodę i ją rozdziela. Po lewej unoszą się bąbelki H₂ — naszego paliwa. Po prawej czysty O₂. Jedynym produktem spalania: znów woda.</p>
+
+      <div class="elec-row reveal d3" role="img" aria-label="Diagram elektrolizy">
+        <div><div class="emol">H₂O</div><div class="emol-lbl">Woda</div></div>
+        <div class="earrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          <span>OZE</span>
+        </div>
+        <div><div class="emol hi">H₂</div><div class="emol-lbl">Wodór</div></div>
+        <div style="color:var(--text3);font-size:1.1rem;align-self:center">+</div>
+        <div><div class="emol">O₂</div><div class="emol-lbl">Tlen</div></div>
       </div>
-      <div class="app-title">Przemysł ciężki</div>
-      <div class="app-desc">Stal, cement, chemia — sektory, których nie zelektryfikujemy inaczej niż przez wodór.</div>
-    </div>
-    <div class="app-card reveal delay1">
-      <div class="app-icon" style="border-color:rgba(6,182,212,.3);background:rgba(6,182,212,.08);color:var(--cy2)">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-          <path d="M5 17H3a2 2 0 01-2-2V5a2 2 0 012-2h11a2 2 0 012 2v2"/>
-          <rect x="9" y="11" width="14" height="10" rx="1"/>
-          <circle cx="12" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
-        </svg>
+
+      <div class="spectrum reveal d4" role="list">
+        <div class="sbar" role="listitem" style="border-color:rgba(130,130,130,.2)"><div class="sdot" style="background:#9CA3AF"></div><div class="sname" style="color:#9CA3AF">Szary</div><div class="sdesc">SMR bez CCS</div></div>
+        <div class="sbar" role="listitem" style="border-color:rgba(59,130,246,.2)"><div class="sdot" style="background:#3B82F6"></div><div class="sname" style="color:#3B82F6">Niebieski</div><div class="sdesc">SMR + CCS</div></div>
+        <div class="sbar green" role="listitem" aria-current="true"><div class="sdot" style="background:#059669"></div><div class="sname" style="color:#10B981">Zielony ✓</div><div class="sdesc">Elektroliza + OZE</div></div>
+        <div class="sbar" role="listitem" style="border-color:rgba(236,72,153,.2)"><div class="sdot" style="background:#EC4899"></div><div class="sname" style="color:#EC4899">Różowy</div><div class="sdesc">Elektroliza + jądrowe</div></div>
+        <div class="sbar" role="listitem" style="border-color:rgba(6,182,212,.2)"><div class="sdot" style="background:#06B6D4"></div><div class="sname" style="color:#06B6D4">Turkusowy</div><div class="sdesc">Piroliza metanu</div></div>
       </div>
-      <div class="app-title">Elektromobilność</div>
-      <div class="app-desc">Ogniwa paliwowe w autobusach, ciężarówkach i pociągach — długi zasięg, szybkie tankowanie.</div>
-    </div>
-    <div class="app-card reveal delay2">
-      <div class="app-icon" style="border-color:rgba(251,191,36,.3);background:rgba(251,191,36,.08);color:var(--gold)">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-          <rect x="2" y="7" width="20" height="14" rx="2"/>
-          <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
-          <line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/>
-        </svg>
-      </div>
-      <div class="app-title">Magazynowanie energii</div>
-      <div class="app-desc">Sezonowe rezerwy energii z wiatru i słońca — tam, gdzie baterie nie wystarczą.</div>
     </div>
   </div>
-
-  <p class="last-mile reveal delay3">
-    Sama produkcja to dopiero początek. Prawdziwym wyzwaniem jest stworzenie
-    mądrej sieci dostaw i lokalnych hubów, aby czyste paliwo dotarło efektywnie
-    na <strong style="color:var(--em2)">ostatnią milę</strong>.
-  </p>
 </section>
 
-<!-- ══════════════════════════════════════
-     S5 — CTA
-══════════════════════════════════════ -->
-<section class="section" id="s5">
 
-  <!-- City skyline -->
-  <div class="city-wrap" aria-hidden="true">
-    <svg viewBox="0 0 1440 160" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
-      <!-- Buildings silhouette -->
-      <g fill="rgba(5,150,105,.06)" stroke="rgba(5,150,105,.12)" stroke-width=".5">
-        <rect x="0"    y="80"  width="80"  height="80"/>
-        <rect x="60"   y="50"  width="50"  height="110"/>
-        <rect x="90"   y="30"  width="40"  height="130"/>
-        <rect x="140"  y="60"  width="60"  height="100"/>
-        <rect x="200"  y="20"  width="35"  height="140"/>
-        <rect x="230"  y="55"  width="55"  height="105"/>
-        <rect x="290"  y="40"  width="45"  height="120"/>
-        <rect x="350"  y="70"  width="70"  height="90"/>
-        <rect x="430"  y="30"  width="40"  height="130"/>
-        <rect x="480"  y="55"  width="60"  height="105"/>
-        <rect x="550"  y="10"  width="45"  height="150"/>
-        <rect x="600"  y="45"  width="55"  height="115"/>
-        <rect x="660"  y="35"  width="40"  height="125"/>
-        <rect x="710"  y="65"  width="65"  height="95"/>
-        <rect x="790"  y="25"  width="45"  height="135"/>
-        <rect x="840"  y="50"  width="55"  height="110"/>
-        <rect x="900"  y="40"  width="50"  height="120"/>
-        <rect x="960"  y="70"  width="70"  height="90"/>
-        <rect x="1040" y="30"  width="40"  height="130"/>
-        <rect x="1090" y="55"  width="60"  height="105"/>
-        <rect x="1160" y="15"  width="45"  height="145"/>
-        <rect x="1210" y="45"  width="55"  height="115"/>
-        <rect x="1270" y="60"  width="80"  height="100"/>
-        <rect x="1360" y="75"  width="80"  height="85"/>
+<!-- ════════════════════════════════════════════════════
+     S4 — RZEKA ROZGAŁĘZIA SIĘ
+     Tło: widok z góry — morze zwęża się w rzekę, rzeka dzieli się na 3
+════════════════════════════════════════════════════ -->
+<section class="section" id="s4">
+  <div class="sec-bg" aria-hidden="true">
+    <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="land4" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#010904"/><stop offset="100%" stop-color="#020c06"/>
+        </linearGradient>
+        <linearGradient id="river4" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%"   stop-color="rgba(4,35,20,.9)"/>
+          <stop offset="60%"  stop-color="rgba(5,80,40,.7)"/>
+          <stop offset="100%" stop-color="rgba(5,40,22,.5)"/>
+        </linearGradient>
+        <linearGradient id="brL" x1="1" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="rgba(5,150,105,.5)"/><stop offset="100%" stop-color="rgba(5,150,105,.1)"/>
+        </linearGradient>
+        <linearGradient id="brC" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="rgba(6,182,212,.4)"/><stop offset="100%" stop-color="rgba(6,182,212,.1)"/>
+        </linearGradient>
+        <linearGradient id="brR" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="rgba(251,191,36,.4)"/><stop offset="100%" stop-color="rgba(251,191,36,.1)"/>
+        </linearGradient>
+      </defs>
+
+      <rect width="100" height="100" fill="url(#land4)"/>
+
+      <!-- Ocean mouth at top -->
+      <ellipse cx="50" cy="-2" rx="42" ry="18" fill="rgba(5,80,40,.3)"/>
+
+      <!-- Main river channel — wide at top, narrows to fork -->
+      <path fill="url(#river4)">
+        <animate attributeName="d" dur="8s" repeatCount="indefinite"
+          values="M35,0 Q42,20 44,48 Q46,50 50,52 Q54,50 56,48 Q58,20 65,0 Z;
+                  M36,0 Q43,20 45,48 Q47,50 50,52 Q53,50 55,48 Q57,20 64,0 Z;
+                  M35,0 Q42,20 44,48 Q46,50 50,52 Q54,50 56,48 Q58,20 65,0 Z"/>
+      </path>
+
+      <!-- Fork point glow -->
+      <circle cx="50" cy="52" r="4" fill="rgba(16,185,129,.2)">
+        <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".2;.5;.2" dur="3s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Left branch — Industry -->
+      <path fill="url(#brL)" d="M44,48 Q32,60 15,80 Q12,85 10,100 L20,100 Q22,88 30,82 Q46,64 50,52 Z"/>
+      <!-- Center branch — Mobility -->
+      <path fill="url(#brC)" d="M46,50 Q47,65 46,80 Q46,90 44,100 L56,100 Q54,90 54,80 Q53,65 54,50 Z"/>
+      <!-- Right branch — Storage -->
+      <path fill="url(#brR)" d="M56,48 Q68,60 85,80 Q88,85 90,100 L80,100 Q78,88 70,82 Q54,64 50,52 Z"/>
+
+      <!-- Flow particles -->
+      <g opacity=".7">
+        <circle r=".5" fill="rgba(16,185,129,.8)" cx="50"><animate attributeName="cy" values="5;50" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.8;.8;0" dur="2s" repeatCount="indefinite"/></circle>
+        <circle r=".4" fill="rgba(16,185,129,.6)" cx="48"><animate attributeName="cy" values="15;52" dur="2.3s" begin=".7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.6;.6;0" dur="2.3s" begin=".7s" repeatCount="indefinite"/></circle>
+        <circle r=".45" fill="rgba(5,150,105,.7)"><animateMotion dur="3s" begin="0.5s" repeatCount="indefinite" path="M50,52 Q32,66 16,84"/><animate attributeName="opacity" values="0;.7;.7;0" dur="3s" begin="0.5s" repeatCount="indefinite"/></circle>
+        <circle r=".45" fill="rgba(6,182,212,.7)"><animateMotion dur="2.8s" begin="1s" repeatCount="indefinite" path="M50,52 L50,90"/><animate attributeName="opacity" values="0;.7;.7;0" dur="2.8s" begin="1s" repeatCount="indefinite"/></circle>
+        <circle r=".45" fill="rgba(251,191,36,.6)"><animateMotion dur="3.1s" begin="0.8s" repeatCount="indefinite" path="M50,52 Q68,66 84,84"/><animate attributeName="opacity" values="0;.6;.6;0" dur="3.1s" begin="0.8s" repeatCount="indefinite"/></circle>
+      </g>
+
+      <!-- Subtle terrain -->
+      <g stroke="rgba(5,80,40,.07)" stroke-width=".5" fill="none">
+        <path d="M0,30 Q15,25 30,30 Q45,35 60,30 Q75,25 100,30"/>
+        <path d="M0,75 Q20,70 40,75 Q60,80 80,75 Q90,72 100,75"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="sec-content">
+    <div class="s4-inner">
+      <div class="s4-head">
+        <span class="sec-num reveal">04 / ZASTOSOWANIA</span>
+        <h2 class="reveal d1">Rzeka <span style="color:var(--em2)">rozgałęzia się.</span></h2>
+        <p class="reveal d2">Wodór przepływa przez gospodarkę jak woda przez deltę — każdy strumień trafia tam, gdzie jest niezbędny.</p>
+      </div>
+
+      <div class="app-grid">
+        <div class="app-card reveal d1">
+          <div class="aicon" style="border-color:rgba(5,150,105,.3);color:var(--em2)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2M12 12v3"/></svg>
+          </div>
+          <div class="atitle">Przemysł ciężki</div>
+          <div class="adesc">Stal, cement, chemia — sektory, których nie zelektryfikujemy inaczej.</div>
+        </div>
+        <div class="app-card reveal d2">
+          <div class="aicon" style="border-color:rgba(6,182,212,.3);color:var(--cy2)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 17H3a2 2 0 01-2-2V5a2 2 0 012-2h11a2 2 0 012 2v2"/><rect x="9" y="11" width="14" height="10" rx="1"/><circle cx="12" cy="21" r="1"/><circle cx="20" cy="21" r="1"/></svg>
+          </div>
+          <div class="atitle">Elektromobilność</div>
+          <div class="adesc">Ogniwa paliwowe w ciężarówkach i pociągach — długi zasięg, szybkie tankowanie.</div>
+        </div>
+        <div class="app-card reveal d3">
+          <div class="aicon" style="border-color:rgba(251,191,36,.3);color:var(--gold)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+          </div>
+          <div class="atitle">Magazynowanie energii</div>
+          <div class="adesc">Sezonowe rezerwy z wiatru i słońca — tam, gdzie baterie nie wystarczą.</div>
+        </div>
+      </div>
+
+      <p class="reveal d4" style="font-size:.8rem;color:var(--text3);font-style:italic;text-align:center;border-left:2px solid rgba(5,150,105,.3);padding-left:1rem;max-width:480px;line-height:1.7">
+        Sama produkcja to dopiero wierzchołek. Prawdziwym wyzwaniem jest mądra sieć dostaw — czyste paliwo musi dotrzeć na <strong style="color:var(--em2)">ostatnią milę</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════════════════
+     S5 — DELTA WRACA DO MORZA / MIASTO PRZYSZŁOŚCI
+     Tło: rzeka wpada do morza, na horyzoncie lśniące miasto
+════════════════════════════════════════════════════ -->
+<section class="section" id="s5">
+  <div class="sec-bg" aria-hidden="true">
+    <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%"   stop-color="#010804"/>
+          <stop offset="55%"  stop-color="#021209"/>
+          <stop offset="100%" stop-color="#041a0e"/>
+        </linearGradient>
+        <linearGradient id="sea5" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%"   stop-color="#052b18"/>
+          <stop offset="100%" stop-color="#010d07"/>
+        </linearGradient>
+        <radialGradient id="cityglow" cx="50%" cy="65%" r="42%">
+          <stop offset="0%"  stop-color="rgba(5,150,105,.12)"/>
+          <stop offset="100%" stop-color="rgba(5,150,105,0)"/>
+        </radialGradient>
+        <filter id="blur5"><feGaussianBlur stdDeviation="1.2"/></filter>
+      </defs>
+
+      <rect width="100" height="100" fill="url(#sky5)"/>
+      <rect y="62" width="100" height="38" fill="url(#sea5)"/>
+      <rect width="100" height="100" fill="url(#cityglow)"/>
+
+      <!-- River tributaries flowing INTO sea (circle complete) -->
+      <path fill="rgba(5,150,105,.13)"  d="M10,100 Q20,85 30,72 Q38,65 50,62 L50,64 Q38,67 30,74 Q20,87 12,100Z"/>
+      <path fill="rgba(6,182,212,.1)"   d="M45,100 L46,80 Q47,70 50,62 L50,64 Q47,72 48,82 L47,100Z"/>
+      <path fill="rgba(251,191,36,.09)" d="M90,100 Q80,85 70,72 Q62,65 50,62 L50,64 Q62,67 70,74 Q80,87 88,100Z"/>
+
+      <!-- Sea waves -->
+      <path fill="rgba(16,185,129,.07)">
+        <animate attributeName="d" dur="7s" repeatCount="indefinite"
+          values="M0,65 Q25,61 50,65 Q75,69 100,65 L100,100 L0,100Z;
+                  M0,65 Q25,69 50,65 Q75,61 100,65 L100,100 L0,100Z;
+                  M0,65 Q25,61 50,65 Q75,69 100,65 L100,100 L0,100Z"/>
+      </path>
+      <path fill="rgba(5,150,105,.05)">
+        <animate attributeName="d" dur="5.5s" repeatCount="indefinite" begin="-2s"
+          values="M0,68 Q20,65 40,68 Q60,71 80,68 Q90,66 100,68 L100,100 L0,100Z;
+                  M0,68 Q20,71 40,68 Q60,65 80,68 Q90,70 100,68 L100,100 L0,100Z;
+                  M0,68 Q20,65 40,68 Q60,71 80,68 Q90,66 100,68 L100,100 L0,100Z"/>
+      </path>
+
+      <!-- City silhouette -->
+      <g fill="rgba(5,150,105,.09)" stroke="rgba(5,150,105,.14)" stroke-width=".3">
+        <rect x="3"  y="55" width="6"  height="10"/><rect x="8"  y="50" width="5"  height="15"/>
+        <rect x="12" y="44" width="4"  height="21"/><rect x="15" y="52" width="7"  height="13"/>
+        <rect x="21" y="46" width="4"  height="19"/><rect x="24" y="53" width="6"  height="12"/>
+        <rect x="30" y="48" width="5"  height="17"/><rect x="34" y="56" width="8"  height="9"/>
+        <rect x="41" y="42" width="4"  height="23"/><rect x="44" y="50" width="6"  height="15"/>
+        <rect x="49" y="36" width="5"  height="29"/>
+        <rect x="53" y="48" width="6"  height="17"/><rect x="58" y="43" width="4"  height="22"/>
+        <rect x="61" y="55" width="7"  height="10"/><rect x="67" y="47" width="5"  height="18"/>
+        <rect x="71" y="53" width="6"  height="12"/><rect x="76" y="45" width="4"  height="20"/>
+        <rect x="79" y="52" width="7"  height="13"/><rect x="85" y="49" width="5"  height="16"/>
+        <rect x="89" y="56" width="7"  height="9"/> <rect x="95" y="52" width="5"  height="13"/>
       </g>
       <!-- Glowing windows -->
-      <g fill="rgba(16,185,129,.3)">
-        <rect x="95"  y="40" width="4" height="3"/>
-        <rect x="102" y="40" width="4" height="3"/>
-        <rect x="95"  y="50" width="4" height="3"/>
-        <rect x="205" y="35" width="4" height="3"/>
-        <rect x="212" y="28" width="4" height="3"/>
-        <rect x="557" y="20" width="4" height="3"/>
-        <rect x="564" y="28" width="4" height="3"/>
-        <rect x="795" y="38" width="4" height="3"/>
-        <rect x="802" y="30" width="4" height="3"/>
-        <rect x="1165" y="25" width="4" height="3"/>
-        <rect x="1172" y="33" width="4" height="3"/>
+      <g fill="rgba(16,185,129,.55)">
+        <rect x="13"  y="46" width="1.2" height=".8"/><rect x="13"  y="48" width="1.2" height=".8"/>
+        <rect x="22"  y="48" width="1.2" height=".8"/><rect x="31"  y="50" width="1.2" height=".8"/>
+        <rect x="42"  y="44" width="1.2" height=".8"/><rect x="42"  y="46" width="1.2" height=".8"/>
+        <rect x="50"  y="38" width="1.5" height=".8"/><rect x="50"  y="41" width="1.5" height=".8"/>
+        <rect x="50"  y="44" width="1.5" height=".8"/><rect x="59"  y="45" width="1.2" height=".8"/>
+        <rect x="68"  y="49" width="1.2" height=".8"/><rect x="77"  y="47" width="1.2" height=".8"/>
+        <rect x="86"  y="51" width="1.2" height=".8"/>
+      </g>
+      <!-- Blinking antenna lights -->
+      <g fill="rgba(251,191,36,.85)">
+        <circle cx="51.5" cy="36.5" r=".5"><animate attributeName="opacity" values=".85;.2;.85" dur="1.5s" repeatCount="indefinite"/></circle>
+        <circle cx="13.5" cy="44"   r=".4"><animate attributeName="opacity" values=".85;.2;.85" dur="2.1s" begin=".5s" repeatCount="indefinite"/></circle>
+      </g>
+
+      <!-- Stars -->
+      <g fill="rgba(255,255,255,.2)">
+        <circle cx="8"  cy="8"  r=".25"/><circle cx="22" cy="15" r=".2"/><circle cx="38" cy="6" r=".3"/>
+        <circle cx="55" cy="12" r=".2"/> <circle cx="70" cy="5"  r=".25"/><circle cx="85" cy="18" r=".2"/>
+        <circle cx="95" cy="8"  r=".3"/> <circle cx="15" cy="28" r=".15"/><circle cx="48" cy="22" r=".2"/>
+        <circle cx="78" cy="25" r=".15"/>
       </g>
     </svg>
   </div>
 
-  <div class="s5-inner">
-    <p class="sec-num">05 / REWOLUCJA</p>
-    <h2 class="reveal">Gotowy na<br><span style="color:var(--em2)">wodorową rewolucję?</span></h2>
-    <p class="reveal delay1">
-      To dopiero wierzchołek góry lodowej. Zobacz, jak krok po kroku
-      wodór zmienia naszą rzeczywistość — regulacje, inwestycje,
-      technologie i pozycje firm.
-    </p>
-    <a href="dashboard.html" class="cta-btn reveal delay2">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
-        <path d="M5 12h14M12 5l7 7-7 7"/>
-      </svg>
-      Otwórz portal analityczny
-    </a>
-    <p class="cta-sub reveal delay3">Aktualności · Lobbing UE · Kariera i Edukacja</p>
+  <div class="sec-content">
+    <div class="s5-inner">
+      <span class="sec-num reveal">05 / REWOLUCJA</span>
+      <h2 class="reveal d1" style="color:var(--text)">Gotowy na<br><span style="color:var(--em2)">wodorową rewolucję?</span></h2>
+      <p class="reveal d2">Rzeka dotarła do morza — koło się zamknęło. Teraz śledź, jak krok po kroku wodór zmienia naszą rzeczywistość: regulacje, inwestycje, pozycje firm.</p>
+      <a href="dashboard.html" class="cta-btn reveal d3">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        Otwórz portal analityczny
+      </a>
+      <p class="cta-sub reveal d4">Aktualności · Lobbing UE · Kariera i Edukacja</p>
+    </div>
   </div>
 </section>
 
+
 <script>
-/* ══════════════════════════════════════
-   PARTICLES
-══════════════════════════════════════ */
-(function() {
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  const container = document.getElementById('particles');
-  const colors = ['rgba(16,185,129,.5)','rgba(6,182,212,.4)','rgba(251,191,36,.3)','rgba(5,150,105,.6)'];
-  for (let i = 0; i < 38; i++) {
-    const p = document.createElement('div');
-    p.className = 'particle';
-    const size = 3 + Math.random() * 5;
-    const dx = (Math.random() - .5) * 80;
-    p.style.cssText = `
-      left:${Math.random()*100}%;
-      bottom:${Math.random()*15}%;
-      width:${size}px; height:${size}px;
-      background:${colors[Math.floor(Math.random()*colors.length)]};
-      --dx:${dx}px;
-      animation-delay:${Math.random()*12}s;
-      animation-duration:${10+Math.random()*14}s;
-    `;
-    container.appendChild(p);
-  }
-})();
-
-/* ══════════════════════════════════════
-   INTERSECTION OBSERVER (scroll reveal)
-══════════════════════════════════════ */
+/* ══ INTERSECTION OBSERVER ══ */
 const sections = document.querySelectorAll('.section');
-const dots = document.querySelectorAll('.pdot');
+const dots     = document.querySelectorAll('.pdot');
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      // Update progress dots
-      const id = entry.target.id;
-      dots.forEach(d => d.classList.toggle('active', d.dataset.target === id));
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('vis');
+      const id = e.target.id;
+      dots.forEach(d => d.classList.toggle('active', d.dataset.t === id));
     }
   });
-}, { threshold: .35 });
+}, { threshold: .3 });
 
-sections.forEach(s => observer.observe(s));
+sections.forEach(s => obs.observe(s));
 
-/* ══════════════════════════════════════
-   PROGRESS DOTS CLICK
-══════════════════════════════════════ */
+/* ══ PROGRESS DOTS ══ */
 dots.forEach(d => {
   d.addEventListener('click', () => {
-    document.getElementById(d.dataset.target)?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(d.dataset.t)?.scrollIntoView({ behavior: 'smooth' });
   });
 });
 
-/* ══════════════════════════════════════
-   FLOATING NAV
-══════════════════════════════════════ */
+/* ══ FLOATING NAV ══ */
 const navBtn  = document.getElementById('nav-btn');
 const navMenu = document.getElementById('nav-menu');
 
 navBtn.addEventListener('click', () => {
   const open = navMenu.classList.toggle('open');
   navBtn.classList.toggle('open', open);
-  navBtn.setAttribute('aria-expanded', open);
+  navBtn.setAttribute('aria-expanded', String(open));
 });
 
 document.addEventListener('click', e => {
