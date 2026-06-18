@@ -338,6 +338,39 @@
       .s5-inner { margin-bottom:12vh; }
     }
 
+    /* ══ S3 + S4 CONTRAST FIXES ══ */
+    /* sec-num on colorful water bg needs brighter color + glow */
+    #s3 .sec-num, #s4 .sec-num {
+      color: #4ade80;
+      text-shadow: 0 0 10px rgba(74,222,128,.4);
+    }
+
+    /* headings: ensure they pop off water bg */
+    #s3 h2, #s4 h2 {
+      text-shadow: 0 2px 10px rgba(0,0,0,.85), 0 4px 24px rgba(0,0,0,.5);
+    }
+
+    /* body text: lift to near-white, add shadow for legibility */
+    #s3 p, #s4 .s4-head p {
+      color: #c8ddd6;
+      text-shadow: 0 1px 5px rgba(0,0,0,.7);
+    }
+
+    /* app card text stays fine (dark card bg) but bump adesc */
+    .adesc { color: #9ec9bc; }
+
+    /* "ostatnią milę" quote — was almost invisible (#2D6654 on dark) */
+    #s4 .last-quote {
+      color: #7aada0;
+      text-shadow: 0 1px 4px rgba(0,0,0,.6);
+    }
+    #s4 .last-quote strong { color: var(--em2); }
+
+    /* app cards: slightly more opaque so river colors don't bleed through */
+    #s4 .app-card {
+      background: rgba(1,10,5,.82);
+    }
+
     /* ══ REDUCED MOTION ══ */
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after {
@@ -765,8 +798,8 @@
         </div>
       </div>
 
-      <p class="reveal d4" style="font-size:.8rem;color:var(--text3);font-style:italic;text-align:center;border-left:2px solid rgba(5,150,105,.3);padding-left:1rem;max-width:480px;line-height:1.7">
-        Sama produkcja to dopiero wierzchołek. Prawdziwym wyzwaniem jest mądra sieć dostaw — czyste paliwo musi dotrzeć na <strong style="color:var(--em2)">ostatnią milę</strong>.
+      <p class="reveal d4 last-quote" style="font-size:.8rem;font-style:italic;text-align:center;border-left:2px solid rgba(5,150,105,.3);padding-left:1rem;max-width:480px;line-height:1.7">
+        Sama produkcja to dopiero wierzchołek. Prawdziwym wyzwaniem jest mądra sieć dostaw — czyste paliwo musi dotrzeć na <strong>ostatnią milę</strong>.
       </p>
     </div>
   </div>
