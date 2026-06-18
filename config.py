@@ -19,24 +19,19 @@ bez RSS to już inna sprawa prawnie.
 # Format: (nazwa, url_rss, kategoria)
 # kategoria pomaga w późniejszym filtrowaniu/sortowaniu na dashboardzie
 RSS_SOURCES = [
-    # --- Branżowe media wodorowe ---
-    ("Fuel Cells Works",      "https://fuelcellsworks.com/feed/",                          "news"),
-    ("H2 View",               "https://www.h2-view.com/feed/",                             "news"),
-    ("Hydrogen Central",      "https://hydrogen-central.com/feed/",                        "news"),
-    ("New Hydrogen Economy",  "https://newhydrogeneconomy.com/feed/",                      "news"),
-    ("Recharge News",         "https://www.rechargenews.com/rss",                          "news"),
+    # --- Branżowe media wodorowe (działające) ---
+    ("Fuel Cells Works",      "https://fuelcellsworks.com/feed/",                                                                "news"),
+    ("H2 View",               "https://www.h2-view.com/feed/",                                                                  "news"),
+    ("Hydrogen Central",      "https://hydrogen-central.com/feed/",                                                             "news"),
+    ("Hydrogen Europe",       "https://hydrogeneurope.eu/feed/",                                                                "industry"),
+    ("PV Magazine",           "https://www.pv-magazine.com/feed/",                                                             "news"),
 
-    # --- Instytucje i stowarzyszenia branżowe ---
-    ("Hydrogen Europe",       "https://hydrogeneurope.eu/feed/",                           "industry"),
-    ("Clean Hydrogen JU",     "https://www.clean-hydrogen.europa.eu/news-events/rss_en",   "industry"),
-    ("IRENA",                 "https://www.irena.org/rss/news",                            "industry"),
-
-    # --- Regulacje UE ---
-    ("EUR-Lex Hydrogen",      "https://eur-lex.europa.eu/EN/display-feed.rss",             "regulacja_UE"),
-
-    # --- Energia ogólnie (filtrujemy po keywords) ---
-    ("IEA News",              "https://www.iea.org/feed/news",                             "news"),
-    ("PV Magazine",           "https://www.pv-magazine.com/feed/",                        "news"),
+    # --- Google News RSS (bardzo niezawodne, agregują z wielu źródeł) ---
+    ("Google News: hydrogen EU",       "https://news.google.com/rss/search?q=hydrogen+europe+EU&hl=en&gl=US&ceid=US:en",       "news"),
+    ("Google News: green hydrogen",    "https://news.google.com/rss/search?q=green+hydrogen+electrolyzer&hl=en&gl=US&ceid=US:en", "news"),
+    ("Google News: RFNBO regulation",  "https://news.google.com/rss/search?q=RFNBO+hydrogen+regulation&hl=en&gl=US&ceid=US:en", "regulacja_UE"),
+    ("Google News: hydrogen Poland",   "https://news.google.com/rss/search?q=hydrogen+Poland+wod%C3%B3r&hl=pl&gl=PL&ceid=PL:pl", "polska"),
+    ("Google News: hydrogen investment","https://news.google.com/rss/search?q=hydrogen+investment+GW+MW&hl=en&gl=US&ceid=US:en", "news"),
 ]
 
 # Słowa kluczowe do pierwszego, szybkiego filtrowania (przed wysłaniem do LLM)
