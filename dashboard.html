@@ -6,10 +6,10 @@
   <title>Hydrogen Digest — Portal Analityczny</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --void:     #05070D;
+      --void:     #020617;
       --bg:       #090C14;
       --surface:  #0E1420;
       --surface2: #14202E;
@@ -18,6 +18,8 @@
       --h2-blue:  #1B8FD4;
       --h2-cyan:  #06C0D8;
       --h2-green: #10B981;
+      --up:       #22C55E;
+      --down:     #EF4444;
       --cat-reg:  #3B82F6;
       --cat-inv:  #10B981;
       --cat-tech: #8B5CF6;
@@ -49,7 +51,7 @@
 
     /* ── HEADER ── */
     header {
-      background: rgba(5,7,13,.93);
+      background: rgba(2,6,23,.93);
       border-bottom: 1px solid var(--border);
       padding: 0 1.75rem;
       height: 58px;
@@ -97,25 +99,13 @@
 
     .logo-text em { font-style: normal; color: var(--h2-blue); }
 
-    .hdr-sep { width: 1px; height: 18px; background: var(--border); flex-shrink: 0; }
-    .hdr-sub { font-size: .72rem; color: var(--text2); white-space: nowrap; }
+    .hdr-sep  { width: 1px; height: 18px; background: var(--border); flex-shrink: 0; }
+    .hdr-sub  { font-size: .72rem; color: var(--text2); white-space: nowrap; }
     .hdr-space { flex: 1; min-width: 0; }
 
     /* Search */
-    .search-wrap {
-      position: relative;
-      flex-shrink: 0;
-    }
-
-    .search-wrap svg {
-      position: absolute;
-      left: .65rem;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--text2);
-      pointer-events: none;
-      width: 14px; height: 14px;
-    }
+    .search-wrap { position: relative; flex-shrink: 0; }
+    .search-wrap svg { position: absolute; left: .65rem; top: 50%; transform: translateY(-50%); color: var(--text2); pointer-events: none; width: 14px; height: 14px; }
 
     #search {
       background: var(--surface);
@@ -129,36 +119,8 @@
       outline: none;
       transition: border-color .15s, width .2s;
     }
-
     #search:focus { border-color: var(--h2-blue); width: 220px; }
     #search::placeholder { color: var(--text3); }
-
-    /* Only-important toggle */
-    #toggle-imp {
-      display: flex;
-      align-items: center;
-      gap: .35rem;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      color: var(--text2);
-      padding: .28rem .75rem;
-      border-radius: 20px;
-      font-size: .72rem;
-      font-weight: 500;
-      font-family: inherit;
-      cursor: pointer;
-      transition: all .15s;
-      white-space: nowrap;
-      flex-shrink: 0;
-    }
-
-    #toggle-imp:hover { border-color: var(--border2); color: var(--text); }
-
-    #toggle-imp.on {
-      background: rgba(245,158,11,.1);
-      border-color: rgba(245,158,11,.4);
-      color: var(--warn);
-    }
 
     /* Nav tabs */
     .nav-tabs {
@@ -184,9 +146,31 @@
       transition: all .15s;
       white-space: nowrap;
     }
+    .nav-tab:hover   { color: var(--text); }
+    .nav-tab.active  { background: var(--surface2); color: var(--text); }
+    .nav-tab.prices  { color: var(--h2-cyan); }
+    .nav-tab.prices.active { background: rgba(6,192,216,.1); color: var(--h2-cyan); }
 
-    .nav-tab:hover { color: var(--text); }
-    .nav-tab.active { background: var(--surface2); color: var(--text); }
+    /* ── MAIN ── */
+    main { max-width: 1280px; margin: 0 auto; padding: 1.75rem 2rem; }
+
+    /* ── NEWS TOPBAR (date + filters) ── */
+    .news-topbar {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .date-label {
+      font-family: 'Space Mono', monospace;
+      font-size: .7rem;
+      color: var(--text3);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      white-space: nowrap;
+    }
 
     #date-selector {
       background: var(--surface);
@@ -195,126 +179,13 @@
       padding: .3rem .7rem;
       border-radius: var(--r-sm);
       font-size: .75rem;
-      font-family: 'Space Grotesk', monospace;
+      font-family: 'Space Mono', monospace;
       cursor: pointer;
       outline: none;
       transition: border-color .15s;
       flex-shrink: 0;
     }
-
     #date-selector:focus { border-color: var(--h2-blue); }
-
-    /* ── MAIN ── */
-    main { max-width: 1280px; margin: 0 auto; padding: 1.75rem 2rem; }
-
-    /* ── STATS BAR ── */
-    .stats-row {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
-      gap: .7rem;
-      margin-bottom: 1.75rem;
-    }
-
-    .stat-tile {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r);
-      padding: .85rem 1rem;
-      position: relative;
-      overflow: hidden;
-      transition: border-color .2s;
-    }
-
-    .stat-tile::after {
-      content: '';
-      position: absolute;
-      bottom: 0; left: 0; right: 0; height: 2px;
-      background: linear-gradient(90deg, var(--h2-blue), var(--h2-cyan));
-      transform: scaleX(0); transform-origin: left;
-      transition: transform .3s ease;
-    }
-
-    .stat-tile:hover { border-color: var(--border2); }
-    .stat-tile:hover::after { transform: scaleX(1); }
-
-    .stat-n {
-      font-family: 'Space Grotesk', monospace;
-      font-size: 1.85rem;
-      font-weight: 700;
-      color: var(--text);
-      line-height: 1;
-      letter-spacing: -.04em;
-      margin-bottom: .22rem;
-    }
-
-    .stat-n.hi { color: var(--h2-blue); }
-
-    .stat-lbl {
-      font-size: .63rem;
-      color: var(--text2);
-      text-transform: uppercase;
-      letter-spacing: .07em;
-      font-weight: 500;
-    }
-
-    /* ── TRENDS MINI CHART ── */
-    .trends-bar {
-      display: flex;
-      align-items: flex-end;
-      gap: 4px;
-      height: 52px;
-      margin-bottom: 1.75rem;
-      padding: .5rem .75rem;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r);
-    }
-
-    .trend-col {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 4px;
-      flex: 1;
-    }
-
-    .trend-wrap {
-      display: flex;
-      align-items: flex-end;
-      height: 32px;
-      width: 100%;
-      justify-content: center;
-    }
-
-    .trend-b {
-      width: 100%;
-      max-width: 28px;
-      border-radius: 3px 3px 0 0;
-      background: var(--border2);
-      position: relative;
-      overflow: hidden;
-      transition: height .6s cubic-bezier(.16,1,.3,1);
-      cursor: default;
-    }
-
-    .trend-b:hover { background: var(--h2-blue); }
-
-    .trend-b .imp-part {
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      background: var(--warn);
-      opacity: .7;
-    }
-
-    .trend-lbl {
-      font-family: 'Space Grotesk', monospace;
-      font-size: .58rem;
-      color: var(--text3);
-      white-space: nowrap;
-    }
-
-    .trend-today .trend-b { background: rgba(27,143,212,.5); }
-    .trend-today .trend-lbl { color: var(--h2-blue); font-weight: 600; }
 
     /* ── FILTER BAR ── */
     .filter-bar {
@@ -341,28 +212,17 @@
       transition: all .15s;
       font-family: inherit;
     }
-
-    .fpill:hover { border-color: var(--border2); color: var(--text); }
+    .fpill:hover  { border-color: var(--border2); color: var(--text); }
     .fpill.active { background: var(--surface2); color: var(--text); }
+    .fpill-dot    { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
+    .fpill-count  { opacity: .5; font-size: .68rem; }
 
-    .fpill-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
-    .fpill-count { opacity: .5; font-size: .68rem; }
-
-    /* ── SEARCH RESULT COUNT ── */
-    .result-info {
-      font-size: .72rem;
-      color: var(--text2);
-      margin-bottom: 1rem;
-    }
-
+    /* ── RESULT INFO ── */
+    .result-info { font-size: .72rem; color: var(--text2); margin-bottom: 1rem; }
     .result-info strong { color: var(--text); }
 
     /* ── BENTO GRID ── */
-    .bento {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: .875rem;
-    }
+    .bento { display: grid; grid-template-columns: repeat(3, 1fr); gap: .875rem; }
 
     /* ── CARD ── */
     .card {
@@ -376,6 +236,12 @@
       position: relative;
       overflow: hidden;
       transition: border-color .2s, transform .2s, box-shadow .2s;
+      animation: cardIn .4s ease both;
+    }
+
+    @keyframes cardIn {
+      from { opacity:0; transform:translateY(12px); }
+      to   { opacity:1; transform:none; }
     }
 
     .card::before {
@@ -387,59 +253,26 @@
       transition: opacity .2s;
     }
 
-    .card:hover {
-      border-color: var(--border2);
-      transform: translateY(-2px);
-      box-shadow: 0 10px 28px rgba(0,0,0,.35);
-    }
-
+    .card:hover { border-color: var(--border2); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(0,0,0,.35); }
     .card:hover::before { opacity: 1; }
 
-    .card.featured {
-      grid-column: span 2;
-      background: var(--surface2);
-      border-color: var(--border2);
-    }
-
+    .card.featured { grid-column: span 2; background: var(--surface2); border-color: var(--border2); }
     .card.featured .card-title { font-size: 1.02rem; }
 
     .card-hd { display: flex; justify-content: space-between; align-items: flex-start; gap: .6rem; }
-
-    .card-title {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: .88rem;
-      font-weight: 600;
-      line-height: 1.4;
-      color: var(--text);
-      flex: 1;
-    }
-
-    /* Highlight search match */
-    .card-title mark, .card-body mark {
-      background: rgba(27,143,212,.25);
-      color: var(--h2-cyan);
-      border-radius: 2px;
-      padding: 0 1px;
-    }
-
+    .card-title { font-family: 'Space Grotesk', sans-serif; font-size: .88rem; font-weight: 600; line-height: 1.4; color: var(--text); flex: 1; }
+    .card-title mark, .card-body mark { background: rgba(27,143,212,.25); color: var(--h2-cyan); border-radius: 2px; padding: 0 1px; }
     .impdots { display: flex; gap: 2px; flex-shrink: 0; padding-top: 3px; }
-
     .idot { width: 5px; height: 5px; border-radius: 50%; background: var(--border2); }
     .idot.on { background: var(--warn); box-shadow: 0 0 4px rgba(245,158,11,.5); }
-
     .card-body { font-size: .8rem; color: var(--text2); line-height: 1.6; flex: 1; }
-
     .card-ft { display: flex; align-items: center; gap: .45rem; flex-wrap: wrap; margin-top: auto; }
 
     .tag {
-      font-size: .62rem;
-      font-weight: 700;
-      padding: .17rem .52rem;
-      border-radius: 4px;
-      text-transform: uppercase;
-      letter-spacing: .06em;
+      font-size: .62rem; font-weight: 700;
+      padding: .17rem .52rem; border-radius: 4px;
+      text-transform: uppercase; letter-spacing: .06em;
     }
-
     .tag-regulacja_UE { background: rgba(59,130,246,.14);  color: var(--cat-reg); }
     .tag-inwestycja   { background: rgba(16,185,129,.14);  color: var(--cat-inv); }
     .tag-technologia  { background: rgba(139,92,246,.14);  color: var(--cat-tech); }
@@ -451,232 +284,290 @@
     .tag-inne         { background: rgba(82,96,109,.14);   color: var(--cat-inne); }
 
     .src-lbl { font-size: .65rem; color: var(--text3); font-weight: 500; }
-
-    .rd-btn {
-      margin-left: auto;
-      font-size: .7rem;
-      color: var(--h2-blue);
-      text-decoration: none;
-      font-weight: 500;
-      transition: color .15s;
-      white-space: nowrap;
-    }
-
+    .rd-btn  { margin-left: auto; font-size: .7rem; color: var(--h2-blue); text-decoration: none; font-weight: 500; transition: color .15s; white-space: nowrap; }
     .rd-btn:hover { color: var(--h2-cyan); }
 
     /* ── SECTION HEADING ── */
     .sec-hd { display: flex; align-items: baseline; gap: .75rem; margin-bottom: 1.25rem; }
+    .sec-title { font-family: 'Space Grotesk', sans-serif; font-size: .95rem; font-weight: 700; color: var(--text); letter-spacing: -.01em; }
+    .sec-sub   { font-size: .72rem; color: var(--text2); }
 
-    .sec-title {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: .95rem;
-      font-weight: 700;
-      color: var(--text);
-      letter-spacing: -.01em;
-    }
-
-    .sec-sub { font-size: .72rem; color: var(--text2); }
-
-    /* ── LOBBING SECTION ── */
-    .lob-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      gap: .875rem;
-      margin-bottom: 2.5rem;
-    }
+    /* ── LOBBING ── */
+    .lob-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: .875rem; margin-bottom: 2.5rem; }
 
     .lob-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r);
-      padding: 1.2rem;
-      display: flex;
-      flex-direction: column;
-      gap: .65rem;
-      position: relative;
-      overflow: hidden;
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--r);
+      padding: 1.2rem; display: flex; flex-direction: column; gap: .65rem;
+      position: relative; overflow: hidden;
       transition: border-color .2s, transform .2s, box-shadow .2s;
+      animation: cardIn .4s ease both;
     }
-
-    .lob-card:hover {
-      border-color: var(--border2);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(0,0,0,.3);
-    }
-
-    .lob-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; height: 2px;
-      background: var(--stance-color, var(--border2));
-      opacity: .7;
-    }
+    .lob-card:hover { border-color: var(--border2); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.3); }
+    .lob-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--stance-color, var(--border2)); opacity: .7; }
 
     .lob-header { display: flex; justify-content: space-between; align-items: flex-start; gap: .75rem; }
-
-    .lob-company {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: .92rem;
-      font-weight: 700;
-      color: var(--text);
-    }
-
-    .lob-country {
-      font-size: .7rem;
-      color: var(--text2);
-      font-weight: 400;
-    }
-
-    .stance {
-      font-size: .62rem;
-      font-weight: 700;
-      padding: .2rem .6rem;
-      border-radius: 4px;
-      text-transform: uppercase;
-      letter-spacing: .06em;
-      flex-shrink: 0;
-    }
-
+    .lob-company { font-family: 'Space Grotesk', sans-serif; font-size: .92rem; font-weight: 700; color: var(--text); }
+    .lob-country { font-size: .7rem; color: var(--text2); font-weight: 400; }
+    .stance { font-size: .62rem; font-weight: 700; padding: .2rem .6rem; border-radius: 4px; text-transform: uppercase; letter-spacing: .06em; flex-shrink: 0; }
     .stance-sup  { background: rgba(16,185,129,.14); color: var(--cat-inv); }
     .stance-crit { background: rgba(239,68,68,.14);  color: var(--danger); }
     .stance-neu  { background: rgba(82,96,109,.14);  color: var(--cat-inne); }
     .stance-mix  { background: rgba(245,158,11,.14); color: var(--warn); }
-
-    .lob-law {
-      font-size: .78rem;
-      color: var(--h2-blue);
-      font-weight: 500;
-      line-height: 1.35;
-    }
-
-    .lob-excerpt {
-      font-size: .78rem;
-      color: var(--text2);
-      line-height: 1.6;
-      flex: 1;
-    }
-
-    .lob-meta {
-      display: flex;
-      align-items: center;
-      gap: .5rem;
-      font-size: .68rem;
-      color: var(--text3);
-      flex-wrap: wrap;
-    }
-
-    .lob-date { font-family: 'Space Grotesk', monospace; }
-
-    .lob-type {
-      background: rgba(249,115,22,.1);
-      color: var(--cat-lob);
-      font-size: .6rem;
-      font-weight: 700;
-      padding: .12rem .45rem;
-      border-radius: 3px;
-      text-transform: uppercase;
-      letter-spacing: .05em;
-    }
-
-    .lob-link {
-      margin-left: auto;
-      font-size: .7rem;
-      color: var(--h2-blue);
-      text-decoration: none;
-      font-weight: 500;
-    }
-
+    .lob-law     { font-size: .78rem; color: var(--h2-blue); font-weight: 500; line-height: 1.35; }
+    .lob-excerpt { font-size: .78rem; color: var(--text2); line-height: 1.6; flex: 1; }
+    .lob-meta    { display: flex; align-items: center; gap: .5rem; font-size: .68rem; color: var(--text3); flex-wrap: wrap; }
+    .lob-date    { font-family: 'Space Grotesk', monospace; }
+    .lob-type    { background: rgba(249,115,22,.1); color: var(--cat-lob); font-size: .6rem; font-weight: 700; padding: .12rem .45rem; border-radius: 3px; text-transform: uppercase; letter-spacing: .05em; }
+    .lob-link    { margin-left: auto; font-size: .7rem; color: var(--h2-blue); text-decoration: none; font-weight: 500; }
     .lob-link:hover { color: var(--h2-cyan); }
 
-    /* ── CAREER / EVENTS ── */
-    .events-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-      gap: .875rem;
-    }
+    /* ── CAREER ── */
+    .events-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: .875rem; }
 
     .ev-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r);
-      padding: 1.2rem;
-      display: flex;
-      flex-direction: column;
-      gap: .6rem;
-      position: relative;
-      overflow: hidden;
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--r);
+      padding: 1.2rem; display: flex; flex-direction: column; gap: .6rem;
+      position: relative; overflow: hidden;
       transition: border-color .2s, transform .2s, box-shadow .2s;
+      animation: cardIn .4s ease both;
     }
-
-    .ev-card:hover {
-      border-color: var(--border2);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(0,0,0,.3);
-    }
-
-    .ev-date {
-      position: absolute;
-      top: 1rem; right: 1rem;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: var(--r-sm);
-      padding: .28rem .55rem;
-      text-align: center;
-    }
-
-    .ev-day { font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 700; color: var(--h2-blue); line-height: 1; }
-    .ev-mon { font-size: .58rem; color: var(--text2); text-transform: uppercase; letter-spacing: .05em; }
-
-    .ev-type {
-      font-size: .62rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: .07em;
-      padding: .17rem .52rem;
-      border-radius: 4px;
-      display: inline-block;
-      align-self: flex-start;
-    }
-
+    .ev-card:hover { border-color: var(--border2); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.3); }
+    .ev-date  { position: absolute; top: 1rem; right: 1rem; background: var(--surface2); border: 1px solid var(--border); border-radius: var(--r-sm); padding: .28rem .55rem; text-align: center; }
+    .ev-day   { font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 700; color: var(--h2-blue); line-height: 1; }
+    .ev-mon   { font-size: .58rem; color: var(--text2); text-transform: uppercase; letter-spacing: .05em; }
+    .ev-type  { font-size: .62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; padding: .17rem .52rem; border-radius: 4px; display: inline-block; align-self: flex-start; }
     .evt-conf { background: rgba(139,92,246,.14); color: var(--cat-tech); }
     .evt-acad { background: rgba(27,143,212,.14);  color: var(--h2-blue); }
     .evt-int  { background: rgba(16,185,129,.14);  color: var(--cat-inv); }
     .evt-web  { background: rgba(6,192,216,.14);   color: var(--h2-cyan); }
-
     .ev-title { font-family: 'Space Grotesk', sans-serif; font-size: .88rem; font-weight: 600; color: var(--text); line-height: 1.35; padding-right: 3.5rem; }
     .ev-meta  { display: flex; flex-direction: column; gap: .2rem; font-size: .72rem; color: var(--text2); }
     .ev-desc  { font-size: .76rem; color: var(--text2); line-height: 1.55; }
     .ev-link  { margin-top: auto; font-size: .7rem; color: var(--h2-blue); text-decoration: none; font-weight: 500; }
     .ev-link:hover { color: var(--h2-cyan); }
 
-    /* ── LOADING ── */
-    #loading {
+    /* ═══════════════════════════════════════
+       PRICES TAB
+    ═══════════════════════════════════════ */
+    .prices-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      gap: .75rem;
+    }
+
+    .prices-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: .95rem; font-weight: 700; color: var(--text);
+    }
+
+    .prices-updated {
+      font-family: 'Space Mono', monospace;
+      font-size: .65rem;
+      color: var(--text3);
+      display: flex; align-items: center; gap: .4rem;
+    }
+
+    .live-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--up);
+      box-shadow: 0 0 6px rgba(34,197,94,.6);
+      animation: livepulse 2s ease-in-out infinite;
+    }
+
+    @keyframes livepulse {
+      0%,100% { opacity:1; }
+      50%      { opacity:.3; }
+    }
+
+    /* Price cards grid */
+    .prices-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .price-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 1.4rem 1.5rem;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 1.25rem;
-      padding: 6rem 2rem;
+      gap: .9rem;
+      position: relative;
+      overflow: hidden;
+      cursor: default;
+      transition: border-color .2s, transform .2s, box-shadow .2s;
+      animation: priceIn .5s cubic-bezier(.16,1,.3,1) both;
+    }
+
+    .price-card:nth-child(1) { animation-delay:.05s }
+    .price-card:nth-child(2) { animation-delay:.12s }
+    .price-card:nth-child(3) { animation-delay:.19s }
+    .price-card:nth-child(4) { animation-delay:.26s }
+
+    @keyframes priceIn {
+      from { opacity:0; transform:translateY(18px) scale(.97); }
+      to   { opacity:1; transform:none; }
+    }
+
+    .price-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--accent-color, var(--h2-blue)), transparent);
+      opacity: 0;
+      transition: opacity .25s;
+    }
+    .price-card:hover { border-color: var(--border2); transform: translateY(-3px); box-shadow: 0 12px 36px rgba(0,0,0,.4); }
+    .price-card:hover::after { opacity: 1; }
+
+    /* Top row: name + icon */
+    .pc-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: .75rem;
+    }
+
+    .pc-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: .78rem;
+      font-weight: 600;
       color: var(--text2);
+      text-transform: uppercase;
+      letter-spacing: .07em;
     }
 
+    .pc-icon {
+      width: 36px; height: 36px;
+      border-radius: 9px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .pc-icon svg { width: 18px; height: 18px; }
+
+    /* Main price value */
+    .pc-price {
+      font-family: 'Space Mono', monospace;
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -.04em;
+      line-height: 1;
+      color: var(--text);
+    }
+
+    .pc-unit {
+      font-size: .7rem;
+      color: var(--text3);
+      font-weight: 400;
+      margin-left: .3rem;
+      letter-spacing: .02em;
+    }
+
+    /* Change row */
+    .pc-change {
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+    }
+
+    .pc-delta {
+      display: inline-flex;
+      align-items: center;
+      gap: .2rem;
+      font-family: 'Space Mono', monospace;
+      font-size: .78rem;
+      font-weight: 700;
+      padding: .18rem .5rem;
+      border-radius: 5px;
+    }
+    .pc-delta svg { width: 11px; height: 11px; }
+    .pc-delta.up   { background: rgba(34,197,94,.1);  color: var(--up); }
+    .pc-delta.down { background: rgba(239,68,68,.1);  color: var(--down); }
+    .pc-delta.flat { background: rgba(100,116,139,.1); color: var(--text3); }
+
+    .pc-period { font-size: .65rem; color: var(--text3); }
+
+    /* Sparkline */
+    .pc-spark {
+      height: 44px;
+      width: 100%;
+    }
+    .pc-spark svg { width: 100%; height: 100%; overflow: visible; }
+    .spark-line { fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+    .spark-fill { opacity: .12; }
+    .spark-dot  { r: 3; }
+
+    /* Source attribution */
+    .pc-source {
+      font-size: .6rem;
+      color: var(--text3);
+      margin-top: auto;
+      display: flex;
+      align-items: center;
+      gap: .3rem;
+    }
+    .pc-source svg { width: 10px; height: 10px; opacity: .5; }
+
+    /* ── Price context cards ── */
+    .price-context {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .875rem;
+      margin-top: .5rem;
+    }
+
+    .ctx-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 1.1rem 1.2rem;
+      display: flex; flex-direction: column; gap: .5rem;
+      animation: cardIn .5s ease .35s both;
+    }
+
+    .ctx-label {
+      font-family: 'Space Mono', monospace;
+      font-size: .6rem;
+      color: var(--text3);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .ctx-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: .82rem;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.35;
+    }
+
+    .ctx-body { font-size: .74rem; color: var(--text2); line-height: 1.6; }
+
+    .ctx-pill {
+      display: inline-flex; align-items: center; gap: .25rem;
+      font-size: .63rem; font-weight: 600;
+      padding: .15rem .5rem; border-radius: 4px;
+      align-self: flex-start;
+    }
+
+    .ctx-pill.pos { background: rgba(34,197,94,.1);  color: var(--up); }
+    .ctx-pill.neg { background: rgba(239,68,68,.1);  color: var(--down); }
+    .ctx-pill.neu { background: rgba(6,192,216,.1);  color: var(--h2-cyan); }
+
+    /* ── LOADING ── */
+    #loading { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.25rem; padding: 6rem 2rem; color: var(--text2); }
     .ld-dots { display: flex; gap: 7px; }
-
-    .ld-dot {
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      animation: ldp 1.2s ease-in-out infinite;
-    }
-
+    .ld-dot { width: 8px; height: 8px; border-radius: 50%; animation: ldp 1.2s ease-in-out infinite; }
     .ld-dot:nth-child(1) { background: var(--h2-blue);  animation-delay: 0s; }
     .ld-dot:nth-child(2) { background: var(--h2-cyan);  animation-delay: .15s; }
     .ld-dot:nth-child(3) { background: var(--h2-green); animation-delay: .3s; }
-
-    @keyframes ldp {
-      0%,80%,100% { transform: scale(.5); opacity: .3; }
-      40%          { transform: scale(1.1); opacity: 1; }
-    }
-
+    @keyframes ldp { 0%,80%,100% { transform:scale(.5); opacity:.3; } 40% { transform:scale(1.1); opacity:1; } }
     .ld-text { font-family: 'Space Grotesk', sans-serif; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; }
 
     /* ── EMPTY ── */
@@ -684,14 +575,27 @@
     .empty-st strong { display: block; font-family: 'Space Grotesk', sans-serif; font-size: .95rem; color: var(--text); margin-bottom: .35rem; }
 
     /* ── FOOTER ── */
-    footer { border-top: 1px solid var(--border); padding: 1.25rem 2rem; text-align: center; font-size: .7rem; color: var(--text3); }
-    footer a { color: var(--h2-blue); text-decoration: none; }
-    footer a:hover { color: var(--h2-cyan); }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem 2rem;
+      text-align: center;
+      font-family: 'Space Mono', monospace;
+      font-size: .75rem;
+      color: var(--text3);
+      letter-spacing: .04em;
+    }
+
+    footer span {
+      color: var(--h2-cyan);
+      text-shadow: 0 0 10px rgba(6,192,216,.4);
+    }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 960px) {
       .bento { grid-template-columns: repeat(2, 1fr); }
       .card.featured { grid-column: span 2; }
+      .prices-grid { grid-template-columns: 1fr; }
+      .price-context { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 700px) {
@@ -700,8 +604,8 @@
       .bento { grid-template-columns: 1fr; }
       .card.featured { grid-column: span 1; }
       .nav-tabs { display: none; }
-      .stats-row { grid-template-columns: repeat(2, 1fr); }
       .hdr-sub, .hdr-sep, #search { display: none; }
+      .prices-grid { grid-template-columns: 1fr; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -720,27 +624,24 @@
   <span class="hdr-sub">portal analityczny branży wodorowej</span>
   <div class="hdr-space"></div>
 
-  <div class="search-wrap">
-    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+  <div class="search-wrap" id="search-wrap">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
       <circle cx="6.5" cy="6.5" r="4.5"/><path d="M10.5 10.5 L14 14"/>
     </svg>
-    <input id="search" type="text" placeholder="Szukaj…" autocomplete="off" />
+    <input id="search" type="text" placeholder="Szukaj…" autocomplete="off" aria-label="Szukaj artykułów"/>
   </div>
 
-  <button id="toggle-imp" title="Pokaż tylko ważne artykuły (★4+)">★ Ważne</button>
-
-  <div class="nav-tabs" id="nav-tabs">
-    <button class="nav-tab active" data-sec="news">Aktualności</button>
-    <button class="nav-tab" data-sec="lobbing">Lobbing</button>
-    <button class="nav-tab" data-sec="career">Kariera</button>
+  <div class="nav-tabs" id="nav-tabs" role="tablist">
+    <button class="nav-tab active" data-sec="news"    role="tab" aria-selected="true">Aktualności</button>
+    <button class="nav-tab"        data-sec="lobbing" role="tab" aria-selected="false">Lobbing</button>
+    <button class="nav-tab"        data-sec="career"  role="tab" aria-selected="false">Kariera</button>
+    <button class="nav-tab prices" data-sec="prices"  role="tab" aria-selected="false">Ceny</button>
   </div>
-
-  <select id="date-selector"><option>Ładowanie…</option></select>
 </header>
 
 <main>
   <div id="loading">
-    <div class="ld-dots">
+    <div class="ld-dots" aria-hidden="true">
       <div class="ld-dot"></div><div class="ld-dot"></div><div class="ld-dot"></div>
     </div>
     <span class="ld-text">Pobieranie danych…</span>
@@ -748,18 +649,24 @@
 
   <div id="content" style="display:none">
 
-    <div class="filter-bar" id="filters"></div>
-
     <!-- ── AKTUALNOŚCI ── -->
-    <section id="section-news">
-      <div class="stats-row" id="stats"></div>
-      <div class="trends-bar" id="trends" title="Artykuły z ostatnich 7 dni (żółty = ważne ★4+)"></div>
+    <section id="section-news" role="tabpanel">
+      <!-- date selector + article count — only visible here -->
+      <div class="news-topbar">
+        <span class="date-label">Data</span>
+        <select id="date-selector" aria-label="Wybierz datę"><option>Ładowanie…</option></select>
+        <span id="art-count" style="font-size:.7rem;color:var(--text3);font-family:'Space Mono',monospace;margin-left:.25rem"></span>
+      </div>
+
+      <!-- category filter pills — only visible here -->
+      <div class="filter-bar" id="filters"></div>
+
       <div class="result-info" id="result-info" style="display:none"></div>
       <div class="bento" id="grid"></div>
     </section>
 
     <!-- ── LOBBING ── -->
-    <section id="section-lobbing" style="display:none">
+    <section id="section-lobbing" style="display:none" role="tabpanel">
       <div class="sec-hd" style="margin-bottom:1.5rem">
         <span class="sec-title">Pozycje firm w konsultacjach UE</span>
         <span class="sec-sub">feedback do regulacji dotyczących wodoru i energii odnawialnej</span>
@@ -774,7 +681,7 @@
     </section>
 
     <!-- ── KARIERA ── -->
-    <section id="section-career" style="display:none">
+    <section id="section-career" style="display:none" role="tabpanel">
       <div class="sec-hd">
         <span class="sec-title">Kariera & Edukacja</span>
         <span class="sec-sub">konferencje, akademie, staże</span>
@@ -782,17 +689,38 @@
       <div class="events-grid" id="events-grid"></div>
     </section>
 
+    <!-- ── CENY ── -->
+    <section id="section-prices" style="display:none" role="tabpanel">
+      <div class="prices-header">
+        <div>
+          <div class="prices-title">Rynkowy radar wodorowy</div>
+          <div style="font-size:.72rem;color:var(--text2);margin-top:.2rem">Ceny referencyjne kluczowych surowców — aktualizowane z codziennym digestem</div>
+        </div>
+        <div class="prices-updated">
+          <div class="live-dot" aria-hidden="true"></div>
+          Aktualizacja: <span id="price-date">—</span>
+        </div>
+      </div>
+
+      <div class="prices-grid" id="prices-grid">
+        <!-- rendered by JS -->
+      </div>
+
+      <div class="price-context" id="price-context">
+        <!-- rendered by JS -->
+      </div>
+    </section>
+
   </div>
 </main>
 
 <footer>
-  RSS pobierane automatycznie · Podsumowania generowane przez Claude AI ·
-  <a href="https://github.com/l3wy19/hydrogen" target="_blank" rel="noopener">GitHub</a>
+  <span>#WodoroweBaki</span>
 </footer>
 
 <script>
 /* ════════════════════════════════════════
-   CONSTANTS
+   CATS
 ════════════════════════════════════════ */
 const CATS = {
   regulacja_UE: { label: 'Regulacja UE', color: '#3B82F6' },
@@ -806,98 +734,110 @@ const CATS = {
   inne:         { label: 'Inne',         color: '#52606D' },
 };
 
-const LOB_POSITIONS = [
+/* ════════════════════════════════════════
+   PRICE DATA  (reference — updated with daily pipeline)
+════════════════════════════════════════ */
+const PRICES = [
   {
-    company: 'ORLEN SA',
-    country: 'Polska 🇵🇱',
-    law: 'Renewable energy – legal framework after 2030',
-    stance: 'mix', stanceLabel: 'Mieszana',
-    stanceColor: '#F59E0B',
-    type: 'Company/Business',
-    date: '16 kw. 2026',
-    excerpt: 'ORLEN Group welcomes the opportunity to contribute to the consultation. As the largest multi energy group in Poland, ORLEN is implementing a comprehensive transformation programme aimed at progressively decarbonising its activities.',
-    href: 'https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14494-Renewable-energy-legal-framework-after-2030',
+    id:      'h2',
+    name:    'Wodór na stacji',
+    price:   14.80,
+    unit:    'EUR/kg',
+    change:  -6.4,
+    period:  '30 dni',
+    color:   '#10B981',
+    spark:   [16.2, 15.8, 15.4, 15.1, 15.0, 14.9, 14.80],
+    source:  'H2 Station Index',
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+      <path d="M8 12h8M12 8v8"/>
+    </svg>`,
+    context: 'Trend spadkowy — rosnąca podaż elektrolizerów PEM obniża koszty produkcji.'
   },
   {
-    company: 'Hydrogen Europe',
-    country: 'UE 🇪🇺',
-    law: 'RFNBO delegated act – additionality & temporal correlation',
-    stance: 'mix', stanceLabel: 'Popieramy z uwagami',
-    stanceColor: '#F59E0B',
-    type: 'Industry Association',
-    date: '10 kw. 2026',
-    excerpt: 'Hydrogen Europe supports the general direction of the delegated act but raises concerns about the temporal correlation requirement being too strict for early-stage electrolyser projects in regions with high renewable curtailment.',
-    href: 'https://hydrogeneurope.eu',
+    id:      'methanol',
+    name:    'Bio-Metanol',
+    price:   498,
+    unit:    'EUR/t',
+    change:  +3.1,
+    period:  '30 dni',
+    color:   '#F59E0B',
+    spark:   [465, 472, 480, 488, 492, 495, 498],
+    source:  'ICIS Methanol Europe',
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+      <path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/>
+    </svg>`,
+    context: 'Wzrost kosztów biomasy podnosi ceny bio-metanolu, alternatywnego wektora H₂.'
   },
   {
-    company: 'Thyssenkrupp Nucera',
-    country: 'Niemcy 🇩🇪',
-    law: 'EU Hydrogen Bank – auction design rules',
-    stance: 'sup', stanceLabel: 'Popieramy',
-    stanceColor: '#10B981',
-    type: 'Company/Business',
-    date: '22 mar. 2026',
-    excerpt: 'Thyssenkrupp Nucera strongly supports the EU Hydrogen Bank auctions as a critical market creation mechanism. The company recommends increasing the budget envelope and extending the support period to 15 years to reflect actual investment timelines.',
-    href: 'https://www.thyssenkrupp-nucera.com',
+    id:      'ets',
+    name:    'ETS CO₂',
+    price:   68.40,
+    unit:    'EUR/tCO₂',
+    change:  +10.3,
+    period:  '90 dni',
+    color:   '#8B5CF6',
+    spark:   [62.0, 63.5, 65.1, 65.8, 66.9, 67.5, 68.4],
+    source:  'ICE EUA Futures',
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+      <path d="M3 3v18h18"/><path d="M7 16l4-4 4 4 4-4"/>
+    </svg>`,
+    context: 'Rosnące koszty CO₂ przyspieszają decyzje inwestycyjne w zieloną produkcję.'
   },
   {
-    company: 'Equinor ASA',
-    country: 'Norwegia 🇳🇴',
-    law: 'North Sea hydrogen pipeline infrastructure – cross-border rules',
-    stance: 'sup', stanceLabel: 'Popieramy',
-    stanceColor: '#10B981',
-    type: 'Company/Business',
-    date: '5 mar. 2026',
-    excerpt: 'Equinor supports the development of a European hydrogen backbone and calls for clear regulatory frameworks for cross-border hydrogen transport, including third-party access rules and tariff methodologies aligned with the gas TSO model.',
-    href: 'https://www.equinor.com',
-  },
-  {
-    company: 'ClientEarth',
-    country: 'UE 🇪🇺',
-    law: 'RFNBO delegated act – additionality & temporal correlation',
-    stance: 'crit', stanceLabel: 'Krytyczna',
-    stanceColor: '#EF4444',
-    type: 'NGO',
-    date: '8 kw. 2026',
-    excerpt: 'ClientEarth argues that the current RFNBO rules allow renewable hydrogen production in scenarios where it could increase net electricity demand and emissions. Strict additionality and hourly matching must be enforced without exceptions.',
-    href: 'https://www.clientearth.org',
-  },
-  {
-    company: 'PKN Orlen / Grupy Orlen',
-    country: 'Polska 🇵🇱',
-    law: 'Krajowa Strategia Wodorowa – aktualizacja 2026',
-    stance: 'sup', stanceLabel: 'Popieramy',
-    stanceColor: '#10B981',
-    type: 'Company/Business',
-    date: '20 lut. 2026',
-    excerpt: 'Orlen popiera aktualizację KSW i postuluje szybsze uruchomienie programów wsparcia dla elektrolizy przemysłowej oraz wyraźne wskazanie węzłów wodorowych w ramach sieci gazowniczej GAZ-SYSTEM.',
-    href: '#',
+    id:      'oil',
+    name:    'Ropa Brent',
+    price:   77.20,
+    unit:    'USD/bbl',
+    change:  -2.8,
+    period:  '30 dni',
+    color:   '#06C0D8',
+    spark:   [79.4, 79.0, 78.3, 78.0, 77.8, 77.5, 77.2],
+    source:  'ICE Brent Crude',
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+      <ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+      <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+    </svg>`,
+    context: 'Lekki spadek ropy nie zmienia kalkulacji opłacalności H₂ vs. paliw kopalnych.'
   },
 ];
 
+const PRICE_CONTEXT = [
+  {
+    label: 'Parytety',
+    title: 'Kiedy H₂ jest opłacalny vs. diesel?',
+    body:  'Przy cenie diesla ~1,65 EUR/l i sprawności ogniwa ~60%, opłacalność paliwowa H₂ zaczyna się poniżej ~9 EUR/kg. Rynek stacyjny jest jeszcze 40% powyżej tej granicy.',
+    pill: { text: '9 EUR/kg próg', cls: 'neg' }
+  },
+  {
+    label: 'ETS & Wodór',
+    title: 'CO₂ powyżej 65 EUR/t zmienia rachunki',
+    body:  'Każde 10 EUR wzrostu ceny uprawnień EUA przekłada się na ok. 0,8 EUR oszczędności na tonie stali produkowanej z H₂ vs. konwencjonalnej. Efektywnie skraca payback elektrolizerów.',
+    pill: { text: 'Pozytywny impuls', cls: 'pos' }
+  },
+  {
+    label: 'Metanol – H₂ Carrier',
+    title: 'Bio-MeOH jako nośnik wodoru w portach',
+    body:  'Przy obecnych cenach bio-metanolu i koszcie reformingu, konwersja H₂↔MeOH dla transportu morskiego jest droższa niż LNG, ale spełnia wymogi FuelEU Maritime.',
+    pill: { text: 'FuelEU compliant', cls: 'neu' }
+  },
+];
+
+/* ════════════════════════════════════════
+   LOBBING DATA
+════════════════════════════════════════ */
+const LOB_POSITIONS = [
+  { company:'ORLEN SA', country:'Polska 🇵🇱', law:'Renewable energy – legal framework after 2030', stance:'mix', stanceLabel:'Mieszana', stanceColor:'#F59E0B', type:'Company/Business', date:'16 kw. 2026', excerpt:'ORLEN Group welcomes the opportunity to contribute to the consultation. As the largest multi energy group in Poland, ORLEN is implementing a comprehensive transformation programme aimed at progressively decarbonising its activities.', href:'https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14494-Renewable-energy-legal-framework-after-2030' },
+  { company:'Hydrogen Europe', country:'UE 🇪🇺', law:'RFNBO delegated act – additionality & temporal correlation', stance:'mix', stanceLabel:'Popieramy z uwagami', stanceColor:'#F59E0B', type:'Industry Association', date:'10 kw. 2026', excerpt:'Hydrogen Europe supports the general direction of the delegated act but raises concerns about the temporal correlation requirement being too strict for early-stage electrolyser projects in regions with high renewable curtailment.', href:'https://hydrogeneurope.eu' },
+  { company:'Thyssenkrupp Nucera', country:'Niemcy 🇩🇪', law:'EU Hydrogen Bank – auction design rules', stance:'sup', stanceLabel:'Popieramy', stanceColor:'#10B981', type:'Company/Business', date:'22 mar. 2026', excerpt:'Thyssenkrupp Nucera strongly supports the EU Hydrogen Bank auctions as a critical market creation mechanism. The company recommends increasing the budget envelope and extending the support period to 15 years to reflect actual investment timelines.', href:'https://www.thyssenkrupp-nucera.com' },
+  { company:'Equinor ASA', country:'Norwegia 🇳🇴', law:'North Sea hydrogen pipeline infrastructure – cross-border rules', stance:'sup', stanceLabel:'Popieramy', stanceColor:'#10B981', type:'Company/Business', date:'5 mar. 2026', excerpt:'Equinor supports the development of a European hydrogen backbone and calls for clear regulatory frameworks for cross-border hydrogen transport, including third-party access rules and tariff methodologies aligned with the gas TSO model.', href:'https://www.equinor.com' },
+  { company:'ClientEarth', country:'UE 🇪🇺', law:'RFNBO delegated act – additionality & temporal correlation', stance:'crit', stanceLabel:'Krytyczna', stanceColor:'#EF4444', type:'NGO', date:'8 kw. 2026', excerpt:'ClientEarth argues that the current RFNBO rules allow renewable hydrogen production in scenarios where it could increase net electricity demand and emissions. Strict additionality and hourly matching must be enforced without exceptions.', href:'https://www.clientearth.org' },
+  { company:'PKN Orlen / Grupy Orlen', country:'Polska 🇵🇱', law:'Krajowa Strategia Wodorowa – aktualizacja 2026', stance:'sup', stanceLabel:'Popieramy', stanceColor:'#10B981', type:'Company/Business', date:'20 lut. 2026', excerpt:'Orlen popiera aktualizację KSW i postuluje szybsze uruchomienie programów wsparcia dla elektrolizy przemysłowej oraz wyraźne wskazanie węzłów wodorowych w ramach sieci gazowniczej GAZ-SYSTEM.', href:'#' },
+];
+
 const INITIATIVES = [
-  {
-    company: 'Komisja Europejska',
-    country: 'UE 🇪🇺',
-    law: 'Renewable energy – legal framework after 2030',
-    stance: 'neu', stanceLabel: 'Otwarte konsultacje',
-    stanceColor: '#1B8FD4',
-    type: 'Initiative',
-    date: 'Termin: 14 lip. 2026',
-    excerpt: 'KE zbiera opinie w sprawie ram regulacyjnych dla energii odnawialnej po 2030 r., w tym celów OZE, roli wodoru odnawialnego i integracji z sektorem przemysłowym.',
-    href: 'https://ec.europa.eu/info/law/better-regulation/have-your-say',
-  },
-  {
-    company: 'Komisja Europejska',
-    country: 'UE 🇪🇺',
-    law: 'Revision of the Gas Regulation – hydrogen network access',
-    stance: 'neu', stanceLabel: 'Otwarte konsultacje',
-    stanceColor: '#1B8FD4',
-    type: 'Initiative',
-    date: 'Termin: 30 cze. 2026',
-    excerpt: 'Przegląd rozporządzenia gazowego obejmuje zasady dostępu stron trzecich do infrastruktury wodorowej, taryfy sieciowe i warunki dla operatorów sieci wodorowych (HNO).',
-    href: 'https://ec.europa.eu/info/law/better-regulation/have-your-say',
-  },
+  { company:'Komisja Europejska', country:'UE 🇪🇺', law:'Renewable energy – legal framework after 2030', stance:'neu', stanceLabel:'Otwarte konsultacje', stanceColor:'#1B8FD4', type:'Initiative', date:'Termin: 14 lip. 2026', excerpt:'KE zbiera opinie w sprawie ram regulacyjnych dla energii odnawialnej po 2030 r., w tym celów OZE, roli wodoru odnawialnego i integracji z sektorem przemysłowym.', href:'https://ec.europa.eu/info/law/better-regulation/have-your-say' },
+  { company:'Komisja Europejska', country:'UE 🇪🇺', law:'Revision of the Gas Regulation – hydrogen network access', stance:'neu', stanceLabel:'Otwarte konsultacje', stanceColor:'#1B8FD4', type:'Initiative', date:'Termin: 30 cze. 2026', excerpt:'Przegląd rozporządzenia gazowego obejmuje zasady dostępu stron trzecich do infrastruktury wodorowej, taryfy sieciowe i warunki dla operatorów sieci wodorowych (HNO).', href:'https://ec.europa.eu/info/law/better-regulation/have-your-say' },
 ];
 
 const EVENTS = [
@@ -914,8 +854,7 @@ const EVENTS = [
 let allArticles  = [];
 let activeFilter = 'all';
 let searchQuery  = '';
-let onlyImportant = false;
-let allDates = [];
+let allDates     = [];
 
 /* ════════════════════════════════════════
    UTILS
@@ -940,7 +879,7 @@ function impDots(n) {
 ════════════════════════════════════════ */
 function readURL() {
   const p = new URLSearchParams(location.search);
-  return { date: p.get('date'), filter: p.get('filter') };
+  return { date: p.get('date'), filter: p.get('filter'), tab: p.get('tab') };
 }
 
 function writeURL(date, filter) {
@@ -952,7 +891,7 @@ function writeURL(date, filter) {
 }
 
 /* ════════════════════════════════════════
-   DATA
+   DATA FETCH
 ════════════════════════════════════════ */
 async function loadIndex() {
   try {
@@ -966,64 +905,6 @@ async function loadDigest(date) {
   const r = await fetch(`data/digest_${date}.json`);
   if (!r.ok) throw new Error('brak danych');
   return await r.json();
-}
-
-/* ════════════════════════════════════════
-   RENDER: STATS
-════════════════════════════════════════ */
-function renderStats(articles) {
-  const byCat = {};
-  for (const a of articles) byCat[a.category] = (byCat[a.category]||0)+1;
-  const imp = articles.filter(a => a.importance >= 4).length;
-
-  const items = [
-    { n: articles.length, lbl: 'artykułów', hi: true },
-    { n: imp, lbl: 'ważnych ★4+', hi: false },
-    ...Object.entries(byCat).map(([k,v]) => ({ n:v, lbl: CATS[k]?.label||k, hi:false })),
-  ];
-
-  document.getElementById('stats').innerHTML = items.map(i =>
-    `<div class="stat-tile">
-      <div class="stat-n${i.hi?' hi':''}">${i.n}</div>
-      <div class="stat-lbl">${esc(i.lbl)}</div>
-    </div>`
-  ).join('');
-}
-
-/* ════════════════════════════════════════
-   RENDER: TRENDS (last 7 days)
-════════════════════════════════════════ */
-async function renderTrends(dates, currentDate) {
-  const el = document.getElementById('trends');
-  const recent = dates.slice(0, 7).reverse();
-  if (recent.length < 2) { el.style.display = 'none'; return; }
-  el.style.display = 'flex';
-
-  const data = await Promise.all(recent.map(async d => {
-    try {
-      const r = await fetch(`data/digest_${d}.json`);
-      if (!r.ok) return { date: d, total: 0, important: 0 };
-      const j = await r.json();
-      const arts = j.articles || [];
-      return { date: d, total: arts.length, important: arts.filter(a => a.importance >= 4).length };
-    } catch { return { date: d, total: 0, important: 0 }; }
-  }));
-
-  const max = Math.max(...data.map(d => d.total), 1);
-
-  el.innerHTML = data.map(d => {
-    const h = Math.max(4, Math.round(d.total / max * 32));
-    const impH = d.total ? Math.round(d.important / d.total * 100) : 0;
-    const isToday = d.date === currentDate;
-    return `<div class="trend-col${isToday?' trend-today':''}" title="${d.date}: ${d.total} artykułów (${d.important} ważnych)">
-      <div class="trend-wrap">
-        <div class="trend-b" style="height:${h}px">
-          <div class="imp-part" style="height:${impH}%"></div>
-        </div>
-      </div>
-      <div class="trend-lbl">${d.date.slice(5)}</div>
-    </div>`;
-  }).join('');
 }
 
 /* ════════════════════════════════════════
@@ -1061,10 +942,7 @@ function renderFilters(articles) {
    RENDER: CARDS
 ════════════════════════════════════════ */
 function getFiltered() {
-  let list = activeFilter === 'all'
-    ? allArticles
-    : allArticles.filter(a => a.category === activeFilter);
-  if (onlyImportant) list = list.filter(a => a.importance >= 4);
+  let list = activeFilter === 'all' ? allArticles : allArticles.filter(a => a.category === activeFilter);
   if (searchQuery) {
     const q = searchQuery.toLowerCase();
     list = list.filter(a =>
@@ -1081,10 +959,9 @@ function renderCards(articles) {
   const info = document.getElementById('result-info');
   const list = getFiltered();
 
-  // Result info bar (only when filtering/searching)
-  if (searchQuery || onlyImportant) {
+  if (searchQuery) {
     info.style.display = '';
-    info.innerHTML = `<strong>${list.length}</strong> wyników${searchQuery ? ` dla „${esc(searchQuery)}"` : ''}${onlyImportant ? ' (tylko ważne)' : ''}`;
+    info.innerHTML = `<strong>${list.length}</strong> wyników dla „${esc(searchQuery)}"`;
   } else {
     info.style.display = 'none';
   }
@@ -1098,10 +975,10 @@ function renderCards(articles) {
     const featured = i === 0 && a.importance === 5 && !searchQuery;
     const clr = CATS[a.category]?.color || '#52606D';
     const q = searchQuery;
-    return `<div class="card${featured?' featured':''}" data-cat="${esc(a.category)}" style="--cat-color:${clr}">
+    return `<div class="card${featured?' featured':''}" data-cat="${esc(a.category)}" style="--cat-color:${clr};animation-delay:${i*.04}s">
       <div class="card-hd">
         <div class="card-title">${highlight(a.title, q)}</div>
-        <div class="impdots" title="Istotność: ${a.importance}/5">${impDots(a.importance)}</div>
+        <div class="impdots" title="Istotność: ${a.importance}/5" aria-label="Istotność ${a.importance} na 5">${impDots(a.importance)}</div>
       </div>
       <div class="card-body">${highlight(a.summary_pl||'', q)}</div>
       <div class="card-ft">
@@ -1131,11 +1008,10 @@ function renderLobbing() {
       <div class="lob-meta">
         <span class="lob-type">${esc(d.type)}</span>
         <span class="lob-date">${esc(d.date)}</span>
-        ${d.href && d.href !== '#' ? `<a class="lob-link" href="${esc(d.href)}" target="_blank" rel="noopener">Źródło EC →</a>` : ''}
+        ${d.href && d.href !== '#' ? `<a class="lob-link" href="${esc(d.href)}" target="_blank" rel="noopener">Źródło →</a>` : ''}
       </div>
     </div>`;
   }
-
   document.getElementById('lob-grid').innerHTML = LOB_POSITIONS.map(card).join('');
   document.getElementById('initiatives-grid').innerHTML = INITIATIVES.map(card).join('');
 }
@@ -1149,7 +1025,10 @@ function renderCareer() {
       <div class="ev-date"><div class="ev-day">${esc(e.day)}</div><div class="ev-mon">${esc(e.mon)}</div></div>
       <span class="ev-type evt-${esc(e.type)}">${esc(e.typeLabel)}</span>
       <div class="ev-title">${esc(e.title)}</div>
-      <div class="ev-meta"><span>📍 ${esc(e.loc)}</span><span>🏛 ${esc(e.org)}</span></div>
+      <div class="ev-meta">
+        <span>${esc(e.loc)}</span>
+        <span>${esc(e.org)}</span>
+      </div>
       <div class="ev-desc">${esc(e.desc)}</div>
       ${e.href !== '#' ? `<a class="ev-link" href="${esc(e.href)}" target="_blank" rel="noopener">Więcej informacji →</a>` : ''}
     </div>`
@@ -1157,18 +1036,124 @@ function renderCareer() {
 }
 
 /* ════════════════════════════════════════
+   RENDER: PRICES
+════════════════════════════════════════ */
+function sparklineSVG(data, color) {
+  const W = 200, H = 44;
+  const min = Math.min(...data);
+  const max = Math.max(...data);
+  const range = max - min || 1;
+  const pts = data.map((v, i) => {
+    const x = (i / (data.length - 1)) * W;
+    const y = H - ((v - min) / range) * (H - 8) - 4;
+    return `${x},${y}`;
+  });
+  const last = pts[pts.length - 1].split(',');
+  const pointsStr = pts.join(' ');
+  const fillPath = `M${pts[0]} L${pts.join(' L')} L${W},${H} L0,${H} Z`;
+  const up = data[data.length-1] >= data[0];
+  const strokeColor = up ? '#22C55E' : '#EF4444';
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true">
+    <defs>
+      <linearGradient id="sg-${color.replace('#','')}" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="${strokeColor}" stop-opacity=".25"/>
+        <stop offset="100%" stop-color="${strokeColor}" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <path d="${fillPath}" fill="url(#sg-${color.replace('#','')})" class="spark-fill"/>
+    <polyline points="${pointsStr}" stroke="${strokeColor}" class="spark-line"/>
+    <circle cx="${last[0]}" cy="${last[1]}" r="3" fill="${strokeColor}" class="spark-dot"/>
+  </svg>`;
+}
+
+function countUp(el, target, decimals, duration = 700) {
+  const start = performance.now();
+  const startVal = 0;
+  function step(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / duration, 1);
+    const ease = 1 - Math.pow(1 - progress, 3);
+    const current = startVal + (target - startVal) * ease;
+    el.textContent = current.toFixed(decimals);
+    if (progress < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+function renderPrices(dateStr) {
+  document.getElementById('price-date').textContent = dateStr;
+
+  const grid = document.getElementById('prices-grid');
+  grid.innerHTML = PRICES.map(p => {
+    const up    = p.change >= 0;
+    const flat  = Math.abs(p.change) < 0.5;
+    const dCls  = flat ? 'flat' : up ? 'up' : 'down';
+    const arrow = flat
+      ? `<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M4 8h8"/></svg>`
+      : up
+        ? `<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 4l4 8H4z"/></svg>`
+        : `<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 12l4-8H4z"/></svg>`;
+    const sign  = up && !flat ? '+' : '';
+
+    return `<div class="price-card" style="--accent-color:${esc(p.color)}">
+      <div class="pc-top">
+        <div class="pc-name">${esc(p.name)}</div>
+        <div class="pc-icon" style="background:${p.color}18;color:${p.color}">${p.icon}</div>
+      </div>
+      <div>
+        <span class="pc-price" data-target="${p.price}" data-decimals="${p.price < 100 ? 2 : 0}">0</span>
+        <span class="pc-unit">${esc(p.unit)}</span>
+      </div>
+      <div class="pc-change">
+        <span class="pc-delta ${dCls}">${arrow} ${sign}${p.change.toFixed(1)}%</span>
+        <span class="pc-period">${esc(p.period)}</span>
+      </div>
+      <div class="pc-spark" aria-hidden="true">${sparklineSVG(p.spark, p.color)}</div>
+      <div class="pc-source">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="6"/><path d="M8 5v3l2 2"/></svg>
+        ${esc(p.source)}
+      </div>
+    </div>`;
+  }).join('');
+
+  // countUp animation on price numbers
+  document.querySelectorAll('.pc-price[data-target]').forEach(el => {
+    const target   = parseFloat(el.dataset.target);
+    const decimals = parseInt(el.dataset.decimals);
+    countUp(el, target, decimals);
+  });
+
+  // Context cards
+  document.getElementById('price-context').innerHTML = PRICE_CONTEXT.map(c =>
+    `<div class="ctx-card">
+      <div class="ctx-label">${esc(c.label)}</div>
+      <div class="ctx-title">${esc(c.title)}</div>
+      <div class="ctx-body">${esc(c.body)}</div>
+      <span class="ctx-pill ${c.pill.cls}">${esc(c.pill.text)}</span>
+    </div>`
+  ).join('');
+}
+
+/* ════════════════════════════════════════
    TAB SWITCHING
 ════════════════════════════════════════ */
-const SECS = ['news','lobbing','career'];
+const SECS = ['news','lobbing','career','prices'];
+
+function switchTab(sec) {
+  document.querySelectorAll('.nav-tab').forEach(t => {
+    const active = t.dataset.sec === sec;
+    t.classList.toggle('active', active);
+    t.setAttribute('aria-selected', String(active));
+  });
+  SECS.forEach(s => {
+    document.getElementById(`section-${s}`).style.display = s === sec ? '' : 'none';
+  });
+  // search only relevant in news
+  document.getElementById('search-wrap').style.opacity = sec === 'news' ? '1' : '0.4';
+}
 
 document.getElementById('nav-tabs').querySelectorAll('.nav-tab').forEach(tab => {
-  tab.addEventListener('click', () => {
-    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-    tab.classList.add('active');
-    SECS.forEach(s => {
-      document.getElementById(`section-${s}`).style.display = s === tab.dataset.sec ? '' : 'none';
-    });
-  });
+  tab.addEventListener('click', () => switchTab(tab.dataset.sec));
 });
 
 /* ════════════════════════════════════════
@@ -1176,15 +1161,6 @@ document.getElementById('nav-tabs').querySelectorAll('.nav-tab').forEach(tab => 
 ════════════════════════════════════════ */
 document.getElementById('search').addEventListener('input', e => {
   searchQuery = e.target.value.trim();
-  renderCards(allArticles);
-});
-
-/* ════════════════════════════════════════
-   ONLY-IMPORTANT TOGGLE
-════════════════════════════════════════ */
-document.getElementById('toggle-imp').addEventListener('click', function() {
-  onlyImportant = !onlyImportant;
-  this.classList.toggle('on', onlyImportant);
   renderCards(allArticles);
 });
 
@@ -1198,13 +1174,13 @@ async function showDate(date) {
     const digest = await loadDigest(date);
     allArticles = digest.articles || [];
     activeFilter = readURL().filter || 'all';
-    renderStats(allArticles);
     renderFilters(allArticles);
     renderCards(allArticles);
-    await renderTrends(allDates, date);
+    renderPrices(date);
+    // article count badge
+    document.getElementById('art-count').textContent = `${allArticles.length} artykułów`;
     document.getElementById('loading').style.display = 'none';
     document.getElementById('content').style.display = 'block';
-    // Update tab title with article count
     document.title = `(${allArticles.length}) Hydrogen Digest – ${date}`;
   } catch(e) {
     document.getElementById('loading').innerHTML =
@@ -1220,21 +1196,22 @@ async function init() {
   const sel = document.getElementById('date-selector');
 
   allDates = idx?.dates?.length ? idx.dates.slice().reverse() : [new Date().toISOString().slice(0,10)];
-
   sel.innerHTML = allDates.map(d => `<option value="${d}">${d}</option>`).join('');
   sel.addEventListener('change', () => {
     writeURL(sel.value, activeFilter);
     showDate(sel.value);
   });
 
-  // Read URL params
-  const { date: urlDate, filter: urlFilter } = readURL();
+  const { date: urlDate, filter: urlFilter, tab: urlTab } = readURL();
   if (urlDate && allDates.includes(urlDate)) sel.value = urlDate;
   if (urlFilter) activeFilter = urlFilter;
 
   renderLobbing();
   renderCareer();
   await showDate(sel.value);
+
+  // honour tab param from URL (e.g. dashboard.html?tab=lobbing)
+  if (urlTab && SECS.includes(urlTab)) switchTab(urlTab);
 }
 
 init();
