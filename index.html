@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hydrogen Digest – codzienny przegląd branży wodorowej</title>
+  <style>
+    :root {
+      --bg:        #0d1117;
+      --surface:   #161b22;
+      --border:    #30363d;
+      --accent:    #3fb950;
+      --accent2:   #58a6ff;
+      --text:      #e6edf3;
+      --muted:     #8b949e;
+      --danger:    #f85149;
+      --warn:      #d29922;
+      --tag-reg:   #1f4068;
+      --tag-inv:   #0e3320;
+      --tag-tech:  #2d1b69;
+      --tag-mkt:   #3d2200;
+      --tag-pl:    #3a1a00;
+      --tag-other: #1c1c1c;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
+
+    /* ── NAV ── */
+    header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 1.5rem; display: flex; align-items: center; gap: 1rem; height: 56px; position: sticky; top: 0; z-index: 100; }
+    .logo { font-size: 1.1rem; font-weight: 700; color: var(--accent); display: flex; align-items: center; gap: .5rem; }
+    .logo-icon { font-size: 1.3rem; }
+    .subtitle { color: var(--muted); font-size: .8rem; }
+    .spacer { flex: 1; }
+    #date-selector { background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: .35rem .7rem; border-radius: 6px; font-size: .85rem; cursor: pointer; }
+
+    /* ── MAIN ── */
+    main { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
+
+    /* ── STATS BAR ── */
+    .stats { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+    .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: .6rem 1rem; font-size: .85rem; }
+    .stat-val { font-size: 1.4rem; font-weight: 700; color: var(--accent); }
+    .stat-label { color: var(--muted); font-size: .75rem; }
+
+    /* ── FILTERS ── */
+    .filters { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+    .filter-btn { background: var(--surface); border: 1px solid var(--border); color: var(--muted); padding: .4rem .9rem; border-radius: 20px; font-size: .8rem; cursor: pointer; transition: all .15s; }
+    .filter-btn:hover { border-color: var(--accent2); color: var(--text); }
+    .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #000; font-weight: 600; }
+
+    /* ── GRID ── */
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1rem; }
+
+    /* ── CARD ── */
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1rem; display: flex; flex-direction: column; gap: .6rem; transition: border-color .15s; }
+    .card:hover { border-color: var(--accent2); }
+    .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: .5rem; }
+    .card-title { font-size: .9rem; font-weight: 600; line-height: 1.35; color: var(--text); }
+    .importance { display: flex; gap: 1px; flex-shrink: 0; padding-top: 2px; }
+    .star { width: 8px; height: 8px; border-radius: 50%; background: var(--border); }
+    .star.on { background: var(--warn); }
+    .card-summary { font-size: .82rem; color: var(--muted); line-height: 1.5; }
+    .card-footer { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; margin-top: auto; padding-top: .4rem; }
+    .tag { font-size: .7rem; font-weight: 600; padding: .2rem .55rem; border-radius: 12px; text-transform: uppercase; letter-spacing: .03em; }
+    .tag-regulacja_UE { background: var(--tag-reg); color: #79c0ff; }
+    .tag-inwestycja   { background: var(--tag-inv); color: var(--accent); }
+    .tag-technologia  { background: var(--tag-tech); color: #d2a8ff; }
+    .tag-rynek        { background: var(--tag-mkt); color: #ffa657; }
+    .tag-polska       { background: var(--tag-pl); color: #ffa657; }
+    .tag-inne         { background: var(--tag-other); color: var(--muted); }
+    .source-badge { font-size: .7rem; color: var(--muted); background: var(--bg); border: 1px solid var(--border); padding: .15rem .5rem; border-radius: 10px; }
+    .read-link { margin-left: auto; font-size: .75rem; color: var(--accent2); text-decoration: none; }
+    .read-link:hover { text-decoration: underline; }
+
+    /* ── EMPTY ── */
+    .empty { grid-column: 1/-1; text-align: center; padding: 4rem 2rem; color: var(--muted); }
+    .empty h2 { font-size: 1.2rem; margin-bottom: .5rem; }
+
+    /* ── LOADING ── */
+    #loading { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; padding: 5rem 2rem; color: var(--muted); }
+    .spinner { width: 36px; height: 36px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin .8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── FOOTER ── */
+    footer { text-align: center; padding: 2rem; font-size: .75rem; color: var(--muted); border-top: 1px solid var(--border); margin-top: 2rem; }
+
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: 1fr; }
+      .stats { gap: .5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo"><span class="logo-icon">⚗️</span> Hydrogen Digest</div>
+  <div class="subtitle">codzienny przegląd branży wodorowej</div>
+  <div class="spacer"></div>
+  <select id="date-selector"><option>Ładowanie…</option></select>
+</header>
+
+<main>
+  <div id="loading"><div class="spinner"></div><span>Pobieranie danych…</span></div>
+  <div id="content" style="display:none">
+    <div class="stats" id="stats"></div>
+    <div class="filters" id="filters"></div>
+    <div class="grid" id="grid"></div>
+  </div>
+</main>
+
+<footer>
+  Dane pobierane automatycznie z publicznych RSS. Podsumowania generowane przez Claude AI. &nbsp;·&nbsp;
+  <a href="https://github.com/lewytrade/hydrogen-digest" style="color:var(--accent2)">GitHub</a>
+</footer>
+
+<script>
+const CATEGORIES = {
+  regulacja_UE: 'Regulacja UE',
+  inwestycja:   'Inwestycja',
+  technologia:  'Technologia',
+  rynek:        'Rynek',
+  polska:       'Polska',
+  inne:         'Inne',
+};
+
+let allArticles = [];
+let activeFilter = 'all';
+
+async function loadIndex() {
+  try {
+    const r = await fetch('data/index.json');
+    if (!r.ok) throw new Error('brak index.json');
+    return await r.json();
+  } catch {
+    return null;
+  }
+}
+
+async function loadDigest(date) {
+  const r = await fetch(`data/digest_${date}.json`);
+  if (!r.ok) throw new Error('brak pliku danych');
+  return await r.json();
+}
+
+function stars(n) {
+  return Array.from({length: 5}, (_, i) => `<div class="star${i < n ? ' on' : ''}"></div>`).join('');
+}
+
+function renderCards(articles) {
+  const grid = document.getElementById('grid');
+  const filtered = activeFilter === 'all' ? articles : articles.filter(a => a.category === activeFilter);
+
+  if (!filtered.length) {
+    grid.innerHTML = `<div class="empty"><h2>Brak artykułów</h2><p>Brak wyników dla wybranego filtra.</p></div>`;
+    return;
+  }
+
+  grid.innerHTML = filtered.map(a => `
+    <div class="card">
+      <div class="card-top">
+        <div class="card-title">${esc(a.title)}</div>
+        <div class="importance" title="Istotność: ${a.importance}/5">${stars(a.importance)}</div>
+      </div>
+      <div class="card-summary">${esc(a.summary_pl || '')}</div>
+      <div class="card-footer">
+        <span class="tag tag-${a.category}">${CATEGORIES[a.category] || a.category}</span>
+        <span class="source-badge">${esc(a.source)}</span>
+        ${a.link ? `<a class="read-link" href="${esc(a.link)}" target="_blank" rel="noopener">Czytaj →</a>` : ''}
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderStats(articles) {
+  const byCategory = {};
+  for (const a of articles) byCategory[a.category] = (byCategory[a.category] || 0) + 1;
+  const important = articles.filter(a => a.importance >= 4).length;
+
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><div class="stat-val">${articles.length}</div><div class="stat-label">artykułów</div></div>
+    <div class="stat"><div class="stat-val">${important}</div><div class="stat-label">ważnych (★4+)</div></div>
+    ${Object.entries(byCategory).map(([k, v]) => `
+      <div class="stat"><div class="stat-val">${v}</div><div class="stat-label">${CATEGORIES[k] || k}</div></div>
+    `).join('')}
+  `;
+}
+
+function renderFilters(articles) {
+  const counts = {all: articles.length};
+  for (const a of articles) counts[a.category] = (counts[a.category] || 0) + 1;
+
+  const buttons = [['all', `Wszystkie (${articles.length})`], ...Object.entries(CATEGORIES).map(([k, v]) => [k, `${v} (${counts[k] || 0})`])];
+
+  document.getElementById('filters').innerHTML = buttons.map(([k, label]) => `
+    <button class="filter-btn${activeFilter === k ? ' active' : ''}" data-cat="${k}">${label}</button>
+  `).join('');
+
+  document.getElementById('filters').querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeFilter = btn.dataset.cat;
+      renderFilters(articles);
+      renderCards(articles);
+    });
+  });
+}
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+async function init() {
+  const idx = await loadIndex();
+  const sel = document.getElementById('date-selector');
+
+  let dates = [];
+  if (idx && idx.dates && idx.dates.length) {
+    dates = idx.dates.slice().reverse();
+  } else {
+    // fallback: spróbuj dzisiaj
+    const today = new Date().toISOString().slice(0, 10);
+    dates = [today];
+  }
+
+  sel.innerHTML = dates.map(d => `<option value="${d}">${d}</option>`).join('');
+  sel.addEventListener('change', () => showDate(sel.value));
+  showDate(dates[0]);
+}
+
+async function showDate(date) {
+  document.getElementById('loading').style.display = 'flex';
+  document.getElementById('content').style.display = 'none';
+  try {
+    const digest = await loadDigest(date);
+    allArticles = digest.articles || [];
+    activeFilter = 'all';
+    renderStats(allArticles);
+    renderFilters(allArticles);
+    renderCards(allArticles);
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('content').style.display = 'block';
+  } catch (e) {
+    document.getElementById('loading').innerHTML = `<p style="color:var(--danger)">Nie udało się załadować danych dla ${date}.<br><small>${e.message}</small></p>`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>

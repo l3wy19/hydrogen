@@ -1,0 +1,36 @@
+name: Daily Hydrogen Digest
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # codziennie o 6:00 UTC (8:00 PL latem)
+  workflow_dispatch:        # możliwość ręcznego odpalenia z GitHub UI
+
+permissions:
+  contents: write           # potrzebne do commitu danych
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Zainstaluj zależności
+        run: pip install -r requirements.txt
+
+      - name: Uruchom pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python run_daily.py
+
+      - name: Zapisz dane do repozytorium
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "digest: $(date -u +%Y-%m-%d)"
+          git push

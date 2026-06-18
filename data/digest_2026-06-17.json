@@ -1,0 +1,73 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T06:01:00+00:00",
+  "article_count": 6,
+  "articles": [
+    {
+      "source": "Hydrogen Europe",
+      "source_category": "industry",
+      "title": "EU Hydrogen Bank auction results: 720 MW of electrolysers awarded",
+      "link": "https://hydrogeneurope.eu/eu-hydrogen-bank-results/",
+      "summary_raw": "The second EU Hydrogen Bank auction concluded with 6 projects selected across Spain, Portugal, Finland and Germany.",
+      "published": "2026-06-17T08:30:00+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Wyniki drugiej aukcji EU Hydrogen Bank: wybrano 6 projektów o łącznej mocy 720 MW elektrolizerów w Hiszpanii, Portugalii, Finlandii i Niemczech. Dotacje sięgają 2,4 mld EUR.",
+      "importance": 5
+    },
+    {
+      "source": "EUR-Lex",
+      "source_category": "regulacja_UE",
+      "title": "Commission Delegated Regulation on RFNBO additionality criteria – final text published",
+      "link": "https://eur-lex.europa.eu/",
+      "summary_raw": "The European Commission published the final delegated act specifying additionality and temporal correlation rules for renewable hydrogen.",
+      "published": "2026-06-17T07:00:00+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Opublikowano ostateczny tekst aktu delegowanego KE dotyczący kryteriów addycjonalności i korelacji czasowej dla wodoru odnawialnego (RFNBO). Wejście w życie: 1 stycznia 2027.",
+      "importance": 5
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Linde and Ørsted reach FID on 100 MW green hydrogen plant in Denmark",
+      "link": "https://fuelcellsworks.com/",
+      "summary_raw": "Linde and Ørsted announced final investment decision for a 100 MW PEM electrolyser project in Fredericia, Denmark.",
+      "published": "2026-06-16T14:00:00+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Linde i Ørsted podjęły ostateczną decyzję inwestycyjną (FID) dla zakładu produkcji zielonego wodoru o mocy 100 MW w Fredericia (Dania). Uruchomienie planowane na Q1 2028.",
+      "importance": 4
+    },
+    {
+      "source": "H2 View",
+      "source_category": "news",
+      "title": "German hydrogen import corridor from North Africa moves forward with interoperability framework",
+      "link": "https://www.h2-view.com/",
+      "summary_raw": "Germany, Algeria and Morocco signed a memorandum of understanding on hydrogen pipeline infrastructure interoperability.",
+      "published": "2026-06-16T11:30:00+00:00",
+      "category": "rynek",
+      "summary_pl": "Niemcy, Algieria i Maroko podpisały MoU w sprawie interoperacyjności infrastruktury przesyłu wodoru. Korytarz ma dostarczyć 2 Mt H₂/rok do 2035.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Nel Hydrogen secures 500 MW electrolyser order from Asian utility",
+      "link": "https://fuelcellsworks.com/",
+      "summary_raw": "Nel ASA announced the largest electrolyser order in its history: 500 MW PEM systems for a South Korean utility.",
+      "published": "2026-06-16T09:00:00+00:00",
+      "category": "technologia",
+      "summary_pl": "Nel Hydrogen pozyskał największe zamówienie w historii firmy – 500 MW elektrolizerów PEM dla południowokoreańskiego operatora energetycznego. Dostawa w latach 2027–2029.",
+      "importance": 4
+    },
+    {
+      "source": "H2 View",
+      "source_category": "news",
+      "title": "Polish government approves National Hydrogen Strategy revision – 2 GW target by 2030",
+      "link": "https://www.h2-view.com/",
+      "summary_raw": "Poland updated its national hydrogen strategy, raising the electrolyser capacity target to 2 GW by 2030 and pledging €800 million in public support.",
+      "published": "2026-06-15T16:00:00+00:00",
+      "category": "polska",
+      "summary_pl": "Polska zaktualizowała Krajową Strategię Wodorową: cel mocy elektrolizerów wzrósł do 2 GW do 2030 r. Rząd przeznacza 800 mln EUR wsparcia publicznego.",
+      "importance": 5
+    }
+  ]
+}
