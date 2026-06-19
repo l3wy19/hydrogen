@@ -15,6 +15,9 @@ from pathlib import Path
 
 from fetch_news import fetch_all
 from summarize import enrich_articles
+from fetch_prices import update_prices
+from fetch_lobbing import update_lobbing
+from fetch_career import update_career
 from config import OUTPUT_DIR
 
 
@@ -82,6 +85,15 @@ def main():
 
     print(f"\n4. Zapisuję wynik...")
     save_digest(enriched, date_str)
+
+    print("\n5. Pobieram ceny rynkowe...")
+    update_prices()
+
+    print("\n6. Pobieram dane lobbingowe...")
+    update_lobbing()
+
+    print("\n7. Pobieram wydarzenia / kariera...")
+    update_career()
 
     print("\n=== Gotowe ===")
 

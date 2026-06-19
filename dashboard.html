@@ -734,39 +734,18 @@ const CATS={
   inne:        {label:'Inne',        color:'#2D6654'},
 };
 
-/* ─── PRICES ─── */
-const PRICES=[
-  {id:'h2',name:'Wodór na stacji',price:14.80,unit:'EUR/kg',change:-6.4,period:'30 dni',color:'#10B981',spark:[16.2,15.8,15.4,15.1,15.0,14.9,14.80],source:'H2 Station Index',icon:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>`},
-  {id:'methanol',name:'Bio-Metanol',price:498,unit:'EUR/t',change:+3.1,period:'30 dni',color:'#FBBF24',spark:[465,472,480,488,492,495,498],source:'ICIS Methanol Europe',icon:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>`},
-  {id:'ets',name:'ETS CO₂',price:68.40,unit:'EUR/tCO₂',change:+10.3,period:'90 dni',color:'#8B5CF6',spark:[62.0,63.5,65.1,65.8,66.9,67.5,68.4],source:'ICE EUA Futures',icon:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3v18h18"/><path d="M7 16l4-4 4 4 4-4"/></svg>`},
-  {id:'oil',name:'Ropa Brent',price:77.20,unit:'USD/bbl',change:-2.8,period:'30 dni',color:'#06B6D4',spark:[79.4,79.0,78.3,78.0,77.8,77.5,77.2],source:'ICE Brent Crude',icon:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>`},
-];
+/* ─── PRICE ICONS (static SVG by id) ─── */
+const PRICE_ICONS={
+  h2:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>`,
+  methanol:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>`,
+  ets:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3v18h18"/><path d="M7 16l4-4 4 4 4-4"/></svg>`,
+  oil:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>`,
+};
 
 const PRICE_CTX=[
   {label:'Parytet',title:'Kiedy H₂ opłacalny vs. diesel?',body:'Przy cenie diesla ~1,65 EUR/l i sprawności ogniwa ~60%, opłacalność zaczyna się poniżej ~9 EUR/kg. Rynek stacyjny jest jeszcze 40% powyżej tej granicy.',pill:{text:'9 EUR/kg próg',cls:'neg'}},
   {label:'ETS & Wodór',title:'CO₂ powyżej 65 EUR/t zmienia rachunki',body:'Każde 10 EUR wzrostu EUA przekłada się na ok. 0,8 EUR oszczędności na tonie stali z H₂ vs. konwencjonalnej. Skraca efektywnie payback elektrolizerów.',pill:{text:'Pozytywny impuls',cls:'pos'}},
   {label:'Metanol – H₂ Carrier',title:'Bio-MeOH jako nośnik H₂ w portach',body:'Przy obecnych cenach bio-metanolu i koszcie reformingu, konwersja H₂↔MeOH dla żeglugi jest droższa niż LNG, ale spełnia wymogi FuelEU Maritime.',pill:{text:'FuelEU compliant',cls:'neu'}},
-];
-
-/* ─── LOBBING ─── */
-const LOB_POSITIONS=[
-  {company:'ORLEN SA',country:'Polska 🇵🇱',law:'Renewable energy – legal framework after 2030',stance:'mix',stanceLabel:'Mieszana',stanceColor:'#FBBF24',type:'Company/Business',date:'16 kw. 2026',excerpt:'ORLEN Group welcomes the opportunity to contribute to the consultation. As the largest multi energy group in Poland, ORLEN is implementing a comprehensive transformation programme aimed at progressively decarbonising its activities.',href:'https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14494-Renewable-energy-legal-framework-after-2030'},
-  {company:'Hydrogen Europe',country:'UE 🇪🇺',law:'RFNBO delegated act – additionality & temporal correlation',stance:'mix',stanceLabel:'Popieramy z uwagami',stanceColor:'#FBBF24',type:'Industry Association',date:'10 kw. 2026',excerpt:'Hydrogen Europe supports the general direction of the delegated act but raises concerns about the temporal correlation requirement being too strict for early-stage electrolyser projects.',href:'https://hydrogeneurope.eu'},
-  {company:'Thyssenkrupp Nucera',country:'Niemcy 🇩🇪',law:'EU Hydrogen Bank – auction design rules',stance:'sup',stanceLabel:'Popieramy',stanceColor:'#10B981',type:'Company/Business',date:'22 mar. 2026',excerpt:'Thyssenkrupp Nucera strongly supports the EU Hydrogen Bank auctions. The company recommends increasing the budget envelope and extending the support period to 15 years to reflect actual investment timelines.',href:'https://www.thyssenkrupp-nucera.com'},
-  {company:'Equinor ASA',country:'Norwegia 🇳🇴',law:'North Sea hydrogen pipeline infrastructure',stance:'sup',stanceLabel:'Popieramy',stanceColor:'#10B981',type:'Company/Business',date:'5 mar. 2026',excerpt:'Equinor supports the development of a European hydrogen backbone and calls for clear regulatory frameworks for cross-border hydrogen transport including third-party access rules.',href:'https://www.equinor.com'},
-  {company:'ClientEarth',country:'UE 🇪🇺',law:'RFNBO delegated act – additionality & temporal correlation',stance:'crit',stanceLabel:'Krytyczna',stanceColor:'#EF4444',type:'NGO',date:'8 kw. 2026',excerpt:'ClientEarth argues that the current RFNBO rules allow renewable hydrogen production in scenarios where it could increase net electricity demand and emissions.',href:'https://www.clientearth.org'},
-  {company:'Grupy Orlen',country:'Polska 🇵🇱',law:'Krajowa Strategia Wodorowa – aktualizacja 2026',stance:'sup',stanceLabel:'Popieramy',stanceColor:'#10B981',type:'Company/Business',date:'20 lut. 2026',excerpt:'Orlen popiera aktualizację KSW i postuluje szybsze uruchomienie programów wsparcia dla elektrolizy przemysłowej oraz wskazanie węzłów wodorowych w sieci GAZ-SYSTEM.',href:'#'},
-];
-const INITIATIVES=[
-  {company:'Komisja Europejska',country:'UE 🇪🇺',law:'Renewable energy – legal framework after 2030',stance:'neu',stanceLabel:'Otwarte konsultacje',stanceColor:'#06B6D4',type:'Initiative',date:'Termin: 14 lip. 2026',excerpt:'KE zbiera opinie w sprawie ram regulacyjnych dla energii odnawialnej po 2030 r., w tym celów OZE, roli wodoru odnawialnego i integracji z sektorem przemysłowym.',href:'https://ec.europa.eu/info/law/better-regulation/have-your-say'},
-  {company:'Komisja Europejska',country:'UE 🇪🇺',law:'Revision of the Gas Regulation – hydrogen network access',stance:'neu',stanceLabel:'Otwarte konsultacje',stanceColor:'#06B6D4',type:'Initiative',date:'Termin: 30 cze. 2026',excerpt:'Przegląd rozporządzenia gazowego obejmuje zasady dostępu stron trzecich do infrastruktury wodorowej, taryfy sieciowe i warunki dla operatorów sieci wodorowych (HNO).',href:'https://ec.europa.eu/info/law/better-regulation/have-your-say'},
-];
-const EVENTS=[
-  {type:'conf',typeLabel:'Konferencja',title:'Hydrogen Europe Summit 2026',day:'24',mon:'CZE',loc:'Bruksela, Belgia',org:'Hydrogen Europe',desc:'Największe wydarzenie branży w Europie — polityka, rynek, technologia.',href:'https://hydrogeneurope.eu'},
-  {type:'web', typeLabel:'Webinar',   title:'Clean Hydrogen JU – wyniki call 2026',day:'10',mon:'LIP',loc:'Online',org:'Clean Hydrogen Partnership',desc:'Prezentacja wyników naboru projektów badawczych. Rejestracja bezpłatna.',href:'https://www.clean-hydrogen.europa.eu'},
-  {type:'int', typeLabel:'Staż',      title:'H2 Valley Internship Programme',day:'30',mon:'LIP',loc:'Gdańsk / Bytom',org:'PERN / Tauron',desc:'Staże dla studentów kierunków technicznych. Deadline: 30 lipca 2026.',href:'#'},
-  {type:'acad',typeLabel:'Akademia',  title:'Polish Hydrogen Academy – moduł letni',day:'07',mon:'WRZ',loc:'Warszawa',org:'NCBiR / AGH',desc:'Intensywny kurs: elektroliza, sieci dystrybucji, regulacje RFNBO.',href:'#'},
-  {type:'conf',typeLabel:'Konferencja',title:'World Hydrogen Summit 2026',day:'19',mon:'MAJ',loc:'Rotterdam, Niderlandy',org:'World Hydrogen',desc:'Globalny szczyt: handel, infrastruktura, certyfikacja i finansowanie.',href:'https://www.worldhydrogensummit.com'},
 ];
 
 /* ─── STATE ─── */
@@ -839,30 +818,66 @@ function renderCards(){
 }
 
 /* ─── LOBBING ─── */
-function renderLobbing(){
-  const card=d=>`<div class="lob-card" style="--stance-color:${esc(d.stanceColor)}">
-    <div class="lob-header"><div><div class="lob-company">${esc(d.company)}</div><div class="lob-country">${esc(d.country)}</div></div>
-    <span class="stance stance-${esc(d.stance)}">${esc(d.stanceLabel)}</span></div>
+function _lobCard(d){
+  return `<div class="lob-card" style="--stance-color:${esc(d.stanceColor||'#06B6D4')}">
+    <div class="lob-header">
+      <div><div class="lob-company">${esc(d.company)}</div><div class="lob-country">${esc(d.country)}</div></div>
+      <span class="stance stance-${esc(d.stance)}">${esc(d.stanceLabel)}</span>
+    </div>
     <div class="lob-law">${esc(d.law)}</div>
     <div class="lob-excerpt">${esc(d.excerpt)}</div>
-    <div class="lob-meta"><span class="lob-type">${esc(d.type)}</span><span>${esc(d.date)}</span>
-    ${d.href&&d.href!=='#'?`<a class="lob-link" href="${esc(d.href)}" target="_blank" rel="noopener">Źródło →</a>`:''}</div>
+    <div class="lob-meta">
+      <span class="lob-type">${esc(d.type)}</span>
+      <span>${esc(d.date||'')}</span>
+      ${d.href&&d.href!=='#'?`<a class="lob-link" href="${esc(d.href)}" target="_blank" rel="noopener">Źródło →</a>`:''}
+    </div>
   </div>`;
-  document.getElementById('lob-grid').innerHTML=LOB_POSITIONS.map(card).join('');
-  document.getElementById('initiatives-grid').innerHTML=INITIATIVES.map(card).join('');
+}
+
+async function renderLobbing(){
+  const grid1=document.getElementById('lob-grid');
+  const grid2=document.getElementById('initiatives-grid');
+  try{
+    const r=await fetch('data/lobbing.json');
+    if(r.ok){
+      const data=await r.json();
+      const items=data.items||[];
+      // Inicjatywy (stance=neu) trafią do dolnej siatki, reszta do górnej
+      const positions=items.filter(i=>i.stance!=='neu');
+      const initiatives=items.filter(i=>i.stance==='neu');
+      grid1.innerHTML=positions.length?positions.map(_lobCard).join(''):`<div class="empty-st"><strong>Brak danych lobbingowych</strong>Zostanę pobrane jutro.</div>`;
+      grid2.innerHTML=initiatives.length?initiatives.map(_lobCard).join(''):'';
+      return;
+    }
+  } catch(e){}
+  // Brak pliku — pokaż placeholder
+  grid1.innerHTML=`<div class="empty-st"><strong>Dane lobbingowe</strong>Pipeline pobierze je automatycznie o 8:00.</div>`;
+  grid2.innerHTML='';
 }
 
 /* ─── CAREER ─── */
-function renderCareer(){
-  document.getElementById('events-grid').innerHTML=EVENTS.map(e=>`
-    <div class="ev-card">
-      <div class="ev-date"><div class="ev-day">${esc(e.day)}</div><div class="ev-mon">${esc(e.mon)}</div></div>
-      <span class="ev-type evt-${esc(e.type)}">${esc(e.typeLabel)}</span>
-      <div class="ev-title">${esc(e.title)}</div>
-      <div class="ev-meta"><span>${esc(e.loc)}</span><span>${esc(e.org)}</span></div>
-      <div class="ev-desc">${esc(e.desc)}</div>
-      ${e.href!=='#'?`<a class="ev-link" href="${esc(e.href)}" target="_blank" rel="noopener">Więcej informacji →</a>`:''}
-    </div>`).join('');
+async function renderCareer(){
+  const grid=document.getElementById('events-grid');
+  try{
+    const r=await fetch('data/career.json');
+    if(r.ok){
+      const data=await r.json();
+      const items=data.items||[];
+      if(items.length){
+        grid.innerHTML=items.map(e=>`
+          <div class="ev-card">
+            ${e.day?`<div class="ev-date"><div class="ev-day">${esc(e.day)}</div><div class="ev-mon">${esc(e.mon||'')}</div></div>`:''}
+            <span class="ev-type evt-${esc(e.type||'conf')}">${esc(e.typeLabel||'Wydarzenie')}</span>
+            <div class="ev-title">${esc(e.title)}</div>
+            <div class="ev-meta">${e.loc?`<span>${esc(e.loc)}</span>`:''}${e.org?`<span>${esc(e.org)}</span>`:''}</div>
+            <div class="ev-desc">${esc(e.desc||'')}</div>
+            ${e.href&&e.href!=='#'?`<a class="ev-link" href="${esc(e.href)}" target="_blank" rel="noopener">Więcej informacji →</a>`:''}
+          </div>`).join('');
+        return;
+      }
+    }
+  } catch(e){}
+  grid.innerHTML=`<div class="empty-st"><strong>Brak wydarzeń</strong>Pipeline pobierze je automatycznie o 8:00.</div>`;
 }
 
 /* ─── SPARKLINE ─── */
@@ -894,19 +909,21 @@ function countUp(el,target,dec,dur=750){
 }
 
 /* ─── PRICES ─── */
-function renderPrices(dateStr){
-  document.getElementById('price-date').textContent=dateStr;
-  document.getElementById('prices-grid').innerHTML=PRICES.map(p=>{
-    const up=p.change>=0,flat=Math.abs(p.change)<.5;
+function _renderPriceCards(prices, dateStr){
+  document.getElementById('price-date').textContent=dateStr||'—';
+  document.getElementById('prices-grid').innerHTML=prices.map(p=>{
+    const ch=p.change||0;
+    const up=ch>=0,flat=Math.abs(ch)<.5;
     const dc=flat?'flat':up?'up':'down';
     const arr=flat?`<svg viewBox="0 0 12 12" fill="currentColor"><rect x="1" y="5.5" width="10" height="1"/></svg>`
                   :up?`<svg viewBox="0 0 12 12" fill="currentColor"><path d="M6 2 L10 9 H2Z"/></svg>`
                      :`<svg viewBox="0 0 12 12" fill="currentColor"><path d="M6 10 L10 3 H2Z"/></svg>`;
+    const icon=PRICE_ICONS[p.id]||PRICE_ICONS.oil;
     return `<div class="price-card" style="--accent-color:${esc(p.color)}">
-      <div class="pc-top"><div class="pc-name">${esc(p.name)}</div><div class="pc-icon" style="background:${p.color}15;color:${p.color}">${p.icon}</div></div>
+      <div class="pc-top"><div class="pc-name">${esc(p.name)}</div><div class="pc-icon" style="background:${p.color}15;color:${p.color}">${icon}</div></div>
       <div><span class="pc-price" data-target="${p.price}" data-dec="${p.price<100?2:0}">0</span><span class="pc-unit">${esc(p.unit)}</span></div>
-      <div class="pc-change"><span class="pc-delta ${dc}">${arr}${up&&!flat?'+':''}${p.change.toFixed(1)}%</span><span class="pc-period">${esc(p.period)}</span></div>
-      <div class="pc-spark" aria-hidden="true">${sparklineSVG(p.spark,p.color)}</div>
+      <div class="pc-change"><span class="pc-delta ${dc}">${arr}${up&&!flat?'+':''}${ch.toFixed(1)}%</span><span class="pc-period">${esc(p.period||'30 dni')}</span></div>
+      <div class="pc-spark" aria-hidden="true">${sparklineSVG(p.spark||[p.price],p.color)}</div>
       <div class="pc-source"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="6"/><path d="M8 5v3l2 2"/></svg>${esc(p.source)}</div>
     </div>`;
   }).join('');
@@ -918,6 +935,24 @@ function renderPrices(dateStr){
       <div class="ctx-body">${esc(c.body)}</div>
       <span class="ctx-pill ${c.pill.cls}">${esc(c.pill.text)}</span>
     </div>`).join('');
+}
+
+async function renderPrices(){
+  try{
+    const r=await fetch('data/prices.json');
+    if(r.ok){
+      const data=await r.json();
+      _renderPriceCards(data.prices||[],data.updated||'—');
+      return;
+    }
+  }catch(e){}
+  // Fallback — wartości startowe jeśli plik jeszcze nie istnieje
+  _renderPriceCards([
+    {id:'h2',      name:'Wodór na stacji', price:14.80, unit:'EUR/kg',    change:-6.4, color:'#10B981', spark:[16.2,15.8,15.4,15.1,15.0,14.9,14.80], source:'H2 Station Index'},
+    {id:'methanol',name:'Bio-Metanol',     price:498,   unit:'EUR/t',     change:+3.1, color:'#FBBF24', spark:[465,472,480,488,492,495,498],          source:'Methanex Europe'},
+    {id:'ets',     name:'ETS CO₂',         price:68.40, unit:'EUR/tCO₂',  change:+10.3,color:'#8B5CF6', spark:[62.0,63.5,65.1,65.8,66.9,67.5,68.4],  source:'ICE EUA Futures'},
+    {id:'oil',     name:'Ropa Brent',       price:77.20, unit:'USD/bbl',   change:-2.8, color:'#06B6D4', spark:[79.4,79.0,78.3,78.0,77.8,77.5,77.2],  source:'ICE Brent Crude'},
+  ], 'dane statyczne');
 }
 
 /* ─── TABS ─── */
@@ -942,7 +977,7 @@ async function showDate(date){
     const digest=await loadDigest(date);
     allArticles=digest.articles||[];
     activeFilter=readURL().filter||'all';
-    renderFilters(allArticles); renderCards(); renderPrices(date);
+    renderFilters(allArticles); renderCards();
     document.getElementById('art-count').textContent=`${allArticles.length} artykułów`;
     document.getElementById('loading').style.display='none';
     document.getElementById('content').style.display='block';
@@ -962,8 +997,13 @@ async function init(){
   const {date:uD,filter:uF,tab:uT}=readURL();
   if(uD&&allDates.includes(uD))sel.value=uD;
   if(uF)activeFilter=uF;
-  renderLobbing(); renderCareer();
-  await showDate(sel.value);
+  // Ładuj wszystkie sekcje równolegle
+  await Promise.all([
+    showDate(sel.value),
+    renderLobbing(),
+    renderCareer(),
+    renderPrices(),
+  ]);
   if(uT&&SECS.includes(uT))switchTab(uT);
 }
 init();
