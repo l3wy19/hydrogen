@@ -10,6 +10,7 @@ osobne wywołanie na każdy artykuł), z prośbą o odpowiedź w czystym JSON.
 
 import json
 import os
+import re
 from anthropic import Anthropic
 
 from config import CLAUDE_MODEL, CATEGORIES
@@ -44,13 +45,29 @@ def _build_user_prompt(articles: list[dict]) -> str:
 
 
 def _parse_llm_json(raw_text: str) -> list[dict]:
-    """Wyciąga JSON z odpowiedzi, na wypadek gdyby model dodał markdown fence."""
+    """Wyciąga JSON z odpowiedzi LLM — obsługuje markdown fences i tekst po tablicy."""
     cleaned = raw_text.strip()
-    if cleaned.startswith("```"):
-        cleaned = cleaned.split("```")[1]
-        if cleaned.startswith("json"):
-            cleaned = cleaned[4:]
-    return json.loads(cleaned.strip())
+
+    # 1. Próba bezpośrednia
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        pass
+
+    # 2. Wyciągnij zawartość bloku ```json ... ``` lub ``` ... ```
+    fence_match = re.search(r"```(?:json)?\s*([\s\S]*?)```", cleaned)
+    if fence_match:
+        try:
+            return json.loads(fence_match.group(1).strip())
+        except json.JSONDecodeError:
+            pass
+
+    # 3. Znajdź pierwszą tablicę JSON [...] w tekście (ignoruje tekst przed/po)
+    arr_match = re.search(r"\[[\s\S]*\]", cleaned)
+    if arr_match:
+        return json.loads(arr_match.group(0))
+
+    raise ValueError(f"Nie można wyodrębnić JSON: {cleaned[:300]}")
 
 
 def enrich_articles(articles: list[dict], batch_size: int = 15) -> list[dict]:
