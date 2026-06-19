@@ -2,6 +2,30 @@
   "updated": "2026-06-19",
   "items": [
     {
+      "company": "Komisja Europejska / EU Energy and Raw Materials Platform",
+      "country": "UE",
+      "law": "EU Hydrogen Mechanism – faza konsultacji ofert dostaw dla kupujących",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Rząd",
+      "date": "Tue, 20 Ja",
+      "excerpt": "Komisja Europejska uruchomiła fazę mechanizmu wodorowego w ramach Platformy Energii i Surowców UE, umożliwiając europejskim nabywcom przeglądanie ofert dostaw wodoru i wyrażanie zainteresowania zakupem. To kluczowy krok w budowie zorganizowanego rynku wodoru w UE.",
+      "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVTg4YkF0OTlwSnczQVdQMkpMVWR5ZklPeUJQdlZGcEtGUm5IT2ZpcmR3U2JvY3kxYzJTaWZ6SkR3d3RMLTM0b09UREhIREprbm50bm1DVV9kV01KS3BoY0xpNkJUTnR2d0dzZmVsU3VidjlWQmxKUTFiRDhQVUdOVzJBX1VwRDQ3T2hBb2pBdF9xcjQybzBlODFvUTVNSEwwVFpCSVhTMG5pb1YzZ2F5a2ZuMVVfYlU0ZmhheHQ2OVNzMGZfUzZ0MXd4bjRlV1NIa3hsQkxkR05MUQ?oc=5"
+    },
+    {
+      "company": "Consultancy.eu",
+      "country": "UE",
+      "law": "Europejskie ramy regulacyjne dla wodoru – perspektywy dla branży",
+      "stance": "mix",
+      "stanceLabel": "Mieszana",
+      "stanceColor": "#FBBF24",
+      "type": "Initiative",
+      "date": "Wed, 29 Oc",
+      "excerpt": "Artykuł analizuje kształtujące się europejskie ramy regulacyjne dla wodoru i ich potencjalny wpływ na branżę, wskazując zarówno szanse jak i wyzwania wynikające z nadchodzących przepisów. Regulacje UE dotyczące wodoru odnawialnego i niskoemisyjnego mają zasadnicze znaczenie dla inwestycji i rozwoju sektora.",
+      "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMWlCX3VoSnRLaTVETU9tR2xIOTUydk1PenJ0c01vYXE4c3hPWUNRQ0pmQ0h3SEJOWmFKTWVubW5kaVlWRTFVR2Fzdk9sc3BRTnA2QWhENDJiMFk2UXdJQjRCOEtRcWFELVZ5cGFsVjYwdU5zSjdTMHZiM0NqekRIdGs5N25vZjRtZWdJdEpWNW95c2NzV19XODlBaERudTRJZVdZaXAzd3NpdUVNNzdJZjVR0gG3AUFVX3lxTFB3NTgxZEl5aFBVbGFPQlYzaDB0ZlVad2x6V0E1NW5BOWVpT3B4bkptRlN1cGJhM2MxR0hQRnFaeDBKeGttQmhKODM3U0VOTUc4b0lweWhJVTBQbWxSdHZDS0N1U1B1RXQ0TVRqR1Q5SmdiVVBiM01MY3dNRTRoOVEtRmNJRE1wNjE4U0lfeFpQS2s5VW9hTGJJbnExa3dpUEtlUVZqM28wMUZnV1FtejVqczIzVWk1SQ?oc=5"
+    },
+    {
       "company": "Wood Mackenzie",
       "country": "UE",
       "law": "Europejski rynek wodoru – zmiana nastrojów rynkowych",

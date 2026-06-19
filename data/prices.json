@@ -23,8 +23,8 @@
     {
       "id": "methanol",
       "name": "Bio-Metanol",
-      "unit": "PLN/t",
       "price": 2117,
+      "unit": "PLN/t",
       "change": 0.0,
       "period": "30 dni",
       "color": "#FBBF24",
@@ -61,25 +61,25 @@
     {
       "id": "oil",
       "name": "Ropa Brent",
-      "price": 311,
+      "price": 299.0,
       "unit": "PLN/bbl",
-      "change": -0.0,
+      "change": 1.0,
       "period": "30 dni",
       "color": "#06B6D4",
       "spark": [
-        301,
-        303,
-        305,
-        306,
-        308,
-        310,
-        311
+        335.0,
+        324.0,
+        309.0,
+        293.0,
+        295.0,
+        296.0,
+        299.0
       ],
       "source": "ICE Brent Crude"
     }
   ],
   "fx": {
-    "EURPLN": 4.25,
-    "USDPLN": 3.90
+    "EURPLN": 4.26,
+    "USDPLN": 3.71
   }
 }
