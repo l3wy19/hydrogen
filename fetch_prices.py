@@ -74,13 +74,14 @@ def _methanex() -> dict | None:
         )
         text = r.text
 
-        # Szukaj wzorców ceny w USD, np. "$425" lub "425 USD" lub "425.00"
-        matches = re.findall(r'\$\s*(\d{3,4}(?:\.\d{1,2})?)', text)
-        if not matches:
-            # Fallback: szukaj po "USD" z liczbą
-            matches = re.findall(r'(\d{3,4}(?:\.\d{1,2})?)\s*USD', text)
-        if matches:
-            price_usd = float(matches[0])
+        # Methanex podaje ceny ~200-900 USD/t — szukaj "$NNN" w tym zakresie
+        candidates = re.findall(r'\$\s*(\d{3,4}(?:\.\d{1,2})?)', text)
+        if not candidates:
+            candidates = re.findall(r'(\d{3,4}(?:\.\d{1,2})?)\s*(?:USD|US\$)', text)
+        # Filtruj tylko rozsądny zakres cen metanolu (200–900 USD/t)
+        valid = [float(v) for v in candidates if 200 <= float(v) <= 900]
+        if valid:
+            price_usd = valid[0]
             price_eur = round(price_usd * 0.93, 0)  # przybliżony kurs
             return {"price": price_eur, "change": None, "spark": []}
     except Exception as e:

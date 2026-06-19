@@ -4,78 +4,82 @@
     {
       "id": "h2",
       "name": "Wodór na stacji",
-      "price": 14.8,
-      "unit": "EUR/kg",
+      "price": 62.9,
+      "unit": "PLN/kg",
       "change": 0.0,
       "period": "30 dni",
       "color": "#10B981",
       "spark": [
-        14.8,
-        14.8,
-        14.8,
-        14.8,
-        14.8,
-        14.8,
-        14.8
+        62.9,
+        62.9,
+        62.9,
+        62.9,
+        62.9,
+        62.9,
+        62.9
       ],
       "source": "H2 Station Index"
     },
     {
       "id": "methanol",
       "name": "Bio-Metanol",
-      "price": 1884.0,
-      "unit": "EUR/t",
+      "unit": "PLN/t",
+      "price": 2117,
       "change": 0.0,
       "period": "30 dni",
       "color": "#FBBF24",
       "spark": [
-        498,
-        498,
-        498,
-        498,
-        498,
-        498,
-        1884.0
+        1976,
+        2006,
+        2040,
+        2074,
+        2091,
+        2108,
+        2117
       ],
       "source": "Methanex Europe"
     },
     {
       "id": "ets",
       "name": "ETS CO₂",
-      "price": 68.4,
-      "unit": "EUR/tCO₂",
+      "price": 291,
+      "unit": "PLN/tCO₂",
       "change": 0.0,
       "period": "30 dni",
       "color": "#8B5CF6",
       "spark": [
-        68.4,
-        68.4,
-        68.4,
-        68.4,
-        68.4,
-        68.4,
-        68.4
+        291,
+        291,
+        291,
+        291,
+        291,
+        291,
+        291
       ],
       "source": "ICE EUA Futures"
     },
     {
       "id": "oil",
       "name": "Ropa Brent",
-      "price": 79.82,
-      "unit": "USD/bbl",
+      "price": 311,
+      "unit": "PLN/bbl",
       "change": -0.0,
       "period": "30 dni",
       "color": "#06B6D4",
       "spark": [
-        77.2,
-        77.2,
-        77.2,
-        77.2,
-        77.2,
-        77.2,
-        79.82
+        301,
+        303,
+        305,
+        306,
+        308,
+        310,
+        311
       ],
       "source": "ICE Brent Crude"
     }
-  ]
+  ],
+  "fx": {
+    "EURPLN": 4.25,
+    "USDPLN": 3.90
+  }
 }
