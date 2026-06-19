@@ -743,9 +743,9 @@ const PRICE_ICONS={
 };
 
 const PRICE_CTX=[
-  {label:'Parytet',title:'Kiedy H₂ opłacalny vs. diesel?',body:'Przy cenie diesla ~1,65 EUR/l i sprawności ogniwa ~60%, opłacalność zaczyna się poniżej ~9 EUR/kg. Rynek stacyjny jest jeszcze 40% powyżej tej granicy.',pill:{text:'9 EUR/kg próg',cls:'neg'}},
-  {label:'ETS & Wodór',title:'CO₂ powyżej 65 EUR/t zmienia rachunki',body:'Każde 10 EUR wzrostu EUA przekłada się na ok. 0,8 EUR oszczędności na tonie stali z H₂ vs. konwencjonalnej. Skraca efektywnie payback elektrolizerów.',pill:{text:'Pozytywny impuls',cls:'pos'}},
-  {label:'Metanol – H₂ Carrier',title:'Bio-MeOH jako nośnik H₂ w portach',body:'Przy obecnych cenach bio-metanolu i koszcie reformingu, konwersja H₂↔MeOH dla żeglugi jest droższa niż LNG, ale spełnia wymogi FuelEU Maritime.',pill:{text:'FuelEU compliant',cls:'neu'}},
+  {label:'Parytet',title:'Kiedy H₂ opłacalny vs. diesel?',body:'Przy cenie diesla ~7 PLN/l i sprawności ogniwa ~60%, opłacalność zaczyna się poniżej ~38 PLN/kg. Rynek stacyjny jest jeszcze ponad 60% powyżej tej granicy.',pill:{text:'~38 PLN/kg próg',cls:'neg'}},
+  {label:'ETS & Wodór',title:'CO₂ powyżej 275 PLN/t zmienia rachunki',body:'Każde 10 PLN wzrostu ceny EUA przekłada się na ok. 0,18 PLN oszczędności na tonie stali z H₂ vs. konwencjonalnej. Skraca efektywnie payback elektrolizerów.',pill:{text:'Pozytywny impuls',cls:'pos'}},
+  {label:'Metanol – H₂ Carrier',title:'Bio-MeOH jako nośnik H₂ w portach',body:'Przy obecnych cenach bio-metanolu (>2000 PLN/t) i koszcie reformingu, konwersja H₂↔MeOH dla żeglugi jest droższa niż LNG, ale spełnia wymogi FuelEU Maritime.',pill:{text:'FuelEU compliant',cls:'neu'}},
 ];
 
 /* ─── STATE ─── */
@@ -866,7 +866,7 @@ async function renderCareer(){
       if(items.length){
         grid.innerHTML=items.map(e=>`
           <div class="ev-card">
-            ${e.day?`<div class="ev-date"><div class="ev-day">${esc(e.day)}</div><div class="ev-mon">${esc(e.mon||'')}</div></div>`:''}
+            ${e.day&&e.day!=='??'?`<div class="ev-date"><div class="ev-day">${esc(e.day)}</div><div class="ev-mon">${esc(e.mon||'')}</div></div>`:''}
             <span class="ev-type evt-${esc(e.type||'conf')}">${esc(e.typeLabel||'Wydarzenie')}</span>
             <div class="ev-title">${esc(e.title)}</div>
             <div class="ev-meta">${e.loc?`<span>${esc(e.loc)}</span>`:''}${e.org?`<span>${esc(e.org)}</span>`:''}</div>
@@ -882,8 +882,15 @@ async function renderCareer(){
 
 /* ─── SPARKLINE ─── */
 function sparklineSVG(data,color){
-  const W=200,H=48,min=Math.min(...data),max=Math.max(...data),rng=max-min||1;
-  const pts=data.map((v,i)=>`${(i/(data.length-1))*W},${H-((v-min)/rng)*(H-8)-4}`);
+  if(!data||data.length===0) data=[0,0];
+  if(data.length===1) data=[data[0],data[0]];
+  const W=200,H=48,min=Math.min(...data),max=Math.max(...data),rng=max-min;
+  const pts=data.map((v,i)=>{
+    const x=(i/(data.length-1))*W;
+    // gdy rng===0 (płaska linia) — środek wykresu zamiast dołu
+    const y=rng===0 ? H/2 : H-((v-min)/rng)*(H-8)-4;
+    return `${x},${y}`;
+  });
   const last=pts[pts.length-1].split(',');
   const up=data[data.length-1]>=data[0];
   const sc=up?'#22C55E':'#EF4444';
@@ -946,12 +953,12 @@ async function renderPrices(){
       return;
     }
   }catch(e){}
-  // Fallback — wartości startowe jeśli plik jeszcze nie istnieje
+  // Fallback — wartości startowe (PLN, kurs ~4.25 EUR i ~3.90 USD)
   _renderPriceCards([
-    {id:'h2',      name:'Wodór na stacji', price:14.80, unit:'EUR/kg',    change:-6.4, color:'#10B981', spark:[16.2,15.8,15.4,15.1,15.0,14.9,14.80], source:'H2 Station Index'},
-    {id:'methanol',name:'Bio-Metanol',     price:498,   unit:'EUR/t',     change:+3.1, color:'#FBBF24', spark:[465,472,480,488,492,495,498],          source:'Methanex Europe'},
-    {id:'ets',     name:'ETS CO₂',         price:68.40, unit:'EUR/tCO₂',  change:+10.3,color:'#8B5CF6', spark:[62.0,63.5,65.1,65.8,66.9,67.5,68.4],  source:'ICE EUA Futures'},
-    {id:'oil',     name:'Ropa Brent',       price:77.20, unit:'USD/bbl',   change:-2.8, color:'#06B6D4', spark:[79.4,79.0,78.3,78.0,77.8,77.5,77.2],  source:'ICE Brent Crude'},
+    {id:'h2',      name:'Wodór na stacji', price:62.9,  unit:'PLN/kg',    change:-6.4, color:'#10B981', spark:[68.9,67.2,65.5,64.2,63.8,63.3,62.9], source:'H2 Station Index'},
+    {id:'methanol',name:'Bio-Metanol',     price:2117,  unit:'PLN/t',     change:+3.1, color:'#FBBF24', spark:[1976,2006,2040,2074,2091,2108,2117],   source:'Methanex Europe'},
+    {id:'ets',     name:'ETS CO₂',         price:291,   unit:'PLN/tCO₂',  change:+10.3,color:'#8B5CF6', spark:[264,270,277,280,284,287,291],          source:'ICE EUA Futures'},
+    {id:'oil',     name:'Ropa Brent',       price:309,   unit:'PLN/bbl',   change:-2.8, color:'#06B6D4', spark:[319,316,313,311,309,307,309],          source:'ICE Brent Crude'},
   ], 'dane statyczne');
 }
 

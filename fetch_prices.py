@@ -21,6 +21,19 @@ HEADERS = {
 }
 
 
+# ── Kursy walut PLN ──────────────────────────────────────────────────────────
+
+def _get_fx() -> dict:
+    """EUR/PLN i USD/PLN z Yahoo Finance. Fallback: przybliżone kursy."""
+    fx = {"EUR": 4.25, "USD": 3.90}
+    for symbol, key in [("EURPLN=X", "EUR"), ("USDPLN=X", "USD")]:
+        r = _yahoo(symbol, range_="5d")
+        if r and r.get("price"):
+            fx[key] = round(r["price"], 4)
+            print(f"[CENY] Kurs {symbol}: {fx[key]}")
+    return fx
+
+
 # ── Yahoo Finance helper ─────────────────────────────────────────────────────
 
 def _yahoo(symbol: str, range_: str = "30d") -> dict | None:
@@ -81,40 +94,50 @@ PRICE_CONFIGS = [
     {
         "id": "h2",
         "name": "Wodór na stacji",
-        "unit": "EUR/kg",
+        "unit": "PLN/kg",
         "color": "#10B981",
         "source": "H2 Station Index",
-        "fetch": None,                  # brak darmowego API — trzymamy ostatnią wartość
-        "fallback": 14.80,
+        "fetch": None,          # brak darmowego API — trzymamy ostatnią wartość
+        "fallback_eur": 14.80,  # EUR/kg — przeliczane do PLN przy zapisie
+        "native_currency": "EUR",
     },
     {
         "id": "methanol",
         "name": "Bio-Metanol",
-        "unit": "EUR/t",
+        "unit": "PLN/t",
         "color": "#FBBF24",
         "source": "Methanex Europe",
         "fetch": "methanol",
-        "fallback": 498,
+        "fallback_eur": 498,
+        "native_currency": "EUR",
     },
     {
         "id": "ets",
         "name": "ETS CO₂",
-        "unit": "EUR/tCO₂",
+        "unit": "PLN/tCO₂",
         "color": "#8B5CF6",
         "source": "ICE EUA Futures",
         "fetch": "CARBZ.MI",
-        "fallback": 68.40,
+        "fallback_eur": 68.40,
+        "native_currency": "EUR",
     },
     {
         "id": "oil",
         "name": "Ropa Brent",
-        "unit": "USD/bbl",
+        "unit": "PLN/bbl",
         "color": "#06B6D4",
         "source": "ICE Brent Crude",
         "fetch": "BZ=F",
-        "fallback": 77.20,
+        "fallback_eur": 79.20,
+        "native_currency": "USD",
     },
 ]
+
+
+def _to_pln(value: float, rate: float, big: bool = True) -> float:
+    """Konwertuje wartość do PLN; zaokrągla do całości dla dużych kwot."""
+    pln = value * rate
+    return round(pln, 0) if big else round(pln, 2)
 
 
 def update_prices() -> list[dict]:
@@ -127,33 +150,41 @@ def update_prices() -> list[dict]:
             pass
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    fx = _get_fx()
     results = []
 
     for cfg in PRICE_CONFIGS:
         prev = prev_map.get(cfg["id"], {})
-        prev_spark = prev.get("spark", [cfg["fallback"]] * 7)
+        rate = fx.get(cfg["native_currency"], 4.25)
+        fallback_pln = _to_pln(cfg["fallback_eur"], rate, big=cfg["fallback_eur"] > 10)
+        prev_spark = prev.get("spark", [fallback_pln] * 7)
 
-        # Pobierz świeże dane
+        # Pobierz świeże dane (w walucie natywnej)
         fetched = None
         if cfg["fetch"] == "methanol":
-            fetched = _methanex()
+            fetched = _methanex()   # zwraca EUR
         elif cfg["fetch"]:
-            fetched = _yahoo(cfg["fetch"])
+            fetched = _yahoo(cfg["fetch"])  # EUR lub USD zależnie od symbolu
 
         if fetched and fetched["price"]:
-            price  = fetched["price"]
+            price_native = fetched["price"]
             change = fetched["change"] if fetched["change"] is not None else prev.get("change", 0.0)
-            # Dołącz dzisiejszą cenę do sparkline (max 30 wartości)
-            spark = (prev_spark + [price])[-30:]
+            price_pln = _to_pln(price_native, rate, big=price_native > 10)
+            spark_native = fetched.get("spark") or [price_native]
+            spark_pln = [_to_pln(v, rate, big=v > 10) for v in spark_native]
+            # Dołącz dzisiejszą cenę PLN do sparkline (max 30 wartości)
+            spark = (prev_spark + [price_pln])[-30:]
+            if len(spark_pln) > 1:
+                spark = spark_pln  # użyj pełnego zakresu z Yahoo gdy dostępne
         else:
-            price  = prev.get("price", cfg["fallback"])
+            price_pln = prev.get("price", fallback_pln)
             change = prev.get("change", 0.0)
-            spark  = prev_spark
+            spark = prev_spark
 
         item = {
             "id":     cfg["id"],
             "name":   cfg["name"],
-            "price":  price,
+            "price":  price_pln,
             "unit":   cfg["unit"],
             "change": round(change, 1),
             "period": "30 dni",
@@ -163,9 +194,9 @@ def update_prices() -> list[dict]:
         }
         results.append(item)
         sign = "+" if (change or 0) >= 0 else ""
-        print(f"[CENY] {cfg['name']}: {price} {cfg['unit']} ({sign}{change}%)")
+        print(f"[CENY] {cfg['name']}: {price_pln} {cfg['unit']} ({sign}{change}%)")
 
-    data = {"updated": today, "prices": results}
+    data = {"updated": today, "prices": results, "fx": {"EURPLN": fx["EUR"], "USDPLN": fx["USD"]}}
     Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[CENY] Zapisano {len(results)} cen → {path}")
