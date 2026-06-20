@@ -1,6 +1,18 @@
 {
-  "updated": "2026-06-19",
+  "updated": "2026-06-20",
   "items": [
+    {
+      "company": "Niemcy, Hiszpania, Holandia, Polska, Austria",
+      "country": "UE",
+      "law": "Zasady RFNBO (Renewable Fuels of Non-Biological Origin) – rewizja przepisów",
+      "stance": "mix",
+      "stanceLabel": "Mieszana",
+      "stanceColor": "#FBBF24",
+      "type": "Rząd",
+      "date": "Tue, 31 Ma",
+      "excerpt": "Pięć państw członkowskich UE – Niemcy, Hiszpania, Holandia, Polska i Austria – wspólnie wezwało do wprowadzenia konkretnych zmian w przepisach RFNBO dotyczących odnawialnego wodoru. Inicjatywa jest istotna dla branży, ponieważ obecne zasady RFNBO określają warunki kwalifikacji wodoru jako odnawialnego, co bezpośrednio wpływa na opłacalność inwestycji i dostęp do rynku.",
+      "href": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUDlNazY3TnQxV1ZkcVpGWnl5R0JMNHh4NndLY1dQY3c3TVFkY3ZDQ2l5SDlfbFdHN0w0YkpXdk1TUk1reW9UTzNWM1MwT243YlJFay1UYS1fVERJNk9pREg3Qi16aWtTdHZMNVBjdWhpMHQzVl9HVEd0QmFCWXQ0WTE3UGdOZHNLS2liNzlUNE5vczNtYkwyNnhuaWtvRnl3ZEdqeXhkMXdvVmZCRmhNb2tlU2k4b05qWWFqSWIwanVQU2pzSk1wRWc0R0dRcmhKMTVSbm12RTJZQWVncFV5dS13?oc=5"
+    },
     {
       "company": "Komisja Europejska / EU Energy and Raw Materials Platform",
       "country": "UE",

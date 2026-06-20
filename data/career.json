@@ -1,6 +1,19 @@
 {
-  "updated": "2026-06-19",
+  "updated": "2026-06-20",
   "items": [
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "World Hydrogen Summit 2026",
+      "day": "",
+      "mon": "",
+      "year": "",
+      "date_iso": "",
+      "loc": "Rotterdam, Holandia",
+      "org": "World Hydrogen Summit",
+      "desc": "Największy światowy szczyt poświęcony wodorowi, odbywający się w Rotterdamie. Wydarzenie gromadzi liderów branży, decydentów i ekspertów z całego świata, stanowiąc kluczową platformę networkingu i wymiany wiedzy na temat rozwoju gospodarki wodorowej.",
+      "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa2RycG9vaUNnNW9TbmxUR3VkdExiVlJobE04Rlh3dzA4SXpOaHBYb3dhNURvcUppejlja1l4bl85WllSM1gzV2ZqX09ZUU55cXc2eDNmTGo2ekJUMXV3ZkFlSHc5VC1BNWhXV2p1UC1LODkzV3JiOE9iVjRyaWdHQzYyS0pSU3BQblNDLTV1NGxaZ2pNYmd6UE92NjFNSTY2bEdYYTdQaXhoV3JhUzdCaVFPOEJrOXNkaVgtQQ?oc=5"
+    },
     {
       "type": "conf",
       "typeLabel": "Konferencja",

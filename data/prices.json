@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19",
+  "updated": "2026-06-20",
   "prices": [
     {
       "id": "h2",
@@ -63,7 +63,7 @@
       "name": "Ropa Brent",
       "price": 299.0,
       "unit": "PLN/bbl",
-      "change": 1.0,
+      "change": 0.9,
       "period": "30 dni",
       "color": "#06B6D4",
       "spark": [
