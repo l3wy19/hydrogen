@@ -1,6 +1,18 @@
 {
-  "updated": "2026-06-20",
+  "updated": "2026-06-21",
   "items": [
+    {
+      "company": "Shell",
+      "country": "UE",
+      "law": "Regulacje dotyczące odnawialnego wodoru w transporcie (RED/RFNBO)",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Company/Business",
+      "date": "Fri, 24 Ap",
+      "excerpt": "Shell apeluje o złagodzenie regulacji dotyczących odnawialnego wodoru w transporcie w Europie, sugerując że obecne wymogi są zbyt rygorystyczne. Stanowisko to jest istotne dla branży, gdyż dotyczy kryteriów klasyfikacji RFNBO i może wpłynąć na tempo rozwoju rynku wodorowego w sektorze transportu.",
+      "href": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZlVOME96S25wcWhiUDhTXzNIcEd6Y2JVUjFfT0JnaFZ6M2haczNqeWVBSE10UmhQZ0gwWGRDTUNoQnRvMS1WeXo2Um14eUctVDdyZUNaMGp2a2xPdlV1TjliTnhIV3A2M1JJalo5V21Qd2Q3d1NrYVpreHJPU2hpcXU5ZDdnNkx0c1JsQzNHQ3A0YWRKRnlNUGVWZGNPN3dITVNvUXZZbUVjc0FvemNKX2NKbWVUNXhHeGVMMHc0ZGE0Tjk5N2EzNUxiTWlfVUZNbEt2S2pXMi1YLXR3VU9mYmFFYzJOUQ?oc=5"
+    },
     {
       "company": "Niemcy, Hiszpania, Holandia, Polska, Austria",
       "country": "UE",
