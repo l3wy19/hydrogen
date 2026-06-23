@@ -1,6 +1,19 @@
 {
-  "updated": "2026-06-22",
+  "updated": "2026-06-23",
   "items": [
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "Green Hydrogen Summit 2026",
+      "day": "",
+      "mon": "",
+      "year": "2026",
+      "date_iso": "",
+      "loc": "",
+      "org": "ESG News",
+      "desc": "Green Hydrogen Summit 2026 to szczyt poświęcony zielonej energii wodorowej, gromadzący liderów branży, decydentów i ekspertów. Wydarzenie stanowi kluczową platformę wymiany wiedzy i nawiązywania współpracy w sektorze zielonego wodoru.",
+      "href": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YeExZS29Yc01RQXVoSVlCZUR2MU1hOU95LXQ0NmNfSFM4emF0RHdvWDhOWGsyZWl5YU4wbVRORVJLbFFJWmRZaXJBWjY1MDJEdEFWZGdMU2JXdlVsY3RLblJRWQ?oc=5"
+    },
     {
       "type": "conf",
       "typeLabel": "Konferencja",
