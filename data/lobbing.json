@@ -1,6 +1,78 @@
 {
-  "updated": "2026-06-23",
+  "updated": "2026-06-24",
   "items": [
+    {
+      "company": "Komisja Europejska / DG ENER",
+      "country": "UE",
+      "law": "Post-2030 Renewable Energy Framework – Public Consultation",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Rząd",
+      "date": "Fri, 20 Ma",
+      "excerpt": "Komisja Europejska prowadzi konsultacje publiczne dotyczące ram polityki energetyki odnawialnej po 2030 roku. Wyniki konsultacji mogą bezpośrednio kształtować przyszłe regulacje dotyczące zielonego wodoru i RFNBO po wygaśnięciu obecnych celów RED III.",
+      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYjhYb3NieU8yTUN0T0ZqMTA0Uy1qQTN6c0s2TUJadjBYY2xEOEEzNlpzdUVOZ0NwX0JNTUdmYi1hZFBJTUFyXzdtN0V3Zlhrd1BsVlNuMnoyQ01EM0Z3bF9ESUlMZ051NkxIemFvcXFoZmZIT3NhcjgxQ3R4dkJ1Rm91ekwyeDVmdlRGRGFMdmNhYW5sWEwtQlNYTlQ4bGlFcVRIdFBB?oc=5"
+    },
+    {
+      "company": "Air Liquide",
+      "country": "UE",
+      "law": "Regulacje RFNBO / rynek elektrolizy wodoru non-RFNBO",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Company/Business",
+      "date": "Thu, 04 Ju",
+      "excerpt": "Air Liquide alarmuje, że elektrolizy wodoru niespełniające wymogów RFNBO nie mają rynku zbytu w UE, co hamuje rozwój całego sektora. Firma lobbuje za stworzeniem regulacyjnych ścieżek rynkowych dla wodoru elektrolizy niezwiązanego z RFNBO.",
+      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcVUydUVDbDg0ZmN0ZVhGY1pyeVVwbjNYbzA0dzNvdXh6T1hDdGlrMFVmSFBHRDFVbmNrMkJnVWFFQkNPUlNuU0xzejNaNHZMQXNFRUEzVDJwWHF3QjVxOU1VNC1EemJLOGNPYUdmeVl6aVBPOWF3UkJST1llZFZGSzNfX2l4RlNBU1RtbXc1Y21CMTBzN3ZQcHQ5MU9yMXNud3lla0RZZG1PRV9DVXR4Yzl3NVdBS1gxOEZFOTdsbnlTRVM1M2twb1JLMzM2QQ?oc=5"
+    },
+    {
+      "company": "Autor opinii (Hydrogen Insight / organizacja proregulacyjna)",
+      "country": "UE",
+      "law": "Przegląd zasad RFNBO 2028 (RED III / Delegated Acts)",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "NGO",
+      "date": "Thu, 19 Fe",
+      "excerpt": "Opinia broni utrzymania planowanego przeglądu zasad RFNBO na 2028 rok, argumentując że decyzje regulacyjne powinny opierać się na danych i dowodach, a nie presji lobbystycznej. To ważny głos w debacie o stabilności regulacyjną dla inwestorów w zielony wodór.",
+      "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONWNRSnRoZFU0Ti1qdEVMTFpLWnVOTWJuZUkxdk1qVnN5UG9mbmltS2REejFwam1ybTVMbkluUEFFLWhZbFRIYm9BR3gtbHBGWTFSMlVCeUZsX04zMUJvZ0FlSlFwZWxyZGNDZ0lSQkZYeFhiN0k1UFZnb3dTWjdycFRwQVJIYkVVcXJOUXdHLVpXUFhtZkc5dGEycTdwZkw0S1RnWktKWUZkZ0I0WFVMY3E2ZmF4Tzc5bnlEa1JMaw?oc=5"
+    },
+    {
+      "company": "Producenci elektrolizerów / branża zielonego wodoru (głos zbiorowy)",
+      "country": "UE",
+      "law": "Zasady RFNBO – postulat złagodzenia wymogów (RED III / Delegated Acts)",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Industry Association",
+      "date": "Wed, 01 Oc",
+      "excerpt": "Producenci elektrolizerów i deweloperzy projektów wodorowych alarmują, że rygorystyczne zasady RFNBO powodują masowe odwoływanie projektów i przestoje fabryk elektrolizerów. Branża wywiera presję na Komisję Europejską o pilne złagodzenie wymogów certyfikacji zielonego wodoru.",
+      "href": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQLWxhN0dfQnRSX2lCY3dqUVZWMlBobFNoU3pmbm51dnZqejJQMlZZZ051aVZLVEsxa0oyNTVlMjEwZHlvU3FqWkQtQ29tdUpvTWd4LV96ZFE2Zmxab2EzOXFidm9iSVVONlduQWwydGFBSHZhQV9pUVFNeHc3RlFDeTNuSU1lS3pDR1VabHJXVEpSSkpTTlBxM3BXLUF1MjlNSi16WXZSVVdqbVM5OGRRVUdrZUV2VWJXbUNEejUyMkJfQ2RGS0hoM0lGcXdjYWtIQzF1VHpDTDNpVkNEMnYzYmtGWnlMc2FEZWJWZGNpNHNDT3R1eVRZd2d1anpGdXpBVG1hUVJn?oc=5"
+    },
+    {
+      "company": "Chiński państwowy podmiot (projekt 230 MW)",
+      "country": "UE / Chiny",
+      "law": "Certyfikacja RFNBO (RED III / Delegated Acts)",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Company/Business",
+      "date": "Thu, 30 Oc",
+      "excerpt": "Po raz pierwszy na świecie chiński projekt państwowy o mocy 230 MW do produkcji zielonego wodoru i amoniaku uzyskał certyfikat RFNBO wymagany przez UE. To precedens otwierający pytania o dostęp podmiotów spoza UE do europejskiego rynku zielonego wodoru i implikacje dla polityki przemysłowej.",
+      "href": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPb05pRzhYYkNKeHhHbzRyVHFndUpaQy1fa2k0RmJ2OXIxaWp0NmJ3NU1lN0doajFkNU02RDNOODRLRjdOcVItU2lOMTMzVlFrRVFFdXE4aWh1UVVJNWpyZkhpdHhHSV91NTZPdF9YbDZUWGJDaGV5NV96YzN3RU1ReE4ybTJZd0dTcHdqdnpuaFNLUG1VVjllUTJOUUU2UmFKOGc0R2JaTzN2LWgyOVdhMW16S19kV2ZXLWFwRzRsYUVUUXB4dHV4Z3F4a3hVRU5OOGdNdjRoRWhaU0tOZVpEVHl0VGtMM3Zta1ZvLVF3RQ?oc=5"
+    },
+    {
+      "company": "Komisja Europejska / Rząd Niemiec",
+      "country": "UE / Niemcy / Dania",
+      "law": "Pomoc publiczna na zielony wodór – zatwierdzenie przez KE (programy H2Global / aukcje)",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Rząd",
+      "date": "Wed, 20 Ma",
+      "excerpt": "Komisja Europejska zatwierdziła plan Niemiec dotyczący przeznaczenia 1,3 mld euro na dofinansowanie do 1 GW projektów zielonego wodoru w Danii. Decyzja stanowi istotny precedens regulacyjny w zakresie transgranicznych subsydiów wodorowych i zasad pomocy publicznej w UE.",
+      "href": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNS1ZDZ0haMlpJMG1sejlFZkVnX29XNGJpbmRvQzhZa0hBbW9oMFBqOFV6a001Ul8xU0VpTDM5VXNuODVYdWRkRXQ5MDJDbGZyWXZ6S3A2b3VOMVNKNEF3d1RKbFJ3Z192S1g1eTE3THBIZTFZdjIySXpmQ2lLVW40Z21BTzZobTI0TTU3OHV2U1l3YjNsb2hockg2cThJQ2VoX0lWZ0o2bGRCMm5SU2txMmxybG1Rd3M4Z2k4bzZQSlh5VjVvcTNYbzRJRFpnTUlZZ0IxN2k1SVpIM1FJTTIyTTRKM1h0LUpMMFVabA?oc=5"
+    },
     {
       "company": "Shell",
       "country": "UE",
