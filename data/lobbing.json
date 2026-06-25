@@ -1,6 +1,42 @@
 {
-  "updated": "2026-06-24",
+  "updated": "2026-06-25",
   "items": [
+    {
+      "company": "EU Hydrogen Sector (branża wodorowa UE)",
+      "country": "UE",
+      "law": "RFNBO (Renewable Fuels of Non-Biological Origin) – regulacje dotyczące zielonego wodoru",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Industry Association",
+      "date": "Wed, 27 Ma",
+      "excerpt": "Sektor wodorowy UE lobbuje w Brukseli o ochronę już realizowanych projektów przed zmianami w regulacjach RFNBO. Branża obawia się, że rewizja przepisów podważy opłacalność inwestycji i destabilizuje rynek zielonego wodoru.",
+      "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeXlJY0phZVZsREx4Q1B5ZUhpUWktWEdFXy0wOHJVSzFXbWFxUXkxNFJ1dzZkWURaNmxOSk9jRTBqQzJOYVg5UkNxVnpkV1VZTkJnUTg4ZUg2NVpjbDd6MnJ3Wk9Wbjctd1lmUmhfT25zLXpubzVRSDVCUmhpWEszYmVzWFVibDRKcWFuMXYydGdkcWlQZGNUNGM5SlZMN0QzR3R3UXFXYTdhSFhDUnk5NFBxOFRvUGc4MzBFTFpHR1Z5dXM?oc=5"
+    },
+    {
+      "company": "Komisja Europejska",
+      "country": "UE",
+      "law": "RFNBO (Renewable Fuels of Non-Biological Origin) – wczesny przegląd regulacji",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Rząd",
+      "date": "Wed, 22 Ap",
+      "excerpt": "Komisja Europejska potwierdziła wcześniejszy niż planowano przegląd regulacji RFNBO dotyczących wodoru odnawialnego. To kluczowy sygnał dla branży, że przepisy definiujące zielony wodór mogą ulec zmianie, co wpłynie na cały łańcuch wartości sektora.",
+      "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQjY5LTVVd1lqT0tWcmV6TVBJZjZxWDZiSVZZRDVIRjhJRkpQTzhoUVg5bldTVWVPWXdPUjBxZkRaNDJRbklwRUtVX1E3OUtoQmFLNmNndnA3bFdPMThOZ1NJVXoyNHdpa01ZV0V0b29Cb3NzWEwybHVTR3lOaEdVY3VRc1RpZXVLOW92TmExLUJuSXd6LXVlRXNBalFocVdhMGZjSm9seHJaaU9Jd09pd2VvbFZzNFREZno4NnpSOVB4TGJu?oc=5"
+    },
+    {
+      "company": "Lhyfe",
+      "country": "Francja",
+      "law": "RFNBO (Renewable Fuels of Non-Biological Origin) – certyfikacja zielonego wodoru",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Company/Business",
+      "date": "Mon, 30 Ju",
+      "excerpt": "Lhyfe jako pierwszy producent we Francji uzyskał certyfikat RFNBO dla wyprodukowanego zielonego wodoru, potwierdzając zgodność z unijnymi wymogami. To precedensowe osiągnięcie pokazuje wykonalność regulacji RFNBO w praktyce i stanowi ważny punkt odniesienia dla całej branży.",
+      "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSFZTUlVONldTdUVUMjdYMVZSelVWLVJ5dnJodXViOVBqTGpQM0RadG9fSVYwTDJ0Q0FIMmdXMXh3LXpENkFOZFpDOXZBaFhUSU5FYjNzMjJqYVh6OUd2LTFEYUZMZHllTlN4LXBfWTQ1VmV0UlhWWUlSNzlLYjZQdTZyYWlONElIdHlYZTYxV005MjdqTFFuaTRIZk5GaExjN3VPNzZvLVhmZWdDN3BEQU4yQW1CRDZIY1RYcjkxQ25BaFpxbzJV?oc=5"
+    },
     {
       "company": "Komisja Europejska / DG ENER",
       "country": "UE",
