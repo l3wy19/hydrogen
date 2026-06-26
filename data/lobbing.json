@@ -1,6 +1,54 @@
 {
-  "updated": "2026-06-25",
+  "updated": "2026-06-26",
   "items": [
+    {
+      "company": "European Commission (DG Energy)",
+      "country": "UE",
+      "law": "Projects of Common and Mutual Interest (PCI/PMI) – kategoria wodór, elektrolizery i CO2",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Rząd",
+      "date": "Thu, 25 Ju",
+      "excerpt": "Komisja Europejska ogłosiła nabór wniosków na projekty infrastruktury energetycznej PCI/PMI w kategorii wodoru, elektrolizerów i CO2. To kluczowy mechanizm finansowania i wsparcia regulacyjnego dla rozwoju infrastruktury wodorowej w UE.",
+      "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQem5MSHVDUS1Lc0JrY0taLVhvSF9YNlZoSHF3VDNjM1gzOGdSSmRHX09oNXdfampobERVdmVkM3htLVB4MExZYUZHS1pMRERSckxEaG9tVW02S0FqWGNqYmRWLUdyRzlLb2doRjhKZzk1UWpJT05jZzVKazhLdVdsQTZfQ2tGTWk4MDljMk1takh2ZlVkOGkxZ2RIR1JqY1BRM3ZCWXVVZC01LTVLNzUxRDlrVWFZcHltTXRMYWZCQlBSbW5DVlFYVzNReFA0Z0ZfX3ZWVzJkLU8?oc=5"
+    },
+    {
+      "company": "European Commission",
+      "country": "UE",
+      "law": "Przegląd kryteriów produkcji odnawialnego wodoru (Delegated Acts do RED III)",
+      "stance": "mix",
+      "stanceLabel": "Mieszana",
+      "stanceColor": "#FBBF24",
+      "type": "Rząd",
+      "date": "Wed, 22 Ap",
+      "excerpt": "Komisja Europejska potwierdziła tzw. 'targeted review' kryteriów produkcji zielonego wodoru, co sugeruje możliwe złagodzenie restrykcyjnych wymogów addytywności i korelacji czasowej. Zmiana ta jest istotna dla opłacalności projektów elektrolizerowych w Europie.",
+      "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ1dXR1lNaXYwSnk2VnlGZmlxenFLQUlTSnVBTXhBUzJZbVluSjNsOFVOR18ya3Bwbk5NN2JFVE5INjJiMUp6R0VCU0FrRnFQX1BuNnJDSVdpTUxLZlN6amdVT3owSVBzdTBENTRzb2tlVE40d2p4TFlxNGhxUlV1UGdxanAxcEh3ck5lcE92ZGNGYTMyT0NYUGdhQ3NKUEZ0WTV3U2JFclo5dmduYlVhWm15eC1CaHN2a2pEV2ZB?oc=5"
+    },
+    {
+      "company": "Inwestorzy / branża wodorowa (UK)",
+      "country": "Wielka Brytania",
+      "law": "Regulacje i polityka wodorowa Wielkiej Brytanii vs. postęp projektów UE",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Industry Association",
+      "date": "Wed, 11 Ma",
+      "excerpt": "Inwestorzy wyrażają rosnącą niecierpliwość wobec opóźnień regulacyjnych w sektorze wodorowym w Wielkiej Brytanii, podczas gdy projekty unijne nabierają tempa. Artykuł wskazuje na ryzyko odpływu kapitału z rynku brytyjskiego na rzecz UE.",
+      "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSGFqR0RRY1RpTGVOcUw0QVBOd3g2eU1JcGlSYW5PQ3ZxLWZodUxVVTdUOFFwUHJVUUREN2RxSTVhOEJlZGMyZTNnY2lTdllJUG8yV1pRYnBLSG1sa1ZHNUJqNTRhWjZCa2FPdXU3Q0JUT1BsLUJuTFNXSUlnbzhNSkZCZFZkWHEwZllwWW81bU5fekgtWmdsQmRWYVdySjZWeDljV2s4dHQ1MzNaVEFnZWhVUDMzRVAtc0E?oc=5"
+    },
+    {
+      "company": "Bundesrat (Niemcy)",
+      "country": "Niemcy",
+      "law": "Ustawa mandatująca 10% RFNBO w transporcie drogowym do 2040 r.",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Rząd",
+      "date": "Fri, 08 Ma",
+      "excerpt": "Niemiecka izba wyższa parlamentu (Bundesrat) zatwierdziła ustawę nakładającą obowiązek stosowania 10% odnawialnych paliw wodorowych (RFNBO) w transporcie drogowym do 2040 roku. To ważny sygnał regulacyjny tworzący popyt na zielony wodór w sektorze transportu.",
+      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQjVUOF9oLVBtLVNtdFU1ZDAzS2lUd3BwajBxU0JmRnRlZGtvZ1NNTDZOejNfUHJUb292amZJSWNwc0JWN0M1SXVHTENxa2Y5bHZGcWZLV0lFQTcxNnhnQncwLUhjZjgwb2VtbHk3ZVNIeFpVLXRTTlhEcW1qdHdJdHM0eHBkSW1JS0FvdUNBXzVOVURlMk9xcDNlLXVESmZlLTFPSDZhSUR0T0FuLXB2Zl82V0tSNHJHa1UtTFNTcVcxaXRMTkVTOW9HZ29xQQ?oc=5"
+    },
     {
       "company": "EU Hydrogen Sector (branża wodorowa UE)",
       "country": "UE",
