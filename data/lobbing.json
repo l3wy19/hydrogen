@@ -1,6 +1,66 @@
 {
-  "updated": "2026-06-26",
+  "updated": "2026-06-27",
   "items": [
+    {
+      "company": "Stibbe",
+      "country": "UE",
+      "law": "Ramy regulacyjne dla wodoru odnawialnego w UE",
+      "stance": "mix",
+      "stanceLabel": "Mieszana",
+      "stanceColor": "#FBBF24",
+      "type": "Company/Business",
+      "date": "Wed, 27 Ma",
+      "excerpt": "Kancelaria prawna Stibbe analizuje unijne ramy regulacyjne dla wodoru odnawialnego, wskazując na rosnącą presję na istniejące przepisy. Artykuł istotny dla branży, gdyż identyfikuje słabe punkty i napięcia w regulacjach, które mogą wpłynąć na inwestycje w zielony wodór.",
+      "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWkZLdFFYOENIZHJrTmhualJxc0Zrd1V5SkIxNDlWU1pab1pmUG1TQnpFaERfVzBDS0psUTBUOXN5WWJodEVqQzJJOHluNXhtY3gwSkQ1bFpEaWR6T2NQRnA0S195dUd1Wm5IY0JMaDNhMEg5VUE2eUhtckJZcGhJamxFOUZMLUZfcGJsMFhsTnBxenlSUUdlRHZUY0VacmVQS0ZvSjNFUQ?oc=5"
+    },
+    {
+      "company": "Komisja Europejska / DG ENER",
+      "country": "UE",
+      "law": "European Hydrogen Regulatory Forum",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Rząd",
+      "date": "Thu, 19 Ma",
+      "excerpt": "Europejskie Forum Regulacyjne ds. Wodoru to platforma konsultacyjna Komisji Europejskiej służąca wypracowaniu spójnych ram regulacyjnych dla sektora wodorowego. Kluczowa inicjatywa dla branży, umożliwiająca interesariuszom wpływ na kształt przyszłych przepisów UE.",
+      "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORzJlbGNEQ0tOcjFhaTlfeks3anIwRjh4QS14RGNjdVo4cThwYnp4YjlTaE9vSk1TLXVqWWo2bEltZ0R3TW9lc1B4ZjQzQk9qWUxwS2dxV0FRM1gyMW9FYjZmVkhMWl9CTzkzWmR3R1JVZTA0SHNtSzlZWFFtczczNm9MZGNxeFJiNDhR?oc=5"
+    },
+    {
+      "company": "Komisja Europejska",
+      "country": "UE",
+      "law": "Call for Strategic Hydrogen and CO₂ Projects (IPCEI / Horizon / CEF)",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Rząd",
+      "date": "Fri, 26 Ju",
+      "excerpt": "UE ogłosiła nabór wniosków na strategiczne projekty wodorowe i CO₂, sygnalizując aktywne wsparcie publiczne dla rozwoju infrastruktury wodorowej. Dla branży oznacza to dostęp do finansowania oraz potwierdzenie priorytetu politycznego wodoru w transformacji energetycznej.",
+      "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQai1rVkxnNWEzUVBJdGxVc3JMbFE2RzFtSnphLWQwWG4zTWtrSUxEbHF4bjl5QWlhVGp5X3NWZkVDdU1LNHRfZlFZNVp5QzJLOV93XzhGZkJUVTZzeW5QTE1YS09VWF9MSnNEOGhSRlJwMTMzMEFoVXFYWlB1a2FieEdaN0JwUmhnb1BITmNCVzk0SkE3ek9Ua2tuOFU2RGZ3ZmQ0Vk5MekpZOGJuRXc0QnhCSnlTWVZDeEV5OUtDRWtPQQ?oc=5"
+    },
+    {
+      "company": "Indyjski deweloper projektów zielonego wodoru (nienazwany)",
+      "country": "Indie / UE",
+      "law": "Regulacje RFNBO (Renewable Fuels of Non-Biological Origin) – RED III",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Company/Business",
+      "date": "Thu, 04 Ju",
+      "excerpt": "Indyjska firma zajmująca się zielonym wodorem podpisała umowę na dostawę 250 000 ton rocznie metanolu zgodnego z wymogami RFNBO, co pokazuje rosnące znaczenie unijnych regulacji poza granicami UE. Transakcja potwierdza, że standardy RFNBO stają się globalnym punktem odniesienia dla handlu zielonym paliwem.",
+      "href": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTGpMeWZtWlR3WlpTcnoyUEhKbzFSUWRsVldCUl9KYU9RdERzRTVXdVZQZlNvSHZVVUJ5cE9NRGh0dVdQMDNxajR3elVKLXJCSld5dkxXU0w2dW1MS0dINXNQU2pSMnF2N0NFNFQyVDFkeHhKUUFVWWtVVFVtNmItU3pBVFY1ODZNYjRvS0l6eUlvc3ppMlhWY1NyYnFEdzZ0Tkc0Qk1EYkE4LS1lajQtaHN6SXJHZjc5bllxVG1oY2xNT3gyTlFmOW5mY0JLRHZUZjRfOVBXTWhqTnNzNEVwM2FpNS12eGFpNnk5V0tVeDZQamp6bnpsZUp3SQ?oc=5"
+    },
+    {
+      "company": "Wood Mackenzie (WoodMac)",
+      "country": "UE",
+      "law": "Mandat RFNBO 42% dla przemysłu do 2030 r. – Dyrektywa RED III",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Company/Business",
+      "date": "Fri, 09 Ja",
+      "excerpt": "Analitycy Wood Mackenzie prognozują, że UE jeszcze w tym roku porzuci obowiązkowy cel 42% udziału RFNBO w wodorze przemysłowym do 2030 r., uznając go za nierealistyczny. To sygnał ostrzegawczy dla branży – potencjalne osłabienie mandatu może podważyć pewność inwestycyjną w projekty zielonego wodoru.",
+      "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMmlWZU9JTjVDT1BMcVRDekhOdkptcGpDSkR1QmlocDlkVjNKelVLSFJZVmdSYUVrMzdwdzNFZ0dWMERRNE1CZkJmSDV1bFJSSzhMWTNGRG56dGplMlk2SllNdDhlRnF5dTZtREdFNXY3WXJSaHpHRDNrRGUydlpRLWhpa1QwNTlNNEVpSG9HTk5mdC0zUm81N1JSNHdYS3R1TW9WdmtWOTBJbEV0aHRWTjFmN1Y0bFBBM3kycElSZGpOOFlYLVE0MmJiQnExb2U2T3hpR1ZjeTVIb3VEaTZaUkhIZmwwY2Q1?oc=5"
+    },
     {
       "company": "European Commission (DG Energy)",
       "country": "UE",

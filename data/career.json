@@ -1,6 +1,19 @@
 {
-  "updated": "2026-06-26",
+  "updated": "2026-06-27",
   "items": [
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "Global Sustainable Aviation Fuel Summit 2026",
+      "day": "",
+      "mon": "",
+      "year": "",
+      "date_iso": "",
+      "loc": "Online",
+      "org": "Airport Industry-News",
+      "desc": "Globalny szczyt poświęcony zrównoważonym paliwom lotniczym (SAF), w tym paliwom wodorowym i odnawialnym. Wydarzenie skierowane do przedstawicieli branży lotniczej zainteresowanych dekarbonizacją sektora.",
+      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONG1ac3F4UXk3LWthTGNsNzZxN0dhYzBNS0pkdC1FaTkzY29QV3ZkTjNqRWQ1U1ZOTTIxV2pjdHVpQUVsTVBLZTV1aXZKS3BsSFpvbUZ0WEN0TWZIb3NuS3JUdndxT3ZqdjMzTWNwTXdRUmZBb3dCd2xKX2hfSTJJUlItM3NFd3dHQ1JMak9HR1ZjTEZhTmluTUgxWQ?oc=5"
+    },
     {
       "type": "conf",
       "typeLabel": "Konferencja",
