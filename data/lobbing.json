@@ -1,6 +1,18 @@
 {
-  "updated": "2026-06-27",
+  "updated": "2026-06-28",
   "items": [
+    {
+      "company": "Ineratec",
+      "country": "Niemcy",
+      "law": "Certyfikacja RFNBO (Renewable Fuels of Non-Biological Origin) – delegowane rozporządzenie UE",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Company/Business",
+      "date": "Mon, 22 Ju",
+      "excerpt": "Ineratec uzyskał certyfikację RFNBO dla zielonego wodoru i opartego na nim e-paliwa produkowanego w Niemczech, co potwierdza zgodność z unijnymi wymogami regulacyjnymi dla odnawialnych paliw niebiologicznych. To ważny precedens dla branży, pokazujący realne wdrożenie ram certyfikacyjnych RED III/dyrektywy o energii odnawialnej w przemyśle e-paliw.",
+      "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRDNPaHkwblEzN2dCUjljX1NmWk9YRlhGRkhFLUZuT25FOGV5Tm5VVmhCOTJYeTBaNjJibXJYa0locE1GLTdCeXUyMEluaUpnbHFwX1lScUhfcGk3VGgzcU01dS1WcTNPRzZWemtFODN6RkhaY2Z2LV8wcE1TbXd0R1MyQkdXcGw2OXIxb3hVY1BXckJoWEpjWTdTMUFjalc5OEduTW9XNTJ0U0pIZ01zUjc4QlFsUUVvdEZmVWJWeDdYUm9tZjVIdFZoTFBtcnJiOUh3eDFB?oc=5"
+    },
     {
       "company": "Stibbe",
       "country": "UE",

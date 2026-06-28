@@ -1,6 +1,19 @@
 {
-  "updated": "2026-06-27",
+  "updated": "2026-06-28",
   "items": [
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "International Energy Future Conference",
+      "day": "",
+      "mon": "",
+      "year": "",
+      "date_iso": "",
+      "loc": "Austin, USA",
+      "org": "Austin Monthly Magazine",
+      "desc": "Międzynarodowa konferencja poświęcona przyszłości energetyki, obejmująca tematykę związaną z wodorem i energią odnawialną. Wydarzenie gromadzi ekspertów branżowych i decydentów dyskutujących o kierunkach transformacji energetycznej.",
+      "href": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjdoZDRDb3JCbld5dkJzZjhHbUc4U1RWcjQzbVc2Tm45ZE52NnNNTGFCanpKUEljSGJiaDVuNUVrcHlOZ2tRci1Ba195dUJWX1BMWnc0OUNLWGxyUzJ1MDZHdmNka0JEMTVrVW1VWHJMWGhPeV83eTlrSnd3YXFoTEtB?oc=5"
+    },
     {
       "type": "conf",
       "typeLabel": "Konferencja",
