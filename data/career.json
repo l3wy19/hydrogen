@@ -1,6 +1,19 @@
 {
-  "updated": "2026-06-28",
+  "updated": "2026-06-29",
   "items": [
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "Global Summit on Green Hydrogen",
+      "day": "",
+      "mon": "",
+      "year": "",
+      "date_iso": "",
+      "loc": "Tokio, Japonia",
+      "org": "nieznany",
+      "desc": "Globalny szczyt poświęcony zielonemu wodorowi, w którym udział wziął gubernator Tokio promujący wodorowe rozwiązania energetyczne. Wydarzenie gromadzi liderów branży i decydentów politycznych zainteresowanych rozwojem gospodarki wodorowej.",
+      "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRnFZai0yOW02YXBYMkw3M1NFX3RpRFJOdzhyakNxR1I4Y05rY213NV80d1B1M1ZPcFRYODRJRGxUWlE3cXZFYktKMDZaSnZuX0NzeVhvSE1sd2lKd0lNUkd4Y1JXMkxHckxEeHlrQXBIN05aSDZXVmZaNmNoekhsdmN6OFU0cG0tN25najZiWjZ4QWFFb1UzZjNtdy1UVk84YzNibm5xdUtkRzFRTDlFUG5WTjBHQ25rN0E?oc=5"
+    },
     {
       "type": "conf",
       "typeLabel": "Konferencja",

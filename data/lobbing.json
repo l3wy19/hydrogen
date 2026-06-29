@@ -1,6 +1,18 @@
 {
-  "updated": "2026-06-28",
+  "updated": "2026-06-29",
   "items": [
+    {
+      "company": "Nieokreślona firma (producent zielonego wodoru)",
+      "country": "UE",
+      "law": "Zasady dopasowania godzinowego (hourly matching) dla zielonego wodoru – delegowane akty prawne do RED III / rozporządzenie RFNBO",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Company/Business",
+      "date": "Tue, 17 Fe",
+      "excerpt": "Firma produkująca zielony wodór krytykuje wymóg godzinowego dopasowania zużycia energii elektrycznej do produkcji OZE, twierdząc, że podwoiłby on nakłady inwestycyjne (capex) dla pierwszej instalacji. To kluczowa kwestia regulacyjna dla rentowności projektów wodorowych w UE.",
+      "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeWJYS0o1V1NFUmUxWUNPOGl4YTVKckpZR2dsYUdjckhISFNkWFBNMWdxUWdkT08xdWJ6cnFPdlBhaUNuTmx1NG9xUFNZRW1SNjZsZ3c5c01oNjZrWWd6QkhORWJmMHpWWnJCek1KTmNpa0JXeUxpcDQzaDFBYmpYZjVNdFViUmx0NDdMQ191MWN4RWRxU0FWU1pjS1NKb2t5X2VyR1J5T3k0TC02a21lSEpIcTFNWElWWGFKTU1kVWN2ZUFQdWNLNkQtcnN3ZElOM0p3TnY3N0dSM1R5?oc=5"
+    },
     {
       "company": "Ineratec",
       "country": "Niemcy",
