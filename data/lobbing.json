@@ -1,6 +1,18 @@
 {
-  "updated": "2026-06-29",
+  "updated": "2026-06-30",
   "items": [
+    {
+      "company": "Transport & Environment (T&E)",
+      "country": "Niemcy",
+      "law": "Niemiecka sub-kwota RFNBO dla paliw drogowych",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "NGO",
+      "date": "Mon, 11 Ma",
+      "excerpt": "Organizacja lobbingowa ds. czystego transportu krytykuje niemiecką sub-kwotę RFNBO dla paliw drogowych, nazywając ją 'mandatem do marnowania'. Regulacja jest istotna dla branży wodorowej, gdyż dotyczy obowiązkowego udziału odnawialnych paliw niebiologicznych (w tym zielonego wodoru) w transporcie drogowym w Niemczech.",
+      "href": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORWxYUDZfX1U4YlhLNDBRTTUwRm92ZEdRTVh3ZUF3d2RxaEgzLTBEbU41bjl0WWc3UnVaVHFMUHczMU9aTU9YSllTTWs2NGNIRUtDSFR6Qi1hd3FRd2pBYXZHUlVITEEwRVZKdFBucmRjYXR4akg0Q0ZuS0hKS2RjUUg4MDVkQzJjQmpzd29uZjdqaGZDNjFqSklzVWo5c0hTUVZObFBpOTRMVFJ4WW85ZnFrcndCQlZqcWxBSkZrQmp3UjZvU0NsVmVsdGNDZU5FcUhVcWVhUlFJODA?oc=5"
+    },
     {
       "company": "Nieokreślona firma (producent zielonego wodoru)",
       "country": "UE",
