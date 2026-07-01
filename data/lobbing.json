@@ -1,6 +1,18 @@
 {
-  "updated": "2026-06-30",
+  "updated": "2026-07-01",
   "items": [
+    {
+      "company": "German Hydrogen Lobby (Deutsche Wasserstoff- und Brennstoffzellen-Vereinigung / branżowe stowarzyszenia wodorowe w Niemczech)",
+      "country": "Niemcy",
+      "law": "Kwoty wodorowe / regulacje rynku wodoru w Niemczech",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Industry Association",
+      "date": "Thu, 12 Ma",
+      "excerpt": "Niemiecki lobbing branży wodorowej domaga się wprowadzenia surowszych (wyższych) kwot wodorowych, aby przyspieszyć rozwój rynku i wdrożenie technologii wodorowych. To ważny sygnał dla regulatorów UE i krajowych, że przemysł chce ambitniejszych mandatów jako narzędzia napędowego popytu na wodór.",
+      "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONWZCY3g2T2pfLThrUDRJNkg3c2MyZHp3U2IwV2hGT09NTVpOeG1uNVRZMXBUeG8tUmtsNURUZnVHOW1DVmhLNzdXX09YOWpKb1dieW5QVXRVTThLaW5MbWpDZl8wSl9qR3FrQXZJT2hhOGZBWHQ4T3dVWkJVWEItOFdMMm5UeXRvMVl0amVqeGlLYWhEbXlyVmRiVkpidlFXeENGd0pMRVJRUVI0ZFRFOVB5YXJCd1F4S2pmRFpKT19URGtEWnFsb0hXZ0hUbVNf?oc=5"
+    },
     {
       "company": "Transport & Environment (T&E)",
       "country": "Niemcy",
