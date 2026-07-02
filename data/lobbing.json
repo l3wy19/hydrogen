@@ -1,6 +1,18 @@
 {
-  "updated": "2026-07-01",
+  "updated": "2026-07-02",
   "items": [
+    {
+      "company": "Hydrogen Insight",
+      "country": "Niemcy",
+      "law": "Niemcy – mandat RFNBO dla transportu (odnawialne paliwa niebiologicznego pochodzenia)",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Initiative",
+      "date": "Thu, 07 Ma",
+      "excerpt": "Niemcy wprowadzają obowiązkowy udział RFNBO (w tym zielonego wodoru) w sektorze transportu, co jest implementacją dyrektywy RED III. Analiza ocenia, jakie praktyczne skutki regulacja ta będzie miała dla rynku zielonego wodoru w Niemczech i całej UE.",
+      "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZkhTWmlpV2FEWWk4UXRyQmxtcnFDQUVMcDZTZ1pMSGo4ekVzQXpWSktHSjVlUjlkQ1lnYVhoOTV2WGNoSXNINTZwQnpCM3d4a3FwaGZVdHh5WHBxdU5jaXpyZ3NEX19PMU5TZmFmVGxfMHlGNU02bmNqTGF1OS13c0JadENnRDlhbklNNlI1Wm00aEQyVFZjeVNIZVpOVlluYXN0eDBPNC1OYVVacjFldTZDazRLcEx5RFVMemltYkRQMXlkQlZUem4wMzRKWFBkRmIybnd3?oc=5"
+    },
     {
       "company": "German Hydrogen Lobby (Deutsche Wasserstoff- und Brennstoffzellen-Vereinigung / branżowe stowarzyszenia wodorowe w Niemczech)",
       "country": "Niemcy",
