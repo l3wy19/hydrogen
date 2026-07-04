@@ -1,6 +1,18 @@
 {
-  "updated": "2026-07-03",
+  "updated": "2026-07-04",
   "items": [
+    {
+      "company": "Wood Mackenzie",
+      "country": "UE",
+      "law": "RED III (Dyrektywa o Energii Odnawialnej III)",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Company/Business",
+      "date": "Fri, 29 Au",
+      "excerpt": "Wood Mackenzie analizuje wpływ dyrektywy RED III na kształtowanie rynku wodoru w UE, oceniając jak egzekwowanie przepisów i decyzje inwestycyjne są kształtowane przez nowe regulacje. Artykuł jest istotny dla branży wodorowej, gdyż RED III określa wymogi dotyczące udziału odnawialnego wodoru (RFNBO) w transporcie i przemyśle, bezpośrednio wpływając na opłacalność projektów wodorowych.",
+      "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVDY2Z01zWG1yTHduTUl5T0lrQmhDTlppMktScU1rSm9RYm1hWUt4ODdmeEY2YTBKTEJyMmp1QzFTSnc2dW1XM0g2QnphbG5HS09hVHFqUzRVU19IRWZIWE9yQVMyQ1NFNVZzVFItVFJPOGhNOTRIRGVqNmlqcEJCUTRscUQ0eTlNcUtaZGhnTzJEeWc4dGVmZ3hsRnc5YVN1QXQyaVdnQWNGTXpZMFh5Q01CdFhqY1lh?oc=5"
+    },
     {
       "company": "Hydrogen Insight",
       "country": "Niemcy",
