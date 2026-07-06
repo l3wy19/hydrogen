@@ -1,6 +1,18 @@
 {
-  "updated": "2026-07-05",
+  "updated": "2026-07-06",
   "items": [
+    {
+      "company": "Parlament Europejski (eurodeputowani)",
+      "country": "UE",
+      "law": "RFNBO Rules (Renewable Fuels of Non-Biological Origin) – zasady dotyczące odnawialnych paliw niebiologicznego pochodzenia",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Rząd",
+      "date": "Mon, 22 De",
+      "excerpt": "Eurodeputowani wystosowali list do Komisji Europejskiej wyrażając 'poważne obawy' dotyczące obecnych przepisów RFNBO regulujących produkcję zielonego wodoru, domagając się ich wczesnej nowelizacji. To istotny sygnał polityczny, gdyż obecne restrykcyjne zasady addytionalności i korelacji czasowej są szeroko krytykowane przez branżę jako bariera hamująca rozwój rynku zielonego wodoru w UE.",
+      "href": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUHpoSTVELVhsQXJUNEU4MThOUVNMeFpFY0tnUHJYWWdCSFlwS3pqTzZQcVRJU0pnN2Y1bWNZY0NjSE14R2tTdUxyTnMxeGpsTk5pU003eUJ2emRFVy03Mzd2SHBOeExZU3pzSWdpMXN2Ulh5aXR1T0tDOXo4LWpZR2IzX2FtU1RVWVhTUFg5bHJJZFIwQXI0U19kOUM0RGw2RWVrMGx2SEZfNDVPUTBQTHJYWmJNZzFiVHlhQlhVX0VtemdpWVk1a0t6TFJhcXF0eS1aUndISjNpY2FqZGZSNS05QjE?oc=5"
+    },
     {
       "company": "Wood Mackenzie",
       "country": "UE",
