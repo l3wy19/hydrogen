@@ -1,6 +1,19 @@
 {
-  "updated": "2026-07-06",
+  "updated": "2026-07-07",
   "items": [
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "World Hydrogen Energy Conference 2026",
+      "day": "",
+      "mon": "",
+      "year": "2026",
+      "date_iso": "",
+      "loc": "Singapur, Singapur",
+      "org": "Energy Research Institute @ NTU / Nanyang Technological University",
+      "desc": "Światowa Konferencja Energii Wodorowej 2026 organizowana przez prestiżowy Instytut Badań Energetycznych Uniwersytetu Nanyang w Singapurze. To jedno z najważniejszych globalnych wydarzeń branży wodorowej, gromadzące naukowców, przemysł i decydentów z całego świata.",
+      "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYUxLckhUTWNLc0cxZko5WDlsNE53TnhPdDlBcHFGNGt4Vm1naFIxU2dTZWlwQ2JRdFJmRUlMRGk0Nm9zZm5aNWFBWTVlcDdfTV82N1JLLXNwR3lLdmhxMDc1bzNMbWFpYjhnXzQxbkZCOG4zLUFmRDViblBVaHIwVTNVemFRcjBuS2ZXVy1uejBaWEV2YnVQS09QUzU3QlRDYmhLVjlseUlOaVo4eGo0dUQ4UFNJWU1yY2phYg?oc=5"
+    },
     {
       "type": "conf",
       "typeLabel": "Konferencja",
