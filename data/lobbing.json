@@ -1,6 +1,18 @@
 {
-  "updated": "2026-07-08",
+  "updated": "2026-07-09",
   "items": [
+    {
+      "company": "Firmy wodorowe (zbiorowo)",
+      "country": "UE",
+      "law": "Industrial Decarbonisation Bank (€100 mld)",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Industry Association",
+      "date": "Fri, 19 Ju",
+      "excerpt": "Firmy z branży wodorowej prowadzą lobbing na rzecz unijnego Banku Dekarbonizacji Przemysłu o wartości 100 mld euro, dążąc do zapewnienia finansowania dla projektów wodorowych. Inicjatywa jest kluczowa dla skalowania produkcji wodoru i dekarbonizacji przemysłu ciężkiego w UE.",
+      "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORG1WQUJOdTl0MExfSjl3Wk1IVUotWWFNdTlVRWF0WTFtWG12dGZmYWRldjZ2TjVneURZYkFzSEZXZ0lQQzE5SzNpRl9yM0VWdVRXOGg0bW1DZWdwSUgwWU5zem1ocEJMdk0yS01XanAzMm9fS0gwRVQwMUYxQUtRN2kyZFU4cW96MmhjajJpQnl2cWRRNnNsSDhDVWNLMmFxTC1XTHRNcWdjOW8zR0J6NnlLY284UQ?oc=5"
+    },
     {
       "company": "Parlament Europejski (eurodeputowani)",
       "country": "UE",
