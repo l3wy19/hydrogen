@@ -1,0 +1,183 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T13:28:31.801673+00:00",
+  "article_count": 16,
+  "articles": [
+    {
+      "source": "PV Magazine",
+      "source_category": "news",
+      "title": "EU publishes draft terms of 4th hydrogen auction",
+      "link": "https://www.pv-magazine.com/2026/07/10/eu-publishes-draft-terms-of-4th-hydrogen-auction/",
+      "summary_raw": "<p>The European Commission has published draft terms and conditions for the fourth European Hydrogen Bank auction, planned for end-2026 with a €500 million budget.<br />\nThe procurement exercise will maintain competitive bidding and fixed-premium support while introducing strengthened eligibility requirements, including electrolyzer supply-chain resilience, cybersecurity, ans state aid compliance. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/07/10/eu-publishes-draft-terms-of-4th-hydrogen-auction/\">EU publishes draft terms of 4th hydrogen auction</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>",
+      "published": "2026-07-10T09:49:15+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Komisja Europejska opublikowała projekt warunków czwartej aukcji Europejskiego Banku Wodoru z budżetem 500 mln euro, planowanej na koniec 2026 roku. Nowe wymogi kwalifikowalności obejmują odporność łańcucha dostaw elektrolizerów, cyberbezpieczeństwo i zgodność z przepisami o pomocy państwa.",
+      "importance": 5
+    },
+    {
+      "source": "Google News: green hydrogen",
+      "source_category": "news",
+      "title": "Fraunhofer ISE Achieves 31.3% Solar-To-Hydrogen Efficiency With Innovative Direct Photovoltaic-Electrolysis Technology - SolarQuarter",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORmhFdE9ReUFTdTdLZnpLcjdUMkhRS2dhSlFsUDMxSDdRR1ktbkQ2bVpYajBjbTNuQkJWaGtDb1FxcnFkOHd4RURKUDlsdDNjSGxpdUVrUndyTTQ4UlhMZXdDMGFXQlNIbUhPVzgxaEF6SFBXZUhIMjh5XzhQRTg3dnFld3VJNHRma3JwMFdzc2ttekFLNk9oN1V5QzA3MkJaUGE5TjdoZ0YtZ05BRElRZVduU3JNeFlPMFdNU0czV3ljRWR0Z3FmT3NJY2JmSl82T3FhN21DaHdXazZvd2tER1FvanNYWWhnLWc?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxORmhFdE9ReUFTdTdLZnpLcjdUMkhRS2dhSlFsUDMxSDdRR1ktbkQ2bVpYajBjbTNuQkJWaGtDb1FxcnFkOHd4RURKUDlsdDNjSGxpdUVrUndyTTQ4UlhMZXdDMGFXQlNIbUhPVzgxaEF6SFBXZUhIMjh5XzhQRTg3dnFld3VJNHRma3JwMFdzc2ttekFLNk9oN1V5QzA3MkJaUGE5TjdoZ0YtZ05BRElRZVduU3JNeFlPMFdNU0czV3ljRWR0Z3FmT3NJY2JmSl82T3FhN21DaHdXazZvd2tER1FvanNYWWhnLWc?oc=5\" target=\"_blank\">Fraunhofer ISE Achieves 31.3% Solar-To-Hydrogen Efficiency With Innovative Direct Photovoltaic-Electrolysis Technology</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SolarQuarter</font>",
+      "published": "2026-07-10T10:18:26+00:00",
+      "category": "technologia",
+      "summary_pl": "Instytut Fraunhofer ISE osiągnął rekordową sprawność 31,3% w bezpośredniej konwersji energii słonecznej na wodór, łącząc ogniwa fotowoltaiczne z elektrolizą. To przełomowe osiągnięcie technologiczne może znacząco obniżyć koszty produkcji zielonego wodoru.",
+      "importance": 5
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Offshore Hydrogen Storage Moves Closer with Advanced Coating Development",
+      "link": "https://fuelcellsworks.com/2026/07/08/h2/ctc-develops-protective-coatings-for-offshore-green-hydrogen-storage-infrastructure",
+      "summary_raw": "",
+      "published": "2026-07-09T15:33:37+00:00",
+      "category": "technologia",
+      "summary_pl": "Opracowanie zaawansowanych powłok ochronnych przybliża realizację morskiego magazynowania wodoru. Postęp w tej technologii może umożliwić budowę offshore'owej infrastruktury magazynowej dla wodoru.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "European Commission Approves the Establishment of a Joint Venture Between EWE and Verbund Green Hydrogen",
+      "link": "https://fuelcellsworks.com/2026/07/09/clean-energy/european-commission-approves-the-establishment-of-a-joint-venture-between-ewe-and-verbund-green-hydrogen",
+      "summary_raw": "",
+      "published": "2026-07-09T15:26:25+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Komisja Europejska zatwierdziła utworzenie joint venture między EWE a Verbund Green Hydrogen. Decyzja regulacyjna otwiera drogę do współpracy obu firm w obszarze zielonego wodoru.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "New Report From KBR Supports Potential for US$1.75/Kg Hydrogen From Syntholene's Geothermal-SOEC Platform",
+      "link": "https://fuelcellsworks.com/2026/07/09/electrolyzer/new-report-from-kbr-supports-potential-for-us-1-75-kg-hydrogen-from-syntholene-s-geothermal-soec-platform",
+      "summary_raw": "",
+      "published": "2026-07-09T14:12:01+00:00",
+      "category": "technologia",
+      "summary_pl": "Raport firmy KBR potwierdza potencjał platformy geotermalnej SOEC firmy Syntholene do produkcji wodoru po kosztach 1,75 USD/kg. Tak niski koszt produkcji mógłby znacząco zwiększyć konkurencyjność zielonego wodoru na rynku.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Siemens and FuelCell Energy Collaborate to Explore Scalable Fuel Cell Power Solutions",
+      "link": "https://fuelcellsworks.com/2026/07/09/clean-technology/siemens-and-fuelcell-energy-collaborate-to-explore-scalable-fuel-cell-power-solutions",
+      "summary_raw": "",
+      "published": "2026-07-09T13:43:15+00:00",
+      "category": "technologia",
+      "summary_pl": "Siemens i FuelCell Energy nawiązały współpracę w celu opracowania skalowalnych rozwiązań energetycznych opartych na ogniwach paliwowych. Partnerstwo dwóch dużych graczy może przyspieszyć komercjalizację technologii ogniw paliwowych.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Hydrogen Moves Beyond Transport Into Specialist Construction Machinery",
+      "link": "https://fuelcellsworks.com/2026/06/18/h2/methorst-builds-a-hydrogen-powered-vacuum-truck-for-emission-free-excavation",
+      "summary_raw": "",
+      "published": "2026-07-09T15:52:28+00:00",
+      "category": "technologia",
+      "summary_pl": "Technologia wodorowa wychodzi poza transport i wkracza do specjalistycznych maszyn budowlanych. Artykuł opisuje rozszerzenie zastosowań wodoru na ciężki sprzęt konstrukcyjny.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "2027 BMW iX5 Hydrogen Specs: Range, Refueling, Storage, and Size",
+      "link": "https://fuelcellsworks.com/2026/07/09/fuel-cells/2027-bmw-ix5-hydrogen-specs-range-refueling-storage-and-size",
+      "summary_raw": "",
+      "published": "2026-07-09T15:47:38+00:00",
+      "category": "technologia",
+      "summary_pl": "BMW zaprezentowało specyfikacje techiczne modelu iX5 Hydrogen 2027, obejmujące zasięg, czas tankowania, pojemność zbiornika i wymiary pojazdu. Model ten reprezentuje kolejny krok BMW w rozwoju samochodów napędzanych ogniwami paliwowymi.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Multi-Vehicle Hydrogen Refuelling System Opens for Industrial Transport Fleets",
+      "link": "https://fuelcellsworks.com/2026/07/07/electrolyzer/ulsan-opens-korea-s-first-multi-vehicle-hydrogen-refuelling-system-for-trucks-tractors-and-forklifts",
+      "summary_raw": "",
+      "published": "2026-07-09T14:51:06+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Uruchomiono nowy system tankowania wodoru obsługujący jednocześnie wiele pojazdów, skierowany do flot transportu przemysłowego. Inwestycja ma na celu przyspieszenie adopcji wodoru w logistyce i transporcie ciężkim.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Incheon South Port Clean Hydrogen Supply Project Scrapped After Resident Safety Concerns",
+      "link": "https://fuelcellsworks.com/2026/07/07/h2/incheon-south-port-clean-hydrogen-supply-project-scrapped-after-resident-safety-concerns",
+      "summary_raw": "",
+      "published": "2026-07-09T13:54:45+00:00",
+      "category": "rynek",
+      "summary_pl": "Projekt dostaw czystego wodoru do południowego portu w Incheon został anulowany z powodu obaw mieszkańców o bezpieczeństwo. Przypadek ten ilustruje społeczne bariery dla rozwoju infrastruktury wodorowej.",
+      "importance": 3
+    },
+    {
+      "source": "Google News: green hydrogen",
+      "source_category": "news",
+      "title": "ITE Completes the Hedera Project to Cut Green Hydrogen Production Costs - energynews.pro",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNczlEaVhVOFhBOC1EUHVIcjZLcEkzSDdJUlZIR2VubU5qemE3aG10Wkx0a0NaMy1COFNsNnYxX1NGN2lrTnktbW9QTjJfZDFxRHctamQ4SE92cl84TlBQSFMwUHNhNm1HRzd4ZTAwNGJvNnVzNVBnY0tWQ1lrQjBSdHNWMnFUWFpBbGkzVmdYdUlqaUNEVXd4MEZMVXZaQQ?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNczlEaVhVOFhBOC1EUHVIcjZLcEkzSDdJUlZIR2VubU5qemE3aG10Wkx0a0NaMy1COFNsNnYxX1NGN2lrTnktbW9QTjJfZDFxRHctamQ4SE92cl84TlBQSFMwUHNhNm1HRzd4ZTAwNGJvNnVzNVBnY0tWQ1lrQjBSdHNWMnFUWFpBbGkzVmdYdUlqaUNEVXd4MEZMVXZaQQ?oc=5\" target=\"_blank\">ITE Completes the Hedera Project to Cut Green Hydrogen Production Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">energynews.pro</font>",
+      "published": "2026-07-09T17:19:22+00:00",
+      "category": "technologia",
+      "summary_pl": "Firma ITE zakończyła projekt Hedera, którego celem było obniżenie kosztów produkcji zielonego wodoru. Wyniki projektu mogą przyczynić się do zwiększenia ekonomicznej opłacalności produkcji zielonego wodoru.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Genesis Scottish Open Sets New Sustainability Benchmark by Embracing Hydrogen and Solar Power",
+      "link": "https://fuelcellsworks.com/2026/07/09/clean-energy/genesis-scottish-open-sets-new-sustainability-benchmark-by-embracing-hydrogen-and-solar-power",
+      "summary_raw": "",
+      "published": "2026-07-09T16:00:18+00:00",
+      "category": "inne",
+      "summary_pl": "Turniej golfowy Genesis Scottish Open przyjął nowe standardy zrównoważonego rozwoju, wykorzystując wodór i energię słoneczną do zasilania wydarzenia. To przykład zastosowania technologii wodorowej w sektorze sportowo-eventowym.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Primary Hydrogen Announces Closing of LIFE Offering",
+      "link": "https://fuelcellsworks.com/2026/07/09/green-hydrogen/primary-hydrogen-announces-closing-of-life-offering",
+      "summary_raw": "",
+      "published": "2026-07-09T14:34:51+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Spółka Primary Hydrogen ogłosiła zamknięcie rundy finansowania w ramach oferty LIFE. Pozyskane środki mają wesprzeć dalszy rozwój projektów wodorowych firmy.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "New Members Appointed to the Reformed National Hydrogen Council",
+      "link": "https://fuelcellsworks.com/2026/07/09/h2/new-members-appointed-to-the-reformed-national-hydrogen-council",
+      "summary_raw": "",
+      "published": "2026-07-09T14:23:59+00:00",
+      "category": "inne",
+      "summary_pl": "Do zreformowanej Narodowej Rady ds. Wodoru mianowano nowych członków. Zmiana składu rady ma na celu wzmocnienie krajowej strategii i polityki wodorowej.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Oxfordshire Introduces First Dual Fuel Hydrogen Highways Maintenance Vehicle",
+      "link": "https://fuelcellsworks.com/2026/07/09/fuel-cells/oxfordshire-introduces-first-dual-fuel-hydrogen-highways-maintenance-vehicle",
+      "summary_raw": "",
+      "published": "2026-07-09T14:20:47+00:00",
+      "category": "technologia",
+      "summary_pl": "Hrabstwo Oxfordshire wprowadziło pierwszy pojazd do utrzymania dróg zasilany podwójnym paliwem wodorowym. To pionierskie wdrożenie wodoru w służbach komunalnych zajmujących się infrastrukturą drogową.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Hydrogen Enters Frontline Vehicle Recovery Operations",
+      "link": "https://fuelcellsworks.com/2026/06/22/fuel-cells/roadside-assistance-operator-trials-hydrogen-propulsion-in-heavy-duty-fleet",
+      "summary_raw": "",
+      "published": "2026-07-09T13:29:07+00:00",
+      "category": "technologia",
+      "summary_pl": "Wodór wkracza do operacji ratownictwa drogowego i odholowywania pojazdów, rozszerzając swoje zastosowania we flocie specjalistycznej. Artykuł opisuje pierwsze wdrożenia napędu wodorowego w pojazdach pomocy drogowej.",
+      "importance": 2
+    }
+  ]
+}
