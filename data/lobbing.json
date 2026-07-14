@@ -1,6 +1,18 @@
 {
-  "updated": "2026-07-13",
+  "updated": "2026-07-14",
   "items": [
+    {
+      "company": "Rząd Belgii / Hydrogen Europe",
+      "country": "Belgia",
+      "law": "Belgijska polityka wsparcia produkcji niskoemisyjnego wodoru",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Rząd",
+      "date": "Tue, 04 Fe",
+      "excerpt": "Nowy rząd belgijski zadeklarował wsparcie dla wszystkich form produkcji niskoemisyjnego wodoru, co oznacza otwarcie zarówno na wodór zielony, jak i niebieski. To istotny sygnał polityczny dla branży wodorowej, wskazujący na technologicznie neutralne podejście Belgii do dekarbonizacji.",
+      "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUJ0a2JMZWJPc2tLT1FyMWpqNG9CY001Zk1lcVFkRndRX3EwemdnaVNHLVFjbTNCMkRKRm5FV21EZzlxWnZBVXh4OEl0YjFnNHZCV2tMRThYNWl4RTI2Um9DT0hPeTNRMVRfcmlLb2gyeldjcEFURmpkMG9iQ2lYWElmSmdxUWRPel9CanRWOFpnYUhseXZPenFrVXY0UmxlRXQycjdjUlhfNG9ESVE?oc=5"
+    },
     {
       "company": "Firmy wodorowe (zbiorowo)",
       "country": "UE",
