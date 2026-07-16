@@ -1,6 +1,42 @@
 {
-  "updated": "2026-07-15",
+  "updated": "2026-07-16",
   "items": [
+    {
+      "company": "Komisja Europejska / Fuel Cells Works",
+      "country": "UE",
+      "law": "Przegląd zasad RFNBO (Renewable Fuels of Non-Biological Origin) – Q2 2026",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Rząd",
+      "date": "Wed, 22 Ap",
+      "excerpt": "UE planuje przegląd regulacji dotyczących zielonego wodoru (RFNBO) w II kwartale 2026 roku. To kluczowy moment dla branży wodorowej, gdyż obowiązujące zasady kwalifikacji zielonego wodoru są szeroko krytykowane jako zbyt restrykcyjne i hamujące rozwój sektora.",
+      "href": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPdDZqc0l0UFh2Nk9vRHJPaEpVemdJdVVuQmxuUmxxcjJaektRQWF0WEZqb2EwOXpHSkpZRk53WFFqRzgxUy1YV3ppZWhkaU14dkU2RDlvZE02TS13RERORndrdVJTa1JRcUFmbGp6cnRhMW5kdVhFZlpNdUJrT0RIMlhPQ0ZXd1VDS2pJa0N3Y0JBU2ZYRlRlaklVUGVsUTB5RnFlZnE4aUZGcVZuVmhnOTR1TWZjMHZxZGYzR1Nic0ppRDlNN0tVRk5ZLXIwdUIzUTBhOGJSNFJUeDRXbWE1cENKMnN4dUdBTlE5TS15V3NtTUlmUTFfb1VFUTRnWjNs?oc=5"
+    },
+    {
+      "company": "Komisja Europejska / EUROMETAL",
+      "country": "UE",
+      "law": "Nowa metodologia ETS wspierająca dekarbonizację przemysłu",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Rząd",
+      "date": "Thu, 14 Ma",
+      "excerpt": "Komisja Europejska proponuje nową metodologię w ramach systemu handlu emisjami (ETS), mającą wspierać dekarbonizację przemysłu ciężkiego. Regulacja ta jest istotna dla branży wodorowej, ponieważ może zwiększyć opłacalność zastępowania paliw kopalnych wodorem w procesach przemysłowych.",
+      "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZW5OVGkzajZqUXZGRWVjNk5MX2FlM0E3ejNPTVBQU2ZGYmk3ZXk5VjZDWVQ3MmkzNlpBc3ZsdXREWU5VcWxCaGQ5RkxvcHNjVW9VY2ZJX1VQRWNXTzRhZW1CMDJzMmRyOGo2UkNldTZjTDZlek4wZlBwbk1OcndSTGtGNFpPM3RqQ2g3V2Y1aF9IcEk3WTIw?oc=5"
+    },
+    {
+      "company": "Komisja Europejska / Fuel Cells Works",
+      "country": "UE",
+      "law": "Wczesny przegląd zasad RFNBO – wyciekły plan działania KE",
+      "stance": "mix",
+      "stanceLabel": "Mieszana",
+      "stanceColor": "#FBBF24",
+      "type": "Initiative",
+      "date": "Thu, 16 Ap",
+      "excerpt": "Według ujawnionego dokumentu UE planuje wcześniejszy niż zakładano przegląd regulacji RFNBO dotyczących zielonego wodoru. Branża wodorowa przyjmuje tę informację z mieszanymi uczuciami – wcześniejszy przegląd daje szansę na złagodzenie restrykcyjnych przepisów, ale jednocześnie wprowadza niepewność regulacyjną dla inwestorów.",
+      "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNemY4RGh6Q2dYVGdNNjFYaHRnTmJMMWJTZVVBSVFVVUV0SWtOb1BHdzBLVGZydk50dnNUYWVWb25fQkpNcVVzRXpWLXNSaU81OTg1b2pXOU1fVlBZbVVkVjRNcTNMaUcycmd0dXgzWW5BRzVyaElBMmEyel9ZbDZzUDZwU09OSDc1MXlzT0ZUbEVVZ05qV2JPbEQtZnhrRUpUbl8zNmFTT3lwM3hRaGZ0T0tSYk10UGhyak5LdQ?oc=5"
+    },
     {
       "company": "Rząd Belgii / Hydrogen Europe",
       "country": "Belgia",
