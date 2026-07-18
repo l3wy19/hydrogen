@@ -1,6 +1,18 @@
 {
-  "updated": "2026-07-17",
+  "updated": "2026-07-18",
   "items": [
+    {
+      "company": "CleanTechnica",
+      "country": "Niemcy",
+      "law": "Niemiecka propozycja podwojenia celów dotyczących paliw wodorowych",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "NGO",
+      "date": "Thu, 19 Fe",
+      "excerpt": "Niemcy planują podwoić cele dotyczące paliw wodorowych, jednak według analizy CleanTechnica propozycja ignoruje rzeczywisty popyt operatorów oraz sygnały kosztowe. Jest to istotne dla branży wodorowej, ponieważ zbyt ambitne cele oderwane od realiów rynkowych mogą prowadzić do nieefektywnej alokacji zasobów i podważać wiarygodność polityki wodorowej.",
+      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZkZGZjVsM2xkN2R6M1k0WFB0NUpSOTNGTGlycDJieW5lc0lEYWQ5dHN6S3hHTGFZMFo1VUM4ZnVxcVNKQ3ZkN0N0eF9wTkpMUUo0UzZ2aTZMUG1MSHFJZXFoUXFLY0lhS0pSMk5ocXlqOE9oVWVsQXd0ZE1neDNlaU1HWWkwRkY3WFJRRWtFOHVzZ2NKbXFtRDVqT1Y2VlV4Sm42Z1NpT0hvOF9zUWw4eGlIWnIwdWhsN3Z3eGM4TVU?oc=5"
+    },
     {
       "company": "Komisja Europejska / Fuel Cells Works",
       "country": "UE",
