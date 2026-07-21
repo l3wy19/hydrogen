@@ -1,6 +1,18 @@
 {
-  "updated": "2026-07-18",
+  "updated": "2026-07-21",
   "items": [
+    {
+      "company": "Rząd Portugali",
+      "country": "Portugalia",
+      "law": "Regulacje stacji tankowania wodoru (konsultacje publiczne)",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Rząd",
+      "date": "Tue, 21 Ju",
+      "excerpt": "Portugalia otworzyła publiczne konsultacje dotyczące regulacji stacji tankowania wodoru, co jest kluczowym krokiem w budowie infrastruktury wodorowej. To ważny sygnał dla branży, że kraj aktywnie tworzy ramy prawne dla mobilności wodorowej.",
+      "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVEhTTkV4dmwwSDBFd1pFSHowTUQxV29yNEczd1hCek5rWWUxYkJnVmNyWldYRXQzdzg1SVJDQ2lDOEdWVUVKTnY2MXI5OElKWk1zWVRBcmpiNl9QRVpMRjVuTndoM0xWNzZFZ1JETmF1MnB4cE5NNnlxUDRPVEV2cFktOFVKSVoyYXpLbFFaVHZRNjR4UTJOdldlSmF6RHp4R0lMRkRLaGlIam1rYzBVS1lzR2RWTW5R?oc=5"
+    },
     {
       "company": "CleanTechnica",
       "country": "Niemcy",
