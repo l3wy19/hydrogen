@@ -1,6 +1,18 @@
 {
-  "updated": "2026-07-21",
+  "updated": "2026-07-22",
   "items": [
+    {
+      "company": "Impact Policies",
+      "country": "UE",
+      "law": "Regulacje rynku zielonego wodoru w Europie (zgodność z przepisami RFNBO)",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Initiative",
+      "date": "Tue, 07 Ju",
+      "excerpt": "Artykuł ostrzega, że niepełne lub nierównomierne wdrożenie regulacji dotyczących zielonego wodoru (RFNBO) grozi fragmentacją europejskiego rynku wodorowego. To kluczowe zagrożenie dla budowy jednolitego rynku wodoru w UE i realizacji celów klimatycznych.",
+      "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaU5GQW5VdzhLYVNDWU82SGRpOFZqQmVic3YwS2RMRlVLUkVUUk5lZUlaSlU5RFJsem4waUoxMUlLZzFRc3pLRDFORm83WWxXQmpUcy1zVDd5RHlETUFsOHl0c09sdGFEUXkzLUtUdjkwclBjSTVOSXBrcHFnM1Q0U0JzaGxib1hqNHpqZTFpZ0JMZHZ6clg4VWRPOE9LdWJDeGhFMw?oc=5"
+    },
     {
       "company": "Rząd Portugali",
       "country": "Portugalia",

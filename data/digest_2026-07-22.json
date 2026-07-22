@@ -1,0 +1,150 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T08:33:20.585205+00:00",
+  "article_count": 13,
+  "articles": [
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Sinopec Starts Construction of 2.75GW Hydrogen Equipment Manufacturing Hub in Wuhan",
+      "link": "https://fuelcellsworks.com/2026/07/21/h2/sinopec-starts-construction-of-2-75gw-hydrogen-equipment-manufacturing-hub-in-wuhan",
+      "summary_raw": "",
+      "published": "2026-07-21T12:29:24+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Sinopec rozpoczął budowę centrum produkcji urządzeń wodorowych o mocy 2,75 GW w Wuhan, co stanowi jeden z największych tego typu projektów na świecie. Inwestycja znacząco wzmocni chińskie moce wytwórcze w sektorze wodorowym.",
+      "importance": 5
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Repsol Hydrogen Projects Move Into Spain’s €183 Million Funding Pipeline After Iberdrola Withdrawals",
+      "link": "https://fuelcellsworks.com/2026/07/21/h2/repsol-hydrogen-projects-move-into-spain-s-183-million-funding-pipeline-after-iberdrola-withdrawals",
+      "summary_raw": "",
+      "published": "2026-07-21T14:44:08+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Projekty wodorowe Repsolu mają wejść do hiszpańskiego programu finansowania o wartości 183 mln euro po wycofaniu się Iberdroli. Zmiana beneficjentów może przyspieszyć rozwój wodoru w Hiszpanii.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Green Hydrogen Costs Rise Again as Price Gap With Conventional Hydrogen Widens",
+      "link": "https://fuelcellsworks.com/2026/07/21/h2/green-hydrogen-costs-rise-again-as-price-gap-with-conventional-hydrogen-widens",
+      "summary_raw": "",
+      "published": "2026-07-21T14:06:34+00:00",
+      "category": "rynek",
+      "summary_pl": "Koszty zielonego wodoru ponownie wzrosły, powiększając lukę cenową w stosunku do wodoru konwencjonalnego. Trend ten stanowi poważne wyzwanie dla konkurencyjności zielonego wodoru na rynku.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "South Korea Plans ₩3.12 Trillion Port Expansion to Build Hydrogen, Ammonia and Offshore Wind Hubs",
+      "link": "https://fuelcellsworks.com/2026/07/20/green-hydrogen/south-korea-plans-3-12-trillion-port-expansion-to-build-hydrogen-ammonia-and-offshore-wind-hubs",
+      "summary_raw": "",
+      "published": "2026-07-21T13:19:48+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Korea Południowa planuje rozbudowę portów za 3,12 bln wonów w celu stworzenia hubów wodorowych, amoniakowych i morskiej energetyki wiatrowej. To ambitna inwestycja infrastrukturalna wspierająca transformację energetyczną kraju.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "ETS Review: \"It Is a Fantasy to Believe Europe's Steel Industry Can Fully Decarbonise by 2033 without Affordable Clean Electricity and Hydrogen.”",
+      "link": "https://fuelcellsworks.com/2026/07/21/clean-energy/ets-review-it-is-a-fantasy-to-believe-europe-s-steel-industry-can-fully-decarbonise-by-2033-without-affordable-clean-electricity-and-hydrogen",
+      "summary_raw": "",
+      "published": "2026-07-21T12:58:41+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "W ramach przeglądu systemu ETS podkreślono, że pełna dekarbonizacja europejskiego przemysłu stalowego do 2033 roku jest nierealna bez dostępu do taniej czystej energii i wodoru. Artykuł wskazuje na konieczność dostosowania regulacji do realiów rynkowych.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Hazer Moves Closer to Commercial Hydrogen Deployment as KBR Design Package Unlocks Global Project Pipeline",
+      "link": "https://fuelcellsworks.com/2026/07/20/h2/hazer-moves-closer-to-commercial-hydrogen-deployment-as-kbr-design-package-unlocks-global-project-pipeline",
+      "summary_raw": "",
+      "published": "2026-07-21T12:52:47+00:00",
+      "category": "technologia",
+      "summary_pl": "Hazer zbliża się do komercyjnego wdrożenia produkcji wodoru dzięki uzyskaniu pakietu projektowego od KBR, który otwiera dostęp do globalnego rurociągu projektów. To istotny krok w komercjalizacji technologii pirolizy metanu.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Clean, Quiet, Efficient: Research Team at DHBW Mannheim Develops the Hydrogen Compressor of the Future",
+      "link": "https://fuelcellsworks.com/2026/07/21/h2/clean-quiet-efficient-research-team-at-dhbw-mannheim-develops-the-hydrogen-compressor-of-the-future",
+      "summary_raw": "",
+      "published": "2026-07-21T15:07:57+00:00",
+      "category": "technologia",
+      "summary_pl": "Zespół badawczy z DHBW Mannheim pracuje nad innowacyjnym kompresorem wodorowym, który ma być czystszy, cichszy i bardziej wydajny od dotychczasowych rozwiązań. Projekt może przyczynić się do poprawy infrastruktury wodorowej.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Can Hydrogen Crack the Heavy-Truck Market? Dongfeng Liuzhou Files Its New Chenglong Fuel Cell Tractor",
+      "link": "https://fuelcellsworks.com/2026/07/13/fuel-cells/can-hydrogen-crack-the-heavy-truck-market-dongfeng-liuzhou-files-its-new-chenglong-fuel-cell-tractor",
+      "summary_raw": "",
+      "published": "2026-07-21T14:32:22+00:00",
+      "category": "technologia",
+      "summary_pl": "Dongfeng Liuzhou złożył dokumentację nowego ciągnika siodłowego Chenglong z napędem wodorowym, próbując wejść na rynek ciężkich pojazdów transportowych. To kolejny krok Chin w kierunku komercjalizacji ogniw paliwowych w transporcie ciężkim.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Switch Maritime Secures Grant-Backed Financing to Accelerate Hydrogen Ferry Deployment",
+      "link": "https://fuelcellsworks.com/2026/07/21/fuel-cells/switch-maritime-secures-grant-backed-financing-to-accelerate-hydrogen-ferry-deployment",
+      "summary_raw": "",
+      "published": "2026-07-21T14:22:42+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Switch Maritime pozyskało dofinansowanie w formie dotacji na przyspieszenie wdrożenia promów zasilanych wodorem. Inwestycja wspiera dekarbonizację sektora transportu morskiego.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "China: Electrolyzer Capacity Report : July 20, 2026",
+      "link": "https://fuelcellsworks.com/2026/07/18/electrolyzer/china-electrolyzer-capacity-report-july-20-2026",
+      "summary_raw": "",
+      "published": "2026-07-21T13:40:06+00:00",
+      "category": "rynek",
+      "summary_pl": "Opublikowano raport dotyczący mocy elektrolizerów w Chinach na dzień 20 lipca 2026 roku, prezentujący aktualne dane o chińskim rynku produkcji wodoru. Chiny pozostają kluczowym graczem w globalnym wyścigu technologii elektrolizerów.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Loughborough University Hosts UK-Japan Hydrogen Summit Calling for Urgent Shift to Net Zero",
+      "link": "https://fuelcellsworks.com/2026/07/21/h2/loughborough-university-hosts-uk-japan-hydrogen-summit-calling-for-urgent-shift-to-net-zero",
+      "summary_raw": "",
+      "published": "2026-07-21T14:04:09+00:00",
+      "category": "inne",
+      "summary_pl": "Uniwersytet Loughborough gości brytyjsko-japoński szczyt wodorowy, nawołujący do pilnego przyspieszenia transformacji energetycznej w kierunku net zero. Spotkanie ma na celu zacieśnienie współpracy międzynarodowej w dziedzinie wodoru.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "July 20Th 2023, Hydroplane Exhibiting and Presenting on Its Hydrogen Powered Protium Aircraft System Integration at EAA AirVenture Oshkosh 2023",
+      "link": "https://fuelcellsworks.com/2026/07/21/energy-innovation/july-20th-2023-hydroplane-exhibiting-and-presenting-on-its-hydrogen-powered-protium-aircraft-system-integration-at-eaa-airventure-oshkosh-2023",
+      "summary_raw": "",
+      "published": "2026-07-21T12:48:01+00:00",
+      "category": "technologia",
+      "summary_pl": "Firma Hydroplane prezentuje na targach EAA AirVenture Oshkosh 2023 swój prototypowy system integracji wodorowego statku powietrznego Protium. Wydarzenie dotyczy lotnictwa zasilanego wodorem.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Hydrogen Pitstop Offers Hands-On Hydrogen Experiences for the Whole Family During Rally Week in Jyväskylä",
+      "link": "https://fuelcellsworks.com/2026/07/21/energy-innovation/hydrogen-pitstop-offers-hands-on-hydrogen-experiences-for-the-whole-family-during-rally-week-in-jyvaskyla",
+      "summary_raw": "",
+      "published": "2026-07-21T13:25:07+00:00",
+      "category": "inne",
+      "summary_pl": "W Jyväskylä podczas Rally Week zorganizowano wydarzenie Hydrogen Pitstop, umożliwiające rodzinom zapoznanie się z technologią wodorową w praktyczny sposób. Inicjatywa ma na celu popularyzację wodoru wśród szerokiej publiczności.",
+      "importance": 1
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21",
+  "updated": "2026-07-22",
   "prices": [
     {
       "id": "h2",
@@ -61,25 +61,25 @@
     {
       "id": "oil",
       "name": "Ropa Brent",
-      "price": 335.0,
+      "price": 356.0,
       "unit": "PLN/bbl",
-      "change": -1.0,
+      "change": 3.0,
       "period": "30 dni",
       "color": "#06B6D4",
       "spark": [
-        316.0,
-        321.0,
         322.0,
-        319.0,
-        334.0,
-        338.0,
-        335.0
+        323.0,
+        320.0,
+        335.0,
+        339.0,
+        346.0,
+        356.0
       ],
       "source": "ICE Brent Crude"
     }
   ],
   "fx": {
     "EURPLN": 4.33,
-    "USDPLN": 3.79
+    "USDPLN": 3.8
   }
 }
