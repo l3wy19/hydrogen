@@ -1,6 +1,32 @@
 {
-  "updated": "2026-07-24",
+  "updated": "2026-07-25",
   "items": [
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "Bharat Renewable Energy Summit & Expo 2026",
+      "day": "02",
+      "mon": "LIS",
+      "year": "2026",
+      "date_iso": "2026-11-02",
+      "loc": "Nowe Delhi, Indie",
+      "org": "Rząd Indii (Minister Pralhad Joshi)",
+      "desc": "Szczyt i wystawa poświęcona energii odnawialnej, organizowana w Nowym Delhi w dniach 2–5 listopada 2026 roku. Wydarzenie skupi kluczowych graczy branży OZE z Indii i całego świata.",
+      "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORF9lV0NpVFdqQzZmS3N3dGtrNEdrOHpyT05WWEVqdWJzNzNQS2pqcFU0NElfU3NnbFBRUVBvUzhmb21xZXV3Y1FqX21ESElLc1FuTHJ6VVQ1cm1LcnllUXFtLWRNQlBQc0hIT19YT29mQm1VT01UaWo3T0ZHdnRUanlQY3RFNmw2NUtycDRqbENJWkRTaU9KMTVLSVNCeWIwSE1IeHZn?oc=5"
+    },
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "Bharat Renewable Energy Summit & Expo 2026",
+      "day": "02",
+      "mon": "LIS",
+      "year": "2026",
+      "date_iso": "2026-11-02",
+      "loc": "Nowe Delhi, Indie",
+      "org": "Rząd Indii (Minister Pralhad Joshi)",
+      "desc": "Międzynarodowy szczyt i wystawa energii odnawialnej organizowane przez rząd Indii w Nowym Delhi w dniach 2–5 listopada 2026 roku. To flagowe wydarzenie branży OZE w Azji Południowej.",
+      "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVnVDUEp3YWxRUVdVVGN3aDhZdEp5S2o5dmxuaHduYlhfa2pKQVRUQjFDOURpYURBd0hWa1ZUQUNRWm91NHRIQi13OVVKUE5KSlJxQzliY2syM0VPeVZld0V0dmpyQkstQUlpX25zZndyTjZhVlkxUFpOZTgzd2pqdWRvRDFERHJqNDcwSk1PVlFBM1l1bWtyM2RFdk9XeVpaMW5aOExiXzB3bWdKQVVmb0RNS1JiYkJ2TkhBZGx2cEdiU092YTdiLdIByAFBVV95cUxNVnVDUEp3YWxRUVdVVGN3aDhZdEp5S2o5dmxuaHduYlhfa2pKQVRUQjFDOURpYURBd0hWa1ZUQUNRWm91NHRIQi13OVVKUE5KSlJxQzliY2syM0VPeVZld0V0dmpyQkstQUlpX25zZndyTjZhVlkxUFpOZTgzd2pqdWRvRDFERHJqNDcwSk1PVlFBM1l1bWtyM2RFdk9XeVpaMW5aOExiXzB3bWdKQVVmb0RNS1JiYkJ2TkhBZGx2cEdiU092YTdiLQ?oc=5"
+    },
     {
       "type": "conf",
       "typeLabel": "Konferencja",
