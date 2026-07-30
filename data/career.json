@@ -1,6 +1,19 @@
 {
-  "updated": "2026-07-29",
+  "updated": "2026-07-30",
   "items": [
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "Bharat Renewable Energy Summit and Expo 2026",
+      "day": "02",
+      "mon": "LIS",
+      "year": "2026",
+      "date_iso": "2026-11-02",
+      "loc": "Nowe Delhi, Indie",
+      "org": "Energetica India",
+      "desc": "Szczyt i targi poświęcone energii odnawialnej, organizowane w Nowym Delhi w dniach 2–5 listopada 2026 roku. To kluczowe wydarzenie dla branży OZE w regionie azjatyckim, gromadzące decydentów, inwestorów i ekspertów z sektora energetyki.",
+      "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNnZqMEtac0k3YzUyMlM2VzVNQktUU0xPSy04Z3BZYXZBRGxmTW9mVkN6UDhPaWJpX1c3dEVYYnlVdnlZalA2SUNxUC1sUllYZGVMYXV2RGxWdWF2OUZZZXNrVWY3MWJodFV5bWJTd045YUl5T0ZkR1hrT1NiQTdFV29xN096Z2FhUWxKWlltTW01WWFkMEFTdi0zVllzUWVGSkVERnhTMl9iTEl0emotWWR3dThJbkIwNnhmWVMyby0?oc=5"
+    },
     {
       "type": "conf",
       "typeLabel": "Konferencja",

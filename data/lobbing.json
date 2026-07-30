@@ -1,6 +1,30 @@
 {
-  "updated": "2026-07-29",
+  "updated": "2026-07-30",
   "items": [
+    {
+      "company": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "country": "UE",
+      "law": "EU Clean Energy Investment Strategy",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "NGO",
+      "date": "Wed, 11 Ma",
+      "excerpt": "IEEFA krytykuje unijną strategię inwestycji w czystą energię, wskazując że niedoszacowuje ona barier spowalniających wdrażanie odnawialnych źródeł energii. Jest to istotne dla branży wodorowej, ponieważ rozwój OZE jest kluczowym warunkiem produkcji zielonego wodoru.",
+      "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcnh4MDA1YVhPYVhnZEVTZ1drNEc5WjlRWXNFREptelpJbmlhNUVJcDF1OTM5dUREZVBqeHhZWWFCWEdaOFRLazJMcXFhR0ZuU1lwNEk1T2hzdEVOYndBY0o0WVd5dnRTdVFxTTNrbHF3RGROOGwwSjdBa2dGb21MU1pmcmdpWndxQmFNcDBMVWlZUWU0MVRlMXVJNTZSRjVhVDdrZ29CRnZSU1dfUDlGeVAyM2J6cy10?oc=5"
+    },
+    {
+      "company": "Hygreen",
+      "country": "Chiny",
+      "law": "Strategia ekspansji na rynki zagraniczne producentów elektrolizerów",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Company/Business",
+      "date": "Tue, 05 Ma",
+      "excerpt": "Chiński producent elektrolizerów Hygreen zmienia strategię i koncentruje się na rynkach zagranicznych z powodu nadmiernej konkurencji na rynku krajowym. Ma to znaczenie dla globalnego łańcucha dostaw technologii wodorowych i konkurencyjności europejskich producentów elektrolizerów.",
+      "href": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWkNEYl9SaTVpTUNhbTlCMVRwS2laeVZYT3Zvd3REWDZfUUV3Qk12RVRXenZlYlZjYmJqRkJsaURydlkzbFZONDM3bFVMQVBSaFVsbHpXRnpiZ3EtYXdpMG00ajl5emc0dTBnc2RIRFNFZDFaZVYwdzlGNmtZM2dEMDJQYkdfdnhtQU16aXdCOHdSazlibkNpZWw4NTcxMmFMbEJyT3VRMDllbHNDZWgzV1V2d3oxbDBRN0Q2OW5sUWl2ZERiYUhqeU5kMXQxd3lZZ2IwOENwMWFyTTNydEVXZGRYTFc0YXZjLTYzR29ucFM?oc=5"
+    },
     {
       "company": "Impact Policies",
       "country": "UE",

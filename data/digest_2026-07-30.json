@@ -1,0 +1,227 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T08:31:30.577551+00:00",
+  "article_count": 20,
+  "articles": [
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Fraunhofer ISE Achieves 31.3% Solar-To-Hydrogen Efficiency",
+      "link": "https://fuelcellsworks.com/2026/07/29/clean-energy/fraunhofer-ise-achieves-31-3-percent-solar-to-hydrogen-efficiency",
+      "summary_raw": "",
+      "published": "2026-07-29T13:24:46+00:00",
+      "category": "technologia",
+      "summary_pl": "Fraunhofer ISE osiągnął rekordową sprawność konwersji energii słonecznej na wodór na poziomie 31,3%, co stanowi istotny postęp technologiczny w produkcji zielonego wodoru. To osiągnięcie może znacząco wpłynąć na obniżenie kosztów produkcji wodoru słonecznego.",
+      "importance": 5
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Inside HTWO ENERGY Cheongju: Hyundai's First Self-Operated Hydrogen Station Turns Sewage Into Fuel — and Turns a Profit on the CO2, Too",
+      "link": "https://fuelcellsworks.com/2026/07/27/electrolyzer/inside-htwo-energy-cheongju-hyundai-s-first-self-operated-hydrogen-station-turns-sewage-into-fuel-and-turns-a-profit-on-the-co2-too",
+      "summary_raw": "",
+      "published": "2026-07-29T15:17:30+00:00",
+      "category": "technologia",
+      "summary_pl": "Hyundai uruchomił pierwszą własną stację wodorową HTWO ENERGY w Cheongju, która przetwarza ścieki na wodór i dodatkowo monetyzuje pozyskany CO2. Stacja jest rentowna i stanowi przykład innowacyjnego podejścia do produkcji wodoru z odpadów.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "600 Km on One Fill: Korea's Hydrogen Train Era Accelerates — and a Liquid Hydrogen Locomotive Just Doubled the Range Target",
+      "link": "https://fuelcellsworks.com/2026/07/27/fuel-cells/600-km-on-one-fill-korea-s-hydrogen-train-era-accelerates-and-a-liquid-hydrogen-locomotive-just-doubled-the-range-target",
+      "summary_raw": "",
+      "published": "2026-07-29T14:48:51+00:00",
+      "category": "technologia",
+      "summary_pl": "Korea Południowa przyspiesza rozwój wodorowych pociągów – nowa lokomotywa na ciekły wodór osiąga zasięg 600 km na jednym tankowaniu, podwajając wcześniejszy cel. To znaczący krok w kierunku dekarbonizacji transportu kolejowego.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Hyundai Motor Group to Build South America Hydrogen Hub in Brazil",
+      "link": "https://fuelcellsworks.com/2026/07/29/fuel-cells/hyundai-motor-group-to-build-south-america-hydrogen-hub-in-brazil",
+      "summary_raw": "",
+      "published": "2026-07-29T14:00:16+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Hyundai Motor Group planuje budowę centrum wodorowego w Brazylii, wchodząc na rynek Ameryki Południowej. Inwestycja obejmuje development ekosystemu wodorowego i wzmacnia globalną ekspansję koncernu w tej branży.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Samcheok's Three-Stage Bet: South Korea Begins Building Toward a 40,000 M³ Liquid Hydrogen Import Terminal by 2040",
+      "link": "https://fuelcellsworks.com/2026/07/27/h2/samcheok-s-three-stage-bet-south-korea-begins-building-toward-a-40-000-m-liquid-hydrogen-import-terminal-by-2040",
+      "summary_raw": "",
+      "published": "2026-07-29T13:43:39+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Południowokoreańskie miasto Samcheok rozpoczyna trzyetapową budowę terminalu importowego ciekłego wodoru o docelowej pojemności 40 000 m³ do 2040 roku. Projekt jest elementem strategii Korei Południowej w zakresie zabezpieczenia dostaw wodoru.",
+      "importance": 4
+    },
+    {
+      "source": "Hydrogen Europe",
+      "source_category": "industry",
+      "title": "Clean Hydrogen Partnership selects 13 Hydrogen Valleys for Project Development Assistance",
+      "link": "https://hydrogeneurope.eu/clean-hydrogen-partnership-selects-13-hydrogen-valleys-for-project-development-assistance/",
+      "summary_raw": "<p><span class=\"excerpt-hellip\"> […]</span></p>\n<p>The post <a href=\"https://hydrogeneurope.eu/clean-hydrogen-partnership-selects-13-hydrogen-valleys-for-project-development-assistance/\">Clean Hydrogen Partnership selects 13 Hydrogen Valleys for Project Development Assistance</a> appeared first on <a href=\"https://hydrogeneurope.eu\">Hydrogen Europe</a>.</p>",
+      "published": "2026-07-29T10:33:52+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Clean Hydrogen Partnership wybrało 13 Dolin Wodorowych (Hydrogen Valleys), które otrzymają wsparcie w rozwoju projektów. To ważna inicjatywa UE wspierająca tworzenie regionalnych ekosystemów wodorowych.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Gold Hydrogen Produces and Bottles Helium During Ramsay 1 Well Test in South Australia",
+      "link": "https://fuelcellsworks.com/2026/07/29/clean-energy/gold-hydrogen-produces-and-bottles-helium-during-ramsay-1-well-test-in-south-australia",
+      "summary_raw": "",
+      "published": "2026-07-29T14:55:35+00:00",
+      "category": "technologia",
+      "summary_pl": "Firma Gold Hydrogen podczas testów odwiertu Ramsay 1 w Australii Południowej wyprodukowała i zabutelkowała hel jako produkt uboczny poszukiwań naturalnego wodoru. Wyniki testów mogą potwierdzić potencjał komercyjny złoża.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Nordic-Baltic Hydrogen Corridor Project Launches Initial Public Consultation",
+      "link": "https://fuelcellsworks.com/2026/07/29/hydrogen/nordic-baltic-hydrogen-corridor-project-launches-initial-public-consultation",
+      "summary_raw": "",
+      "published": "2026-07-29T14:19:27+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Projekt Nordic-Baltic Hydrogen Corridor rozpoczął wstępne konsultacje publiczne, mające na celu stworzenie korytarza wodorowego łączącego kraje nordyckie i bałtyckie. Inicjatywa ma kluczowe znaczenie dla integracji infrastruktury wodorowej w regionie.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Hyroad Energy Deploys Hydrogen Refueling Station, Enabling Fuel Access for Southern California Trucking Fleets",
+      "link": "https://fuelcellsworks.com/2026/07/29/fuel-cells/hyroad-energy-deploys-hydrogen-refueling-station-enabling-fuel-access-for-southern-california-trucking-fleets",
+      "summary_raw": "",
+      "published": "2026-07-29T14:11:53+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Firma Hyroad Energy uruchomiła stację tankowania wodoru w południowej Kalifornii, zapewniając dostęp do paliwa dla flot ciężarówek. To kolejny krok w budowie infrastruktury wodorowej dla transportu ciężkiego w USA.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "The Tsinghua Team Building Aviation's Hydrogen \"Heart\" — And Betting China Can Leapfrog the West on Cost",
+      "link": "https://fuelcellsworks.com/2026/07/27/h2/the-tsinghua-team-building-aviation-s-hydrogen-heart-and-betting-china-can-leapfrog-the-west-on-cost",
+      "summary_raw": "",
+      "published": "2026-07-29T14:09:18+00:00",
+      "category": "technologia",
+      "summary_pl": "Zespół z Tsinghua University pracuje nad wodorowym 'sercem' dla lotnictwa – silnikami wodorowymi, które mają pozwolić Chinom wyprzedzić Zachód pod względem kosztów produkcji. Projekt wskazuje na rosnące ambicje Chin w zakresie wodoru lotniczego.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Elogen's Electrolyser Revenue Falls to €0.1 Million as GTT's Core LNG Business Carries the Group",
+      "link": "https://fuelcellsworks.com/2026/07/29/green-investment/elogen-s-electrolyser-revenue-falls-to-0-1-million-as-gtt-s-core-lng-business-carries-the-group",
+      "summary_raw": "",
+      "published": "2026-07-29T13:41:38+00:00",
+      "category": "rynek",
+      "summary_pl": "Przychody z elektrolizerów firmy Elogen spadły do zaledwie 0,1 mln euro, a cała grupa GTT utrzymuje się dzięki głównemu biznesowi LNG. Wyniki pokazują trudności, z jakimi boryka się segment elektrolizerów w obecnych warunkach rynkowych.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Veneto Bets on the Boring Part of Hydrogen: A Five-Partner Project to Make Electrolysers Simpler, Cheaper, and Less Reliant on Platinum",
+      "link": "https://fuelcellsworks.com/2026/07/28/h2/veneto-bets-on-the-boring-part-of-hydrogen-a-five-partner-project-to-make-electrolysers-simpler-cheaper-and-less-reliant-on-platinum",
+      "summary_raw": "",
+      "published": "2026-07-29T13:01:52+00:00",
+      "category": "technologia",
+      "summary_pl": "Pięcioosobowe konsorcjum z Veneto realizuje projekt uproszczenia konstrukcji elektrolizerów, obniżenia ich kosztów oraz ograniczenia zależności od platyny jako katalizatora. Badania mogą przyczynić się do szerszej komercjalizacji technologii elektrolizy.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "From Lignite to Hydrogen: Greece's CERTH Hub Targets January 2027 Production in the Heart of Coal Country",
+      "link": "https://fuelcellsworks.com/2026/07/29/h2/from-lignite-to-hydrogen-greece-s-certh-hub-targets-january-2027-production-in-the-heart-of-coal-country",
+      "summary_raw": "",
+      "published": "2026-07-29T12:27:30+00:00",
+      "category": "technologia",
+      "summary_pl": "Grecki ośrodek badawczy CERTH planuje uruchomienie produkcji wodoru ze źródeł niskoemisyjnych na terenie dawnego zagłębia węgla brunatnego do stycznia 2027 roku. Projekt symbolizuje transformację energetyczną regionu od węgla do wodoru.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Next-Generation Electrolysis Study Explores More Efficient Hydrogen Production",
+      "link": "https://fuelcellsworks.com/2026/07/28/clean-energy/next-generation-electrolysis-study-explores-more-efficient-hydrogen-production",
+      "summary_raw": "",
+      "published": "2026-07-29T13:17:55+00:00",
+      "category": "technologia",
+      "summary_pl": "Nowe badania nad elektrolizą kolejnej generacji analizują możliwości zwiększenia efektywności produkcji wodoru przez udoskonalenie procesów elektrochemicznych. Wyniki mogą przyspieszyć rozwój bardziej wydajnych i tańszych elektrolizerów.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Woodside's Small, Honest Hydrogen Bet: Perth Refueller Nears Startup as Bigger US Projects Falter",
+      "link": "https://fuelcellsworks.com/2026/07/29/green-investment/woodside-s-small-honest-hydrogen-bet-perth-refueller-nears-startup-as-bigger-us-projects-falter",
+      "summary_raw": "",
+      "published": "2026-07-29T12:44:27+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Woodside zbliża się do uruchomienia małej stacji tankowania wodoru w Perth, podczas gdy większe projekty wodorowe w USA napotykają trudności. Artykuł wskazuje na ostrożniejsze, ale bardziej realistyczne podejście do inwestycji wodorowych.",
+      "importance": 3
+    },
+    {
+      "source": "Hydrogen Europe",
+      "source_category": "industry",
+      "title": "Hydrogen Europe elects thyssenkrupp’s CEO Miguel López as new Chair",
+      "link": "https://hydrogeneurope.eu/hydrogen-europe-elects-thyssenkrupps-ceo-miguel-lopez-as-new-chair/",
+      "summary_raw": "<p><span class=\"excerpt-hellip\"> […]</span></p>\n<p>The post <a href=\"https://hydrogeneurope.eu/hydrogen-europe-elects-thyssenkrupps-ceo-miguel-lopez-as-new-chair/\">Hydrogen Europe elects thyssenkrupp’s CEO Miguel López as new Chair  </a> appeared first on <a href=\"https://hydrogeneurope.eu\">Hydrogen Europe</a>.</p>",
+      "published": "2026-07-29T11:20:52+00:00",
+      "category": "inne",
+      "summary_pl": "Hydrogen Europe wybrało Miguel Lópeza, dyrektora generalnego thyssenkrupp, na nowego przewodniczącego organizacji. Zmiana na czele kluczowego europejskiego lobbysty wodorowego może wpłynąć na kierunek działań branży.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Bavaria Targets Energy and Hydrogen Cooperation With Greece During Söder Visit",
+      "link": "https://fuelcellsworks.com/2026/07/29/h2/bavaria-targets-energy-and-hydrogen-cooperation-with-greece-during-soder-visit",
+      "summary_raw": "",
+      "published": "2026-07-29T13:32:17+00:00",
+      "category": "inne",
+      "summary_pl": "Bawaria podczas wizyty premiera Södera w Grecji wyraziła zainteresowanie współpracą w zakresie energetyki i wodoru. Rozmowy mogą zaowocować konkretną współpracą między oboma regionami przy eksporcie zielonego wodoru.",
+      "importance": 2
+    },
+    {
+      "source": "Google News: hydrogen EU",
+      "source_category": "news",
+      "title": "Clean Hydrogen Partnership selects 13 Hydrogen Valleys for Project Development Assistance - Hydrogen Europe",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVFhqUGxsemNBa3NTSUtxVDBCR2E3NFpHWVVkdFM0TXhnMHdweWV1VkJFSnRoeUtTVUpWUmc2SnY4NlRwS04xUDRXbXZ2MkFSaEJhQXdhVVJiVkRCS0RwSzA0cHdXZUhTenhSSDNhaDZUWk9ZVXhpREhtQW1TaXVQOHk0ajgyMUZUSno1bzQ0WG1jdzgzUUJTcTRDWDhJTDJVLTVsUDMxY2V5ZlMtUmVuamFXenNoQWc?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNVFhqUGxsemNBa3NTSUtxVDBCR2E3NFpHWVVkdFM0TXhnMHdweWV1VkJFSnRoeUtTVUpWUmc2SnY4NlRwS04xUDRXbXZ2MkFSaEJhQXdhVVJiVkRCS0RwSzA0cHdXZUhTenhSSDNhaDZUWk9ZVXhpREhtQW1TaXVQOHk0ajgyMUZUSno1bzQ0WG1jdzgzUUJTcTRDWDhJTDJVLTVsUDMxY2V5ZlMtUmVuamFXenNoQWc?oc=5\" target=\"_blank\">Clean Hydrogen Partnership selects 13 Hydrogen Valleys for Project Development Assistance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hydrogen Europe</font>",
+      "published": "2026-07-29T15:54:21+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Clean Hydrogen Partnership wybrało 13 Dolin Wodorowych do objęcia pomocą w rozwoju projektów – duplikat artykułu z Hydrogen Europe. Inicjatywa ma na celu przyspieszenie wdrażania technologii wodorowych w Europie.",
+      "importance": 2
+    },
+    {
+      "source": "Google News: green hydrogen",
+      "source_category": "news",
+      "title": "Advait Greenergy Scales Green Hydrogen Manufacturing | News - Chemical Industry Digest",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeGVuTWZIQUkxZTRSNHRJR2pBYXdDRHdtX0hWamZ4cHFVZUFQWjJRZGg0Q3p4dm9odWtqNU83WFJ3dFFkNGdaRGpwT3hWLU9Ed2ozbUpqbC11WjAxVzE0VlVzSlBkaVZ2NzBIdUx2YWdpVF9vdVVodjg2cXIzRlFFa0VMTno4UWQ4VUNGNzVoRVM3S0xQQUR3OV9PZzMxSUFfcFJPdGRfWE1SX2RqSmtSVmk0UGQ1elBqR3pNTXE3REd2TWZfNzMwd2lnZy00dXpQ?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeGVuTWZIQUkxZTRSNHRJR2pBYXdDRHdtX0hWamZ4cHFVZUFQWjJRZGg0Q3p4dm9odWtqNU83WFJ3dFFkNGdaRGpwT3hWLU9Ed2ozbUpqbC11WjAxVzE0VlVzSlBkaVZ2NzBIdUx2YWdpVF9vdVVodjg2cXIzRlFFa0VMTno4UWQ4VUNGNzVoRVM3S0xQQUR3OV9PZzMxSUFfcFJPdGRfWE1SX2RqSmtSVmk0UGQ1elBqR3pNTXE3REd2TWZfNzMwd2lnZy00dXpQ?oc=5\" target=\"_blank\">Advait Greenergy Scales Green Hydrogen Manufacturing | News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chemical Industry Digest</font>",
+      "published": "2026-07-29T09:52:46+00:00",
+      "category": "technologia",
+      "summary_pl": "Indyjska firma Advait Greenergy rozszerza produkcję zielonego wodoru, wchodzi na rynek wytwarzania urządzeń do elektrolizy. To sygnał rosnącej aktywności w sektorze zielonego wodoru na rynkach rozwijających się.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Neuss-Based Hydrogen Company Reaches Jury Stage in the “Grand Prize for Medium-Sized Businesses”",
+      "link": "https://fuelcellsworks.com/2026/07/26/h2/neuss-based-hydrogen-company-reaches-jury-stage-in-the-grand-prize-for-medium-sized-businesses",
+      "summary_raw": "",
+      "published": "2026-07-29T12:47:40+00:00",
+      "category": "inne",
+      "summary_pl": "Firma wodorowa z Neuss (Niemcy) zakwalifikowała się do etapu jury w prestiżowym konkursie 'Grand Prize for Medium-Sized Businesses'. Wyróżnienie podkreśla rosnące znaczenie MŚP w rozwijającym się sektorze wodorowym.",
+      "importance": 1
+    }
+  ]
+}
