@@ -1,0 +1,205 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T08:53:36.268296+00:00",
+  "article_count": 18,
+  "articles": [
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Chinese Hydrogen-Truck Fleet Passes Two Million Kilometres as Operator Targets 10,000 Vehicles by 2030",
+      "link": "https://fuelcellsworks.com/2026/07/26/fuel-cells/shaanxi-hydrogen-energy-heavy-trucks-pass-2-million-kilometres-in-commercial-operation",
+      "summary_raw": "",
+      "published": "2026-07-30T16:09:22+00:00",
+      "category": "rynek",
+      "summary_pl": "Chińska flota ciężarówek wodorowych przekroczyła dwa miliony kilometrów, a operator planuje osiągnąć 10 000 pojazdów do 2030 roku. To znaczący sygnał dojrzewania rynku transportu wodorowego w Chinach.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Hydrogen Fuel-Cell Start-Up Supplying COMAC Raises New Cash After Powering 30-Hour Drone Flights",
+      "link": "https://fuelcellsworks.com/2026/07/30/fuel-cells/easyh2power-s-dual-track-bet-a-tsinghua-startup-building-aviation-s-hydrogen-heart-one-engine-at-a-time",
+      "summary_raw": "",
+      "published": "2026-07-30T15:17:15+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Start-up produkujący ogniwa paliwowe dla lotniczego giganta COMAC pozyskał nowe finansowanie po zademonstrowania 30-godzinnych lotów dronem na wodór. Sukces technologiczny przyciąga inwestorów zainteresowanych lotnictwem wodorowym.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Construction Begins on Dutch Green Hydrogen and Battery Hub to Tackle Grid Congestion",
+      "link": "https://fuelcellsworks.com/2026/07/29/h2/construction-begins-on-twente-renewable-energy-and-green-hydrogen-hub",
+      "summary_raw": "",
+      "published": "2026-07-30T14:57:25+00:00",
+      "category": "inwestycja",
+      "summary_pl": "W Holandii rozpoczęto budowę centrum zielonego wodoru i baterii, które ma pomóc w rozwiązaniu problemu przeciążenia sieci energetycznej. Projekt łączy magazynowanie energii z produkcją wodoru jako odpowiedź na wyzwania infrastrukturalne.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "India Moves From H2Global Observer to H2Global Partner: Joint Auctions With Germany Agreed, Netherlands and Japan Next",
+      "link": "https://fuelcellsworks.com/2026/07/30/clean-energy/india-moves-from-h2global-observer-to-h2global-partner-joint-auctions-with-germany-agreed-netherlands-and-japan-next",
+      "summary_raw": "",
+      "published": "2026-07-30T13:27:57+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Indie awansowały ze statusu obserwatora do partnera inicjatywy H2Global i uzgodniły wspólne aukcje z Niemcami, z planami rozszerzenia współpracy z Holandią i Japonią. To przełomowy krok w budowie globalnego rynku handlu zielonym wodorem.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Marginal Costs for Green Hydrogen Are Falling Significantly",
+      "link": "https://fuelcellsworks.com/2026/07/28/green-hydrogen/marginal-costs-for-green-hydrogen-are-falling-significantly",
+      "summary_raw": "",
+      "published": "2026-07-30T12:05:26+00:00",
+      "category": "rynek",
+      "summary_pl": "Koszty krańcowe produkcji zielonego wodoru znacząco spadają, co zbliża go do konkurencyjności cenowej z paliwami kopalnymi. Trend ten jest istotnym sygnałem dla inwestorów i decydentów politycznych.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Basque Government Takes 1% Stake in Enagás as Spanish Gas-Grid Operator Pivots to Green Hydrogen",
+      "link": "https://fuelcellsworks.com/2026/07/30/green-investment/basque-government-takes-1-percent-stake-in-enagas-as-spanish-gas-grid-operator-pivots-to-green-hydrogen",
+      "summary_raw": "",
+      "published": "2026-07-30T15:53:12+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Rząd Kraju Basków objął 1% udziałów w Enagás, hiszpańskim operatorze sieci gazowej, który przestawia się na zielony wodór. Inwestycja wpisuje się w strategiczne partnerstwo regionalne na rzecz rozwoju infrastruktury wodorowej.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Thor Energy Funds Major Seismic Survey to Find Out Whether Its 3% Natural Hydrogen Readings Run Deep",
+      "link": "https://fuelcellsworks.com/2026/07/30/h2/thor-energy-s-hy-range-5-6-quarters-of-cash-a-divested-portfolio-and-a-fully-funded-seismic-survey-to-find-out-what-s-actually-down-there",
+      "summary_raw": "",
+      "published": "2026-07-30T15:48:06+00:00",
+      "category": "technologia",
+      "summary_pl": "Thor Energy finansuje badania sejsmiczne, aby sprawdzić, czy odczyty naturalnego wodoru na poziomie 3% sięgają głębiej w złożach geologicznych. Badania mogą potwierdzić potencjał geologicznych źródeł wodoru jako nowego zasobu energetycznego.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Kyushu University and Kyushu Electric Target Underground Hydrogen Demonstration in Japan",
+      "link": "https://fuelcellsworks.com/2026/07/29/green-hydrogen/kyushu-university-and-kyushu-electric-target-underground-hydrogen-demonstration-in-japan",
+      "summary_raw": "",
+      "published": "2026-07-30T15:24:04+00:00",
+      "category": "technologia",
+      "summary_pl": "Kyushu University we współpracy z Kyushu Electric planuje demonstrację podziemnego magazynowania wodoru w Japonii. Projekt ma na celu ocenę możliwości technicznych i bezpieczeństwa tego rozwiązania.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Spanish Researchers Advance Materials that Improve the Production of Hydrogen From Water From Microwave Radiation",
+      "link": "https://fuelcellsworks.com/2026/07/30/h2/spanish-researchers-advance-materials-that-improve-the-production-of-hydrogen-from-water-from-microwave-radiation",
+      "summary_raw": "",
+      "published": "2026-07-30T14:05:46+00:00",
+      "category": "technologia",
+      "summary_pl": "Hiszpańscy naukowcy opracowali nowe materiały umożliwiające efektywniejszą produkcję wodoru z wody przy użyciu promieniowania mikrofalowego. Badania mogą przyczynić się do obniżenia kosztów elektrolizy.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "They Manage to Produce Clean Hydrogen More Efficiently Thanks to Microwave Energy",
+      "link": "https://fuelcellsworks.com/2026/07/30/clean-energy/they-manage-to-produce-clean-hydrogen-more-efficiently-thanks-to-microwave-energy",
+      "summary_raw": "",
+      "published": "2026-07-30T12:19:47+00:00",
+      "category": "technologia",
+      "summary_pl": "Naukowcy osiągnęli wyższą efektywność produkcji czystego wodoru dzięki zastosowaniu energii mikrofalowej w procesie elektrolizy. Metoda ta może stanowić alternatywę dla tradycyjnych technik produkcji wodoru.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Advanced Modelling Research for Safer Liquid Hydrogen Tanks Presented at WCCM–ECCOMAS 2026",
+      "link": "https://fuelcellsworks.com/2026/07/30/energy-innovation/advanced-modelling-research-for-safer-liquid-hydrogen-tanks-presented-at-wccm-eccomas-2026",
+      "summary_raw": "",
+      "published": "2026-07-30T12:13:31+00:00",
+      "category": "technologia",
+      "summary_pl": "Na konferencji WCCM–ECCOMAS 2026 zaprezentowano zaawansowane modele obliczeniowe zwiększające bezpieczeństwo ciekłych zbiorników wodorowych. Badania mają kluczowe znaczenie dla bezpiecznego magazynowania i transportu wodoru w stanie ciekłym.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Trinasolar’s Modules Power New South Wales’ (Australia) First Green Hydrogen & Ammonia Facility",
+      "link": "https://fuelcellsworks.com/2026/07/30/clean-energy/trinasolar-s-modules-power-new-south-wales-australia-first-green-hydrogen-and-ammonia-facility",
+      "summary_raw": "",
+      "published": "2026-07-30T12:04:26+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Moduły słoneczne Trinasolar zasilają pierwszą w Nowej Południowej Walii (Australia) instalację do produkcji zielonego wodoru i amoniaku. Projekt stanowi ważny krok w rozwoju australijskiej gospodarki wodorowej.",
+      "importance": 3
+    },
+    {
+      "source": "Hydrogen Europe",
+      "source_category": "industry",
+      "title": "EC approves Dutch state aid for ships running on green methanol, hydrogen",
+      "link": "https://hydrogeneurope.eu/ec-approves-dutch-state-aid-for-ships-running-on-green-methanol-hydrogen/",
+      "summary_raw": "<p><span class=\"excerpt-hellip\"> […]</span></p>\n<p>The post <a href=\"https://hydrogeneurope.eu/ec-approves-dutch-state-aid-for-ships-running-on-green-methanol-hydrogen/\">EC approves Dutch state aid for ships running on green methanol, hydrogen</a> appeared first on <a href=\"https://hydrogeneurope.eu\">Hydrogen Europe</a>.</p>",
+      "published": "2026-07-30T16:39:41+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Komisja Europejska zatwierdziła holenderską pomoc państwa dla statków napędzanych zielonym metanolem i wodorem. Decyzja wspiera dekarbonizację sektora żeglugowego w Holandii.",
+      "importance": 3
+    },
+    {
+      "source": "Google News: hydrogen EU",
+      "source_category": "news",
+      "title": "Hydrogen Europe Elects thyssenkrupp CEO Miguel Lopez as New Chair; EC Approves Dutch Green Shipping Aid - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM2FUMy15QU0zTDE1dndWeHRMT25rZkk3VTNXeGl0Si1FN2RMWG9WZ2NfejNwOXRGQW9POHQ2R0xOOUpuQVByX0VmbXZGZ2ZNN0lHc1c2ZlE1VkgwYkZ5bFE0NVV3WEhKMFNMOUw4SWY1bm1SOEJLUklpNTd5ZkR0OVRtSHVrSGdoZHM4RUVNajIyWVl2YnVIcXFPU3pSQVNkRnZlYVBxRVh3YjlmdHhxZWVMVlpFYzBTOVA1eGtkZGhFRkhtNFdURl9LSlY?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPM2FUMy15QU0zTDE1dndWeHRMT25rZkk3VTNXeGl0Si1FN2RMWG9WZ2NfejNwOXRGQW9POHQ2R0xOOUpuQVByX0VmbXZGZ2ZNN0lHc1c2ZlE1VkgwYkZ5bFE0NVV3WEhKMFNMOUw4SWY1bm1SOEJLUklpNTd5ZkR0OVRtSHVrSGdoZHM4RUVNajIyWVl2YnVIcXFPU3pSQVNkRnZlYVBxRVh3YjlmdHhxZWVMVlpFYzBTOVA1eGtkZGhFRkhtNFdURl9LSlY?oc=5\" target=\"_blank\">Hydrogen Europe Elects thyssenkrupp CEO Miguel Lopez as New Chair; EC Approves Dutch Green Shipping Aid</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+      "published": "2026-07-30T17:05:00+00:00",
+      "category": "inne",
+      "summary_pl": "Hydrogen Europe wybrało CEO thyssenkrupp Miguela Lopeza na nowego przewodniczącego organizacji, a KE zatwierdziła holenderską pomoc dla zielonej żeglugi. Artykuł agreguje dwie ważne informacje z branży wodorowej.",
+      "importance": 3
+    },
+    {
+      "source": "Google News: green hydrogen",
+      "source_category": "news",
+      "title": "US Govt. Supports New Green Hydrogen Project In Morocco - CleanTechnica",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWlhvODJCSW5BTFZGN2V4YlQ5eHdlZ2haZ1dOZjkxbTllbmtaY3BYWWtxTjFXMGRvaVZNanNYSTBWZHJnWm9TankxRE5xU3JNcl9WcDQ4cFpfYUVlckU1czBESnJfcUdFMWtoSV9DY1N1a1VrR1JfaHBkWjdTdVcxdGRLSFJ3SjZHa3FsdWpqNkNfVVdzeXJqZVp6SGZmZw?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNWlhvODJCSW5BTFZGN2V4YlQ5eHdlZ2haZ1dOZjkxbTllbmtaY3BYWWtxTjFXMGRvaVZNanNYSTBWZHJnWm9TankxRE5xU3JNcl9WcDQ4cFpfYUVlckU1czBESnJfcUdFMWtoSV9DY1N1a1VrR1JfaHBkWjdTdVcxdGRLSFJ3SjZHa3FsdWpqNkNfVVdzeXJqZVp6SGZmZw?oc=5\" target=\"_blank\">US Govt. Supports New Green Hydrogen Project In Morocco</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CleanTechnica</font>",
+      "published": "2026-07-30T20:03:42+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Rząd USA wspiera nowy projekt zielonego wodoru w Maroku, wzmacniając współpracę na rzecz rozwoju czystych technologii energetycznych w Afryce Północnej. Inicjatywa może przyczynić się do budowy łańcucha dostaw zielonego wodoru.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Convergas Expands Into Hydrogen Systems After Gas Truck Growth",
+      "link": "https://fuelcellsworks.com/2026/07/30/h2/convergas-expands-into-hydrogen-systems-after-gas-truck-growth",
+      "summary_raw": "",
+      "published": "2026-07-30T14:18:03+00:00",
+      "category": "rynek",
+      "summary_pl": "Firma Convergas rozszerza działalność o systemy wodorowe po sukcesach na rynku ciężarówek gazowych. Ekspansja odzwierciedla rosnące zainteresowanie integracją wodoru w transporcie ciężkim.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Decoding Green Hydrogen: The \"Final Piece\" Of the Energy Transition – An Interview with Zhang Yiguo, Vice President of the China Hydropower Engineering Consulting Group Co., Ltd.",
+      "link": "https://fuelcellsworks.com/2026/07/29/h2/decoding-green-hydrogen-the-final-piece-of-the-energy-transition-an-interview-with-zhang-yiguo-vice-president-of-the-china-hydropower-engineering-consulting-group-co-ltd",
+      "summary_raw": "",
+      "published": "2026-07-30T13:51:12+00:00",
+      "category": "rynek",
+      "summary_pl": "Wiceprezes China Hydropower Engineering Consulting Group omawia rolę zielonego wodoru jako kluczowego elementu transformacji energetycznej. Wywiad przedstawia chińską perspektywę na strategiczne znaczenie wodoru.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Wrocław Students Get PLN 10,000 to Test Whether Sunlight Alone Can Make Green Hydrogen",
+      "link": "https://fuelcellsworks.com/2026/07/30/green-hydrogen/wroc-aw-students-get-pln-10-000-to-test-whether-sunlight-alone-can-make-green-hydrogen",
+      "summary_raw": "",
+      "published": "2026-07-30T13:14:01+00:00",
+      "category": "polska",
+      "summary_pl": "Studenci z Wrocławia otrzymali 10 000 PLN na projekt badający możliwość produkcji zielonego wodoru wyłącznie za pomocą energii słonecznej. To lokalna inicjatywa wspierająca młodych naukowców w obszarze technologii wodorowych.",
+      "importance": 2
+    }
+  ]
+}
