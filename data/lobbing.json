@@ -1,6 +1,18 @@
 {
-  "updated": "2026-08-08",
+  "updated": "2026-08-09",
   "items": [
+    {
+      "company": "Hydrogen Insight",
+      "country": "UE",
+      "law": "EU ETS (European Union Emissions Trading System) / ReFuelEU Aviation / e-SAF regulacje",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Initiative",
+      "date": "Tue, 09 Ju",
+      "excerpt": "Analiza wskazuje, że unijny system handlu emisjami (EU ETS) może sprawić, że zielony wodór wykorzystywany do produkcji e-SAF (syntetycznego paliwa lotniczego) stanie się tańszy niż biopaliwa lotnicze. To istotne dla branży wodorowej, ponieważ otwiera nowe możliwości rynkowe dla zielonego wodoru w sektorze lotnictwa w ramach istniejących regulacji klimatycznych UE.",
+      "href": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSlZtTjc4X1hqcFQxWVVRSmxWZHJWRXJXZFVNNGRReDB4UDk1cTh3bVB2b0JpSk1raE0yRVNHY29YVF9uYmFNbmJQX0lVc01fdWRvOV8wek5PVmNhU0cyMEJWT09KOXAyUFpnbVJieHlNM1R1QTFfa0lrcEJ2THBqZGxYZmJlQnFlS2pLN1p3M3FiMlVYNFhkVDBIcmVYRUNsSTBpc2ZHUkRTLWpEVk1ydUhKVmowcEZQdERBSEdiVE55bmh2LWhKMzN4bkcyMGI2RGw2eTdsSjFlaTZid0xRX1UwNkM1RzAtajRXQg?oc=5"
+    },
     {
       "company": "Institute for Energy Economics and Financial Analysis (IEEFA)",
       "country": "UE",
