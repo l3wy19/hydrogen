@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-10",
+  "updated": "2026-08-11",
   "items": [
+    {
+      "company": "Unia Europejska (Komisja Europejska)",
+      "country": "UE",
+      "law": "Strategic Hydrogen and CO2 Infrastructure – nabór wniosków",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Rząd",
+      "date": "Tue, 30 Ju",
+      "excerpt": "UE otworzyła nabór wniosków o status strategicznej infrastruktury wodorowej i CO2, co oznacza nowe możliwości finansowania i wsparcia dla projektów w tych sektorach. To kluczowy krok regulacyjny przyspieszający budowę europejskiej infrastruktury wodorowej.",
+      "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0Z0d1NJLU5OUGdESVpUcWxOZjFjczFDZm1CcnppWUdxZ3I1QXNtLU1HREtvYnpNaC14TFp4b1pWaXY5U3Q3MmM2aFNadWU2RnZIeVZMUjBwUWlmUGxveXZUenE5V2RwSy04Ym5lWU43bTV1cDVhQ0RBUHJ2VDRXbWc4aWhycXluY01VMGtrMVNULUlEZWNWaQ?oc=5"
+    },
+    {
+      "company": "Koalicja na rzecz zielonych paliw morskich opartych na wodorze",
+      "country": "UE",
+      "law": "FuelEU Maritime / mechanizm aukcji dwustronnych dla czystej żeglugi",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Industry Association",
+      "date": "Thu, 04 Ju",
+      "excerpt": "Nowa koalicja branżowa apeluje do państw członkowskich UE o wdrożenie dwustronnych aukcji (kontraktów różnicowych) jako mechanizmu wsparcia zielonego wodoru w sektorze morskim. Inicjatywa lobbingowa mająca na celu obniżenie luki kosztowej między zielonym wodorem a paliwami konwencjonalnymi w żegludze.",
+      "href": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNYk5YOTctNzhRWVpZUnY4NFNzcTRrWWtfZEM4SjhHS1Y3ekkxNW1iNTljeDdtemxTMFc4TmZkY1BIUzJXenA1SDhZRmdPdnA5b3I5UGN4NWREbzNmeDBLcndqdEZoX2xFdU9fcDE5MExYNkhSNjAybDJpOW0ySmpLRlE1dW9JQ2xDMFF0eWdVeUk2NHdveF9tNFBuQjQ5VDRoWF82ZG9HNWs1dUdHdjhNMjlHSGZEUFZIZkpmQl9SOGdrUnVmT2pfaEZLVnR0ZkhFMFl4T21mMUswdjV0YldiMTR6NWNUWUFZSVlDUU9vR3p0aFdtT3B1c09fWWg2dWtYeDVoS0loeTNtbVhsb2dCcXBn?oc=5"
+    },
     {
       "company": "Hydrogen Insight",
       "country": "UE",
