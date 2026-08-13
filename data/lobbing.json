@@ -1,6 +1,18 @@
 {
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "items": [
+    {
+      "company": "Komisja Europejska",
+      "country": "UE",
+      "law": "4. aukcja wodorowa H2Global / European Hydrogen Bank",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Rząd",
+      "date": "Fri, 10 Ju",
+      "excerpt": "UE opublikowała projekt warunków czwartej aukcji na zielony wodór w ramach mechanizmu European Hydrogen Bank. To kluczowy instrument wsparcia finansowego mający na celu pobudzenie produkcji odnawialnego wodoru i zbliżenie cen do poziomów konkurencyjnych rynkowo.",
+      "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONmtLUmY0Q3NCT3ZYZDdWbGk3S0oyWXZTMkNPZkxiTW9fUkpVbzlJeFpQUm1oZ3NCcWRwRHlhZ2FGMDdXMm1WOVZIR3YyWGJRM2tWdTJvT0hralFCZHNjeHkyWjRrVVdoZmRyZlZ4dHhPYXVGVGdJcDA0bXF1dzZZY09NLVhVaS1Pa1QxOEZiRGtOZw?oc=5"
+    },
     {
       "company": "Unia Europejska (Komisja Europejska)",
       "country": "UE",
