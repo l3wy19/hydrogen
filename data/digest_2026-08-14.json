@@ -1,0 +1,172 @@
+{
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T07:27:52.840909+00:00",
+  "article_count": 15,
+  "articles": [
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Germany’s 2.1GW HyScale100 Green Hydrogen Project Collapses Despite Nearly €900M in Planned Public Funding",
+      "link": "https://fuelcellsworks.com/2026/08/12/h2/germany-s-2-1gw-hyscale100-green-hydrogen-project-collapses-despite-nearly-900m-in-planned-public-funding",
+      "summary_raw": "",
+      "published": "2026-08-13T13:53:38+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Niemieckie megaprojekt zielonego wodoru HyScale100 o mocy 2,1 GW upadł mimo planowanego dofinansowania publicznego rzędu niemal 900 mln euro. To poważna porażka dla europejskiej branży wodorowej i sygnał trudności w realizacji ambitnych projektów.",
+      "importance": 5
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Europe’s Electrolyser Factories Sit Underused as Less Than 10% of 2030 Hydrogen Projects Reach FID",
+      "link": "https://fuelcellsworks.com/2026/08/13/electrolyzer/europe-s-electrolyser-factories-sit-underused-as-less-than-10-percent-of-2030-hydrogen-projects-reach-fid",
+      "summary_raw": "",
+      "published": "2026-08-13T13:39:53+00:00",
+      "category": "rynek",
+      "summary_pl": "Europejskie fabryki elektrolizerów działają znacznie poniżej swoich możliwości, ponieważ mniej niż 10% projektów wodorowych planowanych na 2030 rok osiągnęło decyzję o ostatecznych inwestycjach (FID). Raport wskazuje na poważną lukę między zdolnościami produkcyjnymi a realnym popytem.",
+      "importance": 5
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Swappable Liquid Hydrogen Tank for Ships Clears Major Testing Milestone in Italy",
+      "link": "https://fuelcellsworks.com/2026/08/13/fuel-cells/swappable-liquid-hydrogen-tank-for-ships-clears-major-testing-milestone-in-italy",
+      "summary_raw": "",
+      "published": "2026-08-13T15:16:26+00:00",
+      "category": "technologia",
+      "summary_pl": "Wymienny zbiornik na ciekły wodór przeznaczony dla statków przeszedł pomyślnie kluczowe testy we Włoszech. Milestone ten przybliża komercjalizację technologii wodorowej w transporcie morskim.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "LT Metal and Impact Coatings Partner to Commercialize Catalytic Electrodes for PEM Electrolyzer Mass Production",
+      "link": "https://fuelcellsworks.com/2026/08/13/electrolyzer/lt-metal-and-impact-coatings-partner-to-commercialize-catalytic-electrodes-for-pem-electrolyzer-mass-production",
+      "summary_raw": "",
+      "published": "2026-08-13T14:57:44+00:00",
+      "category": "technologia",
+      "summary_pl": "LT Metal i Impact Coatings nawiązały partnerstwo w celu komercjalizacji katalitycznych elektrod do masowej produkcji elektrolizerów PEM. Współpraca ma na celu obniżenie kosztów i skalowanie produkcji zielonego wodoru.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "LANXESS : Powers Large-Scale Plant with Hydrogen for the First Time",
+      "link": "https://fuelcellsworks.com/2026/08/13/fuel-cells/lanxess-powers-large-scale-plant-with-hydrogen-for-the-first-time",
+      "summary_raw": "",
+      "published": "2026-08-13T13:52:25+00:00",
+      "category": "technologia",
+      "summary_pl": "Koncern chemiczny LANXESS po raz pierwszy zasilił dużą instalację przemysłową wodorem. To ważny krok w dekarbonizacji przemysłu chemicznego.",
+      "importance": 4
+    },
+    {
+      "source": "Hydrogen Europe",
+      "source_category": "industry",
+      "title": "Hystar and BHEL Partner to Accelerate India’s Green Hydrogen Economy with Local PEM Electrolyser Manufacturing",
+      "link": "https://hydrogeneurope.eu/hystar-and-bhel-partner-to-accelerate-indias-green-hydrogen-economy-with-local-pem-electrolyser-manufacturing/",
+      "summary_raw": "<p><span class=\"excerpt-hellip\"> […]</span></p>\n<p>The post <a href=\"https://hydrogeneurope.eu/hystar-and-bhel-partner-to-accelerate-indias-green-hydrogen-economy-with-local-pem-electrolyser-manufacturing/\">Hystar and BHEL Partner to Accelerate India’s Green Hydrogen Economy with Local PEM Electrolyser Manufacturing</a> appeared first on <a href=\"https://hydrogeneurope.eu\">Hydrogen Europe</a>.</p>",
+      "published": "2026-08-13T15:33:04+00:00",
+      "category": "technologia",
+      "summary_pl": "Norweska firma Hystar i indyjski gigant BHEL nawiązały partnerstwo w celu lokalnej produkcji elektrolizerów PEM w Indiach i rozwoju tamtejszej gospodarki wodorowej. Współpraca ma przyspieszyć transformację energetyczną Indii w oparciu o zielony wodór.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Korean Fuel-Cell Developer Clears European CE Hurdle for 10kW Pure-Hydrogen PEM System",
+      "link": "https://fuelcellsworks.com/2026/08/12/fuel-cells/korean-fuel-cell-developer-clears-european-ce-hurdle-for-10kw-pure-hydrogen-pem-system",
+      "summary_raw": "",
+      "published": "2026-08-13T15:31:36+00:00",
+      "category": "technologia",
+      "summary_pl": "Koreański producent ogniw paliwowych uzyskał europejskie certyfikaty CE dla systemu PEM o mocy 10 kW zasilanego czystym wodorem. To ważny krok umożliwiający wprowadzenie produktu na rynek europejski.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Recirculation Blower From Busch Vacuum Solutions Supports the First Hydrogen Plane in Switzerland",
+      "link": "https://fuelcellsworks.com/2026/08/13/energy-innovation/recirculation-blower-from-busch-vacuum-solutions-supports-the-first-hydrogen-plane-in-switzerland",
+      "summary_raw": "",
+      "published": "2026-08-13T15:09:18+00:00",
+      "category": "technologia",
+      "summary_pl": "Dmuchawa recyrkulacyjna firmy Busch Vacuum Solutions zasila pierwszy samolot wodorowy w Szwajcarii. To przykład zastosowania specjalistycznych komponentów w lotnictwie wodorowym.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Dutch PM Highlights Rotterdam’s Growing Hydrogen Investment Pipeline During Port Visit",
+      "link": "https://fuelcellsworks.com/2026/08/13/h2/dutch-pm-highlights-rotterdam-s-growing-hydrogen-investment-pipeline-during-port-visit",
+      "summary_raw": "",
+      "published": "2026-08-13T14:45:43+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Holenderski premier podkreślił rosnący pipeline inwestycji wodorowych w Rotterdamie podczas wizyty w porcie. Rotterdam umacnia swoją pozycję jako kluczowy europejski hub wodorowy.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "AI System to Optimise Green Hydrogen Production at Stuttgart’s 12MW Hub",
+      "link": "https://fuelcellsworks.com/2026/08/13/h2/ai-system-to-optimise-green-hydrogen-production-at-stuttgart-s-12mw-hub",
+      "summary_raw": "",
+      "published": "2026-08-13T13:34:48+00:00",
+      "category": "technologia",
+      "summary_pl": "W stuttgarckim hubie wodorowym o mocy 12 MW wdrożony zostanie system AI optymalizujący produkcję zielonego wodoru. Integracja sztucznej inteligencji ma poprawić efektywność i obniżyć koszty operacyjne instalacji.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Friedrich Vorwerk Expands Hydrogen Technology Portfolio With meterQ Acquisition",
+      "link": "https://fuelcellsworks.com/2026/08/13/h2/friedrich-vorwerk-expands-hydrogen-technology-portfolio-with-meterq-acquisition",
+      "summary_raw": "",
+      "published": "2026-08-13T13:15:00+00:00",
+      "category": "rynek",
+      "summary_pl": "Firma Friedrich Vorwerk rozszerzyła portfolio technologii wodorowych poprzez przejęcie spółki meterQ. Akwizycja wzmacnia kompetencje w obszarze infrastruktury i pomiarów dla sektora wodorowego.",
+      "importance": 3
+    },
+    {
+      "source": "Google News: green hydrogen",
+      "source_category": "news",
+      "title": "Europe’s Electrolyser Factories Sit Underused as Less Than 10% of 2030 Hydrogen Projects Reach FID - fuelcellsworks.com",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVnU2SE9MTXJEM05UN2NsM1dtS1MyWkVCaERFM1RXRHM3eE55RUR3a2U4LWp1NDRXR2x0bkpPZzBab3VsT2F5WXU5dnJJSTJJMGRiN2VwSEt1NDhzV0s1T0tHYkdhdU5XMlRwZFUyTVFYOTZKeDVQRDlVaVpQMGsyLS1uQ2M1TDJ2ekozUnI5NmhPYkg2bUFVdzRvaTllekVnU1UtRTMybTF4QzhtLWE4cXBFY0JZQmVJUUNGaDBDWHBNdGVKZkhpRWxvcEhNU3R6MzQ1REZNNEpvRHE2WjlNN2JubXI4WG50S1J1UA?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVnU2SE9MTXJEM05UN2NsM1dtS1MyWkVCaERFM1RXRHM3eE55RUR3a2U4LWp1NDRXR2x0bkpPZzBab3VsT2F5WXU5dnJJSTJJMGRiN2VwSEt1NDhzV0s1T0tHYkdhdU5XMlRwZFUyTVFYOTZKeDVQRDlVaVpQMGsyLS1uQ2M1TDJ2ekozUnI5NmhPYkg2bUFVdzRvaTllekVnU1UtRTMybTF4QzhtLWE4cXBFY0JZQmVJUUNGaDBDWHBNdGVKZkhpRWxvcEhNU3R6MzQ1REZNNEpvRHE2WjlNN2JubXI4WG50S1J1UA?oc=5\" target=\"_blank\">Europe’s Electrolyser Factories Sit Underused as Less Than 10% of 2030 Hydrogen Projects Reach FID</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fuelcellsworks.com</font>",
+      "published": "2026-08-13T13:39:00+00:00",
+      "category": "rynek",
+      "summary_pl": "Duplikat artykułu dotyczącego europejskich fabryk elektrolizerów działających poniżej mocy produkcyjnych w związku z brakiem decyzji inwestycyjnych w projektach wodorowych. Potwierdza poważne wyzwania strukturalne branży.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Catalan Fishermen Raise Concerns Over Planned H2Med Hydrogen Pipeline",
+      "link": "https://fuelcellsworks.com/2026/08/13/h2/catalan-fishermen-raise-concerns-over-planned-h2med-hydrogen-pipeline",
+      "summary_raw": "",
+      "published": "2026-08-13T13:41:41+00:00",
+      "category": "inne",
+      "summary_pl": "Katalońscy rybacy wyrazili obawy dotyczące planowanego podmorskiego rurociągu wodorowego H2Med. Sprzeciw lokalnych społeczności może utrudnić realizację tego strategicznego projektu infrastrukturalnego.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Poppe + Potthoff Contributes to Hydrogen World Land Speed Record",
+      "link": "https://fuelcellsworks.com/2026/08/13/fuel-cells/poppe-potthoff-contributes-to-hydrogen-world-land-speed-record",
+      "summary_raw": "",
+      "published": "2026-08-13T13:29:24+00:00",
+      "category": "technologia",
+      "summary_pl": "Firma Poppe + Potthoff dostarczyła komponenty, które przyczyniły się do ustanowienia światowego rekordu prędkości lądowej napędzanej wodorem. To spektakularny pokaz możliwości technologii wodorowej w motorsporcie.",
+      "importance": 2
+    },
+    {
+      "source": "Google News: green hydrogen",
+      "source_category": "news",
+      "title": "Hystar & BHEL Partner for Green Hydrogen PEM Electrolysers - fuelcellsworks.com",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPOXc0dFpuRmFldDlSUDhSLS15SkJpb2dtSDY3cl90NHYxRkR1MmlqNTUzNi1nRkZhZUNQOTRxdVFiMHpKVkIxTGhwQlpneFZMT3g1UFdtV0V6RFQ5NEpxaVpuamhkbVNsMWE2MUxla09zRFJUb0lYbENLODVWcENET21KdlhselFvT1RBY25uT3dFc2dfYnNJbmd6UVpGT2hQMGhwSlBYU1l6VzZwQ0hYN2tmVy1BTUZaZ1BXNUp4MDBLVFBTT1JVRkoydXJySlVDZWhiTUoxVnBSdnZTTHF4aEN4S3RHUFR0eUxHTG9obmc0N3M?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxPOXc0dFpuRmFldDlSUDhSLS15SkJpb2dtSDY3cl90NHYxRkR1MmlqNTUzNi1nRkZhZUNQOTRxdVFiMHpKVkIxTGhwQlpneFZMT3g1UFdtV0V6RFQ5NEpxaVpuamhkbVNsMWE2MUxla09zRFJUb0lYbENLODVWcENET21KdlhselFvT1RBY25uT3dFc2dfYnNJbmd6UVpGT2hQMGhwSlBYU1l6VzZwQ0hYN2tmVy1BTUZaZ1BXNUp4MDBLVFBTT1JVRkoydXJySlVDZWhiTUoxVnBSdnZTTHF4aEN4S3RHUFR0eUxHTG9obmc0N3M?oc=5\" target=\"_blank\">Hystar & BHEL Partner for Green Hydrogen PEM Electrolysers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fuelcellsworks.com</font>",
+      "published": "2026-08-13T13:11:00+00:00",
+      "category": "technologia",
+      "summary_pl": "Artykuł powielający informację o partnerstwie Hystar i BHEL w zakresie produkcji elektrolizerów PEM dla indyjskiego rynku zielonego wodoru. Duplikat wcześniejszej wiadomości z innego źródła.",
+      "importance": 2
+    }
+  ]
+}
