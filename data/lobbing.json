@@ -1,6 +1,18 @@
 {
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "items": [
+    {
+      "company": "White & Case LLP",
+      "country": "UE",
+      "law": "Infrastructure & Energy Europe – Regulatory Compass Q2 2026",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Company/Business",
+      "date": "Tue, 07 Ju",
+      "excerpt": "Kancelaria prawna White & Case publikuje przegląd regulacyjny dla sektora infrastruktury i energii w Europie na Q2 2026, obejmujący m.in. regulacje dotyczące wodoru. Dokument stanowi kompendium wiedzy regulacyjnej istotnej dla uczestników rynku wodorowego w UE.",
+      "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeC1jWmRaaFNmV0pKMzJlTVlud3E4N016NGZNQkZjWDUzOU1PSlh2WmNuVDN6dXBpTjg5cjdnMmNhWEdpc1BOMFVfeTJzMXJpZDNfWU11U192NHgta3J4ZDRDZ25lWHNxWFBVaEpxSkFvRnpoWGc0UmZ4ZmFKWTR5OHNNWnptMXRrb3VsdzBWeVktS1hlRTBXLThuNA?oc=5"
+    },
     {
       "company": "Komisja Europejska",
       "country": "UE",
