@@ -1,6 +1,18 @@
 {
-  "updated": "2026-08-17",
+  "updated": "2026-08-18",
   "items": [
+    {
+      "company": "Clayton Utz",
+      "country": "Australia / UE",
+      "law": "Carbon Border Adjustment Mechanism (CBAM)",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Company/Business",
+      "date": "Tue, 18 Au",
+      "excerpt": "Australijska kancelaria prawna Clayton Utz analizuje implikacje unijnego mechanizmu dostosowania cen na granicach z uwzględnieniem emisji CO2 (CBAM) dla australijskich przedsiębiorstw. CBAM ma istotne znaczenie dla branży wodorowej, gdyż może wpływać na konkurencyjność eksportu zielonego wodoru i produktów węglowych do UE.",
+      "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNb3duOEZyUkFUYUI5TkRpV2lEUjY4X2FpWXo4bWpWTHJ2WmROSVdUSTVFem9uVVlLcG5aVDRvdVdxTlVhOUY3N2hMTXZKcDk3cnVhRE5oV3V6UlNESFdROHMxYXEtVG12U05UeUlHaWVZVU83Zzk5bVJVcFVqYWE4V05HODg2Q2dnWFhESlN2OWR5ajhhd2d4bjEtYXhoTU9PQVJ2Wl9FMW95Q1RBYk5POUFIRTJNY2l0UVBTd3FhWXVPMDdJdkdKVXBuNUF1MnNid1VWUA?oc=5"
+    },
     {
       "company": "White & Case LLP",
       "country": "UE",
