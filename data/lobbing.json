@@ -1,6 +1,18 @@
 {
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "items": [
+    {
+      "company": "Stowarzyszenia branżowe (trade groups)",
+      "country": "UE",
+      "law": "Regulacje dotyczące zielonego wodoru UE (EU green hydrogen rules)",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Industry Association",
+      "date": "Wed, 08 Ju",
+      "excerpt": "Stowarzyszenia branżowe domagają się szybkich zmian w unijnych przepisach dotyczących zielonego wodoru do końca 2026 roku. Jest to istotne dla branży, ponieważ obecne regulacje mogą hamować rozwój rynku wodorowego w UE.",
+      "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSEhDdXVoc041WkN2bmwzNjdnMHF6X1k1dGlYTV9paV84RnhTYkxhbTd6WjlxemVUWF9IbzktWXhXR0JYRkplRE5WNm9YWGtOcWV4d3dodWVwR29xNDRQSm9lMk5EaE1zalF6aFZ3Tk9jWU00R21YREVoa3VCQjhzT1F4SUVSWlJTUVhWT1p1dUhMNnBQazQ5ZnlMX0VsUW9ZMk56UGlVMVFMNU95QzhjSDlzcGFzLUhVY21zRFZwQQ?oc=5"
+    },
     {
       "company": "Clayton Utz",
       "country": "Australia / UE",
