@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "items": [
     {
       "type": "conf",
@@ -78,6 +78,32 @@
       "org": "Indian Chemical News / NextGen",
       "desc": "Szczyt poświęcony branży chemicznej i petrochemicznej, podczas którego 9 lipca odbędzie się sesja dotycząca budowy megainstalacji w ekosystemie zielonego wodoru. Wydarzenie stanowi istotną platformę wymiany wiedzy dla profesjonalistów zainteresowanych rozwojem przemysłu wodorowego.",
       "href": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQQVpvakhzcWx5akJ3SUVqWndtQUF4LWdsRkd3ZC13OHVsbzBOUHBVYm94Sk9NSWozR0ZMbTlYMV9ZaFo4NGNoSUJtY29TZ05XLURFVEM2eXdhYVJsVXB5d05mTEM5dFVDUklneDN4RHJmN0x3Smg0d2FmNTU2ODNfM3lvNUl6OEpPLXprRFFxM1lJRFdVUWpPd003WG5jYzF4eFVKOHhXa011R3BMS0RRWjc2elBRSkl1MlZZVmtZanlHSkp3LWdEZGR2ZV9BcFFtVFNfcGJVWUNmUkg5b3R1b0ItMUxGYUcta3hheUJDRXgtcjBXaVZSX1Y4X0ZtU0ktd1ZQWlJB0gGMAkFVX3lxTFBIR0h2Yjc0b2lCTEphUGt2djl1UTNob01fVGpobGEyaHdTZG9NZ0ZqSEhXTkl2NWRqWWxoNkFNVFZDbGFtRTZpNDh1cXBnbEVZb1FKUzBjbFFUanR0UnNjMmllWGwzdmwtSERTZUhhQ1JqNkgxT01aS2VlWnpTYjc0Qld2aDFNX2tzMjV1R3lUMlo5eGU2WG9Ld0wwWFpmX0t4ZFRZUnV0bTF1QlFxcm5ZVmpPU0NLRjZDang5aUkzN3V3cXpTYWczRjdDbG4tYU5jVXhfcW5kUk5yTVZybVJhcTAyam1xS0NQX0RHekotb2NlSjR2b1VxVFdfUnNIbUFUbWs5dTR6TU1zUUE?oc=5"
+    },
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "Bharat Renewable Energy Expo 2026",
+      "day": "",
+      "mon": "",
+      "year": "",
+      "date_iso": "",
+      "loc": "Indie",
+      "org": "Rząd Indii",
+      "desc": "Międzynarodowe targi i ekspozycja poświęcona energii odnawialnej, na którą rząd Indii zaprasza globalnych inwestorów i przedsiębiorców. Wydarzenie stanowi platformę do nawiązywania kontaktów i prezentacji innowacji w sektorze OZE.",
+      "href": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWXJQbDJnWFZrODc4eTFVTEdKZGNjcjRWcGlWbnlpVU0zSXhkNFc5cThVc0t5ZnByX1RUc0ZYNjgtMDhIc0RBdEpZRzJFTzhRYjhjU1Q5Q1VMNkdZUjFaV3liek1la1djSVBKWGFiTFNvZXBQQm1PSkVpNDdYMkVCb0R0a0dFYVZjdkRfUUk1MlAxdjZ6enFZUTQ0RjhIMTE4ZDRJbDhOZUU3YTUxM1NiV3hNMHVKUkt3bnBGZTZoYkxZTnVYTG9GdlV1WGNMWUpNSTFaa1ZZc1B3UmpsWDBVQnE2b9IB6AFBVV95cUxQMzdOa0s2RHlwMm1EbDhMeW5YOTVUREhqWTJSbkdoOTFidlNrUmJmX0JjQ0Y4OG5yUjJ2ZHFIM0dIQWlTcDQxNEVXYXVfNDZ2TVJ6WkdsaXdUTUFSNk56c082dER1VXlKcTQ4eFJrajZiQjNXSWI0WlFjclV4M0ctM2tUaXc0SUxvTWpLOTQ4TVpoaE84TThvbDhENm9XRUd4SWlvMHJKVzBDUGRGUWdFZHMwaURJWWxETks2ZFF4dV9RRlVQU1VkYmp6UktTbVVibmJ4MF8tQzMwRWxFRXFfekdINmxra3FH?oc=5"
+    },
+    {
+      "type": "acad",
+      "typeLabel": "Akademia",
+      "title": "Nierynkowe ograniczenia OZE (curtailment). Prognozowanie i zapobieganie – szkolenie",
+      "day": "",
+      "mon": "",
+      "year": "",
+      "date_iso": "",
+      "loc": "Online",
+      "org": "Gramwzielone.pl",
+      "desc": "Szkolenie dotyczące zjawiska nierynkowych ograniczeń produkcji energii z OZE (curtailment), obejmujące metody prognozowania i sposoby zapobiegania tym ograniczeniom. Wydarzenie skierowane do specjalistów z branży energii odnawialnej.",
+      "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWWkyQkphOUVLN1hNRnhYT0N5T1ozdExmUFhVRnBLWlJqQzI5QlczdGp6cWVZZlNDMkdJcWpFclpSdGlhbTZKMVBIWkp6alJ2OHBtOVA4R085X2ZwQ2lCdUotR0FTS0p1ZURSWDZRWjhpZm1vYzhNdm5uVmxyR0ZkM1pOUjA4WUZJRG96X1ZmeGFuTEx2SVZkVUo3aGE0UFBHSW9UeFlqQjdlQ1RtT0ktcWF0VVRGdktNdE9QcGFtRHVHYm9aMlRqMkpoUk1Bdw?oc=5"
     },
     {
       "type": "conf",
