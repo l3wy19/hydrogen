@@ -1,6 +1,18 @@
 {
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "items": [
+    {
+      "company": "Hydrogen Europe (lobby group)",
+      "country": "UE",
+      "law": "Made in Europe – zasady dotyczące elektrolizerów (przepisy dot. treści lokalnej)",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Industry Association",
+      "date": "Wed, 27 Ma",
+      "excerpt": "Europejska organizacja lobbingowa branży wodorowej krytykuje proponowane przepisy 'Made in Europe' dotyczące elektrolizerów, określając je jako 'pozbawione sensu' i wymagające znaczących poprawek. Jest to istotne dla branży, ponieważ zasady dotyczące lokalnej produkcji elektrolizerów bezpośrednio wpływają na konkurencyjność i rozwój europejskiego łańcucha dostaw wodoru.",
+      "href": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcURNM2J6aGlpc1hZNWxzWEZVRjI1c29xclhpZFBVSE96STBMQlJIT0hwWVBUWTZRMzI4Yy16LU9GSmQ3SUJRaGFGU2hsRzhQbXpJVlNOZ3NRZC1ud3N5ZmNKcUFleUYxSHV1akdPT0pnb3JTbUhMT3NtWHJPNUhCeVNyRU44Rldld01tb21qbUctTVlURFBub012TW5TNnROaVJzaXRoTmhITXhnMWRaNmc2cTlCY1VZb3ZiNmVzY01mN1gtWTVHX2ZZSko4RWpfbi1vYUtlNHU5cWU3NmpucjRn?oc=5"
+    },
     {
       "company": "Stowarzyszenia branżowe (trade groups)",
       "country": "UE",
