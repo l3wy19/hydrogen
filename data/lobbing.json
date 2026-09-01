@@ -1,6 +1,18 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "items": [
+    {
+      "company": "Koalicja sześciu europejskich producentów elektrolizerów",
+      "country": "UE",
+      "law": "Polityka wodorowa UE i regulacje dotyczące importu wodoru",
+      "stance": "sup",
+      "stanceLabel": "Popieramy",
+      "stanceColor": "#10B981",
+      "type": "Industry Association",
+      "date": "Mon, 02 Fe",
+      "excerpt": "Sześciu czołowych europejskich producentów elektrolizerów zawiązało nową koalicję lobbingową, aby wpływać na politykę wodorową UE oraz regulacje dotyczące importu wodoru. Inicjatywa jest istotna dla branży, gdyż może kształtować warunki konkurencji między europejskimi producentami a importerami wodoru spoza UE.",
+      "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPeUpUMDV1VWlYQXdZNUtia2xwSkk2NUNLUUk2Q1NlUGJjd3dHRUxBeDhvX25WVklhd2FUVkZweUlEV01GU0c4NktzaDJBYWg5OURsd0RoYWNsWmtYYktpQ0NNN3dpVWVsaHM1MUhCOGFhUVh4R2hXbXlwTUhseExYSklEZ2kzdmZEbHV6WEVRUHNLN3c4TXhITTU0QkR5Y2FGMkFaNU45NHR2cTNsekp2RkszQ0RhQWdjSWJLWHBXdHVjbHFMWk5fRUZOZHZVVTJhX0tlc21SNVR4QzdHaW9Oc0ZaTUxMVmtJ?oc=5"
+    },
     {
       "company": "Hydrogen Europe (lobby group)",
       "country": "UE",
