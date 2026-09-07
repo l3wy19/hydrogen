@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-05",
+  "updated": "2026-09-07",
   "items": [
+    {
+      "company": "Komisja Europejska / UE",
+      "country": "UE",
+      "law": "Nowa metodyka obliczania emisji dla wodoru",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Rząd",
+      "date": "Tue, 01 Oc",
+      "excerpt": "UE wprowadza nową metodykę obliczania emisji dla wodoru, co bezpośrednio wpłynie na klasyfikację wodoru jako niskoemisyjnego lub odnawialnego. Regulacja ta jest kluczowa dla branży, ponieważ determinuje, które projekty wodorowe będą kwalifikować się do wsparcia i certyfikacji w ramach europejskich ram regulacyjnych.",
+      "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLUxJeHFtbEZLR2ZxcHRocmRCSFpsLWI3RFZPS3h0Z0VSZ3lmbi1YcUFHQjRrWkRCaW14eXFXMnJWb09yV2pRMV9Md2dQVVVnUTBoZ2JSdll1LVlTU2piX0o4YXlyUG9HYUpDaTV1V0JGb2QydUtua1NmWUE3MVA3YlExV3RfYm1YeEptRmJSQmtWdnJMc1Y5SnA2cDg1Zw?oc=5"
+    },
     {
       "company": "Koalicja sześciu europejskich producentów elektrolizerów",
       "country": "UE",
