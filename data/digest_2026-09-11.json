@@ -1,0 +1,216 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T10:54:02.934072+00:00",
+  "article_count": 19,
+  "articles": [
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Air Products Signs 75GWh/Year RWE PPA for Rotterdam Hydrogen Plants and New Liquefier",
+      "link": "https://fuelcellsworks.com/2026/09/09/h2/air-products-signs-75gwh-year-rwe-ppa-for-rotterdam-hydrogen-plants-and-new-liquefier",
+      "summary_raw": "",
+      "published": "2026-09-10T16:05:31+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Air Products podpisał umowę PPA z RWE na dostawę 75 GWh energii rocznie dla zakładów produkcji wodoru w Rotterdamie oraz nowego skraplacza. To znacząca umowa wzmacniająca infrastrukturę wodorową w Europie.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Toyota and IVECO Join Forces to Advance Next-Generation Hydrogen Fuel Cell Heavy-Duty Trucks Through the EU-Funded EMPOWER Project",
+      "link": "https://fuelcellsworks.com/2026/09/10/fuel-cells/toyota-and-iveco-join-forces-to-advance-next-generation-hydrogen-fuel-cell-heavy-duty-trucks-through-the-eu-funded-empower-project",
+      "summary_raw": "",
+      "published": "2026-09-10T14:38:50+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Toyota i IVECO łączą siły w ramach unijnego projektu EMPOWER, aby rozwijać ciężarówki z ogniwami paliwowymi następnej generacji. Projekt finansowany przez UE przyspiesza dekarbonizację transportu ciężkiego.",
+      "importance": 4
+    },
+    {
+      "source": "PV Magazine",
+      "source_category": "news",
+      "title": "The Hydrogen Stream: AEM electrolysis could deliver hydrogen at $3.27/kg, say Repsol, P2HP",
+      "link": "https://www.pv-magazine.com/2026/09/11/the-hydrogen-stream-aem-electrolysis-could-deliver-hydrogen-at-3-27-kg-say-repsol-p2hp/",
+      "summary_raw": "<p>Power to Hydrogen (P2H2) and Repsol completed a 1,250-hour pilot of P2H2’s hybrid AEM electrolyzer technology, demonstrating operation at 40% to 100% load, pressures up to 30 bar and hydrogen purity of up to 99.9%. P2H2 projects an LCOH of €3.86 ($4.47)/kg, potentially falling to €2.82/kg under optimized renewable energy conditions, and the companies are considering a 500 kW-to-MW-scale demonstration.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/11/the-hydrogen-stream-aem-electrolysis-could-deliver-hydrogen-at-3-27-kg-say-repsol-p2hp/\">The Hydrogen Stream: AEM electrolysis could deliver hydrogen at $3.27/kg, say Repsol, P2HP</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>",
+      "published": "2026-09-11T10:36:51+00:00",
+      "category": "technologia",
+      "summary_pl": "Repsol i Power to Hydrogen zakończyły 1250-godzinny pilot hybrydowego elektrolizera AEM, osiągając czystość wodoru do 99,9% i ciśnienie do 30 bar. Szacowany LCOH wynosi €3,86/kg, z potencjałem spadku do €2,82/kg przy optymalnych warunkach OZE.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Siltrax Launches Commercialization Initiative in the Americas for Silicon-Based Hydrogen Technology",
+      "link": "https://fuelcellsworks.com/2026/09/10/h2/siltrax-launches-commercialization-initiative-in-the-americas-for-silicon-based-hydrogen-technology",
+      "summary_raw": "",
+      "published": "2026-09-10T18:57:40+00:00",
+      "category": "technologia",
+      "summary_pl": "Siltrax uruchamia inicjatywę komercjalizacji technologii wodorowej opartej na krzemie na rynkach obu Ameryk. To ważny krok w kierunku wdrożenia innowacyjnej metody produkcji wodoru.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "BMW iX5 Hydrogen: Testing Under Real Driving Conditions, Prototype Assembly and Industrialisation in Parallel",
+      "link": "https://fuelcellsworks.com/2026/09/10/green-technology/bmw-ix5-hydrogen-testing-under-real-driving-conditions-prototype-assembly-and-industrialisation-in-parallel",
+      "summary_raw": "",
+      "published": "2026-09-10T16:15:20+00:00",
+      "category": "technologia",
+      "summary_pl": "BMW testuje prototyp iX5 Hydrogen w rzeczywistych warunkach drogowych, prowadząc równolegle prace nad industrializacją produkcji. Projekt pokazuje zaawansowanie BMW w technologii ogniw paliwowych dla samochodów osobowych.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Twelve Secures Up to $45 Million Credit Facility to Expand AirPlant One Hydrogen Production",
+      "link": "https://fuelcellsworks.com/2026/09/10/h2/twelve-secures-up-to-45-million-credit-facility-to-expand-airplant-one-hydrogen-production",
+      "summary_raw": "",
+      "published": "2026-09-10T15:56:38+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Twelve pozyskało do 45 mln USD w ramach linii kredytowej na rozbudowę produkcji wodoru w zakładzie AirPlant One. Finansowanie przyspieszy skalowanie innowacyjnej produkcji wodoru z CO2.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "An Electrochemical Approach Turns Ammonia Into Pure Hydrogen",
+      "link": "https://fuelcellsworks.com/2026/09/09/h2/an-electrochemical-approach-turns-ammonia-into-pure-hydrogen",
+      "summary_raw": "",
+      "published": "2026-09-10T15:33:22+00:00",
+      "category": "technologia",
+      "summary_pl": "Naukowcy opracowali elektrochemiczną metodę konwersji amoniaku w czysty wodór, co może uprościć łańcuch dostaw wodoru. Technologia ta potencjalnie ułatwi wykorzystanie amoniaku jako nośnika energii.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Corinth Pipeworks Wins Contract for 218Km Hydrogen-Ready Pipeline in Greece",
+      "link": "https://fuelcellsworks.com/2026/09/09/h2/corinth-pipeworks-wins-contract-for-218km-hydrogen-ready-pipeline-in-greece",
+      "summary_raw": "",
+      "published": "2026-09-10T15:17:11+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Corinth Pipeworks zdobyło kontrakt na budowę 218 km rurociągu gotowego na transport wodoru w Grecji. Inwestycja stanowi ważny element rozwoju infrastruktury wodorowej w Europie Południowej.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Metacon Brings PERIC’s Next-Generation Alkaline Electrolyser Stacks to Europe",
+      "link": "https://fuelcellsworks.com/2026/09/10/electrolyzer/metacon-brings-peric-s-next-generation-alkaline-electrolyser-stacks-to-europe",
+      "summary_raw": "",
+      "published": "2026-09-10T14:51:19+00:00",
+      "category": "technologia",
+      "summary_pl": "Metacon wprowadza do Europy elektrolizery alkaliczne nowej generacji firmy PERIC, rozszerzając dostępność chińskiej technologii na rynku europejskim. To potencjalnie ważny krok dla dywersyfikacji łańcucha dostaw elektrolizerów.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Mexico Conditionally Approves Delicias Solar — 35MW Electrolyser and 3,200 Tonnes of Green Hydrogen Per Year in Guanajuato",
+      "link": "https://fuelcellsworks.com/2026/09/09/green-hydrogen/mexico-conditionally-approves-delicias-solar-35mw-electrolyser-and-3-200-tonnes-of-green-hydrogen-per-year-in-guanajuato",
+      "summary_raw": "",
+      "published": "2026-09-10T14:43:11+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Meksyk warunkowo zatwierdził projekt Delicias Solar obejmujący elektrolizer 35 MW i produkcję 3200 ton zielonego wodoru rocznie w stanie Guanajuato. Projekt wpisuje się w rosnący potencjał Meksyku jako producenta zielonego wodoru.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Innovation Boost for the Hydrogen Economy: Real-Time Diagnostics for Electrolyzers and Fuel Cells in Operation",
+      "link": "https://fuelcellsworks.com/2026/09/10/h2/innovation-boost-for-the-hydrogen-economy-real-time-diagnostics-for-electrolyzers-and-fuel-cells-in-operation",
+      "summary_raw": "",
+      "published": "2026-09-10T13:47:24+00:00",
+      "category": "technologia",
+      "summary_pl": "Opracowano innowacyjne systemy diagnostyki w czasie rzeczywistym dla elektrolizerów i ogniw paliwowych podczas pracy. Technologia może znacząco poprawić niezawodność i efektywność urządzeń wodorowych.",
+      "importance": 3
+    },
+    {
+      "source": "Google News: hydrogen investment",
+      "source_category": "news",
+      "title": "Rana Holdings Plans 2 GW Solar & 200 MW Green Hydrogen in MP - mvapulse.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQU1B5RDNkNTNHdnBuaTNkZmhsTm5SaTAxR0k1cGhSWE12eFFlTW1zUFpKYUluMmdKczRtRXZ1X21nb0pBdXBVOUNQUWRoUzJrVWVqQ3FIMDJvU213Wjg1RTlzb0ttSGdmUHU5T2VkTkl4TGZRWE5sOEtWMzdndXBzNm9PTVZIRmhaZ24yNQ?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQU1B5RDNkNTNHdnBuaTNkZmhsTm5SaTAxR0k1cGhSWE12eFFlTW1zUFpKYUluMmdKczRtRXZ1X21nb0pBdXBVOUNQUWRoUzJrVWVqQ3FIMDJvU213Wjg1RTlzb0ttSGdmUHU5T2VkTkl4TGZRWE5sOEtWMzdndXBzNm9PTVZIRmhaZ24yNQ?oc=5\" target=\"_blank\">Rana Holdings Plans 2 GW Solar & 200 MW Green Hydrogen in MP</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mvapulse.com</font>",
+      "published": "2026-09-10T13:34:37+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Rana Holdings planuje budowę instalacji solarnych o mocy 2 GW oraz produkcję zielonego wodoru o mocy 200 MW w indyjskim stanie Madhya Pradesh. To znacząca inwestycja w zieloną energię i wodór na rynku indyjskim.",
+      "importance": 3
+    },
+    {
+      "source": "Google News: hydrogen investment",
+      "source_category": "news",
+      "title": "Rana Holdings eyes 2 GW solar, 200 MW green hydrogen projects in Madhya Pradesh - pv magazine India",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaUVyZktraFdXS3NwZGlJQ2o3Y1hhVWZOd1JweHNwTHRMYmhLUW9TVGVtR1kySVZnUTVELWVGQjRFdzF3STNjRzd2b2hnaGZwMlMySVhDenUyZ2NZNV9taE5uQkp5NWU1SUt1MkxKZTMydHJnNV9xX25iZFAtR3lIT0Q0WXFxR1pGNTF5V3JkSXhMMWkyazJtMk5rZnR6R3JOVnJZT0lfZi1WOFpVNWJoWWc3aVJPSzNacnZhdG5HakMyZw?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaUVyZktraFdXS3NwZGlJQ2o3Y1hhVWZOd1JweHNwTHRMYmhLUW9TVGVtR1kySVZnUTVELWVGQjRFdzF3STNjRzd2b2hnaGZwMlMySVhDenUyZ2NZNV9taE5uQkp5NWU1SUt1MkxKZTMydHJnNV9xX25iZFAtR3lIT0Q0WXFxR1pGNTF5V3JkSXhMMWkyazJtMk5rZnR6R3JOVnJZT0lfZi1WOFpVNWJoWWc3aVJPSzNacnZhdG5HakMyZw?oc=5\" target=\"_blank\">Rana Holdings eyes 2 GW solar, 200 MW green hydrogen projects in Madhya Pradesh</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pv magazine India</font>",
+      "published": "2026-09-10T11:08:31+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Rana Holdings planuje projekty 2 GW solarnych i 200 MW zielonego wodoru w Madhya Pradesh – artykuł stanowi powtórzenie tej samej informacji z innego źródła (pv magazine India). Inwestycja wpisuje się w rosnące ambicje Indii w zakresie zielonego wodoru.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Peru Turns to Japan to Launch Green Hydrogen Pilot Projects",
+      "link": "https://fuelcellsworks.com/2026/09/10/green-hydrogen/peru-turns-to-japan-to-launch-green-hydrogen-pilot-projects",
+      "summary_raw": "",
+      "published": "2026-09-10T15:48:18+00:00",
+      "category": "rynek",
+      "summary_pl": "Peru nawiązuje współpracę z Japonią w celu uruchomienia pilotażowych projektów zielonego wodoru. Inicjatywa wpisuje się w rosnące zainteresowanie Ameryki Łacińskiej eksportem zielonego wodoru do Azji.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Amogy and LOTTE Fine Chemical Sign MOU to Advance Green Ammonia-to-Hydrogen and Ammonia-to-Power Solutions in South Korea",
+      "link": "https://fuelcellsworks.com/2026/09/10/h2/amogy-and-lotte-fine-chemical-sign-mou-to-advance-green-ammonia-to-hydrogen-and-ammonia-to-power-solutions-in-south-korea",
+      "summary_raw": "",
+      "published": "2026-09-10T15:06:43+00:00",
+      "category": "rynek",
+      "summary_pl": "Amogy i LOTTE Fine Chemical podpisały MOU w celu rozwoju rozwiązań amoniaku do wodoru i zasilania w Korei Południowej. Partnerstwo przyspieszy wdrożenie technologii konwersji zielonego amoniaku w Azji.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "SHPT Takes Fuel Cells Into the Drone Market With Hydrogen UAV Project in Germany",
+      "link": "https://fuelcellsworks.com/2026/09/09/fuel-cells/shpt-takes-fuel-cells-into-the-drone-market-with-hydrogen-uav-project-in-germany",
+      "summary_raw": "",
+      "published": "2026-09-10T14:59:58+00:00",
+      "category": "technologia",
+      "summary_pl": "SHPT wprowadza ogniwa paliwowe zasilane wodorem do rynku dronów poprzez projekt UAV w Niemczech. To przykład zastosowania technologii wodorowej w rozwijającym się segmencie bezzałogowych statków powietrznych.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "King Long Bus Marks 15 Years of Hydrogen Fuel Cell R&D — 8M to 12M Fleet Now in Service",
+      "link": "https://fuelcellsworks.com/2026/09/05/electrolyzer/china-s-western-land-sea-new-corridor-hydrogen-truck-route-has-moved-from-weekly-departures-to-regular-daily-two-way-services-between-chongqing-guizhou-and-guangxi-the-corridor-operator-says-its-main-and-feeder-routes-have-now-recorded-more-than-10-000-hydrogen-truck-trips-while-four-hydrogen-stations-are-operating-along-the-1-150km-trunk-route",
+      "summary_raw": "",
+      "published": "2026-09-10T14:01:10+00:00",
+      "category": "technologia",
+      "summary_pl": "King Long Bus świętuje 15 lat badań i rozwoju nad autobusami wodorowymi, dysponując flotą pojazdów od 8 do 12 metrów w eksploatacji. Osiągnięcie potwierdza dojrzałość chińskiego sektora autobusów na ogniwa paliwowe.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "GenH2 Sells Titusville Headquarters in Sale-and-Leaseback Deal to Fund Backlog Production and R&D",
+      "link": "https://fuelcellsworks.com/2026/09/10/h2/genh2-sells-titusville-headquarters-in-sale-and-leaseback-deal-to-fund-backlog-production-and-r-and-d",
+      "summary_raw": "",
+      "published": "2026-09-10T14:36:38+00:00",
+      "category": "inwestycja",
+      "summary_pl": "GenH2 sprzedało swoją główną siedzibę w Titusville w transakcji sale-and-leaseback, aby sfinansować produkcję zaległych zamówień i prace B+R. Posunięcie wskazuje na presję finansową firmy przy jednoczesnym zachowaniu ciągłości operacyjnej.",
+      "importance": 2
+    },
+    {
+      "source": "Google News: green hydrogen",
+      "source_category": "news",
+      "title": "These Countries Are Quickly Becoming Green Hydrogen Superpowers - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObGkxRFU1VmhqUFF1dWRNS2ZUdU5Rcjc1c0k3TzdBZm5sOEgwcExVSDhYeE8wZHpaMTY0LUlLMlB4MzIxcDdISmlCelJQUWY2Q2NIZXhHUHp1VWVndUQ3V0swdWo1b09hSWJ3ajdqQWdkTkFrbW5CSVZZS3pfYVlKTk5FLUJSMWVnT0NGV3d0aEIyZU9yNDRvOEVoaGl4M2VnTzVWM05iWlNtUml3bWw1R1NSOU5fcU0?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxObGkxRFU1VmhqUFF1dWRNS2ZUdU5Rcjc1c0k3TzdBZm5sOEgwcExVSDhYeE8wZHpaMTY0LUlLMlB4MzIxcDdISmlCelJQUWY2Q2NIZXhHUHp1VWVndUQ3V0swdWo1b09hSWJ3ajdqQWdkTkFrbW5CSVZZS3pfYVlKTk5FLUJSMWVnT0NGV3d0aEIyZU9yNDRvOEVoaGl4M2VnTzVWM05iWlNtUml3bWw1R1NSOU5fcU0?oc=5\" target=\"_blank\">These Countries Are Quickly Becoming Green Hydrogen Superpowers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Futura, le média qui explore le monde</font>",
+      "published": "2026-09-10T12:04:07+00:00",
+      "category": "rynek",
+      "summary_pl": "Artykuł przegląda kraje, które szybko stają się potęgami w dziedzinie zielonego wodoru, wskazując na dynamiczny rozwój globalnego rynku. Brak szczegółowych danych w skrócie ogranicza ocenę konkretnych treści.",
+      "importance": 2
+    }
+  ]
+}
