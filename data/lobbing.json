@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "items": [
+    {
+      "company": "Rząd Wielkiej Brytanii (GOV.UK)",
+      "country": "Wielka Brytania",
+      "law": "Carbon Border Adjustment Mechanism (CBAM)",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Rząd",
+      "date": "Wed, 09 Se",
+      "excerpt": "CBAM to mechanizm dostosowania cen na granicach dla towarów importowanych z regionów o niższych standardach emisji CO2, który może wpływać na import wodoru i jego pochodnych (np. amoniaku) do Wielkiej Brytanii. Jest istotny dla branży wodorowej, ponieważ kształtuje konkurencyjność zielonego i niebieskiego wodoru na rynku.",
+      "href": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZ0RUQUU2WGdVOHNIZ2d5MllLMDdQNXAxUmVXUVdYWFZzNjlxV05DQmtFM1lBd2NVeFA0a09DUzVlVlYwZE85TUY5dWhDTnYyaHZSLVQ4UGZTOGFtR0ozQmxnUTlKejZvZ2M5WE8xRXdGT1MzZ01yRmNXV1lnNHNxYVlwcm5oaXVhLW5JeW9aSExzckpaa1JUaXNYcnd1M0dRSjczTXVsaEgydHpRQkpmTUdERnhGZXBSTWpZTzVWcmg2ZmJQUFM4ejlENUhvcG9zZkt1UXlGZm9uRDk1NHNCR3lNLVFQYzg?oc=5"
+    },
     {
       "company": "Komisja Europejska / UE",
       "country": "UE",
