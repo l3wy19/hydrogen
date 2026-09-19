@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "items": [
     {
       "type": "conf",
@@ -91,6 +91,19 @@
       "org": "Indian Chemical News / NextGen",
       "desc": "Szczyt poświęcony branży chemicznej i petrochemicznej, podczas którego 9 lipca odbędzie się sesja dotycząca budowy megainstalacji w ekosystemie zielonego wodoru. Wydarzenie stanowi istotną platformę wymiany wiedzy dla profesjonalistów zainteresowanych rozwojem przemysłu wodorowego.",
       "href": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQQVpvakhzcWx5akJ3SUVqWndtQUF4LWdsRkd3ZC13OHVsbzBOUHBVYm94Sk9NSWozR0ZMbTlYMV9ZaFo4NGNoSUJtY29TZ05XLURFVEM2eXdhYVJsVXB5d05mTEM5dFVDUklneDN4RHJmN0x3Smg0d2FmNTU2ODNfM3lvNUl6OEpPLXprRFFxM1lJRFdVUWpPd003WG5jYzF4eFVKOHhXa011R3BMS0RRWjc2elBRSkl1MlZZVmtZanlHSkp3LWdEZGR2ZV9BcFFtVFNfcGJVWUNmUkg5b3R1b0ItMUxGYUcta3hheUJDRXgtcjBXaVZSX1Y4X0ZtU0ktd1ZQWlJB0gGMAkFVX3lxTFBIR0h2Yjc0b2lCTEphUGt2djl1UTNob01fVGpobGEyaHdTZG9NZ0ZqSEhXTkl2NWRqWWxoNkFNVFZDbGFtRTZpNDh1cXBnbEVZb1FKUzBjbFFUanR0UnNjMmllWGwzdmwtSERTZUhhQ1JqNkgxT01aS2VlWnpTYjc0Qld2aDFNX2tzMjV1R3lUMlo5eGU2WG9Ld0wwWFpmX0t4ZFRZUnV0bTF1QlFxcm5ZVmpPU0NLRjZDang5aUkzN3V3cXpTYWczRjdDbG4tYU5jVXhfcW5kUk5yTVZybVJhcTAyam1xS0NQX0RHekotb2NlSjR2b1VxVFdfUnNIbUFUbWs5dTR6TU1zUUE?oc=5"
+    },
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "African Green Hydrogen Summit 2026",
+      "day": "16",
+      "mon": "WRZ",
+      "year": "2026",
+      "date_iso": "2026-09-16",
+      "loc": "Kapsztad, Republika Południowej Afryki",
+      "org": "African Green Hydrogen Summit",
+      "desc": "Szczyt poświęcony zielonemu wodorowi na kontynencie afrykańskim, podczas którego przemawiali najwyżsi przedstawiciele rządu RPA, w tym minister energii w imieniu prezydenta Ramaphosy. Wydarzenie gromadzi liderów branży i decydentów politycznych w celu omówienia rozwoju rynku zielonego wodoru w Afryce.",
+      "href": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPcFhPaWlXQzdyM2NhdXZFOTZNd29RM1hPY0xSYXVrV0Q1REU2S1pjZzA1Z3ZSd2J2RmFKQWlYRjVBU1NqSnRNdGg0SHpMNUpEWWw5THIzZHlGVzFsVXUtY0NZTkRQa2JROGgwQl9IcFlYSnlzUnkzbVZkaFlPdDd6dHAxcEZBdTFwUUFIWVRueUNXaUR6SVlCZU01QTB3cklHQk5qLUJEUFJORUZVd3RjUEktYWNuTXBnSFVpcWFlT2l1UUwxMWJWNTlKNmI4NlZhVHRsQVpGaDVacXIwdFY1WjFjaGJpaE9kcHBWTVEzeVdySmNWcEY3N1Y3OG4wNy0xSUtPWVBBYXJmekRMTFJtQjhfRGo5WjlmQlNCSUVDclRXbnFzTXk3ZmYzbnNTaV92enlheVVWREtieUg0M1NOckpFU0VTR28yNWVuaDhZVFg1cEcyNnN5b0ZUTFVUVm1PdHM3ZA?oc=5"
     },
     {
       "type": "conf",
