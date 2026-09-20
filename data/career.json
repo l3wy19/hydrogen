@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "items": [
     {
       "type": "conf",
@@ -78,6 +78,19 @@
       "org": "Rząd Indii / Ministerstwo Energii Odnawialnej",
       "desc": "Międzynarodowy szczyt i wystawa poświęcona energii odnawialnej, organizowana w Nowym Delhi w dniach 2–5 listopada 2026 roku. To kluczowe wydarzenie dla sektora OZE w Azji, gromadzące decydentów, inwestorów i ekspertów branżowych z całego świata.",
       "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaElUZHpwakwzRjhTZEF2T3Q1ODhDdHlMRW9CZ2NqZ1pETmY3bWlNbEJuMnA4Z0ZoZWRlRmFVY2RlU2EyUTZWSGNGSWxFTC1adkNiNmFqOHV1WDdwV1hOOEdVN3hMbWZxdkdQejFrMk8wbFdXNTRSZENNQTA5X0NyV3hKelEtcjZaR1dtbTBpbzBWbnl5b2tGdENacjhleURfaTliYmpZY1o3ZzJoVHMwWFA1X2xhZlVHQ3dyaXI3VTN0aW8?oc=5"
+    },
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "2nd Global Hydrogen & Renewable Energy Summit",
+      "day": "13",
+      "mon": "MAR",
+      "year": "2026",
+      "date_iso": "2026-03-13",
+      "loc": "Kovalam, Indie",
+      "org": "Elets eGov",
+      "desc": "Drugi Globalny Szczyt Wodoru i Energii Odnawialnej, który odbędzie się w Kovalam w stanie Kerala w Indiach. To wydarzenie gromadzi liderów branży i ekspertów zajmujących się wodorem oraz odnawialnymi źródłami energii z całego świata.",
+      "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRWdwSjdFUTBVSkRvTkJ1Y3FTallwZjVTV0hmVnc1TG01Y3JaSHpKaHNRUU9mcW1yblE5V1BQZV9Ga3hIY0RYdkN0VTZDcG9ZWTV4NXpLQU5HVVRvVmRKdWVndS15X0RZQ3NXQURfOS1TQ2hhSS03VXlBTlh3R0xGaGU4VGZOd1FjT3lJQnFpLU8tWkV5elFXWFVoNDZzVGw4enVTV1lPcDE3Z0pyZGxmYjlfN21GZ2xxX0V3YnJRdmFPeF84eUE?oc=5"
     },
     {
       "type": "conf",
