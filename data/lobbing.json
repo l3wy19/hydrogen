@@ -1,6 +1,30 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-22",
   "items": [
+    {
+      "company": "Hydrogen Insight",
+      "country": "UE",
+      "law": "Rozporządzenie w sprawie infrastruktury paliw alternatywnych (AFIR) – stacje tankowania wodoru",
+      "stance": "mix",
+      "stanceLabel": "Mieszana",
+      "stanceColor": "#FBBF24",
+      "type": "Initiative",
+      "date": "Tue, 18 Au",
+      "excerpt": "W pierwszej połowie roku sprzedano zaledwie 14 pojazdów z ogniwami wodorowymi w Europie, co kontrastuje z planowaną rozbudową sieci stacji tankowania wodoru – sytuacja ta ujawnia poważną lukę między ambicjami regulacyjnymi (AFIR) a rzeczywistym popytem rynkowym, stanowiąc wyzwanie dla opłacalności inwestycji w infrastrukturę wodorową.",
+      "href": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOV1BUelZEdTZpbHNLamoxbmQwZGx3dXpGRnktUGVzRkVVck50UjVKbllRcVgwTUVSS1huNlZySnJfWjRfRFdqaDQ5QUtWUUFVOFN1TjZ5d1hZTUdCVFBYeXd0cUpWWWZZWWROemlLanNmRU56Zk9INVpjMnZDN3RCMzFwajBHbUtJMVVHNmRtSy1XQ0lMcHRHM01mWnV1eXhhVUYxR0hpNTktenJYUzdKcEFoQWFLdHBjUUY0MS1zcndrY0wwTTJTYnlBOUFSMWwyMGJFN185QUJPLVdSNXZMM0NPME90ejV2V25BU0VFdUl1eVMwT2NHRWVCWnk5Uzd1VnJ0WA?oc=5"
+    },
+    {
+      "company": "Nowa europejska koalicja wodorowa (nazwa nieujawniona)",
+      "country": "UE",
+      "law": "Polityka wodorowa UE – warunki osiągania Final Investment Decision (FID)",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Industry Association",
+      "date": "Wed, 15 Ap",
+      "excerpt": "Europejskie firmy zawiązały nową koalicję wodorową, która domaga się bardziej inteligentnych i skutecznych polityk regulacyjnych, wskazując że obecne ramy prawne utrudniają projektom wodorowym osiągnięcie decyzji inwestycyjnych (FID) – co zagraża realizacji celów wodorowych UE.",
+      "href": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNejZxSkxPaGVycTR5VllEQVBtWW03ZEZlWnpqX2F4LXRfYTdHdG9saXdZZWc4a1Z0WWZ4S0V3Qi1tYXRydkI4RlJMby05b1hOMmMwRjNjTzNWZ0R6bU1BVFdMU0UwTVlXTEh4cEJuVmNKNEwxRTloSURSMG55V0RQV3hXbThRblZqbXdrQmVKVUxQRjJEMUUxUlRHX0ZQZ01IN21ocDdlczFwYkRJWXFWRGhua0VjeHA4VDQ2LWFLMzlTWjRNVXQ3cE1RN25ia0ZKcW12Z28wSEZVRUNycUlBcmo3RjBGdjdEV2gtbDNocnozVUdzMHc?oc=5"
+    },
     {
       "company": "Rząd Wielkiej Brytanii (GOV.UK)",
       "country": "Wielka Brytania",
@@ -696,30 +720,6 @@
       "date": "Tue, 30 Se",
       "excerpt": "Postulat natychmiastowego obniżenia cen wodoru na stacjach do 8 €/kg jako warunku konkurencyjności mobilności wodorowej. Artykuł wskazuje na pilną potrzebę interwencji regulacyjnej lub subsydiowania dla ratowania segmentu H2 w transporcie.",
       "href": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYU9FcUxyV3J4Rm5CWTM3NVZsX3dPQnI0S2tWb2U5cDlVcEdhZzJfU18xREFvM2pGTERpZFp2Qm1rMGN1dE1DUGJFYW9yNHU0dDBzamM5cGp4Y3BLVGRCMkhqX2R5NE5fc2pxNjRrVlN0WTJWbFpjTmEyMlBHYlFodnQ5NTFIdExWc3dfLW5Va2JlbkdpdkRGVm9TU2YxV1ZPcnFJMTdFSEN3R29jaVhNS1J2dE1GREp3UDJRWnhrMVRRbVdlT21hTnZTTHltN25JMGJvNXN5WUcxVVVhXzRDTWFHN0ozd1IwSTFEaXZXU0QtN09sY0E?oc=5"
-    },
-    {
-      "company": "Emmanuel Macron / Rząd Francji",
-      "country": "UE / Francja",
-      "law": "Unijne zasady zielonego wodoru RFNBO",
-      "stance": "crit",
-      "stanceLabel": "Krytyczna",
-      "stanceColor": "#EF4444",
-      "type": "Rząd",
-      "date": "Fri, 13 Fe",
-      "excerpt": "Prezydent Macron publicznie krytykuje unijne przepisy dotyczące zielonego wodoru, co wpisuje się w szerszą debatę o zbyt restrykcyjnych kryteriach RFNBO. Stanowisko Francji może istotnie wpłynąć na kierunek przeglądu regulacji UE.",
-      "href": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTlNBcXhMcm12RzI2aG1WNUtsUmxRSjlrQ3FYRDZxYmE2LW9URzZ1azAyaFU0aDRNMlFZLUROZjFlQnVoWmFSV2JPVGkxcnI0aVBfbVRlTE5lWHpfVHJ3Q1VDQ0ZoZGZRelkwUjFFOG8xVF8tQl9KVkhDQ3BXbnZsMERNWHlNSlpyUDJtelZxSmVvOWtCN19EWF8tbk51amtVcjFqTXRKck9DdDUtYUxqZUdSY1lGTmxleGFYWVFKa0hKZXBkUEZ0TWdyV3ZqMTJRQ0NvWlBnRzVLTnluZUI5dWdVOFVwb3hLNEVSUXIxS1RQdTJXQlE?oc=5"
-    },
-    {
-      "company": "Rząd Niemiec",
-      "country": "Niemcy",
-      "law": "Mandat RFNBO 10% dla transportu drogowego i kolejowego do 2040 r.",
-      "stance": "sup",
-      "stanceLabel": "Popieramy",
-      "stanceColor": "#10B981",
-      "type": "Rząd",
-      "date": "Wed, 22 Ap",
-      "excerpt": "Niemcy głosują nad wprowadzeniem obowiązkowego 10% udziału RFNBO w paliwach dla transportu drogowego i kolejowego do 2040 roku. To kluczowa inicjatywa regulacyjna, która stworzyłaby pewny popyt na zielony wodór w sektorze transportu.",
-      "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSVFkMzR1d0NrbzI2elpmOVNFd09VU1FCbVNva3FFZkgyVFo4eDZhajJzTFI3UENScUFqQmtFQzkteThTTEd5anp1SGhHLXlhR3JSS1lXRTVhWno3RGNGTEZhOXBKcUJ1OWVVUWVnSGFFRHE4Q0loUE1SR3dDUnVxWGhpVklsUnhhZENHOHY5RkpDMVJxalNiOVdGY3c4aEgzeHlsLUJ2QWNMSnVhN2kwWGViU3IwQzl1SjFFMUR1TEFKXzZuMmpfUlQ2SQ?oc=5"
     }
   ]
 }
