@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "items": [
+    {
+      "company": "Emmanuel Macron / Rząd Francji",
+      "country": "Francja",
+      "law": "Unijne regulacje dotyczące zielonego wodoru (EU Green Hydrogen Rules)",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "Rząd",
+      "date": "Fri, 13 Fe",
+      "excerpt": "Prezydent Francji Macron publicznie skrytykował unijne zasady dotyczące zielonego wodoru, co sygnalizuje napięcia między Francją a Brukselą w kwestii definicji i kryteriów klasyfikacji wodoru odnawialnego – kluczowa kwestia dla całej branży wodorowej w UE.",
+      "href": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTlNBcXhMcm12RzI2aG1WNUtsUmxRSjlrQ3FYRDZxYmE2LW9URzZ1azAyaFU0aDRNMlFZLUROZjFlQnVoWmFSV2JPVGkxcnI0aVBfbVRlTE5lWHpfVHJ3Q1VDQ0ZoZGZRelkwUjFFOG8xVF8tQl9KVkhDQ3BXbnZsMERNWHlNSlpyUDJtelZxSmVvOWtCN19EWF8tbk51amtVcjFqTXRKck9DdDUtYUxqZUdSY1lGTmxleGFYWVFKa0hKZXBkUEZ0TWdyV3ZqMTJRQ0NvWlBnRzVLTnluZUI5dWdVOFVwb3hLNEVSUXIxS1RQdTJXQlE?oc=5"
+    },
     {
       "company": "Hydrogen Insight",
       "country": "UE",
@@ -708,18 +720,6 @@
       "date": "Thu, 20 Ma",
       "excerpt": "Corporate Europe Observatory analizuje wdrożenie unijnego Clean Industrial Deal, zwracając uwagę na wpływy korporacyjne na kształtowanie polityki przemysłowej UE, w tym w obszarze wodoru i energii odnawialnej.",
       "href": "https://news.google.com/rss/articles/CBMifEFVX3lxTE13M0ZnU19kdVBHTmFOZ2VvR21UTDFnZEJrZjZnZWFCZ0pueUJpNF9wZUdlT3dBMkE1VFJEbzJWZlo1RE15d1FDb01kMkRwQVJXR1R3Y3o2eHdQeDZyZ3FJSTFRYm1HZFJuSTRVRjh2bVQtQzBRdkRHVlNDQl8?oc=5"
-    },
-    {
-      "company": "Nieokreślony ekspert/branża mobilności wodorowej",
-      "country": "UE",
-      "law": "Ceny wodoru dla mobilności / konkurencyjność H2 w transporcie",
-      "stance": "crit",
-      "stanceLabel": "Krytyczna",
-      "stanceColor": "#EF4444",
-      "type": "Industry Association",
-      "date": "Tue, 30 Se",
-      "excerpt": "Postulat natychmiastowego obniżenia cen wodoru na stacjach do 8 €/kg jako warunku konkurencyjności mobilności wodorowej. Artykuł wskazuje na pilną potrzebę interwencji regulacyjnej lub subsydiowania dla ratowania segmentu H2 w transporcie.",
-      "href": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYU9FcUxyV3J4Rm5CWTM3NVZsX3dPQnI0S2tWb2U5cDlVcEdhZzJfU18xREFvM2pGTERpZFp2Qm1rMGN1dE1DUGJFYW9yNHU0dDBzamM5cGp4Y3BLVGRCMkhqX2R5NE5fc2pxNjRrVlN0WTJWbFpjTmEyMlBHYlFodnQ5NTFIdExWc3dfLW5Va2JlbkdpdkRGVm9TU2YxV1ZPcnFJMTdFSEN3R29jaVhNS1J2dE1GREp3UDJRWnhrMVRRbVdlT21hTnZTTHltN25JMGJvNXN5WUcxVVVhXzRDTWFHN0ozd1IwSTFEaXZXU0QtN09sY0E?oc=5"
     }
   ]
 }
