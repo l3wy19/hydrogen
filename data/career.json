@@ -1,6 +1,19 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "items": [
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "Bharat Renewable Energy Summit & Expo (BRE Summit & Expo) 2026",
+      "day": "02",
+      "mon": "LIS",
+      "year": "2026",
+      "date_iso": "2026-11-02",
+      "loc": "New Delhi, Indie",
+      "org": "Bharat Renewable Energy Summit & Expo",
+      "desc": "Międzynarodowy szczyt i targi poświęcone energii odnawialnej, odbywające się w dniach 2–5 listopada 2026 r. w New Delhi. To kluczowe wydarzenie dla branży OZE w Azji Południowej, gromadzące liderów przemysłu, decydentów i inwestorów.",
+      "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSjRkd1JLNUs4V01icFhRZ25xR1AtVy1PX2kzTnRIZ280UFdlZ2RPMTBnNExtVmRMbE0zM3VvS1IxZnVtRFo0SHJ5MWp6ZHFiNjU3cTgxMnViVm0yMDVpelhzR0JzdV9XN096QUc5T0pOS21jTm5tOGJET090YXhEX2NIVVlUVzljbXZqVE5LOGlQQQ?oc=5"
+    },
     {
       "type": "conf",
       "typeLabel": "Konferencja",
