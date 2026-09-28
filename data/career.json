@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-28",
   "items": [
     {
       "type": "conf",
@@ -130,6 +130,19 @@
       "org": "African Green Hydrogen Summit",
       "desc": "Szczyt poświęcony zielonemu wodorowi na kontynencie afrykańskim, podczas którego przemawiali najwyżsi przedstawiciele rządu RPA, w tym minister energii w imieniu prezydenta Ramaphosy. Wydarzenie gromadzi liderów branży i decydentów politycznych w celu omówienia rozwoju rynku zielonego wodoru w Afryce.",
       "href": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPcFhPaWlXQzdyM2NhdXZFOTZNd29RM1hPY0xSYXVrV0Q1REU2S1pjZzA1Z3ZSd2J2RmFKQWlYRjVBU1NqSnRNdGg0SHpMNUpEWWw5THIzZHlGVzFsVXUtY0NZTkRQa2JROGgwQl9IcFlYSnlzUnkzbVZkaFlPdDd6dHAxcEZBdTFwUUFIWVRueUNXaUR6SVlCZU01QTB3cklHQk5qLUJEUFJORUZVd3RjUEktYWNuTXBnSFVpcWFlT2l1UUwxMWJWNTlKNmI4NlZhVHRsQVpGaDVacXIwdFY1WjFjaGJpaE9kcHBWTVEzeVdySmNWcEY3N1Y3OG4wNy0xSUtPWVBBYXJmekRMTFJtQjhfRGo5WjlmQlNCSUVDclRXbnFzTXk3ZmYzbnNTaV92enlheVVWREtieUg0M1NOckpFU0VTR28yNWVuaDhZVFg1cEcyNnN5b0ZUTFVUVm1PdHM3ZA?oc=5"
+    },
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "African Green Hydrogen Summit 2026",
+      "day": "",
+      "mon": "",
+      "year": "2026",
+      "date_iso": "",
+      "loc": "Cape Town, Republika Południowej Afryki",
+      "org": "The Presidency (Republika Południowej Afryki)",
+      "desc": "Szczyt poświęcony zielonemu wodorowi w Afryce, odbywający się w Century City Conference Centre w Kapsztadzie. Wydarzenie zgromadziło najważniejszych decydentów politycznych kontynentu, w tym przedstawicieli prezydenta RPA, i stanowi kluczowe forum dla rozwoju afrykańskiego rynku wodoru.",
+      "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQblZwQW0wM2Z5aldGekdyWlI2QjVmVzVJSXhydG9OQWd4YzZFMG4wZTRLSm83UENrMF8zWjRkT210QUhDMFVSaHp2RG9uRGZndXE3aGhndDM0dXFPUWljNUZoSnhpanExQ2FtTDI3djhGb3dQamVnaFVqWXJHV3JGbmJBb3hLMnVONC1wVUtac3Q4Q2NWaWdxUUNUTzNISS1xRC1FOEFsZjR1QUJBNzR1YTIxdDgxMGtPRVVKOWlBNmJVVXJEV3RB?oc=5"
     },
     {
       "type": "conf",
