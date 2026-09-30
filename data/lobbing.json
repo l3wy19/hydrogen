@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "items": [
+    {
+      "company": "Quantum Commodity Intelligence",
+      "country": "Hiszpania",
+      "law": "Konsultacje publiczne odcinka gazociągu wodorowego Tivissa-Tarragona",
+      "stance": "neu",
+      "stanceLabel": "Otwarte konsultacje",
+      "stanceColor": "#06B6D4",
+      "type": "Initiative",
+      "date": "Tue, 29 Se",
+      "excerpt": "Odcinek rurociągu wodorowego między Tivissą a Tarragona w Hiszpanii wszedł w fazę konsultacji publicznych, co stanowi kluczowy krok w rozwoju infrastruktury przesyłu wodoru i budowie europejskiej sieci wodorowej.",
+      "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbWl0aFM1eDhZbjRxSUQyUFMwaGxTTHl1NnF4MFI4YnZzYUlIM3J0Wnc0QVdwQ2pDZzlOOUxjUnNsNjdhazVMSS1Yc0tOREJLejRKVHYwanYzSXVKa2hmaVpBYVVJSmFYWXFTSDMwNEE1V1lKMWF2U0FhbUNYMjVCNndybUNzQkFobThKRDg5MXppVWRTejZvSEVuWWpCeTJZQ2xSMlAxSThvZkFQYnRKaG9ZVXF3a3NsNDE5Q1Iwaw?oc=5"
+    },
     {
       "company": "Emmanuel Macron / Rząd Francji",
       "country": "Francja",
@@ -708,18 +720,6 @@
       "date": "Thu, 04 De",
       "excerpt": "Czołowy zwolennik RFNBO wzywa do złagodzenia przepisów i zwiększenia unijnego finansowania w celu odblokowania rynku zielonego wodoru. Postulat wskazuje na systemowe bariery regulacyjne i finansowe hamujące rozwój sektora.",
       "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSXZWc0RrOXdHUkdrTTV1REFObmFaM1NFOTZWYUJkc3lvMFdNZmFOamM0VlFoV3ZfOV9ja044N3g4T1IzeUFuS2xvazNIcGtWYmJtZHk5V3hnTDNySVR3a2xXYU9oOE9qYmxrNjR3YjdfYkRiUWhSdEJtYVNuNW93RTA4WU5WNEpaNWRhQnNxTUhxaDE1Xy13dHJZTDdZeUI1ajRXa04zZXUydzBkRE9YYzhCTmNqLXB3bUU3bGtlOWd1QmNiVVNteGVR?oc=5"
-    },
-    {
-      "company": "Corporate Europe Observatory",
-      "country": "UE",
-      "law": "EU Clean Industrial Deal",
-      "stance": "crit",
-      "stanceLabel": "Krytyczna",
-      "stanceColor": "#EF4444",
-      "type": "NGO",
-      "date": "Thu, 20 Ma",
-      "excerpt": "Corporate Europe Observatory analizuje wdrożenie unijnego Clean Industrial Deal, zwracając uwagę na wpływy korporacyjne na kształtowanie polityki przemysłowej UE, w tym w obszarze wodoru i energii odnawialnej.",
-      "href": "https://news.google.com/rss/articles/CBMifEFVX3lxTE13M0ZnU19kdVBHTmFOZ2VvR21UTDFnZEJrZjZnZWFCZ0pueUJpNF9wZUdlT3dBMkE1VFJEbzJWZlo1RE15d1FDb01kMkRwQVJXR1R3Y3o2eHdQeDZyZ3FJSTFRYm1HZFJuSTRVRjh2bVQtQzBRdkRHVlNDQl8?oc=5"
     }
   ]
 }
