@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "items": [
+    {
+      "company": "Corporate Europe Observatory",
+      "country": "UE",
+      "law": "EU Clean Industrial Deal",
+      "stance": "crit",
+      "stanceLabel": "Krytyczna",
+      "stanceColor": "#EF4444",
+      "type": "NGO",
+      "date": "Thu, 20 Ma",
+      "excerpt": "Corporate Europe Observatory analizuje wdrożenie unijnego Clean Industrial Deal, prawdopodobnie krytykując wpływ lobbingu przemysłowego na kształtowanie polityki klimatycznej i wodorowej UE, co ma istotne znaczenie dla transparentności regulacji sektora wodorowego.",
+      "href": "https://news.google.com/rss/articles/CBMifEFVX3lxTE13M0ZnU19kdVBHTmFOZ2VvR21UTDFnZEJrZjZnZWFCZ0pueUJpNF9wZUdlT3dBMkE1VFJEbzJWZlo1RE15d1FDb01kMkRwQVJXR1R3Y3o2eHdQeDZyZ3FJSTFRYm1HZFJuSTRVRjh2bVQtQzBRdkRHVlNDQl8?oc=5"
+    },
     {
       "company": "Quantum Commodity Intelligence",
       "country": "Hiszpania",
@@ -708,18 +720,6 @@
       "date": "Fri, 06 Fe",
       "excerpt": "US Hydrogen Alliance uruchamia strategię lobbingową stan po stanie w obliczu braku działań federalnych na rzecz wodoru. To ważny sygnał dla globalnej branży o przesunięciu ciężaru regulacji na poziom regionalny.",
       "href": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTV83M3dwcHlKRU93MlRVeDNTa18xYWRVMHRqWDQzTTBiZGJiNXdjb1JWM1Bmc3VrcE1JUlFiRFJXSUlXZ1VIX05ybWRXcGtfQTc1WTUtZGFqQ0JhOFE4cHZlUV80eERfZFdmQVRIVVRpZ0dQOXdDWjlNZ2N3SktRNmptRHI1WURYc1lKZHZQdFpEWGdEam1tbVA2RXVZYXdYTU5DTEhadUprRXdzZTd3Q2Y1cTZ3ZUp3ZjRGVWk4RTN0c09NcTAyUWVMTXBuY3duVXBQbUJWbXZRZ2N0UmkyUzdfbzZJYUJZblh1S3llV0U?oc=5"
-    },
-    {
-      "company": "Nieokreślony lider RFNBO",
-      "country": "UE",
-      "law": "Zasady RFNBO / finansowanie UE dla zielonego wodoru",
-      "stance": "crit",
-      "stanceLabel": "Krytyczna",
-      "stanceColor": "#EF4444",
-      "type": "Industry Association",
-      "date": "Thu, 04 De",
-      "excerpt": "Czołowy zwolennik RFNBO wzywa do złagodzenia przepisów i zwiększenia unijnego finansowania w celu odblokowania rynku zielonego wodoru. Postulat wskazuje na systemowe bariery regulacyjne i finansowe hamujące rozwój sektora.",
-      "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSXZWc0RrOXdHUkdrTTV1REFObmFaM1NFOTZWYUJkc3lvMFdNZmFOamM0VlFoV3ZfOV9ja044N3g4T1IzeUFuS2xvazNIcGtWYmJtZHk5V3hnTDNySVR3a2xXYU9oOE9qYmxrNjR3YjdfYkRiUWhSdEJtYVNuNW93RTA4WU5WNEpaNWRhQnNxTUhxaDE1Xy13dHJZTDdZeUI1ajRXa04zZXUydzBkRE9YYzhCTmNqLXB3bUU3bGtlOWd1QmNiVVNteGVR?oc=5"
     }
   ]
 }
