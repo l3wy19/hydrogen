@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T11:18:27.762081+00:00",
+  "article_count": 14,
+  "articles": [
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Voestalpine and VERBUND Launch Expanded H2FUTURE Hydrogen Pilot Plant in Linz",
+      "link": "https://fuelcellsworks.com/2026/10/02/h2/voestalpine-and-verbund-launch-expanded-h2future-hydrogen-pilot-plant-in-linz",
+      "summary_raw": "",
+      "published": "2026-10-02T15:34:17+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Voestalpine i VERBUND rozbudowały i uruchomiły pilotażową instalację H2FUTURE w Linz, służącą do produkcji zielonego wodoru dla przemysłu stalowego. Projekt stanowi ważny krok w dekarbonizacji hutnictwa.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Green Hydrogen Stays Cheaper than Conventional H₂ as Production Costs Fall",
+      "link": "https://fuelcellsworks.com/2026/09/22/h2/green-hydrogen-stays-cheaper-than-conventional-h-as-production-costs-fall",
+      "summary_raw": "",
+      "published": "2026-10-02T14:07:44+00:00",
+      "category": "rynek",
+      "summary_pl": "Koszty produkcji zielonego wodoru spadają, co sprawia, że pozostaje on tańszy od konwencjonalnego wodoru w analizowanych scenariuszach. To pozytywny sygnał dla konkurencyjności zielonego wodoru na rynku.",
+      "importance": 4
+    },
+    {
+      "source": "Hydrogen Europe",
+      "source_category": "industry",
+      "title": "Pichetto in Algeria: SoutH2 is a cornerstone of Italy’s strategy for future hydrogen supply",
+      "link": "https://hydrogeneurope.eu/pichetto-in-algeria-south2-is-a-cornerstone-of-italys-strategy-for-future-hydrogen-supply/",
+      "summary_raw": "<p><span class=\"excerpt-hellip\"> […]</span></p>\n<p>The post <a href=\"https://hydrogeneurope.eu/pichetto-in-algeria-south2-is-a-cornerstone-of-italys-strategy-for-future-hydrogen-supply/\">Pichetto in Algeria: SoutH2 is a cornerstone of Italy&#8217;s strategy for future hydrogen supply</a> appeared first on <a href=\"https://hydrogeneurope.eu\">Hydrogen Europe</a>.</p>",
+      "published": "2026-10-02T16:20:30+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Włoski minister Pichetto podczas wizyty w Algierii podkreślił, że korytarz SoutH2 jest kluczowym elementem włoskiej strategii zaopatrzenia w wodór. Projekt zakłada import zielonego wodoru z Afryki Północnej do Włoch i dalej do Europy.",
+      "importance": 4
+    },
+    {
+      "source": "Google News: green hydrogen",
+      "source_category": "news",
+      "title": "Power to Hydrogen Delivers First-of-a-Kind Industrial-Scale AEM Electrolyzer to the Port of Antwerp-Bruges - Hydrogen Central",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWWxHY3gxUGZYcVk5My1oLWNLS0hVY3h1UERJeEEtUm56UmhJV1ZxbzcxcC1qTnI0RzZNZFdtd0hFd2tzaThTMkFGTFpsYURxeUxMYmhBSVMyeDBHaU5nWEhNdTFmQWFST3Y5UE40VEZUWlR6NERxMUNxeXhEVnhGSm9NMHJSRVFta0FSVmhzcU14WnMyS1cxOHQ1VENQQUd0THdRTUVRSFVNNUpxZFkxQl9nVGRKRGZxcVMyY3BaUDQwVm5zbzY2dVNmcWVUbU4waXc?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWWxHY3gxUGZYcVk5My1oLWNLS0hVY3h1UERJeEEtUm56UmhJV1ZxbzcxcC1qTnI0RzZNZFdtd0hFd2tzaThTMkFGTFpsYURxeUxMYmhBSVMyeDBHaU5nWEhNdTFmQWFST3Y5UE40VEZUWlR6NERxMUNxeXhEVnhGSm9NMHJSRVFta0FSVmhzcU14WnMyS1cxOHQ1VENQQUd0THdRTUVRSFVNNUpxZFkxQl9nVGRKRGZxcVMyY3BaUDQwVm5zbzY2dVNmcWVUbU4waXc?oc=5\" target=\"_blank\">Power to Hydrogen Delivers First-of-a-Kind Industrial-Scale AEM Electrolyzer to the Port of Antwerp-Bruges</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hydrogen Central</font>",
+      "published": "2026-10-02T14:54:48+00:00",
+      "category": "technologia",
+      "summary_pl": "Firma Power to Hydrogen dostarczyła pierwszy przemysłowy elektrolizer AEM w skali komercyjnej do Portu Antwerpia-Brugia. To przełomowe wdrożenie nowej generacji elektrolizerów w dużym węźle logistycznym.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "EnBW Inagurates 5MW Hydropower-Fed Hydrogen Plant in Wyhlen",
+      "link": "https://fuelcellsworks.com/2026/10/02/clean-energy/enbw-opens-5mw-hydropower-fed-hydrogen-plant-in-wyhlen",
+      "summary_raw": "",
+      "published": "2026-10-02T15:54:32+00:00",
+      "category": "inwestycja",
+      "summary_pl": "EnBW uruchomiło zakład produkcji wodoru o mocy 5 MW zasilany energią z elektrowni wodnej w Wyhlen. Instalacja stanowi przykład połączenia odnawialnej energii wodnej z produkcją zielonego wodoru.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Hyundai XCIENT Fuel Cell Truck Takes On Beverage Logistics in Germany",
+      "link": "https://fuelcellsworks.com/2026/09/29/fuel-cells/hyundai-xcient-fuel-cell-truck-takes-on-beverage-logistics-in-germany",
+      "summary_raw": "",
+      "published": "2026-10-02T15:39:08+00:00",
+      "category": "technologia",
+      "summary_pl": "Ciężarówka wodorowa Hyundai XCIENT Fuel Cell została wdrożona do logistyki dystrybucji napojów w Niemczech. To kolejny przykład komercyjnego zastosowania wodorowego transportu ciężkiego.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Hydrogen for Industrial Processes Heat: HyHeat Tests Real-World Application",
+      "link": "https://fuelcellsworks.com/2026/09/30/h2/hydrogen-for-industrial-processes-heat-hyheat-tests-real-world-application",
+      "summary_raw": "",
+      "published": "2026-10-02T15:16:52+00:00",
+      "category": "technologia",
+      "summary_pl": "Projekt HyHeat testuje zastosowanie wodoru jako paliwa do wytwarzania ciepła procesowego w warunkach rzeczywistych. Badania mają na celu ocenę opłacalności i wykonalności wodoru w przemysłowych procesach grzewczych.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Bavaria, Croatia Push Brussels for Faster Hydrogen Pipeline Development",
+      "link": "https://fuelcellsworks.com/2026/10/02/h2/bavaria-croatia-push-faster-hydrogen-pipeline-development",
+      "summary_raw": "",
+      "published": "2026-10-02T14:50:43+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Bawaria i Chorwacja apelują do Brukseli o przyspieszenie rozwoju infrastruktury rurociągów wodorowych w Europie. Działanie to odzwierciedla rosnącą presję regionów na szybsze tworzenie europejskiej sieci przesyłu wodoru.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Liquid Hydrogen Shipping Takes Another Step Toward Commercial-Scale Cargo Handling",
+      "link": "https://fuelcellsworks.com/2026/09/29/h2/liquid-hydrogen-shipping-takes-another-step-toward-commercial-scale-cargo-handling",
+      "summary_raw": "",
+      "published": "2026-10-02T14:31:36+00:00",
+      "category": "technologia",
+      "summary_pl": "Branża transportu morskiego skroplonego wodoru odnotowuje kolejny postęp w kierunku komercyjnej skali przeładunku cargo. Rozwój tej technologii jest kluczowy dla globalnego handlu zielonym wodorem.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Hydrogen Research Hub to Test Full Value Chain Under Near-Real Condition",
+      "link": "https://fuelcellsworks.com/2026/09/30/fuel-cells/hydrogen-research-hub-to-test-full-value-chain-under-near-real-condition",
+      "summary_raw": "",
+      "published": "2026-10-02T13:26:09+00:00",
+      "category": "technologia",
+      "summary_pl": "Powstaje centrum badań nad wodorem, które ma testować pełny łańcuch wartości w warunkach zbliżonych do rzeczywistych. Inicjatywa ma przyspieszyć komercjalizację technologii wodorowych.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "LEGO Starts Using Green Hydrogen-Based E-Methanol in More than 90 Toy Elements",
+      "link": "https://fuelcellsworks.com/2026/10/02/green-hydrogen/lego-starts-using-green-hydrogen-based-e-methanol-in-more-than-90-toy-elements",
+      "summary_raw": "",
+      "published": "2026-10-02T12:43:30+00:00",
+      "category": "rynek",
+      "summary_pl": "LEGO wprowadziło zielony e-metanol oparty na zielonym wodorze do produkcji ponad 90 elementów zabawek. To przykład zastosowania zielonego wodoru w przemyśle chemicznym i konsumenckim poza sektorem energetycznym.",
+      "importance": 3
+    },
+    {
+      "source": "Google News: green hydrogen",
+      "source_category": "news",
+      "title": "China Hydrogen Energy Report 2026: 15th Five-Year Plan Goals - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTnRWMXpIaV9MZnNweTh1VmNVZXZuaXI1TkpueUllWTRWVDRSUmpsM2pVa3FLMlNaTzZndkdYbDYtWVg4Y1hiRDBhUXgzVjdFYlBYeTlpNDlCZnYtY1ZueWdlaC1OTnp3N0wxMnViQTB5bVBsTkxmR0p4QVZmT3hUdTk4dW5zZTN3cnd2VlBJVThEalZHb1E?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOTnRWMXpIaV9MZnNweTh1VmNVZXZuaXI1TkpueUllWTRWVDRSUmpsM2pVa3FLMlNaTzZndkdYbDYtWVg4Y1hiRDBhUXgzVjdFYlBYeTlpNDlCZnYtY1ZueWdlaC1OTnp3N0wxMnViQTB5bVBsTkxmR0p4QVZmT3hUdTk4dW5zZTN3cnd2VlBJVThEalZHb1E?oc=5\" target=\"_blank\">China Hydrogen Energy Report 2026: 15th Five-Year Plan Goals - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+      "published": "2026-10-02T16:11:17+00:00",
+      "category": "rynek",
+      "summary_pl": "Raport dotyczący chińskiej energetyki wodorowej na 2026 rok omawia cele 15. Planu Pięcioletniego dla sektora wodorowego w Chinach. Dokument wskazuje na ambitne plany Pekinu w zakresie rozwoju gospodarki wodorowej.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "SPARX to Build Green Hydrogen Refuelling Station in Tomakomai",
+      "link": "https://fuelcellsworks.com/2026/10/01/h2/sparx-to-build-green-hydrogen-refuelling-station-in-tomakomai",
+      "summary_raw": "",
+      "published": "2026-10-02T15:24:53+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Firma SPARX planuje budowę stacji tankowania zielonego wodoru w japońskim mieście Tomakomai. Inwestycja wpisuje się w rozwój infrastruktury wodorowej w Japonii.",
+      "importance": 2
+    },
+    {
+      "source": "Google News: green hydrogen",
+      "source_category": "news",
+      "title": "Ion Exchange Membranes Market Forecast to 2035: Green Hydrogen and Flow Battery Demand Drives Growth - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeEF4T0lnbHlFd1FfdnVYSU12Q0dHeW5qVUVySTZXcGRPYXBlNUFHei04X2loYWs1Q3R6VVBBSndWNDU1MjdDWmdQc2hEcXFJMVNDMDRLOXN6cW1lQWlENTdCbWhXa1Roem9UUDJzQWtrbnpwc3E2a2hWeFh1WktYR3p4alhJd3YxMDl4QzZiRTlaVFdaRlY4d2ZHdWJvdmRwZ2J6RTdRZDdSN0JVeTJFSTdUdmVMS0tqV3FmTlFOSWdQclBPQ2tCTQ?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeEF4T0lnbHlFd1FfdnVYSU12Q0dHeW5qVUVySTZXcGRPYXBlNUFHei04X2loYWs1Q3R6VVBBSndWNDU1MjdDWmdQc2hEcXFJMVNDMDRLOXN6cW1lQWlENTdCbWhXa1Roem9UUDJzQWtrbnpwc3E2a2hWeFh1WktYR3p4alhJd3YxMDl4QzZiRTlaVFdaRlY4d2ZHdWJvdmRwZ2J6RTdRZDdSN0JVeTJFSTdUdmVMS0tqV3FmTlFOSWdQclBPQ2tCTQ?oc=5\" target=\"_blank\">Ion Exchange Membranes Market Forecast to 2035: Green Hydrogen and Flow Battery Demand Drives Growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>",
+      "published": "2026-10-02T22:16:04+00:00",
+      "category": "rynek",
+      "summary_pl": "Prognoza rynku membran jonowymiennych do 2035 roku wskazuje na silny wzrost napędzany popytem na zielony wodór i baterie przepływowe. Raport podkreśla kluczową rolę tych komponentów w elektrolizie i magazynowaniu energii.",
+      "importance": 2
+    }
+  ]
+}
