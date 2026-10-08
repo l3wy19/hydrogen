@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "items": [
     {
       "type": "conf",
@@ -130,6 +130,19 @@
       "org": "African Green Hydrogen Summit",
       "desc": "Szczyt poświęcony zielonemu wodorowi na kontynencie afrykańskim, podczas którego przemawiali najwyżsi przedstawiciele rządu RPA, w tym minister energii w imieniu prezydenta Ramaphosy. Wydarzenie gromadzi liderów branży i decydentów politycznych w celu omówienia rozwoju rynku zielonego wodoru w Afryce.",
       "href": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPcFhPaWlXQzdyM2NhdXZFOTZNd29RM1hPY0xSYXVrV0Q1REU2S1pjZzA1Z3ZSd2J2RmFKQWlYRjVBU1NqSnRNdGg0SHpMNUpEWWw5THIzZHlGVzFsVXUtY0NZTkRQa2JROGgwQl9IcFlYSnlzUnkzbVZkaFlPdDd6dHAxcEZBdTFwUUFIWVRueUNXaUR6SVlCZU01QTB3cklHQk5qLUJEUFJORUZVd3RjUEktYWNuTXBnSFVpcWFlT2l1UUwxMWJWNTlKNmI4NlZhVHRsQVpGaDVacXIwdFY1WjFjaGJpaE9kcHBWTVEzeVdySmNWcEY3N1Y3OG4wNy0xSUtPWVBBYXJmekRMTFJtQjhfRGo5WjlmQlNCSUVDclRXbnFzTXk3ZmYzbnNTaV92enlheVVWREtieUg0M1NOckpFU0VTR28yNWVuaDhZVFg1cEcyNnN5b0ZUTFVUVm1PdHM3ZA?oc=5"
+    },
+    {
+      "type": "conf",
+      "typeLabel": "Konferencja",
+      "title": "Hydrogen Americas Summit & Exhibition 2026",
+      "day": "",
+      "mon": "",
+      "year": "",
+      "date_iso": "",
+      "loc": "Stany Zjednoczone",
+      "org": "Hydrogen Americas",
+      "desc": "Szczyt i wystawa poświęcona rozwojowi rynku wodoru w obu Amerykach, gromadząca liderów branży, inwestorów i ekspertów. Udział bierze m.in. organizacja RMI, co świadczy o wysokim merytorycznym poziomie wydarzenia.",
+      "href": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9KYVlVSlFhUk9RZGZIZHh0d05Fbkd5T2VKVC1ud1d5NFE2V2FOZWRHYklYbC1TWDVRRXRpaXJ3ZGUwVUo5R0E3UXlZWk9oMHk5UnY3eFBXUDd6ZlNrOE5Nc1lhb0lIVFNZVnZ6dGZnM3d1QnBOV2U1UUVnOA?oc=5"
     },
     {
       "type": "conf",
@@ -507,19 +520,6 @@
       "org": "Gramwzielone.pl",
       "desc": "Szkolenie online poświęcone zmianom na rynku energii wynikającym z nowej ustawy z 13 marca 2026 roku. Wydarzenie skierowane do specjalistów branży energetycznej chcących poznać aktualne regulacje i ich praktyczne konsekwencje.",
       "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWXlGZWFDMW5CZUtsY3ZGemZUNGRZVmRUZzAwdmFfeUpvQVM5czhSSVItbzdxVGhuRjlQT2FDdGZPRmpFNlpjLWJVenA3eXpFcmg1NFd2eHFsTmRhYzN5WDdJRzN1ZEJ6dkhKYkQ3eTFSNlpMcThiNHE1VFprYldJN3ZTRWpwVnFiMnNUb2kySUo4Y3JSSUxGU1Q3M0U2TjM4SEMxS2M0WmdLZTZTTFZSYUEwdW0yX0c1RG5uOQ?oc=5"
-    },
-    {
-      "type": "conf",
-      "typeLabel": "Konferencja",
-      "title": "Konferencja 2026 – Politechnika Śląska",
-      "day": "??",
-      "mon": "",
-      "year": "2026",
-      "date_iso": "",
-      "loc": "Polska",
-      "org": "Politechnika Śląska (polsl.pl)",
-      "desc": "Konferencja organizowana przez Politechnikę Śląską w 2026 roku, prawdopodobnie związana z tematyką energetyczną lub wodorową. Szczegółowe informacje dostępne na stronie polsl.pl.",
-      "href": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tMmtuNTkzdjFmRndEVUlReEZzLUhhWGVHWnNOWXg3R01wZzdUSi1oMzRkZHBWQWR2V21kbEVWVE5WUlY2YTR5cVBndWNSMTB0aHpr?oc=5"
     }
   ]
 }

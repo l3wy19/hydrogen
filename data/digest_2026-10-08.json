@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T13:02:27.412412+00:00",
+  "article_count": 21,
+  "articles": [
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "DNV Cuts 2060 Clean Hydrogen Forecast to 210 Million Tonnes — Just Five Months After Previous Outlook",
+      "link": "https://fuelcellsworks.com/2026/10/07/h2/dnv-cuts-2060-clean-hydrogen-forecast-to-210-million-tonnes-just-five-months-after-previous-outlook",
+      "summary_raw": "",
+      "published": "2026-10-07T17:05:05+00:00",
+      "category": "rynek",
+      "summary_pl": "DNV obniżyło prognozę zapotrzebowania na czysty wodór w 2060 roku do 210 mln ton, zaledwie pięć miesięcy po poprzedniej prognozie. Rewizja sygnalizuje rosnący pesymizm rynkowy co do tempa transformacji wodorowej.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Green Hydrogen Gets More Expensive Again as Cost Gap with Conventional",
+      "link": "https://fuelcellsworks.com/2026/10/06/h2/green-hydrogen-gets-more-expensive-again-as-cost-gap-with-conventional",
+      "summary_raw": "",
+      "published": "2026-10-07T15:12:29+00:00",
+      "category": "rynek",
+      "summary_pl": "Koszty zielonego wodoru ponownie wzrosły, powiększając lukę cenową w stosunku do wodoru konwencjonalnego. Trend ten stanowi poważne wyzwanie dla konkurencyjności zielonego wodoru na rynku.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Germany Pushed EU to Loosen Green Hydrogen Mandates Before Brussels Rethink, Leak Shows",
+      "link": "https://fuelcellsworks.com/2026/10/07/h2/germany-pushed-eu-to-loosen-green-hydrogen-mandates-before-brussels-rethink-leak-sh",
+      "summary_raw": "",
+      "published": "2026-10-07T14:47:53+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Ujawnione dokumenty wskazują, że Niemcy lobbowały w UE za złagodzeniem mandatów dotyczących zielonego wodoru przed brukselskim przeglądem polityki. Informacja rzuca nowe światło na kulisy kształtowania unijnej polityki wodorowej.",
+      "importance": 4
+    },
+    {
+      "source": "Hydrogen Central",
+      "source_category": "news",
+      "title": "Oregon State’s new MOF turns light and water into hydrogen with no added metal catalyst",
+      "link": "https://hydrogen-central.com/oregon-states-new-mof-turns-light-and-water-into-hydrogen-with-no-added-metal-catalyst/",
+      "summary_raw": "<p>Oregon State’s new MOF turns light and water into hydrogen with no added metal catalyst Researchers at Oregon State University have created a new class of light-activated materials that can [&#8230;]</p>\n<p>The post <a href=\"https://hydrogen-central.com/oregon-states-new-mof-turns-light-and-water-into-hydrogen-with-no-added-metal-catalyst/\">Oregon State’s new MOF turns light and water into hydrogen with no added metal catalyst</a> appeared first on <a href=\"https://hydrogen-central.com\">Hydrogen Central</a>.</p>",
+      "published": "2026-10-07T16:12:10+00:00",
+      "category": "technologia",
+      "summary_pl": "Naukowcy z Oregon State University opracowali nową klasę materiałów MOF aktywowanych światłem, zdolnych do produkcji wodoru z wody bez metalowych katalizatorów. Przełom może znacząco obniżyć koszty fotokatalitycznej produkcji wodoru.",
+      "importance": 4
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Walmart Chile and Copec Inaugurate First Hydrogen Station for High-Tonnage Trucks",
+      "link": "https://fuelcellsworks.com/2026/10/01/electrolyzer/walmart-chile-and-copec-inaugurate-first-hydrogen-station-for-high-tonnage-trucks",
+      "summary_raw": "",
+      "published": "2026-10-07T18:44:10+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Walmart Chile i Copec otworzyły pierwszą stację wodorową dla ciężarówek wysokotonażowych w Chile. Projekt stanowi pionierską inicjatywę w regionie na rzecz dekarbonizacji logistyki.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Perkins Tests New Hydrogen Hybridised IOPU",
+      "link": "https://fuelcellsworks.com/2026/10/05/h2/perkins-tests-new-hydrogen-hybridised-iopu",
+      "summary_raw": "",
+      "published": "2026-10-07T18:35:52+00:00",
+      "category": "technologia",
+      "summary_pl": "Firma Perkins testuje nowy hybrydowy wodorowy silnik IOPU (Independent Operating Power Unit). To kolejny krok w rozwoju napędów wodorowych dla zastosowań przemysłowych.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Germany’s Hydrogen Rollout Risks Falling Out of Sync, Ariadne Warns",
+      "link": "https://fuelcellsworks.com/2026/10/06/h2/germany-s-hydrogen-rollout-risks-falling-out-of-sync-ariadne-warns",
+      "summary_raw": "",
+      "published": "2026-10-07T16:30:17+00:00",
+      "category": "rynek",
+      "summary_pl": "Instytut Ariadne ostrzega, że wdrożenie wodoru w Niemczech grozi utratą synchronizacji między podażą, infrastrukturą a popytem. Nieskoordynowane działania mogą zagrozić realizacji celów wodorowych Niemiec.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Pioneer in Automotive Logistics: BMW Group Uses Trucks with Hydrogen Combustion Engines in Logistics",
+      "link": "https://fuelcellsworks.com/2026/10/06/h2/pioneer-in-automotive-logistics-bmw-group-uses-trucks-with-hydrogen-combustion-engines-in-logistics",
+      "summary_raw": "",
+      "published": "2026-10-07T16:20:24+00:00",
+      "category": "technologia",
+      "summary_pl": "Grupa BMW jako pionier w logistyce motoryzacyjnej wdraża ciężarówki z wodorowymi silnikami spalinowymi do obsługi łańcucha dostaw. To praktyczne zastosowanie wodoru w transporcie ciężkim na dużą skalę.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Chile, the European Union and Germany Sign Joint Statement of Intent to Deepen Cooperation on Renewable Hydrogen",
+      "link": "https://fuelcellsworks.com/2026/10/05/h2/chile-the-european-union-and-germany-sign-joint-statement-of-intent-to-deepen-cooperation-on-renewable-hydrogen",
+      "summary_raw": "",
+      "published": "2026-10-07T15:50:35+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Chile, Unia Europejska i Niemcy podpisały wspólne oświadczenie o zamiarze pogłębienia współpracy w zakresie zielonego wodoru. Porozumienie ma wzmocnić międzynarodowy handel i transfer technologii wodorowych.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Rizhao Seawater Hydrogen Pilot Runs for More Than 1,000 Hours",
+      "link": "https://fuelcellsworks.com/2026/10/04/electrolyzer/rizhao-seawater-hydrogen-pilot-runs-for-more-than-1-000-hours",
+      "summary_raw": "",
+      "published": "2026-10-07T14:23:39+00:00",
+      "category": "technologia",
+      "summary_pl": "Chiński projekt pilotażowy w Rizhao przeprowadził ponad 1000 godzin produkcji wodoru z wody morskiej. To istotny kamień milowy w rozwoju technologii elektrolizy wody morskiej.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Italian University and Simplifhy Join European Push to Crack the Liquid Hydrogen Tank Problem in Aviation",
+      "link": "https://fuelcellsworks.com/2026/10/07/h2/italian-university-and-simplifhy-join-european-push-to-crack-the-liquid-hydrogen-tank-problem-in-aviation",
+      "summary_raw": "",
+      "published": "2026-10-07T13:10:32+00:00",
+      "category": "technologia",
+      "summary_pl": "Włoski uniwersytet i firma Simplifhy dołączyły do europejskiego projektu rozwiązania problemu zbiorników na ciekły wodór w lotnictwie. Inicjatywa ma kluczowe znaczenie dla wdrożenia wodoru jako paliwa lotniczego.",
+      "importance": 3
+    },
+    {
+      "source": "Hydrogen Central",
+      "source_category": "news",
+      "title": "Walmart Chile, Copec launch hydrogen station for heavy trucks",
+      "link": "https://hydrogen-central.com/walmart-chile-copec-launch-hydrogen-station-for-heavy-trucks/",
+      "summary_raw": "<p>Walmart Chile, Copec launch hydrogen station for heavy trucks The facility will supply green hydrogen to heavy-duty trucks serving Walmart Chile’s logistics network, supporting a pilot project aimed at advancing [&#8230;]</p>\n<p>The post <a href=\"https://hydrogen-central.com/walmart-chile-copec-launch-hydrogen-station-for-heavy-trucks/\">Walmart Chile, Copec launch hydrogen station for heavy trucks</a> appeared first on <a href=\"https://hydrogen-central.com\">Hydrogen Central</a>.</p>",
+      "published": "2026-10-07T16:58:37+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Walmart Chile i Copec uruchomiły stację wodorową zasilającą ciężkie pojazdy dostawcze w sieci logistycznej Walmart Chile. Projekt pilotażowy ma na celu przyspieszenie wdrożenia zielonego wodoru w transporcie ciężkim.",
+      "importance": 3
+    },
+    {
+      "source": "Hydrogen Central",
+      "source_category": "news",
+      "title": "Toyota Launches New Fuel Cell Route Bus “Sora”",
+      "link": "https://hydrogen-central.com/toyota-launches-new-fuel-cell-route-bus-sora/",
+      "summary_raw": "<p>Toyota Launches New Fuel Cell Route Bus &#8220;Sora&#8221; Promoting the use of hydrogen in public transportation to help realize a hydrogen society Toyota Motor Corporation (Toyota) today launched the new [&#8230;]</p>\n<p>The post <a href=\"https://hydrogen-central.com/toyota-launches-new-fuel-cell-route-bus-sora/\">Toyota Launches New Fuel Cell Route Bus &#8220;Sora&#8221;</a> appeared first on <a href=\"https://hydrogen-central.com\">Hydrogen Central</a>.</p>",
+      "published": "2026-10-07T15:59:52+00:00",
+      "category": "technologia",
+      "summary_pl": "Toyota wprowadziła na rynek nowy autobus miejski na ogniwa paliwowe 'Sora', promując wykorzystanie wodoru w transporcie publicznym. Krok ten wpisuje się w strategię budowy społeczeństwa opartego na wodorze.",
+      "importance": 3
+    },
+    {
+      "source": "Hydrogen Europe",
+      "source_category": "industry",
+      "title": "EWE to supply tesa with green hydrogen from Emden project",
+      "link": "https://hydrogeneurope.eu/french-hydrogen-sector-welcomes-budget-draft-incl-esaf-auction-mechanism-2/",
+      "summary_raw": "<p><span class=\"excerpt-hellip\"> […]</span></p>\n<p>The post <a href=\"https://hydrogeneurope.eu/french-hydrogen-sector-welcomes-budget-draft-incl-esaf-auction-mechanism-2/\">EWE to supply tesa with green hydrogen from Emden project</a> appeared first on <a href=\"https://hydrogeneurope.eu\">Hydrogen Europe</a>.</p>",
+      "published": "2026-10-07T16:00:18+00:00",
+      "category": "rynek",
+      "summary_pl": "Firma EWE będzie dostarczać zielony wodór z projektu w Emden do przedsiębiorstwa tesa. To przykład komercyjnego kontraktu na dostawy zielonego wodoru dla przemysłu.",
+      "importance": 3
+    },
+    {
+      "source": "Google News: green hydrogen",
+      "source_category": "news",
+      "title": "Metacon Awarded EU Funding for Next-Generation AEM Electrolysis R&D Project - Fuel Cells Works",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd3RsODRVZy1fQWdrbVFJaUFVdzJRZHNDTVpzbXFHMTk0R0NsVEhOSDVmcGJBNGJoZF9ZMVdENk5hWTh1SVY5MFVuendIQWJXcXNCZUMzdHVfWk81VElyTzVYekt5ell4N0wzdkY0NVRlcU0zbEhjSWNCTXh6eHk2V21mMmdoUkxnT1l5dFRHbEhnZHdKaldpbHFyT0M4RXFLWEhtOExrTk00NU5aQlozYjJsSGVNdERuM1JqRVhDMnp6UFM1WVdQS1d3?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNd3RsODRVZy1fQWdrbVFJaUFVdzJRZHNDTVpzbXFHMTk0R0NsVEhOSDVmcGJBNGJoZF9ZMVdENk5hWTh1SVY5MFVuendIQWJXcXNCZUMzdHVfWk81VElyTzVYekt5ell4N0wzdkY0NVRlcU0zbEhjSWNCTXh6eHk2V21mMmdoUkxnT1l5dFRHbEhnZHdKaldpbHFyT0M4RXFLWEhtOExrTk00NU5aQlozYjJsSGVNdERuM1JqRVhDMnp6UFM1WVdQS1d3?oc=5\" target=\"_blank\">Metacon Awarded EU Funding for Next-Generation AEM Electrolysis R&amp;D Project</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fuel Cells Works</font>",
+      "published": "2026-10-07T13:13:00+00:00",
+      "category": "regulacja_UE",
+      "summary_pl": "Firma Metacon otrzymała dofinansowanie UE na projekt badawczo-rozwojowy dotyczący elektrolizy AEM nowej generacji. Wsparcie unijne przyspiesza rozwój zaawansowanych technologii produkcji zielonego wodoru.",
+      "importance": 3
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Aiwanger: \"Hydrogen Will Also Play a Central Role in Aviation\"",
+      "link": "https://fuelcellsworks.com/2026/10/04/h2/aiwanger-hydrogen-will-also-play-a-central-role-in-aviation",
+      "summary_raw": "",
+      "published": "2026-10-07T15:58:20+00:00",
+      "category": "inne",
+      "summary_pl": "Bawarski minister Hubert Aiwanger podkreśla kluczową rolę wodoru w dekarbonizacji lotnictwa. Wypowiedź wskazuje na rosnące zainteresowanie polityków zastosowaniem wodoru w sektorze aviation.",
+      "importance": 2
+    },
+    {
+      "source": "Fuel Cells Works",
+      "source_category": "news",
+      "title": "Tesa Secures Hydrogen From EWE in Emden",
+      "link": "https://fuelcellsworks.com/2026/10/06/h2/tesa-secures-hydrogen-from-ewe-in-emden",
+      "summary_raw": "",
+      "published": "2026-10-07T13:58:32+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Firma Tesa zapewniła sobie dostawy wodoru od spółki EWE w niemieckim Emden. Kontrakt wpisuje się w rosnący trend przemysłowego wykorzystania wodoru w Niemczech.",
+      "importance": 2
+    },
+    {
+      "source": "Hydrogen Central",
+      "source_category": "news",
+      "title": "Vortex Energy Commissions Hydrogen and Helium Study at Robinsons River Salt Project",
+      "link": "https://hydrogen-central.com/vortex-energy-commissions-hydrogen-and-helium-study-at-robinsons-river-salt-project/",
+      "summary_raw": "<p>Vortex Energy Commissions Hydrogen and Helium Study at Robinsons River Salt Project Desktop study will use existing geological, geophysical and well data to assess natural hydrogen and helium potential VANCOUVER, [&#8230;]</p>\n<p>The post <a href=\"https://hydrogen-central.com/vortex-energy-commissions-hydrogen-and-helium-study-at-robinsons-river-salt-project/\">Vortex Energy Commissions Hydrogen and Helium Study at Robinsons River Salt Project</a> appeared first on <a href=\"https://hydrogen-central.com\">Hydrogen Central</a>.</p>",
+      "published": "2026-10-07T16:11:44+00:00",
+      "category": "inwestycja",
+      "summary_pl": "Vortex Energy zleca studium oceniające potencjał naturalnego wodoru i helu w projekcie Robinsons River Salt. Badanie desktop wykorzysta istniejące dane geologiczne i geofizyczne do oceny zasobów naturalnego wodoru.",
+      "importance": 2
+    },
+    {
+      "source": "Hydrogen Central",
+      "source_category": "news",
+      "title": "Pacifico Mexinol Project and Its Low-Carbon Methanol Technology Presented in Mexico City",
+      "link": "https://hydrogen-central.com/pacifico-mexinol-project-and-its-low-carbon-methanol-technology-presented-in-mexico-city/",
+      "summary_raw": "<p>Pacifico Mexinol Project and Its Low-Carbon Methanol Technology Presented in Mexico City MEXICO CITY&#8211;(BUSINESS WIRE)&#8211;In the framework of today&#8217;s World Habitat Day, here is an invitation to reflect on building [&#8230;]</p>\n<p>The post <a href=\"https://hydrogen-central.com/pacifico-mexinol-project-and-its-low-carbon-methanol-technology-presented-in-mexico-city/\">Pacifico Mexinol Project and Its Low-Carbon Methanol Technology Presented in Mexico City</a> appeared first on <a href=\"https://hydrogen-central.com\">Hydrogen Central</a>.</p>",
+      "published": "2026-10-07T16:08:35+00:00",
+      "category": "technologia",
+      "summary_pl": "Projekt Pacifico Mexinol zaprezentował w Meksyku technologię produkcji metanolu niskoemisyjnego. Inicjatywa wpisuje się w globalne trendy dekarbonizacji przemysłu chemicznego.",
+      "importance": 2
+    },
+    {
+      "source": "Hydrogen Central",
+      "source_category": "news",
+      "title": "Perkins tests new hydrogen hybridised IOPU",
+      "link": "https://hydrogen-central.com/perkins-tests-new-hydrogen-hybridised-iopu/",
+      "summary_raw": "<p>Perkins tests new hydrogen hybridised IOPU Five months after its first showing at CONEXPO-CON/AGG, Perkins’ advanced fuel-configurable hybridised IOPU (industrial open power unit) is being installed in an Ecotec® TDS [&#8230;]</p>\n<p>The post <a href=\"https://hydrogen-central.com/perkins-tests-new-hydrogen-hybridised-iopu/\">Perkins tests new hydrogen hybridised IOPU</a> appeared first on <a href=\"https://hydrogen-central.com\">Hydrogen Central</a>.</p>",
+      "published": "2026-10-07T15:56:59+00:00",
+      "category": "technologia",
+      "summary_pl": "Perkins testuje nową hybrydową jednostkę napędową IOPU zasilaną wodorem, instalując ją w maszynie Ecotec TDS. To kolejny etap rozwoju konfigurowalnych paliwowo rozwiązań dla przemysłu.",
+      "importance": 2
+    },
+    {
+      "source": "Google News: hydrogen EU",
+      "source_category": "news",
+      "title": "EWE to supply tesa with green hydrogen from Emden project - Hydrogen Europe",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNm9VSGEzclE3Y1k2M0hGMGtLcE9Xb1llYk8yLVM1alViY2YzUXVqZ21qdlhmNzRjc0FlUFdXRElIUGg3eUlPb0MydTdSb2VhNlBDZlU3R2pTTF9nNzdwQnNRM2xXRC1TenhyNEFzcUVYVGN0cXUxSzlld0FBTjl5WEVfNnVRZ29pbXlUUTlPRWVfX05LVHBxVlJjeGRCMEJNWHlF?oc=5",
+      "summary_raw": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNNm9VSGEzclE3Y1k2M0hGMGtLcE9Xb1llYk8yLVM1alViY2YzUXVqZ21qdlhmNzRjc0FlUFdXRElIUGg3eUlPb0MydTdSb2VhNlBDZlU3R2pTTF9nNzdwQnNRM2xXRC1TenhyNEFzcUVYVGN0cXUxSzlld0FBTjl5WEVfNnVRZ29pbXlUUTlPRWVfX05LVHBxVlJjeGRCMEJNWHlF?oc=5\" target=\"_blank\">EWE to supply tesa with green hydrogen from Emden project</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hydrogen Europe</font>",
+      "published": "2026-10-07T21:11:58+00:00",
+      "category": "rynek",
+      "summary_pl": "EWE podpisze umowę na dostawę zielonego wodoru z projektu w Emden do firmy tesa – powielona informacja z Hydrogen Europe. Potwierdza rosnące zainteresowanie kontraktami na zielony wodór w Europie.",
+      "importance": 2
+    }
+  ]
+}

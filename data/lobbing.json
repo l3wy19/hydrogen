@@ -1,6 +1,18 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "items": [
+    {
+      "company": "Nieujawniona grupa lobbingowa ds. ogrzewania wodorowego",
+      "country": "UE",
+      "law": "Lobbing na rzecz ogrzewania wodorowego",
+      "stance": "mix",
+      "stanceLabel": "Mieszana",
+      "stanceColor": "#FBBF24",
+      "type": "Industry Association",
+      "date": "Thu, 28 Se",
+      "excerpt": "Artykuł ujawnia działalność nieformalnej, nieprzejrzystej grupy lobbingowej promującej wodór w ogrzewaniu budynków, powiązanej z osobą o znacznym majątku – co budzi pytania o etykę i przejrzystość lobbingu w branży wodorowej wobec regulacji UE dotyczących efektywności energetycznej budynków.",
+      "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYnBiNTJWdHptbWJ5alFqd2psc21lWHBCb25hYy1EYTY1Z01KYUdTdGczNjlUNHI3bDFYYXJlcXhMdFJCMW1aX2NfcUxZMEZqcWljTkIwYnFrXzVrSnozMjFTMlFJcWF0SGFodGdPTWtWMFQzNV8xZHI4TEVCRWV2RDE0T0g1YmlWVDByYWVZbjEwUHFYTHRIOTYxUF9Ubk5tMjVTdHA3ZklZTWxyYUVWTVoxM0FuUThiaTcweG9LWEttT3pob2YxMWJR?oc=5"
+    },
     {
       "company": "Corporate Europe Observatory",
       "country": "UE",
@@ -708,18 +720,6 @@
       "date": "Mon, 04 Ma",
       "excerpt": "Shell prowadzi aktywny lobbing w UE na rzecz złagodzenia wymogów dotyczących tego, jak 'zielony' musi być zielony wodór. Firma dąży do poluzowania kryteriów RFNBO, co obniżyłoby koszty produkcji wodoru odnawialnego.",
       "href": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlo2cmcwYXd2QTkyZnBNREU2OXJ6SV9wQzZDSG9sdjVPSm1aSUF5MFpocm95Ti1MNkMwNXNJb0YzNzlFMnhlZ3duNUdWcEJaRmNRRWE2UE95M203TTg0YU1DZzlickxvNHBkM1hWVFNQMXdMMk15VFJHMTQ3c2dCRmg5ems?oc=5"
-    },
-    {
-      "company": "US Hydrogen Alliance",
-      "country": "USA",
-      "law": "Strategia lobbingowa na poziomie stanowym – wodór w USA",
-      "stance": "sup",
-      "stanceLabel": "Popieramy",
-      "stanceColor": "#10B981",
-      "type": "Industry Association",
-      "date": "Fri, 06 Fe",
-      "excerpt": "US Hydrogen Alliance uruchamia strategię lobbingową stan po stanie w obliczu braku działań federalnych na rzecz wodoru. To ważny sygnał dla globalnej branży o przesunięciu ciężaru regulacji na poziom regionalny.",
-      "href": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTV83M3dwcHlKRU93MlRVeDNTa18xYWRVMHRqWDQzTTBiZGJiNXdjb1JWM1Bmc3VrcE1JUlFiRFJXSUlXZ1VIX05ybWRXcGtfQTc1WTUtZGFqQ0JhOFE4cHZlUV80eERfZFdmQVRIVVRpZ0dQOXdDWjlNZ2N3SktRNmptRHI1WURYc1lKZHZQdFpEWGdEam1tbVA2RXVZYXdYTU5DTEhadUprRXdzZTd3Q2Y1cTZ3ZUp3ZjRGVWk4RTN0c09NcTAyUWVMTXBuY3duVXBQbUJWbXZRZ2N0UmkyUzdfbzZJYUJZblh1S3llV0U?oc=5"
     }
   ]
 }
